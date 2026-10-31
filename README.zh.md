@@ -2,6 +2,10 @@
 
 **工业文明断档之后，怎么从一块石头重新走到电。**
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Chinese + English](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%2B%20English-7c6cff.svg)](#)
+[![Edition](https://img.shields.io/badge/edition-v5.0-f59e0b.svg)](CHANGELOG.md)
+
 [English](./README.md) · [在线阅读](https://restart.fly2ai.top/) · [英文版](https://restart.fly2ai.top/en/)
 
 56 章 · 11 部 · 286 张工艺卡 · 中英双语 · CC BY-NC-SA 4.0

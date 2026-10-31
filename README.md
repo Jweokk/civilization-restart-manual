@@ -2,6 +2,10 @@
 
 **From a single stone back to electricity.**
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Chinese + English](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%2B%20English-7c6cff.svg)](#)
+[![Edition](https://img.shields.io/badge/edition-v5.0-f59e0b.svg)](CHANGELOG.md)
+
 [中文说明](./README.zh.md) · [Read online](https://restart.fly2ai.top/) · [English edition](https://restart.fly2ai.top/en/)
 
 56 chapters · 11 parts · 286 process cards · Chinese + English · CC BY-NC-SA 4.0
