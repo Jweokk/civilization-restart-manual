@@ -32,7 +32,7 @@ Every chapter follows the same skeleton: **what it is for → what you need → 
 | 9 | 44–49 | Trauma care, water and sanitation, materia medica, epidemiology, childbirth, occupational safety |
 | 10 | 50–53 | Desert, island, cold country, epidemic |
 | 11 | 54–56 | Roads, bridges and vehicles, telegraphy, the mathematics you cannot do without |
-| Appendices | A–E | Dependency map and card master index, three-level acceptance table, safety red lines, terminology, units |
+| Appendices | A–D | Dependency map and card master index, three-level acceptance table, safety red lines, terminology and units |
 
 ## The process cards
 

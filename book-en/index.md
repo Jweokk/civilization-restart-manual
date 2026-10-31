@@ -11,6 +11,24 @@ This book does not bet on whether collapse will come. It assumes one situation: 
 - Wherever a figure is experiential, the card says so and says it must be calibrated against local material. No invented precision.
 - Field 8 of each card states what evidence that particular procedure has to produce before it counts as passed.
 
+## What's inside
+
+| Part | Chapters | Line |
+|---|---|---|
+| General constitution | G01–G04 | Iron laws, chapter framework, six technology lineages, dependency map |
+| 1 | 1–4 | What restart means, reading the natural world, building measurement from nothing, how to use this book |
+| 2 | 5–9 | The first stone tool, controlled fire, cordage and knots, containers, shelter |
+| 3 | 10–15 | Food storage and agriculture, the first pot, kiln to high-temperature furnace, lime and cement, glass, textiles and leather |
+| 4 | 16–23 | Reading ore, smelting, iron and steel, casting, machines, basic chemistry, saltpeter and gunpowder |
+| 5 | 24–27 | Precision work, the birth of quantitative science, optical instruments, temperature/pressure/flow instruments |
+| 6 | 28–36 | Heat engines, electricity, the first battery, lamps, vacuum tubes, semiconductors, radio |
+| 7 | 37–40 | Production organization, material and energy accounting, maintenance, system governance |
+| 8 | 41–43 | Paper, ink and writing surfaces, technical drawing and version control, archives |
+| 9 | 44–49 | Trauma care, water and sanitation, materia medica, epidemiology, childbirth, occupational safety |
+| 10 | 50–53 | Desert, island, cold country, epidemic |
+| 11 | 54–56 | Roads, bridges and vehicles, telegraphy, the mathematics you cannot do without |
+| Appendices | A–D | Dependency map and card master index, three-level acceptance table, safety red lines, terminology and units |
+
 ## Where to start
 
 What you already have decides which line to read:
@@ -27,6 +45,26 @@ What you already have decides which line to read:
 | Injuries and illness | Ch 44–49 |
 | Desert, island, cold country, epidemic | Ch 50–53 |
 
+## Repository layout
+
+```
+book/            Chinese text, 56 chapters in 11 parts + appendices
+book-en/         English text, chapter for chapter
+mkdocs.yml       Chinese site config
+mkdocs-en.yml    English site config
+assets/          logo
+CHANGELOG.md     what changed in each edition
+```
+
+## Build the site locally
+
+```bash
+python3 -m venv .venv && . .venv/bin/activate
+pip install mkdocs-material
+mkdocs build                    # Chinese → build/site
+mkdocs build -f mkdocs-en.yml   # English → build/site-en
+```
+
 ## Status of this edition
 
 Fifth edition (v5.0): 56 chapters, 11 parts, 286 eight-field process cards, Chinese and English chapter by chapter. Every technical parameter carries a source or an explicit calibration requirement; nothing was filled in to make a table look complete.
@@ -36,3 +74,7 @@ This is a snapshot, not a continuously updated site. Issues are welcome; revisio
 ## License
 
 CC BY-NC-SA 4.0 — read, share, adapt freely with attribution, non-commercially, under the same license.
+
+## One caution
+
+Some procedures here involve fire, furnaces, molten metal, electricity, explosives precursors, and medicines. They are written for a world without hospitals, regulators or suppliers — which is exactly why they carry red lines. Read the red lines in Appendix C before you do any of it.

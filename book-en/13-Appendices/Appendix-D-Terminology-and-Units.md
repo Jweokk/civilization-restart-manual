@@ -1,4 +1,4 @@
-# Appendix E · Master Table of Terminology and Units
+# Appendix D · Master Table of Terminology and Units
 
 > Unified conventions for the whole book (an expansion of the G02 terminology section). Wherever the body text conflicts with this table, the body text is to be revised to match this table.
 

@@ -100,7 +100,7 @@ One card = one independently executable operation (e.g., "anneal a batch of glas
 
 ## 7. Revision Order (execution plan for the rework)
 
-The framework comes first; the main text is then rewritten in the **silent-failure-first** order: measurement (3) → machine tools (20) → steel (19) → iron (18) → high-temperature furnaces (12) → glass (14) → steam (28) → generators (31) → agriculture (10) → electronic devices (33), with the remaining parts to follow. The newly added Parts Eight, Nine, and Ten (production organization and system governance; knowledge carriers and transmission; medicine, hygiene, and occupational safety — Chapters 37–49) fill in the "human maintenance" and "knowledge carrier" blocks that were missing wholesale from the first edition. The item-by-item correspondence is in `11-附录/附录D-评审意见回应对照表.md`.
+The framework comes first; the main text is then rewritten in the **silent-failure-first** order: measurement (3) → machine tools (20) → steel (19) → iron (18) → high-temperature furnaces (12) → glass (14) → steam (28) → generators (31) → agriculture (10) → electronic devices (33), with the remaining parts to follow. The newly added Parts Eight, Nine, and Ten (production organization and system governance; knowledge carriers and transmission; medicine, hygiene, and occupational safety — Chapters 37–49) fill in the "human maintenance" and "knowledge carrier" blocks that were missing wholesale from the first edition.
 
 ---
 
