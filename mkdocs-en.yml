@@ -1,0 +1,141 @@
+site_name: The Civilization Restart Manual
+site_description: From a single stone back to electricity · 56 chapters · 286 eight-field process cards · Chinese and English
+site_url: https://restart.fly2ai.top/en/
+docs_dir: book-en
+site_dir: build/site-en
+repo_url: https://github.com/Jweokk/civilization-restart-manual
+repo_name: GitHub
+edit_uri: ""
+copyright: CC BY-NC-SA 4.0 · Jweokk · 本版为快照，不跟随更新
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra:
+  alternate:
+    - name: 中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - General Constitution:
+    - G01 Iron Laws and Restart Conditions: 00-General-Constitution/G01-Iron-Laws-and-Restart-Conditions.md
+    - G02 Chapter Framework and Process Card System: 00-General-Constitution/G02-Chapter-Framework-and-Process-Card-System.md
+    - G03 Six Technology Lineages: 00-General-Constitution/G03-Six-Technology-Lineages.md
+    - G04 Dependency Map and Decision Framework: 00-General-Constitution/G04-Dependency-Map-and-Decision-Framework.md
+  - Part 1 · Rules and Natural Resources:
+    - Ch 01 What Civilization Restart Really Means: 01-Part-1-Rules-and-Natural-Resources/Ch01-What-Civilization-Restart-Really-Means.md
+    - Ch 02 Know the Natural World First: 01-Part-1-Rules-and-Natural-Resources/Ch02-Know-the-Natural-World-First.md
+    - Ch 03 Building a Measurement System Without Standard Tools: 01-Part-1-Rules-and-Natural-Resources/Ch03-Building-a-Measurement-System-Without-Standard-Tools.md
+    - Ch 04 How to Use This Manual: 01-Part-1-Rules-and-Natural-Resources/Ch04-How-to-Use-This-Manual.md
+  - Part 2 · Survival Fire and Primitive Materials:
+    - Ch 05 The First Tool Stone: 02-Part-2-Survival-Fire-and-Primitive-Materials/Ch05-The-First-Tool-Stone.md
+    - Ch 06 The First Controllable Energy Fire: 02-Part-2-Survival-Fire-and-Primitive-Materials/Ch06-The-First-Controllable-Energy-Fire.md
+    - Ch 07 Wood Fibers and Rope: 02-Part-2-Survival-Fire-and-Primitive-Materials/Ch07-Wood-Fibers-and-Rope.md
+    - Ch 08 Clay Ash and Natural Chemical Materials: 02-Part-2-Survival-Fire-and-Primitive-Materials/Ch08-Clay-Ash-and-Natural-Chemical-Materials.md
+    - Ch 09 The First Truly Reusable Tool Kit: 02-Part-2-Survival-Fire-and-Primitive-Materials/Ch09-The-First-Truly-Reusable-Tool-Kit.md
+  - Part 3 · Agriculture Pottery and Basic Industry:
+    - Ch 10 Food Storage and Agriculture: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch10-Food-Storage-and-Agriculture.md
+    - Ch 11 The First Pot: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch11-The-First-Pot.md
+    - Ch 12 From Pottery Kiln to High Temperature Furnace: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch12-From-Pottery-Kiln-to-High-Temperature-Furnace.md
+    - Ch 13 Lime Mortar and Building: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch13-Lime-Mortar-and-Building.md
+    - Ch 14 The Birth of Glass: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch14-The-Birth-of-Glass.md
+    - Ch 15 Textile Leather and Protective Materials: 03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch15-Textile-Leather-and-Protective-Materials.md
+  - Part 4 · Metals Machinery and Precision Manufacturing:
+    - Ch 16 Metal Ores: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch16-Metal-Ores.md
+    - Ch 17 The First Metal: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch17-The-First-Metal.md
+    - Ch 18 From Ore to Iron: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch18-From-Ore-to-Iron.md
+    - Ch 19 Steel Heat Treatment and Durable Tools: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch19-Steel-Heat-Treatment-and-Durable-Tools.md
+    - Ch 20 Building the First Real Machine Tool: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch20-Building-the-First-Real-Machine-Tool.md
+    - Ch 21 From Timber Frames to Precision Machinery: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch21-From-Timber-Frames-to-Precision-Machinery.md
+    - Ch 22 Measurement Standards and Repeatable Manufacturing: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch22-Measurement-Standards-and-Repeatable-Manufacturing.md
+    - Ch 23 Industrial Materials and Basic Chemistry: 04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch23-Industrial-Materials-and-Basic-Chemistry.md
+  - Part 5 · Optics Chemistry and Scientific Instruments:
+    - Ch 24 From Water Drop to Lens: 05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch24-From-Water-Drop-to-Lens.md
+    - Ch 25 From Observation to Quantitative Science: 05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch25-From-Observation-to-Quantitative-Science.md
+    - Ch 26 From Still to Experimental Chemistry: 05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch26-From-Still-to-Experimental-Chemistry.md
+    - Ch 27 Part A Temperature and Pressure Instruments: 05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-A-Temperature-and-Pressure-Instruments.md
+    - Ch 27 Part B Flow Vacuum and Calibration Chain: 05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-B-Flow-Vacuum-and-Calibration-Chain.md
+  - Part 6 · Heat Engines Electricity and Electronics:
+    - Ch 28 From Fire to Steam: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch28-From-Fire-to-Steam.md
+    - Ch 29 Power Selection Load Characteristics and Combined Operation: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch29-Power-Selection-Load-Characteristics-and-Combined-Operation.md
+    - Ch 30 Experimental Foundations of Electromagnetism: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch30-Experimental-Foundations-of-Electromagnetism.md
+    - Ch 31 The First Generator: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch31-The-First-Generator.md
+    - Ch 32 From Wires to the Grid: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch32-From-Wires-to-the-Grid.md
+    - Ch 33 The First Electronic Devices: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch33-The-First-Electronic-Devices.md
+    - Ch 34 From Minerals to Semiconductor Grade Materials: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch34-From-Minerals-to-Semiconductor-Grade-Materials.md
+    - Ch 35 Part A Silicon and Wafer Preparation: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch35-Part-A-Silicon-and-Wafer-Preparation.md
+    - Ch 35 Part B Planar Process and Simple ICs: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch35-Part-B-Planar-Process-and-Simple-ICs.md
+    - Ch 36 From First Chip to a Sustainable Electronics Industry: 06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch36-From-First-Chip-to-a-Sustainable-Electronics-Industry.md
+  - Part 7 · Production Organization and Governance:
+    - Ch 37 Carrying Capacity Population Balance and Labor Organization: 07-Part-7-Production-Organization-and-Governance/Ch37-Carrying-Capacity-Population-Balance-and-Labor-Organization.md
+    - Ch 38 Material and Energy Ledgers: 07-Part-7-Production-Organization-and-Governance/Ch38-Material-and-Energy-Ledgers.md
+    - Ch 39 Maintenance Spare Parts Life and Quality Traceability: 07-Part-7-Production-Organization-and-Governance/Ch39-Maintenance-Spare-Parts-Life-and-Quality-Traceability.md
+    - Ch 40 Alternative Routes Degraded Operation and Disaster Redundancy: 07-Part-7-Production-Organization-and-Governance/Ch40-Alternative-Routes-Degraded-Operation-and-Disaster-Redundancy.md
+  - Part 8 · Knowledge Media and Transmission:
+    - Ch 41 Paper Ink and Writing Media: 08-Part-8-Knowledge-Media-and-Transmission/Ch41-Paper-Ink-and-Writing-Media.md
+    - Ch 42 Engineering Drawing Documentation and Version Control: 08-Part-8-Knowledge-Media-and-Transmission/Ch42-Engineering-Drawing-Documentation-and-Version-Control.md
+    - Ch 43 Archives Ledgers Negative Results and Apprenticeship: 08-Part-8-Knowledge-Media-and-Transmission/Ch43-Archives-Ledgers-Negative-Results-and-Apprenticeship.md
+  - Part 9 · Medicine Hygiene and Occupational Safety:
+    - Ch 44 First Aid Trauma and Basic Surgery: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch44-First-Aid-Trauma-and-Basic-Surgery.md
+    - Ch 45 Infection Control Disinfection and Sanitary Engineering: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch45-Infection-Control-Disinfection-and-Sanitary-Engineering.md
+    - Ch 46 Basic Medicines Dosing Trials and Toxicology: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch46-Basic-Medicines-Dosing-Trials-and-Toxicology.md
+    - Ch 47 Diagnosis Case Records and Epidemiology: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch47-Diagnosis-Case-Records-and-Epidemiology.md
+    - Ch 48 Obstetrics Infants and Deficiency Diseases: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch48-Obstetrics-Infants-and-Deficiency-Diseases.md
+    - Ch 49 Occupational Health Toxins and Industrial Waste: 09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch49-Occupational-Health-Toxins-and-Industrial-Waste.md
+  - Part 10 · Four Environment Plans:
+    - Ch 50 Rainforest Edition: 10-Part-10-Four-Environment-Plans/Ch50-Rainforest-Edition.md
+    - Ch 51 Frozen Ground and Cold Region Edition: 10-Part-10-Four-Environment-Plans/Ch51-Frozen-Ground-and-Cold-Region-Edition.md
+    - Ch 52 Desert Edition: 10-Part-10-Four-Environment-Plans/Ch52-Desert-Edition.md
+    - Ch 53 Island Edition: 10-Part-10-Four-Environment-Plans/Ch53-Island-Edition.md
+  - Part 11 · Supplementary Technical Line:
+    - Ch 54 Transport and Civil Engineering: 11-Part-11-Supplementary-Technical-Line/Ch54-Transport-and-Civil-Engineering.md
+    - Ch 55 Telegraph and Early Radio: 11-Part-11-Supplementary-Technical-Line/Ch55-Telegraph-and-Early-Radio.md
+    - Ch 56 Mathematical Tools and the Slide Rule: 11-Part-11-Supplementary-Technical-Line/Ch56-Mathematical-Tools-and-the-Slide-Rule.md
+  - Appendices:
+    - Appendix A Dependency Map Lineages and Card Master Index: 13-Appendices/Appendix-A-Dependency-Map-Lineages-and-Card-Master-Index.md
+    - Appendix B Level Acceptance Master Table: 13-Appendices/Appendix-B-Level-Acceptance-Master-Table.md
+    - Appendix C Safety Red Lines and Fatal Errors: 13-Appendices/Appendix-C-Safety-Red-Lines-and-Fatal-Errors.md
+    - Appendix D Review Response Register: 13-Appendices/Appendix-D-Review-Response-Register.md
+    - Appendix E Terminology and Units: 13-Appendices/Appendix-E-Terminology-and-Units.md

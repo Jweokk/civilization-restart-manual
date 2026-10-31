@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Civilization Restart Manual">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#f2c14e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <path d="M32 11c6.5 8.5 11 12 11 19.5a11 11 0 1 1-22 0C21 23 25.5 19.5 32 11z" fill="#fffdf7" opacity="0.95"/>
+  <path d="M32 27c3.2 4.2 5.4 6.2 5.4 9.4a5.4 5.4 0 1 1-10.8 0c0-3.2 2.2-5.2 5.4-9.4z" fill="#ff8a3d"/>
+  <rect x="13" y="47" width="38" height="4.6" rx="2.3" fill="#fffdf7" opacity="0.9"/>
+</svg>
