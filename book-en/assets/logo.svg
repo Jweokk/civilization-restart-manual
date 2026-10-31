@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hammer">
+  <path d="M27.5 26h9v27a4.5 4.5 0 0 1-9 0z" fill="#ffffff"/>
+  <path d="M12.5 12h39a4.5 4.5 0 0 1 4.5 4.5v10a4.5 4.5 0 0 1-4.5 4.5h-39A4.5 4.5 0 0 1 8 26.5v-10A4.5 4.5 0 0 1 12.5 12z" fill="#ffffff"/>
+  <path d="M8 16.5A4.5 4.5 0 0 1 12.5 12H20v19h-7.5A4.5 4.5 0 0 1 8 26.5z" fill="#ffffff" opacity=".55"/>
+</svg>
