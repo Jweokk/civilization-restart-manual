@@ -1,0 +1,4407 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="From a single stone back to electricity · 56 chapters · 286 eight-field process cards · Chinese and English">
+      
+      
+      
+        <link rel="canonical" href="https://restart.fly2ai.top/en/06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch30-Experimental-Foundations-of-Electromagnetism/">
+      
+      
+        <link rel="prev" href="../Ch29-Power-Selection-Load-Characteristics-and-Combined-Operation/">
+      
+      
+        <link rel="next" href="../Ch31-The-First-Generator/">
+      
+      
+        
+          <link rel="alternate" href="/" hreflang="zh">
+        
+          <link rel="alternate" href="/en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon-192.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Ch 30 Experimental Foundations of Electromagnetism - The Civilization Restart Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-30-experimental-foundations-of-electromagnetism" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Civilization Restart Manual" class="md-header__button md-logo" aria-label="The Civilization Restart Manual" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Civilization Restart Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ch 30 Experimental Foundations of Electromagnetism
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="zh" class="md-select__link">
+              中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jweokk/civilization-restart-manual" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Civilization Restart Manual" class="md-nav__button md-logo" aria-label="The Civilization Restart Manual" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    The Civilization Restart Manual
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jweokk/civilization-restart-manual" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Constitution
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    General Constitution
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G01-Iron-Laws-and-Restart-Conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G01 Iron Laws and Restart Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G02-Chapter-Framework-and-Process-Card-System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G02 Chapter Framework and Process Card System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G03-Six-Technology-Lineages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G03 Six Technology Lineages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G04-Dependency-Map-and-Decision-Framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G04 Dependency Map and Decision Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 · Rules and Natural Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 · Rules and Natural Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch01-What-Civilization-Restart-Really-Means/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 01 What Civilization Restart Really Means
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch02-Know-the-Natural-World-First/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 02 Know the Natural World First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch03-Building-a-Measurement-System-Without-Standard-Tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 03 Building a Measurement System Without Standard Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch04-How-to-Use-This-Manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 04 How to Use This Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 · Survival Fire and Primitive Materials
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 · Survival Fire and Primitive Materials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch05-The-First-Tool-Stone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 05 The First Tool Stone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch06-The-First-Controllable-Energy-Fire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 06 The First Controllable Energy Fire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch07-Wood-Fibers-and-Rope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 07 Wood Fibers and Rope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch08-Clay-Ash-and-Natural-Chemical-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 08 Clay Ash and Natural Chemical Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch09-The-First-Truly-Reusable-Tool-Kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 09 The First Truly Reusable Tool Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 · Agriculture Pottery and Basic Industry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 · Agriculture Pottery and Basic Industry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch10-Food-Storage-and-Agriculture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 10 Food Storage and Agriculture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch11-The-First-Pot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 11 The First Pot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch12-From-Pottery-Kiln-to-High-Temperature-Furnace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 12 From Pottery Kiln to High Temperature Furnace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch13-Lime-Mortar-and-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 13 Lime Mortar and Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch14-The-Birth-of-Glass/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 14 The Birth of Glass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch15-Textile-Leather-and-Protective-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 15 Textile Leather and Protective Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 · Metals Machinery and Precision Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 · Metals Machinery and Precision Manufacturing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch16-Metal-Ores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 16 Metal Ores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch17-The-First-Metal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 17 The First Metal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch18-From-Ore-to-Iron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 18 From Ore to Iron
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch19-Steel-Heat-Treatment-and-Durable-Tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 19 Steel Heat Treatment and Durable Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch20-Building-the-First-Real-Machine-Tool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 20 Building the First Real Machine Tool
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch21-From-Timber-Frames-to-Precision-Machinery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 21 From Timber Frames to Precision Machinery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch22-Measurement-Standards-and-Repeatable-Manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 22 Measurement Standards and Repeatable Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch23-Industrial-Materials-and-Basic-Chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 23 Industrial Materials and Basic Chemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 · Optics Chemistry and Scientific Instruments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 · Optics Chemistry and Scientific Instruments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch24-From-Water-Drop-to-Lens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 24 From Water Drop to Lens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch25-From-Observation-to-Quantitative-Science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 25 From Observation to Quantitative Science
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch26-From-Still-to-Experimental-Chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 26 From Still to Experimental Chemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-A-Temperature-and-Pressure-Instruments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 27 Part A Temperature and Pressure Instruments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-B-Flow-Vacuum-and-Calibration-Chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 27 Part B Flow Vacuum and Calibration Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6 · Heat Engines Electricity and Electronics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 6 · Heat Engines Electricity and Electronics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch28-From-Fire-to-Steam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 28 From Fire to Steam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch29-Power-Selection-Load-Characteristics-and-Combined-Operation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 29 Power Selection Load Characteristics and Combined Operation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 30 Experimental Foundations of Electromagnetism
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 30 Experimental Foundations of Electromagnetism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#capability-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capability Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-work-verification-check-off-item-by-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-Work Verification (Check Off Item by Item)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pre-Work Verification (Check Off Item by Item)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#301-static-electricity-and-electric-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.1 Static Electricity and Electric Charge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#302-current-voltage-and-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.2 Current, Voltage, and Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#303-magnets-and-the-magnetic-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.3 Magnets and the Magnetic Field
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#304-the-relation-between-current-and-magnetic-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.4 The Relation between Current and Magnetic Field
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#305-coils-iron-cores-and-electromagnets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.5 Coils, Iron Cores, and Electromagnets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#306-how-to-make-basic-electrical-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.6 How to Make Basic Electrical Measurements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#307-from-experimental-phenomena-to-repeatable-electromagnetic-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.7 From Experimental Phenomena to Repeatable Electromagnetic Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#308-converting-between-electrical-mechanical-and-thermal-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.8 Converting between Electrical, Mechanical, and Thermal Energy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#309-electrostatic-metrology-making-the-leaf-angle-and-the-spark-speak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.9 Electrostatic Metrology: Making the Leaf Angle and the Spark Speak
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3010-standardizing-quantitative-demonstrations-of-the-three-effects-of-current-three-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.10 Standardizing Quantitative Demonstrations of the Three Effects of Current: Three Tables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3011-earth-return-and-first-grounding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.11 Earth Return and First Grounding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3012-electric-bell-and-relay-detail-drawings-level-fabrication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.12 Electric Bell and Relay: Detail-Drawings-Level Fabrication
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#master-parameter-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Master Parameter Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes-and-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes and Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-card-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Card Index
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Criteria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-hours-manpower-and-consumption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Work Hours, Manpower, and Consumption
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safety-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-tools-already-in-hand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Tools Already in Hand
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-new-tools-added-in-this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. New Tools Added in This Chapter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-unresolved-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. Unresolved Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next-Step Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch31-The-First-Generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 31 The First Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch32-From-Wires-to-the-Grid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 32 From Wires to the Grid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch33-The-First-Electronic-Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 33 The First Electronic Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch34-From-Minerals-to-Semiconductor-Grade-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 34 From Minerals to Semiconductor Grade Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch35-Part-A-Silicon-and-Wafer-Preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 35 Part A Silicon and Wafer Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch35-Part-B-Planar-Process-and-Simple-ICs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 35 Part B Planar Process and Simple ICs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch36-From-First-Chip-to-a-Sustainable-Electronics-Industry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 36 From First Chip to a Sustainable Electronics Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7 · Production Organization and Governance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 7 · Production Organization and Governance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch37-Carrying-Capacity-Population-Balance-and-Labor-Organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 37 Carrying Capacity Population Balance and Labor Organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch38-Material-and-Energy-Ledgers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 38 Material and Energy Ledgers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch39-Maintenance-Spare-Parts-Life-and-Quality-Traceability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 39 Maintenance Spare Parts Life and Quality Traceability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch40-Alternative-Routes-Degraded-Operation-and-Disaster-Redundancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 40 Alternative Routes Degraded Operation and Disaster Redundancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8 · Knowledge Media and Transmission
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 8 · Knowledge Media and Transmission
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch41-Paper-Ink-and-Writing-Media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 41 Paper Ink and Writing Media
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch42-Engineering-Drawing-Documentation-and-Version-Control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 42 Engineering Drawing Documentation and Version Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch43-Archives-Ledgers-Negative-Results-and-Apprenticeship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 43 Archives Ledgers Negative Results and Apprenticeship
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9 · Medicine Hygiene and Occupational Safety
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 9 · Medicine Hygiene and Occupational Safety
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch44-First-Aid-Trauma-and-Basic-Surgery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 44 First Aid Trauma and Basic Surgery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch45-Infection-Control-Disinfection-and-Sanitary-Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 45 Infection Control Disinfection and Sanitary Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch46-Basic-Medicines-Dosing-Trials-and-Toxicology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 46 Basic Medicines Dosing Trials and Toxicology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch47-Diagnosis-Case-Records-and-Epidemiology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 47 Diagnosis Case Records and Epidemiology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch48-Obstetrics-Infants-and-Deficiency-Diseases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 48 Obstetrics Infants and Deficiency Diseases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch49-Occupational-Health-Toxins-and-Industrial-Waste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 49 Occupational Health Toxins and Industrial Waste
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10 · Four Environment Plans
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 10 · Four Environment Plans
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch50-Rainforest-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 50 Rainforest Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch51-Frozen-Ground-and-Cold-Region-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 51 Frozen Ground and Cold Region Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch52-Desert-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 52 Desert Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch53-Island-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 53 Island Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11 · Supplementary Technical Line
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 11 · Supplementary Technical Line
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch54-Transport-and-Civil-Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 54 Transport and Civil Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch55-Telegraph-and-Early-Radio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 55 Telegraph and Early Radio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch56-Mathematical-Tools-and-the-Slide-Rule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 56 Mathematical Tools and the Slide Rule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-A-Dependency-Map-Lineages-and-Card-Master-Index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix A Dependency Map Lineages and Card Master Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-B-Level-Acceptance-Master-Table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix B Level Acceptance Master Table
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-C-Safety-Red-Lines-and-Fatal-Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix C Safety Red Lines and Fatal Errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-D-Terminology-and-Units/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix D Terminology and Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Goals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#capability-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capability Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-work-verification-check-off-item-by-item" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-Work Verification (Check Off Item by Item)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pre-Work Verification (Check Off Item by Item)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#301-static-electricity-and-electric-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.1 Static Electricity and Electric Charge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#302-current-voltage-and-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.2 Current, Voltage, and Resistance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#303-magnets-and-the-magnetic-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.3 Magnets and the Magnetic Field
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#304-the-relation-between-current-and-magnetic-field" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.4 The Relation between Current and Magnetic Field
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#305-coils-iron-cores-and-electromagnets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.5 Coils, Iron Cores, and Electromagnets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#306-how-to-make-basic-electrical-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.6 How to Make Basic Electrical Measurements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#307-from-experimental-phenomena-to-repeatable-electromagnetic-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.7 From Experimental Phenomena to Repeatable Electromagnetic Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#308-converting-between-electrical-mechanical-and-thermal-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.8 Converting between Electrical, Mechanical, and Thermal Energy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#309-electrostatic-metrology-making-the-leaf-angle-and-the-spark-speak" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.9 Electrostatic Metrology: Making the Leaf Angle and the Spark Speak
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3010-standardizing-quantitative-demonstrations-of-the-three-effects-of-current-three-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.10 Standardizing Quantitative Demonstrations of the Three Effects of Current: Three Tables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3011-earth-return-and-first-grounding" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.11 Earth Return and First Grounding
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3012-electric-bell-and-relay-detail-drawings-level-fabrication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        30.12 Electric Bell and Relay: Detail-Drawings-Level Fabrication
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#master-parameter-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Master Parameter Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes-and-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes and Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-card-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Card Index
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Criteria
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-hours-manpower-and-consumption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Work Hours, Manpower, and Consumption
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safety-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-tools-already-in-hand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Tools Already in Hand
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-new-tools-added-in-this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. New Tools Added in This Chapter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-unresolved-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. Unresolved Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next-Step Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-30-experimental-foundations-of-electromagnetism">Chapter 30 Experimental Foundations of Electromagnetism<a class="headerlink" href="#chapter-30-experimental-foundations-of-electromagnetism" title="Permanent link">&para;</a></h1>
+<h2 id="chapter-goals">Chapter Goals<a class="headerlink" href="#chapter-goals" title="Permanent link">&para;</a></h2>
+<p>Building electricity from zero: static electricity and electric charge, <strong>battery engineering (the three ailments of galvanic cells — polarization / internal resistance / capacity — and their treatment)</strong>, magnetism and magnetization, the three effects of current, electromagnets, <strong>self-induction and the spark coil</strong>, and electrical measurement starting from the compass galvanometer. This chapter builds <strong>understanding and repeatable experimental apparatus</strong> (L1–L2 level); power generation and the grid come in the following two chapters.</p>
+<p><strong>The first lesson of electricity is the same as for steam: safety.</strong> Static electricity has high voltage but little energy — the Leyden jar is the exception (its shock can be lethal); battery current is mild, but "low voltage is harmless" is an illusion — every step-up in the chapters ahead brings new dangers with it.</p>
+<h2 id="capability-boundary">Capability Boundary<a class="headerlink" href="#capability-boundary" title="Permanent link">&para;</a></h2>
+<p><strong>Can do:</strong> voltaic pile and Daniell two-solution cell (stable current source); measurement and logging of battery capacity/internal resistance/polarization; reference cell (the seed of a voltage standard); the three electromagnet devices (iron-lifting / electric bell / sound code); spark coil (low voltage to high-voltage pulses, reused directly by the Chapter 33 leak detector).</p>
+<p><strong>Explicitly cannot do:</strong> <strong>charging</strong> storage batteries (requires a generator — backfilled and enabled at 31.10 once Chapter 31 is built; this chapter only establishes the principle and plate preparation); absolute calibration (Chapter 31 electrolytic method); insulated copper wire in bulk (Chapter 31).</p>
+<p><strong>External dependencies:</strong> acids (the Chapter 23 three-acid line — dilute the sulfuric acid before it enters the cell); zinc (if no zinc, substitute iron and honestly log the halved capacity).</p>
+<h2 id="pre-work-verification-check-off-item-by-item">Pre-Work Verification (Check Off Item by Item)<a class="headerlink" href="#pre-work-verification-check-off-item-by-item" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Verification item</th>
+<th>Criterion</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Copper plates/copper stock</td>
+<td>Acid-pickled to remove oxides (Chapter 23 dilute acid or vinegar)</td>
+<td>Chapter 17</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Zinc/iron sheets</td>
+<td>Use iron sheet if no zinc; surface polished</td>
+<td>Chapters 17, 18</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Acid</td>
+<td>Vinegar (weak) or dilute sulfuric acid (<strong>dilute acid into water</strong>, about 1 part oil of vitriol + 9 parts water; empirical starting point, must be field-calibrated)</td>
+<td>Chapter 23</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Lodestone</td>
+<td>Clearly attracts iron in tests; ore site logged</td>
+<td>Chapter 16</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Compass and angles</td>
+<td>Homemade magnetic needle floating on water holds a steady bearing</td>
+<td>Chapters 3, 25</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Record system</td>
+<td>Five-element electrical log table in place</td>
+<td>Chapter 25</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Clay pot and diaphragm</td>
+<td>Unglazed clay pot for the Daniell cell (porous diaphragm)</td>
+<td>Chapter 11</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="301-static-electricity-and-electric-charge">30.1 Static Electricity and Electric Charge<a class="headerlink" href="#301-static-electricity-and-electric-charge" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Triboelectric charging</strong>: rub amber/sealing wax/dry rosin with fur, and a glass rod with silk — the rubbed objects attract light items;</li>
+<li><strong>Two kinds of charge</strong>: a glass-silk rod repels a rod made the same way and attracts an amber-fur rod — like charges repel, unlike charges attract; name and log them;</li>
+<li><strong>Electroscope</strong>: a metal rod through a glass bottle stopper, with two thin copper-leaf strips hung from its lower end — they spread apart when charged, and the opening angle roughly indicates strength;</li>
+<li><strong>Leyden jar</strong>: metal foil stuck on the inner and outer walls of a glass bottle stores charge. <strong>Safety red line: after charging it must be discharged with a discharger (insulated rod + wire); approaching it bare-handed means a shock; persons with heart conditions must not operate it</strong>;</li>
+<li>The conductor/insulator dichotomy (metal foil conducts, glass does not) is the first map of all electrical science.</li>
+</ul>
+<h3 id="302-current-voltage-and-resistance">30.2 Current, Voltage, and Resistance<a class="headerlink" href="#302-current-voltage-and-resistance" title="Permanent link">&para;</a></h3>
+<h4 id="3021-galvanic-cell-engineering-from-the-voltaic-pile-to-the-daniell-cell">30.2.1 Galvanic Cell Engineering: From the Voltaic Pile to the Daniell Cell<a class="headerlink" href="#3021-galvanic-cell-engineering-from-the-voltaic-pile-to-the-daniell-cell" title="Permanent link">&para;</a></h4>
+<p><strong>Voltaic pile</strong> (the first unit, quick and rough): copper plate / acid-soaked cloth / zinc plate (iron if no zinc, poor results) stacked into a tower; the two ends are the positive and negative terminals. <strong>Its ailment becomes obvious within a few minutes of continuous supply: the current decays</strong> — three causes (the three battery ailments, all to be measured and logged):</p>
+<table>
+<thead>
+<tr>
+<th>Ailment</th>
+<th>Symptom</th>
+<th>Cause</th>
+<th>Remedy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Polarization</strong></td>
+<td>Current gradually falls during continuous discharge; bubbles coat the electrodes</td>
+<td>Electrolysis products (hydrogen bubbles) cling to the plates and block the way; internal resistance rises</td>
+<td><strong>Depolarizer</strong>: pack charcoal powder around the electrodes (absorbs hydrogen; an empirical practice — log it and verify); or switch to a two-solution cell</td>
+</tr>
+<tr>
+<td><strong>Internal resistance</strong></td>
+<td>Voltage under load clearly lower than open-circuit</td>
+<td>Resistance of the electrolyte and electrodes</td>
+<td>Raise the liquid temperature (slow), enlarge the plates, shorten the spacing</td>
+</tr>
+<tr>
+<td><strong>Local action</strong></td>
+<td>Leaking charge even when unused; plates whiten and waste away</td>
+<td>Foreign-metal impurities / local micro-cells</td>
+<td>Plate purity (select impurity-free faces); when not in use, lift the plates out of the liquid</td>
+</tr>
+</tbody>
+</table>
+<p>[Card 30-01 Daniell Two-Solution Cell] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: copper plate (positive electrode); zinc rod/zinc plate (negative electrode; iron if no zinc, with the halved capacity logged honestly); <strong>concentrated copper sulfate solution</strong> (the blue liquid; copper-mining byproduct or Chapter 26 copper salts); dilute sulfuric acid (zinc-electrode side, about 1 part oil of vitriol + 9 parts water, acid into water); unglazed clay pot (porous diaphragm) + outer trough.</li>
+<li><strong>Tools required</strong>: clay pot and outer trough (Chapter 11); acid-pickling and polishing supplies for the plates (Chapter 23 dilute acid or vinegar); galvanometer (in series, reading loaded voltage and current); voltage log page. Calibration: log open-circuit and loaded voltage cell by cell (comparison method), never from a nameplate.</li>
+<li><strong>Operating sequence and control points</strong>: (1) acid-pickle and polish the plates to remove oxides; (2) the outer trough holds dilute sulfuric acid with the zinc electrode, the clay pot holds copper sulfate solution with the copper electrode and sits in the trough — <strong>the porous clay wall lets ions through without letting the two liquids mix quickly</strong>; (3) <strong>keep the copper-salt level lower than the zinc-side level</strong> (copper solution seeping to the zinc side grows dendrites through the diaphragm — dendrite puncture is the classic death of a Daniell cell; a salt bridge is steadier if you can manage one); (4) let it stand half a day before loading; (5) load for 30 min and read the voltage drop. <strong>Control points: the level difference is never skipped; once cells are stacked in series and the voltage rises, apply the safety boundary "wire with the power off, never touch with wet hands" — ordinary materials cannot serve as high-voltage insulation, so terminals must stay out of human reach.</strong></li>
+<li><strong>Empirical parameters and calibration method</strong>: open-circuit voltage ≈1.1 V class per cell (empirical, calibrate cell by cell); loaded voltage drop &lt;10% over 30 min as the stability criterion (empirical); sulfuric acid dilution 1 part oil of vitriol + 9 parts water (empirical starting point, acid into water); capacity measurement see Card 30-02; more than half the blue liquid seeping out of the pot means remaking the liquids (criterion).</li>
+<li><strong>In-process observation items</strong>: whether the zinc electrode whitens (local action); whether the blue liquid fades (copper exhausted — add copper sulfate crystals); copper dendrites on the pot wall; open-circuit and loaded voltage of each cell; level difference between the two sides; loaded hours and voltage drop.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = loaded voltage (galvanometer in series) drops &lt;10% in 30 min; rework = replace and remake the liquids (change the diaphragm when the liquid is weak or the diaphragm clogged); scrap = zinc plate perforated (change the plate), copper dendrites on the pot wall (remake and correct the level difference); more than half the blue liquid seeped out counts as failure and a rematch.</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) voltage insufficient → weak liquid / clogged diaphragm (check levels and colour first, then change the diaphragm); (2) current decays fast → polarization (check the charcoal-powder depolarizer, or move to the two-solution structure); (3) sudden short and dead → dendrites through the diaphragm (inspect the pot wall, remake and correct the level difference); (4) draining when idle → local action (select impurity-free faces, lift the plates out of the liquid when idle).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = one cell discharged with open-circuit and loaded voltage logged; L2 = three cells in series powering a galvanometer steadily for a whole day; L3 = the battery archive (per-cell voltage log + capacity/internal-resistance records) + the consumption ledger (zinc 5–20 g per operating day, etc., into Chapter 38).</li>
+</ol>
+<h4 id="3022-capacity-internal-resistance-and-the-reference-cell">30.2.2 Capacity, Internal Resistance, and the "Reference Cell"<a class="headerlink" href="#3022-capacity-internal-resistance-and-the-reference-cell" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Capacity (rough measurement)</strong>: discharge the cell through a fixed load (a resistance wire of known value); the hours <strong>from the start until the voltage falls to 60–70% of its initial value (empirical criterion)</strong> × the average current (galvanometer comparison method) = the amp-hour-class capacity. Log the capacity of every cell of a batch in the register — this is the "how long will it last" account (the basis of the Chapter 38 battery-consumption ledger);</li>
+<li><strong>Internal resistance (voltage-drop method)</strong>: measure open-circuit voltage V₀ and loaded voltage V once each; internal resistance r＝(V₀−V)×R/V (R is the load resistance). r rising month over month = an early warning of plate aging / liquid depletion;</li>
+<li><strong>Reference cell</strong>: set aside the most voltage-stable Daniell cell, sealed and unused, as the <strong>local voltage standard</strong> (all voltage readings are checked against it) — the seed of the standard-cell idea; recheck quarterly;</li>
+<li>Ohm-relation experiment: connect iron wires of different lengths/thicknesses to the cell and watch the galvanometer deflection — the qualitative laws that current ∝ voltage and ∝ 1/resistance, plus a local wire-gauge-to-resistance cross-reference table (the quantitative version awaits the better table in Chapter 31).</li>
+</ul>
+<p>Verify the water-circuit analogy of the three concepts immediately with apparatus: voltage = water-tower height (doubles in series); current = flow rate (bubble rate / heat); resistance = narrow pipe (the long-thin-wire effect is weak).</p>
+<p>[Card 30-02 Capacity and Internal Resistance Measurement] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: an assembled Daniell battery (Card 30-01 output, each cell already logged); resistance wire of known value (fixed load R); galvanometer; pendulum clock or hourglass; capacity/internal-resistance log page; reference cell (the most stable cell, sealed and set aside).</li>
+<li><strong>Tools required</strong>: galvanometer (current by the comparison method); resistance wire and the wire-gauge-to-resistance table; pendulum clock for timing; voltage readings checked against the reference cell. Calibration: recheck the reference cell quarterly; the quantitative version of the wire-gauge table awaits Chapter 31.</li>
+<li><strong>Operating sequence and control points</strong>: (1) capacity — discharge through the fixed load, noting the starting voltage and the start time; (2) time it by the pendulum clock until the voltage falls to 60–70% of the starting value; (3) hours × average current (galvanometer comparison) = amp-hour-class capacity; (4) internal resistance — measure open-circuit V₀ and loaded V once each, r＝(V₀−V)×R/V; (5) log cell by cell and batch into the register, then pick the steadiest cell and seal it as the reference cell. <strong>Control point: capacity and internal resistance are taken in one and the same discharge run — no topping the numbers up after changing the liquids; wire stacked cells only with the power off — ordinary materials cannot serve as high-voltage insulation, so terminals stay out of human reach.</strong></li>
+<li><strong>Empirical parameters and calibration method</strong>: capacity criterion line = discharge to 60–70% of starting voltage (empirical); internal-resistance formula r＝(V₀−V)×R/V (a method, not an empirical value); Daniell ≈1.1 V/cell (empirical, calibrate cell by cell); r rising month over month = warning of plate aging / liquid depletion; reference cell rechecked quarterly; current by comparison of deflections, absolute calibration awaits the Chapter 31 electrolytic method.</li>
+<li><strong>In-process observation items</strong>: starting and end voltage, discharge duration, average current (deflection), computed capacity, V₀ / V / R and computed r, liquid colour and zinc whitening, air and liquid temperature (internal resistance moves with temperature).</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = a smooth discharge curve, capacity read at the 60–70% line, and a loaded voltage drop &lt;10% over 30 min; rework = self-contradictory readings (voltage not checked against the reference cell, timing not recorded) — rematch the liquids and re-measure; scrap = r clearly above the rest of the batch (plate aging) or capacity unable to carry the workstation — demote that cell to "demonstration only" and strike it from the reference-cell candidates.</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) capacity varying wildly → timing start or end criterion not standardized (standardize on the 60–70% read); (2) internal resistance rising month by month → plate aging or liquid depletion (top up or change plates); (3) voltage far off the reference cell → galvanometer needle weakened or coil damp (re-magnetize / dry out, recheck against the reference cell); (4) two capacity runs on the same cell far apart → different liquid temperature, or the load resistance wire heating and changing value (retest at the same temperature and resistance).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = one complete capacity and internal-resistance record for a single cell; L2 = the capacity/internal-resistance register written up + the reference cell sealed with quarterly recheck records; L3 = one liquid top-up or plate-change decision taken on the r and capacity trend and filed, with the batch capacity register citable by the Chapter 38 battery-consumption ledger.</li>
+</ol>
+<h3 id="303-magnets-and-the-magnetic-field">30.3 Magnets and the Magnetic Field<a class="headerlink" href="#303-magnets-and-the-magnetic-field" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Natural lodestone (magnetite): attracts iron, points north–south; <strong>magnetic poles</strong>: strongest at the two ends, like poles repel and unlike attract; break a magnet bar and you get two new magnet bars (no monopoles);</li>
+<li><strong>Magnetizing steel needles (industrializing the compass)</strong>: stroke the steel needle repeatedly along the lodestone in <strong>one and the same direction</strong> (one-way strokes, never back-rubbing; ◎ hand-feel: keep the pressure even, like grinding ink; practice method: magnetize ten needles and compare how much iron powder each picks up); or magnetize inside an energized solenoid (upgrade after 30.5); a magnetic needle floating on water (bowl + cork) is a compass;</li>
+<li>Visualizing the magnetic field: sprinkle iron filings on paper with a magnet bar beneath the paper — the pattern of lines of force;</li>
+<li>Geomagnetism: the compass points north–south and also dips — the cornerstone of navigation and surveying (Part 10 island edition). <strong>Magnetic declination is corrected and logged against the local true-north line (Section 3.2.1 equal-shadow method)</strong> — this is the step that turns the compass from a "toy" into an "instrument".</li>
+</ul>
+<p>[Card 30-03 Magnetizing Steel Needles and Compass Correction] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: steel needles (high-carbon steel, pointed and straightened); natural lodestone (clearly attracts iron, ore site logged); cork and a bowl of water (floating-needle compass); true-north line mark (3.2.1 equal-shadow method); magnetic-declination log page; iron filings (for visualizing the lines of force).</li>
+<li><strong>Tools required</strong>: lodestone; protractor and angle reference (Chapters 3, 25); equal-shadow true-north line (3.2.1); iron-powder weighing (Chapter 3 balance, comparing pickup amounts). Calibration: the declination is logged against the local true-north line; needle strength is judged by comparing iron-powder pickup.</li>
+<li><strong>Operating sequence and control points</strong>: (1) stroke the needle repeatedly along the lodestone <strong>in one and the same direction</strong>, one-way and never back-rubbing (◎ hand-feel: even pressure, like grinding ink); (2) practice method — magnetize ten needles, compare iron-powder pickup needle by needle, and adopt the technique that picks up most; (3) thread the needle through a cork and float it; once still it points north; (4) measure the angle between the needle and the equal-shadow true-north line — that is the local magnetic declination; (5) log declination, date, observer, weather; (6) re-magnetize an under-magnetized needle; switch to high-carbon steel if the steel is too soft. <strong>Control points: one-way strokes, never back-rubbing; a compass reading must be reported with the declination correction applied, never as "where the needle points".</strong></li>
+<li><strong>Empirical parameters and calibration method</strong>: magnetizing technique = one-way strokes, even pressure (◎ hand-feel, a parameter-table entry); declination logged against equal-shadow true north (system); iron-powder pickup as the magnetism criterion; magnetizing inside an energized solenoid is the upgrade route after 30.5; iron filings on paper show the lines of force (verify the poles — a broken magnet bar gives two new bars, no monopoles).</li>
+<li><strong>In-process observation items</strong>: iron-powder pickup per needle, still-pointing direction of the floating needle, angle to true north (declination), weather and observation time, whether the needle settles briskly (sluggish = weak magnetism), the field-line pattern and the breakage-test record.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = the floating needle holds a steady bearing, the declination is on the register, and two independent observations differ within the reading resolution; rework = the needle drifts or settles sluggishly — re-magnetize by the ten-needle comparison; scrap = pickup clearly below the batch after magnetizing (steel too soft) — remake from high-carbon steel; if the needle is sound but readings disagree with the season's declination register, re-measure the true-north line.</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) needle magnetism fading → under-magnetized or soft steel (compare pickup → re-magnetize / switch to high-carbon steel); (2) unsteady bearing, swinging back and forth → off-centre float or wind on the water (re-thread the cork, shelter from wind); (3) compass systematically off by one angle → declination not corrected or the true-north line mis-measured (re-run the equal-shadow method); (4) galvanometer-style readings drifting → needle magnetism fading or coil damp (recheck against the reference cell, dry out).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = ten needles magnetized with one floating-needle bearing and true-north angle logged; L2 = the local declination register (with date and observer) + one actual orientation taken with the compass; L3 = a second person magnetizes from this card alone and measures the same declination (within reading resolution), and the compass is released for navigation and surveying (Part 10 island edition).</li>
+</ol>
+<h3 id="304-the-relation-between-current-and-magnetic-field">30.4 The Relation between Current and Magnetic Field<a class="headerlink" href="#304-the-relation-between-current-and-magnetic-field" title="Permanent link">&para;</a></h3>
+<p><strong>Oersted's experiment</strong>: lay a current-carrying wire parallel above the compass needle — it deflects; reverse the current and the deflection reverses. Conclusion: <strong>a magnetic field exists around a current</strong>.</p>
+<p>Extensions:
+1. The solenoid — magnetic effects add up; it behaves like a magnet bar (verify with the iron-filing pattern);
+2. Log the right-hand rule (winding direction vs. polarity; the mistake-proofing basis for winding generators);
+3. <strong>The force of a magnet on a current-carrying wire</strong>: a straight current-carrying wire placed between two poles feels a force and moves (the three-finger mnemonic). <strong>Current + magnetic field → force</strong> and <strong>motion + magnetic field → current</strong> (Chapter 31) are two faces of the same coin.</p>
+<h4 id="3041-self-induction-and-the-spark-coil-mother-of-the-chapter-33-leak-detector">30.4.1 Self-Induction and the Spark Coil (Mother of the Chapter 33 Leak Detector)<a class="headerlink" href="#3041-self-induction-and-the-spark-coil-mother-of-the-chapter-33-leak-detector" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>The self-induction phenomenon</strong>: an energized coil produces a spark at <strong>the instant of disconnection</strong> — the faster the break, the bigger the spark (the sudden change of current in the coil induces high voltage. Experiment: when the electromagnet circuit is broken there is a clear spark at the contact point, while an ordinary resistive circuit shows almost none);</li>
+<li><strong>Making a spark coil</strong>: on an iron core, one winding of thick wire with few turns (the primary, connected to the battery) + one winding of thin wire with many turns (the secondary, up to a thousand or more turns); put an <strong>interrupter</strong> in series with the primary (the electromagnet attracts the armature — power cut — armature springs back — attracts again, the same structure as the electric bell) — the primary current is switched on and off at high speed, a <strong>thousands-fold voltage</strong> (empirical order of magnitude) is induced in the secondary, and a spark jumps at the gap;</li>
+<li><strong>Applications land immediately</strong>: ①ignition (gas/flammable-gas demonstration) ②<strong>the Chapter 33 high-frequency spark leak detector uses it directly</strong> — this is the key device this chapter plants for the vacuum line;</li>
+<li>Safety: the secondary spark is small but can still sting; when testing sparks, hold the gap electrodes with insulated handles.</li>
+</ul>
+<p>[Card 30-04 Spark Coil] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: soft iron core; primary of thick wire, few turns; secondary of thin wire, a thousand-plus turns; interrupter (electromagnet + armature + contacts, same structure as the bell); battery pack (Daniell, 3-cell class); waxed cloth / oil-soaked paper insulation; gap electrodes (held with insulated handles).</li>
+<li><strong>Tools required</strong>: winding frame and hand-crank drill; waxed cloth (interlayer insulation); galvanometer (to check primary continuity); insulated-handle clamp; adjustable discharge gap (2/4/6/8/10 mm steps, set with thick paper slips). Calibration: spark length is graded fresh the same day (humidity changes daily; re-grade every other day).</li>
+<li><strong>Operating sequence and control points</strong>: (1) wind the primary on the core (thick wire, few turns, wired to the battery); (2) waxed cloth between layers, wind the secondary (thin wire, many turns, up to a thousand or more); (3) put the interrupter in series with the primary (attracts the armature — breaks — springs back — attracts again); (4) energize, listen to the interrupter and watch the gap for sparks; (5) open the gap from small to large and record the largest sparking gap; (6) if there is no spark, polish the contacts first. <strong>Control points: test sparks only with gap electrodes held in insulated handles; the secondary is the step-up part and must stay out of human reach — ordinary materials cannot serve as high-voltage insulation, so use it only as "untouchable + insulated handles + wire with the power off".</strong></li>
+<li><strong>Empirical parameters and calibration method</strong>: primary thick wire with few turns / secondary thin wire with a thousand-plus turns (empirical); the secondary induces a thousands-fold voltage (empirical order of magnitude); the faster the break, the bigger the spark (self-induction); sparks are read against the range table — recording the "largest gap that does not discharge" beats recording an "occasional jump" (the 30.9 spark-grading method).</li>
+<li><strong>In-process observation items</strong>: whether the interrupter buzzes continuously, contact spark size and blackening, largest sparking gap (mm), number of cells and voltage, winding layers, scorch marks from secondary breakdown, humidity and date.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = continuous interrupter buzz and a steady spark at the gap, with two same-condition largest-gap readings within one grade; rework = no spark or intermittent spark — polish the contacts, adjust spring tension, check primary connections for oxide; scrap = secondary winding breakdown (interlayer scorch, spark migrating inside the winding) or an interlayer short in the core — rewind / change the core; once voltage is stepped up, carbonized insulation judges the unit scrap.</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) no spark → interrupter contacts oxidized (polish, adjust spring tension); (2) weak, intermittent spark → weak battery or poor primary contact (add cells, check the connections); (3) spark migrating into the winding → insufficient secondary insulation (rewind, add waxed-cloth layers); (4) interrupter not buzzing → armature gap too large or spring blade too stiff (adjust per the four elements of 30.12).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = a steady spark with one largest-gap reading; L2 = spark-grade records + the coil parameter table (turns, wire diameter, layers); L3 = the device entered in the register with a handover record, for direct reuse by the Chapter 33 high-frequency spark leak detector.</li>
+</ol>
+<h3 id="305-coils-iron-cores-and-electromagnets">30.5 Coils, Iron Cores, and Electromagnets<a class="headerlink" href="#305-coils-iron-cores-and-electromagnets" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Iron core concentrates the field</strong>: insert a soft iron rod (annealed state) into the solenoid and the magnetic field strengthens several-fold; <strong>soft iron becomes magnetic when energized and loses its magnetism when the current stops</strong>; hard steel retains magnetism (permanent magnets — a difference in carbon content and heat treatment; knowledge transferred from Chapter 19);</li>
+<li><strong>Electromagnet</strong>: wind tens to hundreds of turns of insulated copper wire (waxed cloth / oil-soaked paper insulation in this chapter; enameled-wire upgrade in Chapter 31) on a soft iron horseshoe core; step up the lifting load grade by grade and record "turns × current vs. pull";</li>
+<li>Three application devices: electromagnetic iron-lifting, the <strong>electric bell</strong> (self-sustained oscillation), the <strong>telegraph sound code</strong> (on/off is a click; combinations of long and short are information).</li>
+</ul>
+<h3 id="306-how-to-make-basic-electrical-measurements">30.6 How to Make Basic Electrical Measurements<a class="headerlink" href="#306-how-to-make-basic-electrical-measurements" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Galvanometer (mother of all meters)</strong>: a compass needle mounted inside a large coil; with no current flowing, the coil is aligned north–south; when energized, the deflection ∝ current (approximately linear in the weak region). To increase sensitivity: double the turns / a stronger needle / add a soft iron core;</li>
+<li><strong>Comparison measurement</strong>: use a "standard deflection" as the reference; the ratio of two readings is the ratio of the currents. Absolute calibration (electrolytic method) waits for Chapter 31;</li>
+<li>Rough voltage measurement: wire a known resistance line in series and compare the difference in deflection. Copy the Chapter 25 five-element record system as-is.</li>
+</ul>
+<h3 id="307-from-experimental-phenomena-to-repeatable-electromagnetic-devices">30.7 From Experimental Phenomena to Repeatable Electromagnetic Devices<a class="headerlink" href="#307-from-experimental-phenomena-to-repeatable-electromagnetic-devices" title="Permanent link">&para;</a></h3>
+<p>The three questions of device-ization (the substance of acceptance): ①disconnect and reconnect — does the phenomenon reproduce? ②does another person get the same result? ③when parameters change, does the direction of the effect match the pre-registered prediction? Pass all three and the device enters the register for later chapters to cite.</p>
+<h3 id="308-converting-between-electrical-mechanical-and-thermal-energy">30.8 Converting between Electrical, Mechanical, and Thermal Energy<a class="headerlink" href="#308-converting-between-electrical-mechanical-and-thermal-energy" title="Permanent link">&para;</a></h3>
+<p>Three directions to log (laying track for Chapters 31–32):
+1. <strong>Chemical → electrical</strong> (discharge) and <strong>electrical → chemical</strong> (electrolyzing water, depositing copper) — the seed of reversibility (<strong>storage battery foreshadowed</strong>: two lead plates in dilute sulfuric acid can be "charged" by passing current and "discharged" to deliver it — log the principle; the charging current source awaits the Chapter 31 generator, backfilled at 31.10);
+2. <strong>Electrical → heat</strong> (wires warming, carbon rods glowing red-hot);
+3. <strong>Electrical → magnetic → mechanical</strong> and the converse proposition (Chapter 31).</p>
+<p>Energy-ledger awareness: the cell consuming zinc and acid = what is paid out; heat, magnetic, and mechanical work = what is gained — every new device must answer "where does the energy come from and where does it go" (the physics version of the Chapter 38 battery-consumption ledger).</p>
+<hr />
+<h3 id="309-electrostatic-metrology-making-the-leaf-angle-and-the-spark-speak">30.9 Electrostatic Metrology: Making the Leaf Angle and the Spark Speak<a class="headerlink" href="#309-electrostatic-metrology-making-the-leaf-angle-and-the-spark-speak" title="Permanent link">&para;</a></h3>
+<p>Static electricity experiments degenerate most easily into "finger tricks" — lift a few paper bits, crackle once, and no number survives. This section promotes the electroscope and the Leyden jar from demonstration props to <strong>measuring instruments</strong>: all readings land on three tables (range card, spark range table, shock-sensation grading); the tables travel with the apparatus, and whoever operates it reads off them the same way.</p>
+<p><strong>Electroscope leaf-angle graduation (the range-card system)</strong></p>
+<ul>
+<li>Calibration source: glass rod + silk is the only standard friction pair (if you switch to amber or sealing wax, regrade everything that same day). Standardize the rubbing stroke: one pass of 300 mm, one pass per second, 10 passes total recorded as "10 rubs". ◎ hand-feel: pressure such that the rod body does not bend; practice method — one person does a full 1/3/6/10-rub calibration round on 10 different days, and the differences in leaf angle are logged as "daily corrections";</li>
+<li>Range table (empirical starting point; calibrate each instrument individually): 1 rub → barely open (&lt;10°); 3 rubs → small opening (15–25°); 6 rubs → medium opening (30–40°); 10 rubs → wide opening (&gt;45°). Paste a handwritten range card on the body of each electroscope bottle, noting the calibration date and the weather;</li>
+<li>Criterion: repeat the same rub count three times; a spread in leaf angle &lt;10° counts as pass; the whole table drifting by more than one grade = dampness or fatigued copper foil (verify: check against that day's freshly graded card); rework = bake the bottle + re-stick the foil;</li>
+<li>Humidity correction: grade one round on a rainy day and one round after consecutive clear days; the difference between the two rounds is logged as the "seasonal correction" — on humid days readings generally run one grade low; report the weather before reading the table.</li>
+</ul>
+<p><strong>Rough estimation of Leyden jar charge (spark grades + shock-sensation grading)</strong></p>
+<ul>
+<li>Spark range table (discharger ball gap; same charging source, same number of charging strokes): no spark / only a faint glow inside the jar = empty grade; spark &lt;2 mm = micro charge; 2–5 mm = small charge; 5–10 mm = medium charge; &gt;10 mm = large charge. Method: ground one end of the discharger first, then bring the other end closer in steps of 2/4/6/8/10 mm, stopping at the first spark — <strong>recording the "largest gap that does not discharge" is more reliable than recording an "occasional jump"</strong>;</li>
+<li>Shock-sensation grading log (corroborating evidence only, never the primary criterion): grade 1 = tingling fingertips; grade 2 = a blow at the wrist; grade 3 = a numbing blow down the whole arm. <strong>Red line: stop testing at grade 3</strong>; the day's "largest grade" goes into the register; persons with heart conditions must not touch any grade (same safety clause as 30.1);</li>
+<li>Criterion: pass = two spark tests at the same charge count agree, or differ by within one grade; leakage suspected = after charging, let it stand 5 min and the spark drops two grades or more (verify: wipe the dry band clean, dry it, and retest).</li>
+</ul>
+<p><strong>Electrostatic shielding and point discharge (two mandatory comparison demonstrations)</strong></p>
+<ul>
+<li>Shielding: cover the electroscope with a wire mesh (mesh ≤10 mm) and bring a charged Leyden jar close from outside the bottle — the leaf angle does not move; remove the mesh and it opens. Conclusion for the register: <strong>inside the cage and outside it are two different worlds</strong> (the intellectual root of protecting instruments from electrostatic interference);</li>
+<li>Point discharge: stick the tail of a sewing needle into the top ball of a Leyden jar, needle tip 10–15 mm from a candle flame; once charged, the flame is steadily blown aside — "the point puts out the candle". The comparison piece is the same jar fitted with a round-headed ball electrode: at the same distance the flame only wavers and does not go out. The record must state the contrasting point: <strong>both are metal; the pointed one leaks charge, the round one stores it</strong>;</li>
+<li>Applications logged: the collecting comb of the electrostatic generator and the lightning rod both grow out of this one needle.</li>
+</ul>
+<p>[Card 30-05 Leyden Jar Fabrication and Discharge] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: glass bottle (uniform wall, no cracks, mouth 60–80 mm); tin foil (aluminum foil if tin is lacking, pressed flat, same performance), inner and outer walls each to 2/3 of the bottle height, about two palms of foil per application; cork stopper + copper rod and chain + top ball; discharger (dry wooden handle + thin metal rod with a small ball at the end).</li>
+<li><strong>Tools required</strong>: scissors; paste or shellac (let dry a full day after sticking); feeler gauge or thick paper slips (to set the ball gap; check with a 2 mm slip before use); electrostatic generator or rubbing rod (charging). Calibration: the charge-count-vs-spark-length curve is graded fresh the same day and re-graded every other day.</li>
+<li><strong>Operating sequence and control points</strong>: (1) bake the bottle by the stove for 1 h until thoroughly dry; (2) stick foil on the inner wall to 2/3 height (a hand can reach inside to work); (3) stick foil on the outer wall to the same height as the inner wall — <strong>control point: leave a dry band ≥30 mm between the two foils, and the foil edges must not curl over across it (surface tracking across the band means leakage)</strong>; (4) seal the stopper with the rod through, the chain hanging to touch the inner foil; (5) charge repeatedly with the generator or a rubbing rod; (6) always discharge with the discharger, <strong>grounded end first and only then approach the bottle</strong>. Also: <strong>ordinary materials cannot serve as high-voltage insulation</strong> — the jar interior is the step-up, energy-storing part and must stay out of human reach; approaching it bare-handed means a shock, and persons with heart conditions must not operate it.</li>
+<li><strong>Empirical parameters and calibration method</strong>: dry band ≥30 mm (procedure); spark grades micro &lt;2 / small 2–5 / medium 5–10 / large &gt;10 mm (empirical); two spark tests at the same charge count differing &lt;20%, and a grade drop &lt;2 after standing 5 min, as pass (empirical); shock grades 1 = tingling fingertips, 2 = a blow at the wrist, 3 = numbing blow down the whole arm, stop testing at grade 3 (red line).</li>
+<li><strong>In-process observation items</strong>: whether foil edges curl or wrinkle (discharge travels along the edges), faint purple glow on the dry band (leakage), spark length grade, shock-sensation grade, number of charging strokes, grade after standing 5 min, humidity and date.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = two spark tests at the same charge count within &lt;20% and a grade drop &lt;2 after standing 5 min; rework = bake the bottle, press the foil edges down, wipe the dry band clean, then retest; scrap = wall crack or white puncture traces (change the bottle); a drop of two grades or more after 5 min standing is treated as suspected leakage (wipe and dry the band, retest).</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) will not hold charge → dirty or damp dry band (wipe with alcohol, bake again); (2) sparks smaller → foil edges lifting (press flat, re-stick); (3) no charge at all → chain desoldered or stopper damp (pull the stopper, check the chain); (4) the whole grade table drifting → rising humidity or fatigued copper foil (compare with that day's freshly graded card, re-grade).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = a steady 2 mm spark; L2 = the spark range table + records of the shielding and point-discharge demonstrations entered in the register; L3 = the electrostatic metrology ledger (including range-drift corrections) with complete discharger-use records.</li>
+</ol>
+<h3 id="3010-standardizing-quantitative-demonstrations-of-the-three-effects-of-current-three-tables">30.10 Standardizing Quantitative Demonstrations of the Three Effects of Current: Three Tables<a class="headerlink" href="#3010-standardizing-quantitative-demonstrations-of-the-three-effects-of-current-three-tables" title="Permanent link">&para;</a></h3>
+<p>Sections 30.2–30.8 have shown the "phenomena" of the magnetic, chemical, and thermal effects; this section raises each of the three by one level — <strong>each effect delivers one table that a different person can re-measure</strong>; records follow the Chapter 25 five elements. The acceptance questions are unchanged: does disconnect-and-reconnect reproduce? Does another person get consistent results?</p>
+<p><strong>Magnetic effect: deflection-vs-turns table</strong></p>
+<ul>
+<li>Apparatus: when winding the galvanometer coil, leave taps in reserve — one terminal each brought out at 10/20/40 turns (same winding direction, same needle); the power source is fixed as one Daniell cell + the same load iron wire;</li>
+<li>Readings: record the equilibrium deflection at each of the three turn grades, three repetitions each, take the median;</li>
+<li>Criterion: a difference between the deflection ratio and the turns ratio &lt;15% (empirical value, weak linear region) counts as pass; beyond that = already out of the linear region — log the "saturation angle" (the critical reading beyond which the deflection no longer grows with the turns); from then on, always take readings below half the saturation angle;</li>
+<li>Calibration method: recheck the turn grades once a quarter against the reference cell (30.2.2); if the deflection has drifted &gt;10%, recalibrate or rewind.</li>
+</ul>
+<p><strong>Chemical effect: comparing deposit amounts at equal charge (copper/hydrogen baths in series)</strong></p>
+<ul>
+<li>Apparatus: a copper bath (dilute copper sulfate solution + two copper plates, electrode spacing 30 mm) and a hydrogen bath (1:9 dilute sulfuric acid + two carbon rods) connected <strong>in series</strong> to the same battery pack — series connection guarantees both baths carry <strong>the same current for the same time</strong>, timed with a pendulum clock for 10 min;</li>
+<li>Readings: weigh the copper bath's cathode (record the gain to 0.1 g; gram-scale balance see the Chapter 3 measuring tools); over the hydrogen bath's cathode, collect the gas in an inverted graduated test tube and read the gas column volume (mL);</li>
+<li>Criterion: two rounds under the same conditions with copper weight-gain difference &lt;10% and hydrogen volume difference &lt;15% counts as pass; if the copper gain is zero, first check for oxidized connections; if the hydrogen is zero, first check whether the carbon rods were wax-boiled (gas trapped in the carbon pores will deceive you — boil new carbon rods in wax first to expel the air);</li>
+<li>Conclusion to log: <strong>at the same charge, the amount deposited in each bath is its own constant</strong> — this is the idea of electrolytic equivalence (the absolute calibration method awaits Chapter 31).</li>
+</ul>
+<p><strong>Thermal effect: heating comparison with the same current and different wire diameters</strong></p>
+<ul>
+<li>Apparatus: connect 0.5/0.8/1.2 mm iron wires, each 200 mm long, one at a time into the same battery-pack circuit; <strong>hang one wax bead of the same size at the midpoint of each wire</strong> (drip-formed with a fine needle dipped in molten wax, 4–5 mm in diameter), with a porcelain dish beneath to catch the dripping wax;</li>
+<li>Readings: start timing when the current flows; record the time (s) for the wax bead to melt off; randomize the order in which the three wires take their turns, so "the battery weakening as it discharges" does not contaminate the comparison;</li>
+<li>Criterion (empirical starting point; calibrate against the local battery pack): the bead falls within 60 s on the 0.5 mm wire and does not fall within 5 min on the 1.2 mm wire — the comparison stands; the bead fails to fall on all three wires = the battery is weak; add cells up to 3 in series and retest;</li>
+<li>Safety: keep the heating wires away from acids and flammables; never leave the current unattended; change wires only after cutting the power.</li>
+</ul>
+<p>With all three tables complete, the "three effects of current" turn from a noun into three re-measurable measuring instruments.</p>
+<hr />
+<h3 id="3011-earth-return-and-first-grounding">30.11 Earth Return and First Grounding<a class="headerlink" href="#3011-earth-return-and-first-grounding" title="Permanent link">&para;</a></h3>
+<p>The old telegraph trick for saving copper is to use the earth as half a wire: one overhead line + a ground electrode at each end. This section builds the prototype — <strong>prove the earth conducts, make a ground electrode that passes, and log the seasonal account of soil conductivity</strong>. The formal grounding standard is established in Chapter 32; here we build only the minimal usable version.</p>
+<p><strong>Demonstration: the earth as a conductor</strong></p>
+<ul>
+<li>Apparatus: two ground electrodes 10–30 m apart, each brought indoors by a lead wire; wire the electric bell (30.5 device) and 3 Daniell cells in series into the circuit — the bell rings, so the current is crossing through the earth;</li>
+<li>Criterion: the ringing is clearly audible; break either electrode's lead wire and the bell stops at once (proving the current really goes through the earth, not through wire touching wire);</li>
+<li>Extension to log: swap the battery polarity and the bell is unchanged — the earth does not distinguish polarity (contrast: put an electrolysis bath in series in a metallic circuit and it does, see 30.10).</li>
+</ul>
+<p><strong>Making a ground electrode (prototype version)</strong></p>
+<ul>
+<li>Materials: one iron rod ≥16 mm in diameter and 1–1.2 m long (drill the top and crimp or lead-solder the lead wire); backfill of charcoal powder and coarse salt pre-mixed 2:1 by volume, about 2 L;</li>
+<li>Driving method: choose soil that stays moist year-round; drive the rod in until its top stands 300 mm above ground; pull it out halfway, sprinkle in backfill, and drive it in again — do this twice; <strong>a backfill ring hugging the rod closely is the key to lowering resistance</strong>;</li>
+<li>Criterion: retest with bell + cells in series; wiggle the lead wire and gently rock the rod — if the ringing is unchanged, contact is good; weak ring = pour in 5 L of salt water until soaked and retest; still weak = drive 300 mm deeper or add backfill;</li>
+<li>Silent failure first: a failed ground electrode makes no sound — <strong>pick one fixed day each month to retest with the bell in series</strong>; log the ring in three grades, strong/medium/weak; two consecutive weak months means repair — do not wait for it to fail on you.</li>
+</ul>
+<p><strong>Logging the seasonal variation of soil conductivity</strong></p>
+<ul>
+<li>Method: fix one pair of ground electrodes + a fixed number of cells; read the deflection with a galvanometer in series; measure one round on the first clear day after the first of each month, and one round on the day after a rain;</li>
+<li>Table format: Month | deflection after rain | deflection on clear day | soil grade (strong/medium/weak) | remarks (frozen/drought/waterlogged);</li>
+<li>Expectation (empirical): deflections are high after rain and during the humid summer; in winter freeze and prolonged drought they can fall by half or more — <strong>for any line that depends on the earth, check this table first before blaming the apparatus</strong>;</li>
+<li>System: once this table covers a full year, transcribe it into the ledger (Chapter 43 system); the formal Chapter 32 grounding standard uses it as its local basis.</li>
+</ul>
+<h3 id="3012-electric-bell-and-relay-detail-drawings-level-fabrication">30.12 Electric Bell and Relay: Detail-Drawings-Level Fabrication<a class="headerlink" href="#3012-electric-bell-and-relay-detail-drawings-level-fabrication" title="Permanent link">&para;</a></h3>
+<p>The bell (30.5) demonstrated self-sustained oscillation; this section takes it apart to the level of adjustable, measurable, repairable — and along the way grows the <strong>relay</strong>: the same electromagnet + armature + contacts, with the bell replaced by a silent signal contact — a switch that "uses a small current to throw a large current". The Chapter 32 telegraph relay depends entirely on it.</p>
+<p><strong>Four elements, each individually adjustable</strong></p>
+<ol>
+<li><strong>Armature gap</strong>: cold starting point 2 mm (measured with a feeler gauge), approach the optimum in 0.5 mm steps. Too large = will not pull in, or the strike is feeble; too small = will not break open, sticking tendency rises. Pass criterion: the bell rings continuously and crisply, and stops the instant power is cut;</li>
+<li><strong>Contact material and pressure</strong>: silver strip is best (it oxidizes reluctantly); use copper strip if no silver (grind once a week: fold fine sandpaper with the grit inward, clamp the contact, and draw it through 3–5 times). Pressure is not measured directly; compensate with <strong>overtravel</strong> — after the armature pulls fully in, the moving contact must push the stationary blade along with it for 0.3–0.5 mm (the film-wiping action). ◎ hand-feel: pre-bend the spring blade to "about to snap but not yet"; practice method — bend 20 pieces from scrap spring blades, and for each piece use the pull-in current as the objective criterion to check the hand-feel in reverse, until the hand-feel and the criterion agree;</li>
+<li><strong>Self-sustained oscillation frequency</strong>: determined by the spring blade's stiffness, the armature's mass, and the gap; of the three, the gap is the most sensitive. How to log: count the strikes in 10 s and divide by 10; record "strikes/second" (slow grade 2–4; fast grade rings in a continuous blur, beyond counting);</li>
+<li><strong>Pull-in and drop-out currents</strong>: measurement method see Card 30-06. Return coefficient = drop-out current / pull-in current, empirically 60–80%; a coefficient too low = gap too large or spring blade too stiff.</li>
+</ol>
+<p>[Card 30-06 Relay Fabrication and Pull-In Measurement] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: electromagnet on a soft iron core (finished 30.5 unit or freshly wound, 200–400 turns, waxed-cloth insulation); armature of thin iron sheet 0.5–1 mm thick; spring blade of watch-mainspring steel or brass sheet 0.3–0.5 mm thick (bamboo strip backed with copper foil if no mainspring steel — shorter life, must be logged honestly); silver or copper contacts 2×3 mm; one wooden baseboard.</li>
+<li><strong>Tools required</strong>: hand-crank drill, needle files, feeler gauge (0.5–3 mm grades), galvanometer (deflection converted to current), a lamp for first-test current limiting. Calibration: gap approached from a 2 mm starting point in 0.5 mm steps; pull-in current judged as "the smallest battery grade at which the armature just moves".</li>
+<li><strong>Operating sequence and control points</strong>: (1) wind the core, waxed cloth between layers; (2) mount the armature and spring blade, <strong>cold gap 2 mm</strong> (feeler gauge); (3) align the contacts, <strong>control point: overtravel 0.3–0.5 mm</strong> (still pushing the stationary blade after pulling fully in, guaranteeing self-wiping of the oxide film); (4) wire a lamp in series for the first test; (5) measure pull-in/drop-out currents grade by grade and log them; (6) return coefficient = drop-out / pull-in, empirically 60–80%. Once voltage is stepped up the contacts and coil are live parts: <strong>ordinary materials cannot serve as high-voltage insulation</strong> — keep them out of human reach and disconnect the power before wiring.</li>
+<li><strong>Empirical parameters and calibration method</strong>: cold gap 2 mm starting point, 0.5 mm steps; overtravel 0.3–0.5 mm (procedure); return coefficient 60–80% (empirical); pull-in/drop-out measured three times within &lt;20% counts as accurate; copper contacts without silver ground once a week (fine sandpaper folded, 3–5 draws); oscillation frequency logged as "strikes/second" (slow grade 2–4).</li>
+<li><strong>In-process observation items</strong>: whether the pull-in sound is crisp or dull, contact spark size, whether the spring blade snaps back cleanly, contact blackening after 100 continuous operations, pull-in/drop-out currents and the return coefficient, gap readings.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = pull-in/drop-out three times within &lt;20% and 100 continuous operations without sticking; rework = grind the contacts, add pre-bend, adjust the gap; scrap = fatigue fracture of the spring blade or an interlayer short in the core (replace the part); an armature that will not release after power-off and sticks when pushed = contact sticking, handled per the failure table.</li>
+<li><strong>Common failures and troubleshooting order</strong> (by frequency): (1) no pull-in → check in order: too few cells → too few turns → gap too large → spring blade too stiff; (2) no drop-out → gap too small → contacts fused → spring blade too soft (remedies in that order: enlarge the gap, grind the contacts and add overtravel, change the spring); (3) jittery rapid-fire action → insufficient contact pressure (add pre-bend); (4) contacts blackening fast → insufficient overtravel or unsuitable contact material (switch to silver, add overtravel).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = pull-in action visible to the naked eye and repeatable; L2 = the pull-in/drop-out current log written up + a 100-operation continuous record; L3 = the relay entered in the register with contact material and life records, for direct citation by the Chapter 32 telegraph relay.</li>
+</ol>
+<hr />
+<h2 id="master-parameter-table">Master Parameter Table<a class="headerlink" href="#master-parameter-table" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Class</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Daniell voltage</td>
+<td>≈1.1 V/cell (open circuit)</td>
+<td>Empirical; calibrate cell by cell</td>
+</tr>
+<tr>
+<td>Loaded stability criterion</td>
+<td>Voltage drop &lt;10% in 30 min</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Sulfuric acid dilution</td>
+<td>1 part oil of vitriol + 9 parts water (acid into water)</td>
+<td>Empirical starting point</td>
+</tr>
+<tr>
+<td>Capacity criterion line</td>
+<td>Discharge until 60–70% of starting voltage</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Internal resistance formula</td>
+<td>r＝(V₀−V)×R/V</td>
+<td>Method</td>
+</tr>
+<tr>
+<td>Dendrite prevention</td>
+<td>Copper-salt level <strong>lower than</strong> zinc-side level</td>
+<td>Procedure</td>
+</tr>
+<tr>
+<td>Spark coil turns ratio</td>
+<td>Primary thick wire, few turns / secondary thin wire, a thousand-plus turns</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Magnetizing technique</td>
+<td>One-way strokes, even pressure</td>
+<td>◎ hand-feel</td>
+</tr>
+<tr>
+<td>Compass correction</td>
+<td>Log the local magnetic declination against equal-shadow-method true north</td>
+<td>System</td>
+</tr>
+<tr>
+<td>Electroscope grades</td>
+<td>1/3/6/10 rubs → barely/small/medium/wide open (calibrate each unit, paste the card)</td>
+<td>Empirical; calibration into ledger</td>
+</tr>
+<tr>
+<td>Leyden jar spark grades</td>
+<td>micro &lt;2 / small 2–5 / medium 5–10 / large &gt;10 mm</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Dry band width</td>
+<td>≥30 mm between the inner- and outer-wall foils</td>
+<td>Procedure</td>
+</tr>
+<tr>
+<td>Linear region criterion</td>
+<td>Difference between deflection ratio and turns ratio &lt;15%</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Equal-charge criterion</td>
+<td>Copper weight-gain difference &lt;10%, hydrogen volume difference &lt;15% across two rounds</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Ground electrode backfill</td>
+<td>Charcoal powder : coarse salt = 2:1 by volume, about 2 L per electrode</td>
+<td>Empirical starting point</td>
+</tr>
+<tr>
+<td>Armature cold gap</td>
+<td>2 mm starting point, approach in 0.5 mm steps</td>
+<td>Empirical</td>
+</tr>
+<tr>
+<td>Contact overtravel</td>
+<td>0.3–0.5 mm</td>
+<td>Procedure</td>
+</tr>
+<tr>
+<td>Relay return coefficient</td>
+<td>Drop-out ≈ 60–80% of pull-in</td>
+<td>Empirical</td>
+</tr>
+</tbody>
+</table>
+<h2 id="failure-modes-and-diagnosis">Failure Modes and Diagnosis<a class="headerlink" href="#failure-modes-and-diagnosis" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Candidate causes (by probability)</th>
+<th>Verification</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cell current decays within minutes</td>
+<td>Polarization (hydrogen bubbles coating the plates)</td>
+<td>Look at the bubbles on the plates</td>
+<td>Add charcoal powder depolarizer / switch to Daniell</td>
+</tr>
+<tr>
+<td>Voltage collapses under any load</td>
+<td>High internal resistance</td>
+<td>Measure r by the voltage-drop method</td>
+<td>Enlarge the plates / shorten the spacing</td>
+</tr>
+<tr>
+<td>Draining even when unused</td>
+<td>Local action (impurity micro-cells)</td>
+<td>Plates whitening</td>
+<td>Select pure faces; lift the plates out when idle</td>
+</tr>
+<tr>
+<td>Daniell cell suddenly shorted and dead</td>
+<td>Dendrites through the diaphragm</td>
+<td>Copper dendrites visible on the pot wall</td>
+<td>Remake the liquids + correct the level difference</td>
+</tr>
+<tr>
+<td>Blue liquid fading</td>
+<td>Copper ions exhausted</td>
+<td>Visual color comparison</td>
+<td>Add copper sulfate crystals</td>
+</tr>
+<tr>
+<td>Spark coil gives no spark</td>
+<td>Interrupter contacts oxidized</td>
+<td>Polish the contacts</td>
+<td>Adjust the spring tension / grind the contacts</td>
+</tr>
+<tr>
+<td>Needle magnetism fading</td>
+<td>Under-magnetized / steel too soft</td>
+<td>Compare iron-powder pickup amounts</td>
+<td>Re-magnetize; switch to high-carbon steel</td>
+</tr>
+<tr>
+<td>Galvanometer readings drifting</td>
+<td>Needle magnetism fading / coil damp</td>
+<td>Recheck against the reference cell</td>
+<td>Re-magnetize; dry out</td>
+</tr>
+<tr>
+<td>Static grades drifting (leaf angle shrinks at the same rub count)</td>
+<td>Rising humidity / fatigued, deformed copper foil</td>
+<td>Compare against that day's freshly graded range card</td>
+<td>Bake the bottle and the foil; re-stick the foil; re-grade the range table</td>
+</tr>
+<tr>
+<td>Relay contacts sticking (armature does not release when power is cut)</td>
+<td>Insufficient contact pressure + spark welding / oxide film</td>
+<td>With power off, push the armature and see whether the contacts stick</td>
+<td>Grind the contacts; increase the overtravel; switch to silver contacts</td>
+</tr>
+<tr>
+<td>Earth circuit intermittently open</td>
+<td>Ground electrode contact resistance changing with soil moisture / lead wires rusting</td>
+<td>Wiggle the lead wire and see if the bell recovers; re-measure the deflection after rain</td>
+<td>Pour in salt water + top up the charcoal-salt backfill; switch the lead wires to lead-soldering for rust protection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="process-card-index">Process Card Index<a class="headerlink" href="#process-card-index" title="Permanent link">&para;</a></h2>
+<h2 id="acceptance-criteria">Acceptance Criteria<a class="headerlink" href="#acceptance-criteria" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>L1</strong>: Oersted's experiment reproduced with reverse-current verification; voltaic pile demonstrating two effects (bubbling / heating); magnetic-needle compass holding a steady bearing with the true-north correction logged.</li>
+<li><strong>L2</strong>: three Daniell cells in series powering a galvanometer steadily for a whole day (drop &lt;10% in 30 min); one measurement record each for capacity and internal resistance; the electromagnet "turns × current vs. pull" table written up; spark coil jumping a spark successfully; galvanometer repeatability (two deflections differ by &lt;half a division); electroscope range card and Leyden jar spark range table each written up; each of the three tables of the three effects (deflection-vs-turns, copper/hydrogen equal-charge, wax-bead melt time) with one re-measurement record by a different person; relay pull-in/drop-out current measurement entered in the register.</li>
+<li><strong>L3</strong>: supply lines for the three consumables zinc/iron, acid, and copper salts entered in the ledger (Chapter 38); reference-cell system in operation (quarterly recheck); device register complete for direct citation by Chapter 31; storage-battery plate pre-fabrication ready (awaiting the Chapter 31 charging backfill). Evidence: battery archive, reference-cell recheck records, consumption ledger, electrostatic metrology ledger, soil seasonal conductivity log.</li>
+</ul>
+<h2 id="work-hours-manpower-and-consumption">Work Hours, Manpower, and Consumption<a class="headerlink" href="#work-hours-manpower-and-consumption" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Manpower</th>
+<th>Work hours (empirical values)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>One set of three Daniell cells</td>
+<td>1 person</td>
+<td>1 day (including mixing solutions)</td>
+</tr>
+<tr>
+<td>One spark coil</td>
+<td>2 people</td>
+<td>2–3 days (mostly winding)</td>
+</tr>
+<tr>
+<td>One round of capacity/internal resistance measurement</td>
+<td>1 person</td>
+<td>Half a day</td>
+</tr>
+<tr>
+<td>Magnetizing ten steel needles</td>
+<td>1 person</td>
+<td>1 h</td>
+</tr>
+<tr>
+<td>Electroscope grade calibration (including one daily-correction round)</td>
+<td>1 person</td>
+<td>Half a day</td>
+</tr>
+<tr>
+<td>One pair of ground electrodes (including driving and backfill)</td>
+<td>2 people</td>
+<td>Half a day</td>
+</tr>
+<tr>
+<td>Monthly soil conductivity recheck (two electrodes, one line)</td>
+<td>1 person</td>
+<td>0.5 h</td>
+</tr>
+<tr>
+<td>One relay (including pull-in measurement)</td>
+<td>2 people</td>
+<td>2 days</td>
+</tr>
+<tr>
+<td>Consumption</td>
+<td>Per operating day: zinc 5–20 g, acid, copper sulfate</td>
+<td>Entered in the Chapter 38 ledger</td>
+</tr>
+</tbody>
+</table>
+<h2 id="safety-boundary">Safety Boundary<a class="headerlink" href="#safety-boundary" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Leyden jars are always discharged with the discharger after charging; shock "games" are strictly forbidden;</li>
+<li>Water electrolysis tests: no open flame where hydrogen collects;</li>
+<li>Acid rules as in Chapters 23/26 (ventilation, <strong>acid into water</strong>, 15 min of clean water if splashed in the eyes);</li>
+<li>The spark coil secondary is sting-level — operate with insulated handles; once battery packs are wired in series and voltage rises, enforce "wire only with power off, never touch with wet hands";</li>
+<li>Circuit discipline is established from the very first device: <strong>disconnect the power before wiring</strong> — the habit will save lives when the high-voltage era arrives.</li>
+</ul>
+<h2 id="a-tools-already-in-hand">A. Tools Already in Hand<a class="headerlink" href="#a-tools-already-in-hand" title="Permanent link">&para;</a></h2>
+<p>Copper/zinc/iron stock (Chapters 17, 18); lodestone (Chapter 16); vinegar and the three acids (Chapter 23); distilled water (Chapter 26); compass and angles (Chapters 3, 25); record system (Chapter 25); clay-pot diaphragm (Chapter 11).</p>
+<h2 id="b-new-tools-added-in-this-chapter">B. New Tools Added in This Chapter<a class="headerlink" href="#b-new-tools-added-in-this-chapter" title="Permanent link">&para;</a></h2>
+<p>Electroscope, Leyden jar, and discharger; <strong>the Daniell two-solution cell (depolarized two-solution structure) and treatment of the three battery ailments</strong>; <strong>capacity/internal resistance measurement methods and the reference-cell system</strong>; conductor-insulator grading table; wire-gauge-to-resistance cross-reference table; magnetized steel needles and the <strong>true-north-corrected compass</strong>; iron-filing visualization; Oersted and the three-finger mnemonic; <strong>self-induction and the spark coil (with interrupter)</strong>; the solenoid and the three electromagnet devices; the galvanometer and the comparison method; <strong>electroscope range cards and the spark range table (electrostatic metrology)</strong>; <strong>copper/hydrogen baths in series and the wax-bead heating comparison (the three quantitative tables of the three effects)</strong>; <strong>ground electrodes and the soil seasonal conductivity log</strong>; <strong>the relay and pull-in/drop-out current measurement methods</strong>; the storage-battery principle logged and plates pre-fabricated.</p>
+<h2 id="c-unresolved-dependencies">C. Unresolved Dependencies<a class="headerlink" href="#c-unresolved-dependencies" title="Permanent link">&para;</a></h2>
+<p>Charging current source for storage batteries (backfilled at 31.10 of Chapter 31); absolute calibration (Chapter 31 electrolytic method); insulated copper wire in bulk (Chapter 31); strong-permanent-magnet bootstrap (Chapter 31 magnet bootstrap chain); vacuum and thermionics (Chapter 33).</p>
+<h2 id="next-step-dependencies">Next-Step Dependencies<a class="headerlink" href="#next-step-dependencies" title="Permanent link">&para;</a></h2>
+<p>Chapter 31: the electromagnet and the galvanometer are the two cornerstones of the generator; electrolytic calibration; storage-battery backfill. Chapter 32: the bell contacts and the sound code grow into the telegraph; the relay (30.12) serves as the relay mother machine; the formal grounding standard uses the 30.11 prototype and the seasonal conductivity table as its local basis. Chapter 33: the spark coil = the high-frequency leak detector; the thermal-effect route extends into the lamp filament. Chapter 35: chemical power sources take this chapter's cell as their prototype. Chapter 38: the battery-consumption ledger.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Ch29-Power-Selection-Load-Characteristics-and-Combined-Operation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ch 29 Power Selection Load Characteristics and Combined Operation">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Ch 29 Power Selection Load Characteristics and Combined Operation
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Ch31-The-First-Generator/" class="md-footer__link md-footer__link--next" aria-label="Next: Ch 31 The First Generator">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Ch 31 The First Generator
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC BY-NC-SA 4.0 · Jweokk · 本版为快照，不跟随更新
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.suggest", "search.highlight", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/shelf-counter.js"></script>
+      
+    
+  </body>
+</html>

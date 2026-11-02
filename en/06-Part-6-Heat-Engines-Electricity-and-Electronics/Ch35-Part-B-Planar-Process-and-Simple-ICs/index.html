@@ -1,0 +1,4869 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="From a single stone back to electricity · 56 chapters · 286 eight-field process cards · Chinese and English">
+      
+      
+      
+        <link rel="canonical" href="https://restart.fly2ai.top/en/06-Part-6-Heat-Engines-Electricity-and-Electronics/Ch35-Part-B-Planar-Process-and-Simple-ICs/">
+      
+      
+        <link rel="prev" href="../Ch35-Part-A-Silicon-and-Wafer-Preparation/">
+      
+      
+        <link rel="next" href="../Ch36-From-First-Chip-to-a-Sustainable-Electronics-Industry/">
+      
+      
+        
+          <link rel="alternate" href="/" hreflang="zh">
+        
+          <link rel="alternate" href="/en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon-192.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Ch 35 Part B Planar Process and Simple ICs - The Civilization Restart Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-35-part-b-planar-process-and-simple-integrated-circuits-35b" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Civilization Restart Manual" class="md-header__button md-logo" aria-label="The Civilization Restart Manual" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Civilization Restart Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ch 35 Part B Planar Process and Simple ICs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="zh" class="md-select__link">
+              中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jweokk/civilization-restart-manual" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Civilization Restart Manual" class="md-nav__button md-logo" aria-label="The Civilization Restart Manual" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    The Civilization Restart Manual
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jweokk/civilization-restart-manual" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Constitution
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    General Constitution
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G01-Iron-Laws-and-Restart-Conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G01 Iron Laws and Restart Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G02-Chapter-Framework-and-Process-Card-System/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G02 Chapter Framework and Process Card System
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G03-Six-Technology-Lineages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G03 Six Technology Lineages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-General-Constitution/G04-Dependency-Map-and-Decision-Framework/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G04 Dependency Map and Decision Framework
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 1 · Rules and Natural Resources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 1 · Rules and Natural Resources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch01-What-Civilization-Restart-Really-Means/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 01 What Civilization Restart Really Means
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch02-Know-the-Natural-World-First/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 02 Know the Natural World First
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch03-Building-a-Measurement-System-Without-Standard-Tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 03 Building a Measurement System Without Standard Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Part-1-Rules-and-Natural-Resources/Ch04-How-to-Use-This-Manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 04 How to Use This Manual
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 2 · Survival Fire and Primitive Materials
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 2 · Survival Fire and Primitive Materials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch05-The-First-Tool-Stone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 05 The First Tool Stone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch06-The-First-Controllable-Energy-Fire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 06 The First Controllable Energy Fire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch07-Wood-Fibers-and-Rope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 07 Wood Fibers and Rope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch08-Clay-Ash-and-Natural-Chemical-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 08 Clay Ash and Natural Chemical Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Part-2-Survival-Fire-and-Primitive-Materials/Ch09-The-First-Truly-Reusable-Tool-Kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 09 The First Truly Reusable Tool Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 3 · Agriculture Pottery and Basic Industry
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 3 · Agriculture Pottery and Basic Industry
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch10-Food-Storage-and-Agriculture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 10 Food Storage and Agriculture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch11-The-First-Pot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 11 The First Pot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch12-From-Pottery-Kiln-to-High-Temperature-Furnace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 12 From Pottery Kiln to High Temperature Furnace
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch13-Lime-Mortar-and-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 13 Lime Mortar and Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch14-The-Birth-of-Glass/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 14 The Birth of Glass
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Part-3-Agriculture-Pottery-and-Basic-Industry/Ch15-Textile-Leather-and-Protective-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 15 Textile Leather and Protective Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 4 · Metals Machinery and Precision Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 4 · Metals Machinery and Precision Manufacturing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch16-Metal-Ores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 16 Metal Ores
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch17-The-First-Metal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 17 The First Metal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch18-From-Ore-to-Iron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 18 From Ore to Iron
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch19-Steel-Heat-Treatment-and-Durable-Tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 19 Steel Heat Treatment and Durable Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch20-Building-the-First-Real-Machine-Tool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 20 Building the First Real Machine Tool
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch21-From-Timber-Frames-to-Precision-Machinery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 21 From Timber Frames to Precision Machinery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch22-Measurement-Standards-and-Repeatable-Manufacturing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 22 Measurement Standards and Repeatable Manufacturing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Part-4-Metals-Machinery-and-Precision-Manufacturing/Ch23-Industrial-Materials-and-Basic-Chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 23 Industrial Materials and Basic Chemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 5 · Optics Chemistry and Scientific Instruments
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 5 · Optics Chemistry and Scientific Instruments
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch24-From-Water-Drop-to-Lens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 24 From Water Drop to Lens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch25-From-Observation-to-Quantitative-Science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 25 From Observation to Quantitative Science
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch26-From-Still-to-Experimental-Chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 26 From Still to Experimental Chemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-A-Temperature-and-Pressure-Instruments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 27 Part A Temperature and Pressure Instruments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Part-5-Optics-Chemistry-and-Scientific-Instruments/Ch27-Part-B-Flow-Vacuum-and-Calibration-Chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 27 Part B Flow Vacuum and Calibration Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 6 · Heat Engines Electricity and Electronics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 6 · Heat Engines Electricity and Electronics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch28-From-Fire-to-Steam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 28 From Fire to Steam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch29-Power-Selection-Load-Characteristics-and-Combined-Operation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 29 Power Selection Load Characteristics and Combined Operation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch30-Experimental-Foundations-of-Electromagnetism/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 30 Experimental Foundations of Electromagnetism
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch31-The-First-Generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 31 The First Generator
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch32-From-Wires-to-the-Grid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 32 From Wires to the Grid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch33-The-First-Electronic-Devices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 33 The First Electronic Devices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch34-From-Minerals-to-Semiconductor-Grade-Materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 34 From Minerals to Semiconductor Grade Materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch35-Part-A-Silicon-and-Wafer-Preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 35 Part A Silicon and Wafer Preparation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 35 Part B Planar Process and Simple ICs
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 35 Part B Planar Process and Simple ICs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#35b0-part-b-introduction-failure-in-the-surface-world-is-random" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.0 Part B Introduction: Failure in the Surface World Is Random
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-start-verification-part-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-Start Verification (Part B)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35b-material-unlock-status-declaration-new-this-round-read-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B Material Unlock Status Declaration (new this round; read first)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="35.B Material Unlock Status Declaration (new this round; read first)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#35b1-part-b-materials-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.1 Part B Materials List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b2-part-b-tools-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.2 Part B Tools List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b3-the-road-to-integration-from-discrete-components-to-the-planar-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.3 The Road to Integration: From Discrete Components to the Planar Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b4-birds-eye-view-of-the-full-flow-and-first-article-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.4 Bird's-Eye View of the Full Flow and First-Article Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b5-thermal-oxidation-masking-layer-passivation-layer-and-dielectric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.5 Thermal Oxidation: Masking Layer, Passivation Layer, and Dielectric
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b6-the-photosensitive-resist-dichromategelatin-system-and-same-day-sensitivity-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.6 The Photosensitive Resist: Dichromate–Gelatin System and Same-Day Sensitivity Calibration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b7-photomasks-from-enlarged-drawing-to-working-mask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.7 Photomasks: From Enlarged Drawing to Working Mask
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b8-contact-exposure-and-overlay-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.8 Contact Exposure and Overlay Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b9-wet-etching-window-opening-and-anisotropic-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.9 Wet Etching: Window Opening and Anisotropic Rates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b10-diffusion-junctions-and-device-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.10 Diffusion, Junctions, and Device Formation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b11-metal-interconnect-and-electrodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.11 Metal Interconnect and Electrodes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b12-on-wafer-testing-of-individual-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.12 On-Wafer Testing of Individual Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b13-verifying-the-simplest-integrated-logic-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.13 Verifying the Simplest Integrated Logic Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b14-why-the-first-chip-must-be-extremely-crude" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.14 Why the First Chip Must Be Extremely Crude
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b15-from-laboratory-samples-to-repeatable-manufacture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.15 From Laboratory Samples to Repeatable Manufacture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b16-bottlenecks-that-cannot-be-crossed-cleanliness-material-purity-equipment-and-metrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.16 Bottlenecks That Cannot Be Crossed: Cleanliness, Material Purity, Equipment, and Metrology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameter-master-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameter Master Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes-and-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes and Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-card-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Card Index
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria-l1l2l3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Criteria L1/L2/L3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#labor-staffing-and-consumption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Labor, Staffing, and Consumption
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safety-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety Boundaries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-existing-tool-list-partial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Existing Tool List (partial)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-new-tools-introduced-in-this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. New Tools Introduced in This Chapter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-unresolved-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. Unresolved Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next-Step Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ch36-From-First-Chip-to-a-Sustainable-Electronics-Industry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 36 From First Chip to a Sustainable Electronics Industry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 7 · Production Organization and Governance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 7 · Production Organization and Governance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch37-Carrying-Capacity-Population-Balance-and-Labor-Organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 37 Carrying Capacity Population Balance and Labor Organization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch38-Material-and-Energy-Ledgers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 38 Material and Energy Ledgers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch39-Maintenance-Spare-Parts-Life-and-Quality-Traceability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 39 Maintenance Spare Parts Life and Quality Traceability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Part-7-Production-Organization-and-Governance/Ch40-Alternative-Routes-Degraded-Operation-and-Disaster-Redundancy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 40 Alternative Routes Degraded Operation and Disaster Redundancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 8 · Knowledge Media and Transmission
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 8 · Knowledge Media and Transmission
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch41-Paper-Ink-and-Writing-Media/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 41 Paper Ink and Writing Media
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch42-Engineering-Drawing-Documentation-and-Version-Control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 42 Engineering Drawing Documentation and Version Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Part-8-Knowledge-Media-and-Transmission/Ch43-Archives-Ledgers-Negative-Results-and-Apprenticeship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 43 Archives Ledgers Negative Results and Apprenticeship
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 9 · Medicine Hygiene and Occupational Safety
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 9 · Medicine Hygiene and Occupational Safety
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch44-First-Aid-Trauma-and-Basic-Surgery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 44 First Aid Trauma and Basic Surgery
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch45-Infection-Control-Disinfection-and-Sanitary-Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 45 Infection Control Disinfection and Sanitary Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch46-Basic-Medicines-Dosing-Trials-and-Toxicology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 46 Basic Medicines Dosing Trials and Toxicology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch47-Diagnosis-Case-Records-and-Epidemiology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 47 Diagnosis Case Records and Epidemiology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch48-Obstetrics-Infants-and-Deficiency-Diseases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 48 Obstetrics Infants and Deficiency Diseases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Part-9-Medicine-Hygiene-and-Occupational-Safety/Ch49-Occupational-Health-Toxins-and-Industrial-Waste/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 49 Occupational Health Toxins and Industrial Waste
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 10 · Four Environment Plans
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 10 · Four Environment Plans
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch50-Rainforest-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 50 Rainforest Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch51-Frozen-Ground-and-Cold-Region-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 51 Frozen Ground and Cold Region Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch52-Desert-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 52 Desert Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Part-10-Four-Environment-Plans/Ch53-Island-Edition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 53 Island Edition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Part 11 · Supplementary Technical Line
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Part 11 · Supplementary Technical Line
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch54-Transport-and-Civil-Engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 54 Transport and Civil Engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch55-Telegraph-and-Early-Radio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 55 Telegraph and Early Radio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11-Part-11-Supplementary-Technical-Line/Ch56-Mathematical-Tools-and-the-Slide-Rule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ch 56 Mathematical Tools and the Slide Rule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Appendices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-A-Dependency-Map-Lineages-and-Card-Master-Index/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix A Dependency Map Lineages and Card Master Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-B-Level-Acceptance-Master-Table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix B Level Acceptance Master Table
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-C-Safety-Red-Lines-and-Fatal-Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix C Safety Red Lines and Fatal Errors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../13-Appendices/Appendix-D-Terminology-and-Units/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendix D Terminology and Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#35b0-part-b-introduction-failure-in-the-surface-world-is-random" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.0 Part B Introduction: Failure in the Surface World Is Random
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-start-verification-part-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-Start Verification (Part B)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#35b-material-unlock-status-declaration-new-this-round-read-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B Material Unlock Status Declaration (new this round; read first)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="35.B Material Unlock Status Declaration (new this round; read first)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#35b1-part-b-materials-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.1 Part B Materials List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b2-part-b-tools-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.2 Part B Tools List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b3-the-road-to-integration-from-discrete-components-to-the-planar-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.3 The Road to Integration: From Discrete Components to the Planar Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b4-birds-eye-view-of-the-full-flow-and-first-article-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.4 Bird's-Eye View of the Full Flow and First-Article Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b5-thermal-oxidation-masking-layer-passivation-layer-and-dielectric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.5 Thermal Oxidation: Masking Layer, Passivation Layer, and Dielectric
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b6-the-photosensitive-resist-dichromategelatin-system-and-same-day-sensitivity-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.6 The Photosensitive Resist: Dichromate–Gelatin System and Same-Day Sensitivity Calibration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b7-photomasks-from-enlarged-drawing-to-working-mask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.7 Photomasks: From Enlarged Drawing to Working Mask
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b8-contact-exposure-and-overlay-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.8 Contact Exposure and Overlay Alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b9-wet-etching-window-opening-and-anisotropic-rates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.9 Wet Etching: Window Opening and Anisotropic Rates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b10-diffusion-junctions-and-device-formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.10 Diffusion, Junctions, and Device Formation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b11-metal-interconnect-and-electrodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.11 Metal Interconnect and Electrodes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b12-on-wafer-testing-of-individual-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.12 On-Wafer Testing of Individual Devices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b13-verifying-the-simplest-integrated-logic-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.13 Verifying the Simplest Integrated Logic Function
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b14-why-the-first-chip-must-be-extremely-crude" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.14 Why the First Chip Must Be Extremely Crude
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b15-from-laboratory-samples-to-repeatable-manufacture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.15 From Laboratory Samples to Repeatable Manufacture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35b16-bottlenecks-that-cannot-be-crossed-cleanliness-material-purity-equipment-and-metrology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        35.B.16 Bottlenecks That Cannot Be Crossed: Cleanliness, Material Purity, Equipment, and Metrology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameter-master-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parameter Master Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes-and-diagnosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes and Diagnosis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-card-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Card Index
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acceptance-criteria-l1l2l3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceptance Criteria L1/L2/L3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#labor-staffing-and-consumption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Labor, Staffing, and Consumption
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#safety-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Safety Boundaries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-existing-tool-list-partial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. Existing Tool List (partial)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-new-tools-introduced-in-this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. New Tools Introduced in This Chapter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-unresolved-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. Unresolved Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-step-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next-Step Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<hr />
+<h1 id="chapter-35-part-b-planar-process-and-simple-integrated-circuits-35b">Chapter 35 · Part B: Planar Process and Simple Integrated Circuits (35.B)<a class="headerlink" href="#chapter-35-part-b-planar-process-and-simple-integrated-circuits-35b" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Continues from Part A: the wafer now enters oxidation / photolithography / diffusion / metallization / packaging. The end-of-chapter fixed blocks (parameter master table / failure modes / acceptance, etc.) are placed at the end of this Part B file.</p>
+</blockquote>
+<h3 id="35b0-part-b-introduction-failure-in-the-surface-world-is-random">35.B.0 Part B Introduction: Failure in the Surface World Is Random<a class="headerlink" href="#35b0-part-b-introduction-failure-in-the-surface-world-is-random" title="Permanent link">&para;</a></h3>
+<h2 id="pre-start-verification-part-b">Pre-Start Verification (Part B)<a class="headerlink" href="#pre-start-verification-part-b" title="Permanent link">&para;</a></h2>
+<p>| 1 | Wafer | Cleared by Part A: mirror finish + parallelism record |
+| 2 | Materials | Item-by-item check against the 35.B material unlock status declaration (current state of the chromium / silver / HF three lines) |
+| 3 | High temperature | Diffusion-furnace temperature control handled per the Chapter 34 not-yet-unlocked status |</p>
+<h2 id="35b-material-unlock-status-declaration-new-this-round-read-first">35.B Material Unlock Status Declaration (new this round; read first)<a class="headerlink" href="#35b-material-unlock-status-declaration-new-this-round-read-first" title="Permanent link">&para;</a></h2>
+<p>Three key materials of Part B are <strong>not yet unlocked</strong>; unlock conditions are given item by item. While locked, this chapter is positioned as a <strong>development-assault roadmap</strong>, not an executable chapter:</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Use</th>
+<th>Status</th>
+<th>Unlock condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dichromate (gelatin photosensitive resist)</td>
+<td>Photoresist</td>
+<td>Chrome ore source not surveyed (Class-C dependency, Chapter 19); hexavalent chromium strongly carcinogenic</td>
+<td>Chromite → chromate line (new section added to Chapter 23); or the alternative system "albumin–iron-salt photosensitive resist" (registered, pending verification)</td>
+</tr>
+<tr>
+<td>HF/BHF</td>
+<td>Window etching</td>
+<td>Frozen at Section 23.14</td>
+<td>Unlocked once the five conditions of Section 23.14 are all met (calcium preparation via the Section 23.9.4 calcium chloride line, sealed enclosure, burn treatment, waste-acid neutralization, dedicated crew)</td>
+</tr>
+<tr>
+<td>Silver paste (fine silver powder)</td>
+<td>Interconnect</td>
+<td>Silver ore "registered only, not pursued" (Chapter 16); no cupellation silver-recovery line</td>
+<td>Lead-ore cupellation → silver nitrate → reduced silver powder line (new section added to Chapter 23); with no silver, interconnect downgraded to registered status</td>
+</tr>
+</tbody>
+</table>
+<p><strong>First-article trial order</strong>: first run the chromium-free, silver-free alternative line "albumin–iron-salt resist + copper interconnect" to verify the process window; the original chromium/silver/HF three lines advance per their unlock conditions.</p>
+<p>Part B enters the surface world: the oxide layer is only half a micrometer thick, pattern line widths half a millimeter — at every scale, <strong>a single grain of dust is a workpiece</strong>. In Part A a failure ruins one ingot, and the test-piece system intercepts it; in Part B a failure ruins one pattern, intercepted by <strong>wafer-by-wafer, layer-by-layer visual inspection + witness-wafer calibration + yield statistics</strong>. The handover interface between the two parts is a single rule: the wafer travels with its card. Part B rejects any wafer whose Part A records are incomplete — this is not bureaucracy; it is the only chain of responsibility when troubleshooting.</p>
+<h3 id="35b1-part-b-materials-list">35.B.1 Part B Materials List<a class="headerlink" href="#35b1-part-b-materials-list" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Acceptance standard</th>
+<th>Minimum specification</th>
+<th>Acceptable substitute (penalty)</th>
+<th>Signs of a bad lot</th>
+<th>Consumption</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grade A/B wafers</td>
+<td>Wafer travel card complete in all five columns</td>
+<td>Grade A from Part A for devices</td>
+<td>Grade B as witness wafers only</td>
+<td>No card; fingerprints; water stains</td>
+<td>5–10 wafers per wafer run</td>
+</tr>
+<tr>
+<td>High-purity water</td>
+<td>Distillation grade of Chapter 26</td>
+<td>No suspended matter; self-proven by the water-film test</td>
+<td>Boiled rainwater (particle-laden; coarse rinsing only)</td>
+<td>Has odor; floating film</td>
+<td>5–10 L per wafer run</td>
+</tr>
+<tr>
+<td>HF / buffered etchant</td>
+<td>Concentration registered per Chapter 26</td>
+<td>HF, 40% grade</td>
+<td>—</td>
+<td>Turbid (already contaminated)</td>
+<td>50–100 mL per window-etching batch</td>
+</tr>
+<tr>
+<td>Saturated ammonium fluoride solution</td>
+<td>Residual crystals at the bottle bottom</td>
+<td>Self-made (HF neutralized with ammonia)</td>
+<td>Dilute pure HF (etches 3–5× faster; undercutting runs away; ragged window edges)</td>
+<td>—</td>
+<td>Same as above</td>
+</tr>
+<tr>
+<td>Gelatin</td>
+<td>Odorless; fully soluble, no residue</td>
+<td>Purified hide glue</td>
+<td>Fish glue (harder; develops slower)</td>
+<td>Putrid odor (already moldy); turbid after dissolving</td>
+<td>8–10 g per batch</td>
+</tr>
+<tr>
+<td>Ammonium dichromate</td>
+<td>Orange-red crystals</td>
+<td>Stored dark and dry</td>
+<td>Potassium dichromate (lower solubility; the resist solution crystallizes easily)</td>
+<td>Deliquesced and caked; darkened color</td>
+<td>1.5–2.5 g per batch</td>
+</tr>
+<tr>
+<td>Boric acid / ammonium dihydrogen phosphate</td>
+<td>Chapters 23, 34</td>
+<td>Dry, no caking</td>
+<td>Borax (contains sodium; use with caution and register)</td>
+<td>Absorbs moisture and cakes</td>
+<td>1–5 g per furnace run</td>
+</tr>
+<tr>
+<td>Sodium hydroxide</td>
+<td>Industrial grade</td>
+<td>Chapter 26</td>
+<td>Potassium carbonate (weaker anisotropy)</td>
+<td>Heavy sodium carbonate contamination</td>
+<td>150–400 g per bath</td>
+</tr>
+<tr>
+<td>Fine silver powder / glass frit</td>
+<td>No grittiness between fingertips</td>
+<td>Classified by ball milling and water elutriation</td>
+<td>Cut-up silver-foil flakes (coarse paste; high open-line rate)</td>
+<td>Blackened (oxidized into clumps)</td>
+<td>5–10 g silver powder per batch</td>
+</tr>
+<tr>
+<td>Rosin, turpentine</td>
+<td>Chapters 8, 26</td>
+<td>—</td>
+<td>Honey as vehicle (much foaming during binder burnout)</td>
+<td>Cloudy turpentine</td>
+<td>2–4 g per batch</td>
+</tr>
+<tr>
+<td>Copper sulfate, dilute HF</td>
+<td>Chapter 26</td>
+<td>For staining</td>
+<td>—</td>
+<td>—</td>
+<td>5–10 mL per junction-depth measurement</td>
+</tr>
+</tbody>
+</table>
+<h3 id="35b2-part-b-tools-list">35.B.2 Part B Tools List<a class="headerlink" href="#35b2-part-b-tools-list" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Source chapter</th>
+<th>Precision requirement</th>
+<th>Calibration before use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Two-zone oxidation/diffusion furnace</td>
+<td>12, 25, 34</td>
+<td>Main furnace ±5 °C; source furnace ±10 °C</td>
+<td>Thermocouple cross-check + measured three-point furnace-temperature profile</td>
+</tr>
+<tr>
+<td>Steam-generation flask and gas line</td>
+<td>26 + this chapter</td>
+<td>Water-bath thermometer in place</td>
+<td>Dry empty run to drive off residual water</td>
+</tr>
+<tr>
+<td>Slow-rotation coating table / concentric-circle glass rod</td>
+<td>21 + this chapter</td>
+<td>Table surface level</td>
+<td>Leveled with a bubble level</td>
+</tr>
+<tr>
+<td>Carbon arc lamp (with condenser and light shroud)</td>
+<td>32, 24</td>
+<td>Lamp distance lockable</td>
+<td>Re-verify the day's sensitivity with the witness-wafer time gradient before exposure</td>
+</tr>
+<tr>
+<td>Exposure clamping fixture</td>
+<td>21 + this chapter</td>
+<td>Four-point symmetric screw pressure + compliant backing pad</td>
+<td>One trial press with a verification wafer</td>
+</tr>
+<tr>
+<td>Photomasks (≥2 working masks per pattern)</td>
+<td>42.7 + 35.B.7 of this chapter</td>
+<td>Distortion calibration on file</td>
+<td>Polarity checklist</td>
+</tr>
+<tr>
+<td>Constant-temperature water bath and thermometer</td>
+<td>25</td>
+<td>±2 °C</td>
+<td>Two-point check: ice water / boiling water</td>
+</tr>
+<tr>
+<td>Etching baths (dedicated labels)</td>
+<td>26</td>
+<td>HF bath and alkali bath stored physically apart</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Screen-printing station (silk mesh on frame, squeegee)</td>
+<td>15, 26</td>
+<td>Uniform mesh tension</td>
+<td>One blank print to check uniformity</td>
+</tr>
+<tr>
+<td>Probe test station</td>
+<td>24, 27, 31</td>
+<td>Micropositioner travel covers the chip area</td>
+<td>Probe tips inspected under a microscope; regrind when dull</td>
+</tr>
+<tr>
+<td>Simple clean enclosure</td>
+<td>35.B.15 of this chapter</td>
+<td>Wet cleaning; oilcloth floor; vessels covered</td>
+<td>Daily settling-dust check (glycerin-coated slide laid flat for 1 h; count particles)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="35b3-the-road-to-integration-from-discrete-components-to-the-planar-process">35.B.3 The Road to Integration: From Discrete Components to the Planar Process<a class="headerlink" href="#35b3-the-road-to-integration-from-discrete-components-to-the-planar-process" title="Permanent link">&para;</a></h3>
+<p><strong>What an integrated circuit is</strong> (retained from Section 35.1): in a discrete-component circuit (Chapter 33), the transistor, resistors and capacitors are each packaged separately and joined by wires — <strong>the wiring takes up volume, and every solder joint is a failure point</strong>; an integrated circuit puts the transistor, resistors and the rest <strong>inside the same semiconductor substrate, with interconnection completed on the chip</strong> — wires become patterns on the substrate surface, and the "soldering" between components becomes process steps. Three benefits: small size, fewer joints (reliability), proportional replication (one wafer produces several chips at once).</p>
+<p><strong>First-article route choice (an engineering decision, not an ideology)</strong> (retained from Section 35.2):</p>
+<ul>
+<li>Route A (<strong>Kilby-style hybrid</strong>): the transistor is made on a germanium substrate, and resistors and capacitors are attached as discrete small pieces inside the same package and interconnected — <strong>"integration" starts at the package level</strong>; lowest process threshold; validates that the whole value chain works;</li>
+<li>Route B (planar process): build devices and interconnects layer by layer on a silicon wafer by oxidation–photolithography–diffusion — true integration, and the main development target of this chapter;</li>
+<li>Decision: <strong>A first, to prove out packaging and testing; B as the main development assault</strong> — the first "integrated circuit" may take form A, honestly labeled with its integration level;</li>
+<li>Point-contact parallel route (germanium; the Chapter 33 cat's-whisker structure made three-terminal): its process is independent of the planar process and advances simultaneously as Plan B — wherever the planar process gets stuck, that is the fallback, not an upgrade.</li>
+</ul>
+<p><strong>Why transistors can be integrated</strong> (retained from Section 35.3): the transistor's three regions are essentially two adjacent pn junctions in one crystal — <strong>selective doping creates multiple devices on the same wafer</strong>: doped regions are the components, undoped regions are substrate and isolation; a resistor = a suitably doped silicon strip (its value set by length, width and doping); a capacitor = two conductor layers sandwiching an oxide layer (the Chapter 33 capacitor structure in miniature). The universality of the planar process: oxidation (masking) → photolithography (window opening) → diffusion (doping/shaping) → metallization (interconnect) — <strong>this four-step cycle builds circuits of any number of layers</strong> — which is exactly why it is worth the assault.</p>
+<h3 id="35b4-birds-eye-view-of-the-full-flow-and-first-article-design">35.B.4 Bird's-Eye View of the Full Flow and First-Article Design<a class="headerlink" href="#35b4-birds-eye-view-of-the-full-flow-and-first-article-design" title="Permanent link">&para;</a></h3>
+<p>Full flow (step details in 35.B.5–35.B.11; the Section 35.4 flow retained with layer annotations):</p>
+<div class="highlight"><pre><span></span><code>Wafer cleaning → thermal oxidation (grow the masking oxide) → coat resist → contact exposure → develop (pattern transferred into the resist)
+→ HF etch to open windows (pattern transferred into the oxide) → strip resist → high-temperature diffusion (doping into the windows)
+→ re-oxidation / re-lithography (next layer) → metallization (interconnect) → dicing → packaging → test
+</code></pre></div>
+<p><strong>Layer count of the first-article layout (the honest count)</strong>: an npn-plus-resistor DTL gate needs <strong>four-mask overlay</strong> — a base (boron) mask, an emitter (phosphorus) mask, a contact-hole mask, and an interconnect screen mask. Every added mask multiplies the yield by another factor; layer count is a cost locked in at design time.</p>
+<p><strong>Acceptance of each cycle</strong>: visual inspection (magnifier/microscope) + spot checks (resistivity / junction characteristics) — the Chapter 22 "first-article inspection + spot-check" system replicated on a chip.</p>
+<h3 id="35b5-thermal-oxidation-masking-layer-passivation-layer-and-dielectric">35.B.5 Thermal Oxidation: Masking Layer, Passivation Layer, and Dielectric<a class="headerlink" href="#35b5-thermal-oxidation-masking-layer-passivation-layer-and-dielectric" title="Permanent link">&para;</a></h3>
+<p><strong>Oxidation system</strong>: quartz-tube furnace (main furnace 1000–1200 °C) + upstream steam-generation flask (distilled-water bath at 60–95 °C; the hotter the water, the denser the steam) + gas flow (dry air or oxygen, small and steady — set by counting bubbles through a bubbler bottle at 2–5 bubbles per second; empirical value, to be back-calibrated from the oxidation rate).</p>
+<p><strong>Dry versus wet oxidation</strong> (retained from Section 35.6): wet oxidation (carrier gas carries steam into the furnace) grows about 3–5× as fast as dry oxidation (empirical rule; calibrate in the field with stepped wafers from the same furnace: pull test pieces at different times within one run to form a step ladder). The first masking oxidation uses wet oxidation: <strong>wet oxidation at 1100 °C gives about 0.4–0.6 μm/h; dry oxidation about 0.08–0.15 μm/h</strong> (empirical values; must be calibrated against stepped samples from this furnace).</p>
+<p><strong>Target thickness and its basis</strong>: the first masking oxide is <strong>0.4–0.6 μm</strong>. Basis: boron diffused 1–2 h at 1100 °C is blocked only by an oxide ≥0.4 μm (empirical; field verification method: the masking witness wafer — place in the same furnace run a fully oxidized witness wafer with no windows; after diffusion measure its front-side sheet resistance; a clear rise means the masking leaked — thicken the oxide and retry).</p>
+<p><strong>Two thickness measurement methods</strong>:</p>
+<ol>
+<li><strong>Color-chart lookup</strong> (retained from Section 35.6): the oxide's interference color steps with thickness (gray → blue → yellow-green → orange-red; each level corresponds to a step of a few hundred nanometers). Make the color chart yourself from <strong>stepped samples</strong>: within one furnace run pull small pieces in sequence at 15/30/45/60/90 min; labeled and arranged, they become that furnace's color chart — the chart belongs to the furnace, not to the book;</li>
+<li><strong>Weighing method</strong> (balance sensitivity 0.1 mg): weight difference Δm before and after oxidation; thickness = Δm/(ρ·A), taking SiO₂ density as 2.2 g/cm³. Dimensional sanity check: a 30 mm wafer has area 7.1 cm²; a 0.5 μm oxide weighs 7.1 × 2.2 × 5 × 10⁻⁵ ≈ 0.78 mg — resolvable on the balance, corresponding to a thickness resolution of about 0.06 μm — <strong>barely usable; guard against dust and moisture, and weigh quickly inside the balance case</strong>; weighing three wafers together and averaging is steadier.</li>
+</ol>
+<p><strong>Three functions of the oxide layer</strong> (retained from Section 35.6): <strong>diffusion masking</strong> (dopant atoms cannot pass through intact oxide), <strong>surface passivation</strong> (protects the junction regions), <strong>capacitor dielectric</strong>. Insulation: between the two interconnect levels, separate by re-oxidation or a spin-coated organic insulating layer (a thin wax/resin layer; Chapter 8 materials).</p>
+<p><strong>Failures and inspection</strong>: white haze spots (dirty steam or a damp furnace tube — change the water, dry the tube); pinholes (dust particles shadowing the growth — look for bright-spot clusters with a dark-field magnifier; pinholed wafers are scrapped: diffusion leaks through the pinholes into the substrate); uneven thickness (wafers stacked too densely; unstable gas flow — stand wafers upright in a single layer with spacing ≥10 mm).</p>
+<h3 id="35b6-the-photosensitive-resist-dichromategelatin-system-and-same-day-sensitivity-calibration">35.B.6 The Photosensitive Resist: Dichromate–Gelatin System and Same-Day Sensitivity Calibration<a class="headerlink" href="#35b6-the-photosensitive-resist-dichromategelatin-system-and-same-day-sensitivity-calibration" title="Permanent link">&para;</a></h3>
+<p><strong>Photosensitivity ladder</strong> (retained from Section 35.5): start with a natural bitumen photosensitive layer (hardens in light, developed with turpentine — a formulation of the same family as history's first photograph; bitumen is registered in Chapter 26; for teaching and practice only); <strong>the workhorse is dichromate + gelatin</strong> — hardens on exposure, develops in clean water, with better resolution and edge quality.</p>
+<p><strong>Preparation</strong> (empirical ratios; calibration method in Card 35-02): put 8 g gelatin into 100 mL distilled water; first cold-soak 30 min to swell, then melt in a 40–50 °C water bath; after cooling below 35 °C (feels warm, not hot, to the touch) stir in 1.5–2.5 g ammonium dichromate (mass ratio roughly gelatin:salt = 4:1 to 5:1; more salt means faster exposure but a faster dark reaction and edge bleeding); filter once through fine cloth or absorbent cotton; <strong>store in an amber bottle, protected from light, in a cool place; shelf life 3–7 days</strong> (empirical; past expiry, re-verify with a small test-piece exposure — rely on tests, not the calendar).</p>
+<p><strong>Why "same-day calibration" is mandatory</strong> (one of the review-mandated blocks): dichromate gelatin has no stable "standard sensitivity" — the resist age keeps changing (the dark reaction slowly self-hardens), the salt ratio varies batch to batch, and lamp distance and weather keep changing. <strong>"Standard exposure time" is not a constant; it is that day's value, measured with witness wafers for every batch of resist.</strong> The two calibration methods:</p>
+<ol>
+<li><strong>Time-gradient method (primary)</strong>: coat and dry a witness wafer (a scrap Grade B wafer or a glass plate), cover with an opaque shutter, and during exposure advance it one step every 15 s, forming an exposure ladder of 15/30/45/…/180 s; after development, read with a magnifier: <strong>the shortest fully hardened step is t_min; production exposure is 1.5 × t_min</strong> (a safety factor; empirical — for the first month record the t_min distribution batch by batch; once stable it may be tightened to 1.3);</li>
+<li><strong>Ink step-tablet method (auxiliary; monitors the light source)</strong>: make a density step tablet by building up ink in 10 levels on a paper strip, lay it on the resist, expose a fixed time, and after development record the ink level corresponding to the surviving step — drift in the tablet reading is the alarm for drift in the light source or the resist's age.</li>
+</ol>
+<p><strong>Dark reaction (silent failure)</strong>: unexposed resist also hardens slowly in storage. Criterion: if film remains on the developed unexposed witness, the resist is scrapped. <strong>The first thing to do at the start of every working day is to run an unexposed control.</strong></p>
+<p><strong>Coating</strong> (retained from Section 35.5 and quantified): drip 0.2–0.3 mL of resist onto the wafer center and spread with the concentric-circle glass rod, or place on the slow-rotation table (hand-cranked or slow mechanism, 60–120 r/min) to spread even; level and air-dry in the shade. Target dry film thickness <strong>1–3 μm</strong> (too thick blurs the edges in development; too thin gives pinholes). Calibration: coat a glass witness plate the same way and weigh — dimensional sanity check: 2 μm of dry gelatin (density about 1.3 g/cm³) on a 7 cm² plate ≈ 1.8 mg, resolvable on a 0.1 mg balance.</p>
+<p>◎ Spreading feel: the glass rod rides on the surface without scraping the wafer; the resist spreads without stringing marks. Practice: spread 20 glass practice plates; check uniformity via stain depth after dyeing. Compensation for misjudgment: weigh 1 wafer per batch as a sample, and after development check with a magnifier for runs and edge pooling.</p>
+<p><strong>Development and hard bake</strong>: soak-rinse in 30–40 °C water for 1–3 min; the criterion is <strong>the unexposed region fully dissolved and the water running clear with no gelatin threads</strong>; rinse in cold water, air-dry in the shade; hard bake at 80–100 °C for 15–30 min (empirical; must be calibrated: an under-baked film lets the etchant seep under edges, an over-baked film cracks — check by test-etching a witness wafer). Quick check for a good hard bake: a light fingernail scratch leaves no white mark (◎; compensation: one test-etched witness wafer per batch).</p>
+<p>[Card 35-02 Dichromate–Gelatin Photosensitive Resist: Preparation and Calibration] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: 8 g gelatin, 1.5–2.5 g ammonium dichromate, 100 mL distilled water, filter cloth; several glass witness plates and Grade B silicon witness wafers. Defective materials forbidden: moldy-smelling gelatin, deliquesced ammonium dichromate.</li>
+<li><strong>Tools required</strong>: water bath (±2 °C); thermometer (two-point checked); amber bottles; slow-rotation table or concentric-circle glass rod; carbon arc lamp; darkroom or red-light area; magnifier.</li>
+<li><strong>Operating sequence and control points</strong>: ① cold-soak the gelatin in cold water 30 min; ② melt at 40–50 °C until fully dissolved, no residue; ③ <strong>cool below 35 °C before adding the salt</strong> (adding it early accelerates the dark reaction); ④ filter into the amber bottle; ⑤ at the start of the day first run the <strong>unexposed control</strong> and the <strong>time-gradient calibration</strong>; ⑥ coat 0.2–0.3 mL per wafer; ⑦ air-dry in the shade; ⑧ expose 1.5 × t_min; ⑨ develop in warm water until the water runs clear; ⑩ hard-bake 15–30 min.</li>
+<li><strong>Empirical parameters and calibration methods</strong>: gelatin:salt = 4:1–5:1 (higher salt ratio = faster exposure but faster dark reaction — set the level with the twin indicators of t_min and the unexposed control); t_min measured same-day by the time-gradient method; shelf life 3–7 days, judged by test exposure; film thickness 1–3 μm calibrated by witness-wafer weighing.</li>
+<li><strong>Process observation record items</strong>: resist batch number, preparation date, that day's t_min, development water temperature and duration, hard-bake duration — entered in the run record for that batch of wafers.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = unexposed control fully dissolves + t_min readable + coating weight within the band; rework = film thickness out of band (strip the resist and recoat; the wafer is recoverable); scrap = film remains on the unexposed control (dark reaction gone too far; discard the whole bottle), or moldy-smelling resist.</li>
+<li><strong>Common failures and troubleshooting order</strong>: development not clean → first check for underexposure (review the t_min record) → check resist age (unexposed control) → check development water temperature; pattern-edge bleeding → first check for salt ratio too high → check insufficient hard bake; dense pinholes → check for coating dust (clean-enclosure settling dust over limit) → check film too thin.</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = one successful time-gradient calibration record + intact pattern after development; L2 = same resist batch, calibration stable 3 days running (t_min drift &lt;30%) + 10 wafers coated within spec; L3 = resist formula, shelf life and calibration procedure all in the ledger; a different person reproduces from the records.</li>
+</ol>
+<h3 id="35b7-photomasks-from-enlarged-drawing-to-working-mask">35.B.7 Photomasks: From Enlarged Drawing to Working Mask<a class="headerlink" href="#35b7-photomasks-from-enlarged-drawing-to-working-mask" title="Permanent link">&para;</a></h3>
+<p>The photomask is the mother of patterns. <strong>The three drawing-side standards come from Chapter 42, Section 42.7, and are executed directly in this chapter</strong>: first, the <strong>enlarged-drawing system</strong> — the layout is drawn at 5:1 or 10:1 (Chapter 3 scribing + Chapter 20 scraped flat base plate); all dimensions annotated on the enlarged drawing = the final actual dimensions on the mask; the scale field reads "10:1, reduced to 1:1". Second, the <strong>black/white region definition</strong> — only pure ink black (light-blocking region) and pure blank (light-transmitting region) are allowed on the drawing; gray and smudging are invalid; fill black within the lines and verify by holding the drawing up to the light with no mottling. Third, the <strong>alignment crosses</strong> — one at each of the four corners of every mask and one at the center of the pattern area; cross-center distances use datum-based dimensioning (chained dimensioning is forbidden on mask drawings, Section 42.3.1).</p>
+<p><strong>Mask-making flow</strong>:</p>
+<ol>
+<li>Draw the enlarged layout per Cards 42-01/46-02 of Chapter 42; add the M prefix to the drawing number (42.7); drawing and process card are numbered and frozen together;</li>
+<li><strong>Microphotography</strong> (Chapter 24 lenses + Chapter 26 wet-plate/film sensitizing) rephotographs the drawing to target size — <strong>lens distortion is the source of mask error; it must be calibrated before use</strong>: photograph a standard grid plate (made by Chapter 20 scribing), measure the grid pitches under a microscope, and obtain the actual magnification difference between center and edge; distortion &gt;1% means shrink the field of view or change the lens (dimensional sanity check: 1% distortion over a 20 mm field = 0.2 mm, already eating forty percent of the 0.5 mm line-width margin);</li>
+<li><strong>Honest declaration of the first-mask feature size</strong>: <strong>millimeter scale</strong> (0.5–1 mm line width/spacing; empirical) — a single chip holds only a few devices; sub-millimeter line widths are listed as an upgrade route; this chapter makes no promise.</li>
+</ol>
+<p><strong>Master-mask system</strong> (transplanted from Section 42.5.1): the microphotographic result is the <strong>master mask</strong>, the single original; it stays in the archive and never leaves; only copies may be made from it inside the archive; <strong>working masks</strong> are contact-copied from the master (each numbered); a damaged one is replaced with a fresh copy. Layout changes follow the Section 42.6 four-step change process: <strong>changing one parameter = opening a new mask version; verbal change instructions are forbidden</strong>.</p>
+<p><strong>Polarity checklist (new in this chapter; guards against the silent disaster of "the whole mask mirrored")</strong>: dichromate gelatin is a <strong>negative resist</strong> — exposed areas harden and remain, protecting the oxide; so on the mask, <strong>where light passes, the resist hardens and the oxide is kept; where the mask blocks light, the resist develops away and HF etches = a window</strong>. Therefore the light-blocking regions on the mask = the future doped window regions. From enlarged drawing to working mask there is one microphotography step, possibly followed by one more copy step — <strong>each rephotographing inverts the image once</strong>. The polarity checklist is signed off mask by mask: ① the enlarged drawing has noted "black = window"; ② given whether this mask has passed through an odd or even number of inversions, deduce whether the mask's black regions should equal the designed window regions; ③ <strong>mask verification wafer</strong>: expose a scrap wafer through the mask by the full formal process; after etching the windows, check item by item against the design logic table (window count, orientation) — if it does not match, the whole mask is void and must be remade; "using it wrong-way-round on purpose" is forbidden (mirroring stands substrate and windows on their heads entirely).</p>
+<h3 id="35b8-contact-exposure-and-overlay-alignment">35.B.8 Contact Exposure and Overlay Alignment<a class="headerlink" href="#35b8-contact-exposure-and-overlay-alignment" title="Permanent link">&para;</a></h3>
+<p><strong>The optics ledger of contact printing (review-mandated block 2: gap control)</strong>:</p>
+<ul>
+<li><strong>The penumbra formula</strong>: edge-blur width ≈ gap × angular diameter of the light source. Dimensional sanity check: the carbon arc's effective luminous diameter is about 5 mm; at a lamp distance of 400 mm the angular diameter is about 0.0125 rad; at a 0.3 mm gap the penumbra is about 2 μm, at a 3 mm gap about 38 μm — for 0.5 mm line widths, the penumbra itself is not fatal;</li>
+<li><strong>The gap's real harm lies in two places</strong>: first, <strong>dust and lint prop up local gaps</strong> — there the pattern edges blur and dust-shadow defects remain; this is the leading explanation for "only one pattern bad on the same wafer"; second, <strong>oblique and scattered light enters the gap</strong>, partially fogging the resist so that it does not develop clean and the edges turn ragged;</li>
+<li><strong>Four engineering countermeasures</strong>: ① <strong>collimate the light source</strong> — add a condenser (Chapter 24) or move a point source farther away, to shrink the angular diameter; ② <strong>clamping mechanism</strong> — three-point/four-point symmetric screw-pressure frame + compliant backing pad (felt or soft rubber sheet); tighten until "the backing pad is compressed about one third of its thickness" (a read-by-eye criterion; empirical — set the level with verification wafers, then fix it); ③ <strong>dust removal before pressing</strong> — rubber-blower puff + soft brush, done inside the clean enclosure; ④ <strong>contact-state self-check</strong> — observe the mask–resist interface under oblique white light: at near contact you see uniform interference fringes (Newton's-rings-like); no fringes, and the mask shifts visibly when nudged — that is a macroscopic gap; re-clamp.</li>
+</ul>
+<p><strong>Verification-wafer system</strong>: outside the pattern cells, every working mask <strong>must carry a three-level line-pair test corner target (0.25/0.5/1 mm)</strong>; on each exposure batch, read the first developed wafer's test target edges with a magnifier — a sharp edge defines "the effective resolution of this batch's contact state" and is entered in the run record; if the 0.5 mm level is soft, stop the batch and check clamping and dust removal.</p>
+<p><strong>Alignment</strong> (retained from Section 35.5): overlays of two or more masks align by <strong>reference flat + mask alignment crosses</strong> (Chapter 20 datum thinking); under the magnifier first rough-align (reference flat against the positioning strip), then fine-tune (crosses coincide); <strong>overlay criterion: cross coincidence between the two masks ≤ half of the finest line width on the mask</strong> (same as Section 42.7; no separate number) — millimeter-scale layouts matched to millimeter-scale precision; self-consistent.</p>
+<p>[Card 35-03 Masked Contact Exposure] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: resist-coated, shade-dried wafers (wafer travel cards present); working mask (numbered, polarity checklist signed, test targets complete); verification wafer (a Grade B scrap wafer coated with the same resist batch).</li>
+<li><strong>Tools required</strong>: exposure fixture (four-point symmetric screw pressure + compliant backing pad; trial-pressed once with a verification wafer before use); carbon arc lamp with condenser and light shroud; magnifier; soft brush and rubber blower; timer.</li>
+<li><strong>Operating sequence and control points</strong>: ① same-day sensitivity calibration first (Card 35-02); ② blow the wafer free of dust; inspect visually, particle-free; ③ mask face down, aligned to the reference flat and the crosses; ④ <strong>clamp symmetrically in stages to one-third backing compression</strong>; ⑤ check the interface fringes under oblique light; no fringes, or visible relative shift, means release and re-clamp; ⑥ expose 1.5 × t_min (record lamp distance and clock time); ⑦ release and remove the wafer; never look at the arc with the bare eye (light shroud).</li>
+<li><strong>Empirical parameters and calibration methods</strong>: exposure = 1.5 × t_min (same-day time-gradient method); lamp distance 300–500 mm (fixed thereafter; any move means recalibration); clamping read by eye from the backing-pad compression (empirical — set the level with verification wafers).</li>
+<li><strong>Process observation record items</strong>: mask number, polarity-check conclusion, lamp distance, exposure seconds, contact-fringe state, test-target reading.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = pattern complete after development, test-target edges sharp at the 0.5 mm level, crosses aligned to ≤ half line width; rework = local pattern defects and the wafer recoverable (strip the resist and recoat; rework limited to 2 times per wafer — the third defect is scrapped, to prevent accumulated surface damage); scrap = wafer cracked by pressing, mask broken (switch to the spare mask; scrap the wafer with the cause recorded).</li>
+<li><strong>Common failures and troubleshooting order</strong>: one single pattern bad on a wafer → first check for dust propping the mask at that spot (inspect the mask against the light) → check for a local clamping gap; whole-wafer edge blur → check for uneven clamping (diagonal screw order) → check for resist beading at the wafer edge (re-check chamfer and coating); whole batch fogged and developing dirty → check the exposure dose (review t_min and lamp distance) → check resist age.</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = verification-wafer test-target record + one successful exposure; L2 = same mask, 10 consecutive wafers with exposure pass rate ≥80% (empirical; requires statistics) + recorded overlay-cross deviations; L3 = the batch numbers of mask, wafer and resist can be cross-checked in the run record; a different person reproduces per the card.</li>
+</ol>
+<h3 id="35b9-wet-etching-window-opening-and-anisotropic-rates">35.B.9 Wet Etching: Window Opening and Anisotropic Rates<a class="headerlink" href="#35b9-wet-etching-window-opening-and-anisotropic-rates" title="Permanent link">&para;</a></h3>
+<p>In Part B, etching has two objects, two chemistries, two physics: <strong>etching silicon dioxide (window opening) is isotropic</strong> — it etches sideways and downward at the same rate, so window walls are undercut; <strong>etching silicon (hot alkali) is anisotropic</strong> — rates differ by tens of times between crystal planes; this is the most directly measurable evidence that crystal orientation exists (Section 34.5), and it is where the first mask's real use lies. No rate value in this book is promised as a constant: <strong>every bath is field-calibrated</strong> (review-mandated block 3).</p>
+<p><strong>Buffered hydrofluoric acid (BHF) etches silicon dioxide</strong>:</p>
+<ul>
+<li>Mixing: mix HF (40% grade) with saturated ammonium fluoride solution at 1:3 to 1:7 by volume (the ammonium fluoride is self-made by neutralizing HF with ammonia, Chapter 26; saturation is proven by residual crystals at the bottle bottom). Why buffered: pure HF etches far too fast (it would eat through the full first-mask thickness within a minute) and its concentration swings violently as the reaction proceeds, so rates are not repeatable; the buffer presses the rate into the 0.05–0.15 μm/min range (empirical; must be calibrated), and <strong>the reaction products are soluble and no crust forms on the surface</strong>;</li>
+<li><strong>Rate calibration method (mandatory for every bath)</strong>: etch a stepped oxide sample (the color-chart ladder of 35.B.5, thicknesses known) for timed intervals and record the time needed to etch through each step — the through-criterion is the <strong>water-drop test</strong>: SiO₂ is hydrophilic and holds a uniform water film; where the etch has broken through and silicon is exposed, the drop beads up (direct reuse of the Section 34.7 water-film test; stopwatch timing);</li>
+<li><strong>The ledger of isotropic undercutting</strong>: lateral undercut = vertical etch depth, so the window bottom ends up effectively about 2 × oxide thickness (0.8–1.2 μm) wider than the mask pattern — negligible for millimeter line widths, but the concept must go on file: it is the first wall on any future fine-line route [Background/outlook: in a sub-millimeter line-width era, undercutting and film thickness become the same order of magnitude, and dry etching (no liquid; etches directionally) becomes inevitable — listed on the upgrade route, not implemented];</li>
+<li><strong>The safety margin of over-etching</strong>: HF barely attacks bare silicon — the window-opening step is naturally tolerant of over-etch, which is why it is chosen for opening windows; but over-etching keeps gnawing at the resist film's edges (edge seepage); cap it at 1.3–1.5× the breakthrough time (empirical; set with a test-etched witness wafer).</li>
+</ul>
+<p><strong>Anisotropic etching of silicon in hot alkali</strong>:</p>
+<ul>
+<li>Mixing: 30–40% (mass) sodium hydroxide solution, 75–85 °C constant-temperature water bath (Chapter 25 thermometer standing watch), lidded to prevent concentration (weigh the liquid each shift; top up with distilled water to the starting value);</li>
+<li>Rate and anisotropy ratio (empirical ranges; field calibration mandatory): the (100) plane about 0.3–0.8 μm/min; the {111} planes 20–50× slower — the anisotropy ratio is a function of temperature and concentration: lower temperature and higher concentration strengthen the anisotropy but roughen the surface;</li>
+<li><strong>Calibration method</strong>: open a large 5×5 mm window in the oxide of a (100) wafer and etch 30–60 min; back-calculate the pit depth by <strong>weighing</strong> (Δm/(ρ·A), silicon density 2.33 g/cm³ — dimensional sanity check: a 5×5 mm window etched 30 μm deep = 0.75 mm³ ≈ 1.75 mg, resolvable on a 0.1 mg balance); examine the pit walls by <strong>angle-lap and staining</strong> (35.B.10): with normal anisotropy the pit walls are flat and the ridge lines dead straight (self-stopped on the {111} planes); rough, ragged pit walls mean weak anisotropy or lost temperature control;</li>
+<li><strong>The three real uses in the first mask</strong> (no exaggeration): ① <strong>dicing guide grooves</strong> — pre-etch shallow grooves along the dicing streets; cleaved dicing runs straighter with less edge chipping; ② <strong>preparatory process for mesas/isolation</strong> (second-generation devices and later); ③ <strong>crystal-orientation teaching</strong> — the rate difference inside one bath is physical evidence of crystal orientation; register it in the materials register;</li>
+<li>Failures and control: a ±5 °C temperature swing drifts the rate by ten to twenty percent (thermostat the water bath); concentrated alkali roughens the surface and scrambles the rates (the weigh-and-top-up discipline); agitation affects mass transfer — <strong>calibration and production must use the same agitation pattern</strong> (manual agitation 1–2 cycles/s; written into the card).</li>
+</ul>
+<p><strong>Universal etching discipline</strong>: HF bath and alkali bath stored physically apart, dedicated labels, dedicated fixtures (cross-contamination scraps the whole bath); one fixture per wafer; timing starts at immersion; after etching, go straight into a large-volume rinse bath to quench the reaction.</p>
+<p>[Card 35-04 Wet Etching] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: developed and hard-baked wafers (pattern complete and on file); BHF (1:3–1:7, freshly mixed or calibrated that day); 30–40% NaOH solution; stepped oxide samples; rinse bath (≥5 L distilled water).</li>
+<li><strong>Tools required</strong>: constant-temperature water bath (±2 °C); thermometer (two-point checked); dedicated fixtures and timer; magnifier; balance; stopwatch.</li>
+<li><strong>Operating sequence and control points</strong>: ① bath at temperature and stable for 10 min; ② <strong>first etch a stepped sample to re-verify the day's rate</strong>; ③ immerse the wafer and agitate in the fixed pattern (1–2 cycles/s); ④ <strong>for BHF window opening, judge breakthrough by the beading water drop; after breakthrough continue for ≤0.3–0.5× the calibrated breakthrough time, then leave the bath</strong>; ⑤ rinse immediately with a large flow to stop the reaction; ⑥ after rinsing, remove resist residue with a gentle brush; ⑦ inspect window edges and film edges under the microscope; ⑧ alkali silicon etch in the other bath under the same rules; verify pit depth by weighing.</li>
+<li><strong>Empirical parameters and calibration methods</strong>: BHF rate 0.05–0.15 μm/min (same-day, on a stepped sample); NaOH (100) rate 0.3–0.8 μm/min, {111} 20–50× slower (large-window weighing + angle-lap staining); temperature 75–85 °C (±2 °C water bath); agitation 1–2 cycles/s (calibration and production use the same pattern).</li>
+<li><strong>Process observation record items</strong>: bath temperature, bath age (times used), calibrated breakthrough time, actual etch time, weighed pit depth, edge-quality rating — entered in the etching column of the run record.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = all windows fully through (multi-point water-drop test) + edges clean, no undercut seepage + (alkali etch) pit ridge lines dead straight; rework = windows not fully through (strip the resist, re-oxidize thinner and redo the whole wafer — witness wafers only; device wafers are not reworked but scrapped — the contamination risk of interlayer rework outweighs the benefit); scrap = resist film floating off over a large area (hard-bake failure), seepage beyond one tenth of the line width, collapsed alkali-etch pit walls.</li>
+<li><strong>Common failures and troubleshooting order</strong>: ragged window edges → first check the hard bake (test-etched witness wafer) → check whether the BHF is too concentrated (go from 1:3 to 1:6) → check for over-vigorous agitation; windows not etching through → check the oxide thickness (back to the color chart) → check for bath temperature too low → check BHF aging (re-verify with a stepped sample); rough alkali-etched surface → check temperature → check concentration (the weigh-and-top-up discipline) → check for aluminum/iron contamination (vessel discipline).</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = stepped-sample rate calibration record + one successful window opening (micrograph on file); L2 = same bath, 10 consecutive wafers with breakthrough-time range &lt;20% (empirical; requires statistics) + photographs/tracings of anisotropic pit shapes; L3 = rate ledger kept per bath, bath-age vs. rate curve retrievable; a different person reproduces it.</li>
+</ol>
+<h3 id="35b10-diffusion-junctions-and-device-formation">35.B.10 Diffusion, Junctions, and Device Formation<a class="headerlink" href="#35b10-diffusion-junctions-and-device-formation" title="Permanent link">&para;</a></h3>
+<p><strong>The diffusion process</strong> (retained from Section 35.7, upgraded to a two-step method): the windowed wafer shares the furnace with the dopant source — <strong>predeposition</strong> (source present; constant surface concentration) + <strong>drive-in</strong> (source withdrawn; fixed total dose; surface concentration flattens and the junction drives deeper). Temperature × time are the only two knobs (direct application of the Chapter 25 thermal regime):</p>
+<ul>
+<li>Source and source temperature: boric acid (p-type; first baked to B₂O₃ and loaded into a boat) goes in the upstream temperature zone; ammonium dihydrogen phosphate (n-type) the same way. <strong>There is no book constant for source temperature; set it by a search procedure</strong>: hold wafer temperature at 1050–1100 °C, start the source temperature at the low setting and add +50 °C per furnace run, measuring sheet resistance on a witness wafer each run until it enters the band — <strong>the boron predeposition target band is 20–60 Ω/□</strong> (empirical; must be field-calibrated);</li>
+<li>Drive-in: withdraw the source boat (or push it to the cold end); hold the main furnace at 1100–1150 °C for 1–4 h; <strong>junction depth targets: base 1–2 μm, emitter 0.8–1.5 μm</strong> (empirical; measured by angle-lap staining; no furnace-time formula is promised).</li>
+</ul>
+<p><strong>Junction depth measurement (angle-lap + staining; retained from Section 35.7, detailed)</strong>: wax-mount a small chip onto a 5–10° bevel block and lap a bevel; paint the surface with staining solution (5% copper sulfate solution plus a little HF) — p regions copper-plate and darken, n regions stay bright, and the boundary line is the junction; read the junction width along the bevel with the microscope eyepiece reticle, and multiply by the cotangent of the bevel angle to get the junction depth. Dimensional sanity check: a 2 μm junction shows as about 19 μm on a 6° bevel — readable with the reticle (Chapter 24).</p>
+<p><strong>Sheet-resistance monitoring (the witness-wafer system; retained from Section 35.7)</strong>: each furnace run gets witness wafers (Grade B wafers, same furnace, same pattern or fully open) measured with the four-point probe (Chapter 34) — <strong>run-to-run drift beyond ten percent halts the furnace for investigation</strong> (the Chapter 22 spot-check thinking). The direction of the drift is itself diagnostic: sheet resistance uniformly low = source temperature too high or flow too large; uniformly high = source exhausted (change the boat) or furnace temperature too low.</p>
+<p><strong>Parasitic doping of the back and edges (a silent failure new in this chapter)</strong>: during diffusion the wafer back and edges are exposed to the dopant vapor just the same — a junction on the back means leakage and thoroughly scrambled breakdown characteristics. Countermeasures: before diffusion, <strong>keep oxide on the back and edges</strong> (first mask: double-sided oxidation, windows opened on the front only), or after diffusion lap 20–30 μm off the back (the lapping recovery flow). Criterion: a diode whose reverse characteristic is abnormally soft with heavy leakage — lap the back first and re-measure; improvement confirms the diagnosis.</p>
+<p><strong>Device choice</strong> (retained from Section 35.7): <strong>the first device = a diode–transistor logic gate (DTL) made of a single npn structure + a resistor</strong> — simplest structure and process, validating the full chain of "multilayer patterns + doping + interconnect". The point-contact parallel route (germanium) advances per the Plan B of 35.B.3; neither blocks the other.</p>
+<p>[Background/outlook: ion implantation uses an electric field to set doping depth and dose directly, retiring trial-and-error methods like the "source-temperature search" — it needs high-voltage equipment and beam-current measurement; listed as a long-term condition; this chapter makes no promise.]</p>
+<h3 id="35b11-metal-interconnect-and-electrodes">35.B.11 Metal Interconnect and Electrodes<a class="headerlink" href="#35b11-metal-interconnect-and-electrodes" title="Permanent link">&para;</a></h3>
+<p><strong>First choice: fired silver paste</strong> (retained from Section 35.8 and quantified) — <strong>it sidesteps aluminum's electrolytic scale-up problem</strong> (the Hall process requires enormous electric power and cryolite; a registered unlock item of Chapter 32):</p>
+<ul>
+<li>Paste mix (mass ratios; empirical; must be calibrated): fine silver powder 75–80% + low-melting glass frit 3–6% + vehicle (rosin in turpentine) 15–20%. Mix until it hangs on the squeegee as a continuous band without dripping; slumped printed lines = too much vehicle; open lines = too little;</li>
+<li>Screen printing: a 40–60 mesh silk screen on a frame, positioned to the mask with the reference-flat positioning strip (Chapter 26 printing thinking); the squeegee prints lines in one pass — the mesh opening must be ≥ about one fifth of the line width, or the paste clogs (rule of thumb); print <strong>four test lines</strong> on a witness wafer with every batch;</li>
+<li>Firing: first binder burnout, bake 150–250 °C for 10–20 min (if the organics are not expelled fully, the fired lines blister and open); then peak in the furnace at <strong>750–850 °C held 10–20 min</strong> (over a hundred degrees below silver's melting point of 962 °C, to keep the silver from balling; criteria: line surface continuous silvery-white, no balling, no brown carbonized spots);</li>
+<li>Inspection: continuity (Chapter 31); line resistance measured on the test lines by four-point probe/two-probe method as <strong>sheet resistance</strong>, target of order ≤0.1 Ω/□ (empirical; must be calibrated for this paste — fired silver's conductivity is roughly thirty to fifty percent of bulk silver's; register it honestly); adhesion criterion: a base score remains after knife-scraping (the glassy phase has bitten into the oxide) and there is no wholesale peeling;</li>
+<li>Electrode lead-out and bonding: fine gold/silver wire joined to the bond pads by thermocompression (a heated tool tip pressed weld; 250–350 °C, 300–800 g hung on the tool handle, 1–3 s; empirical; must be calibrated) or by soldering (rosin flux, soldering iron at 250–300 °C);</li>
+<li>Vias (interlayer connection; retained from Section 35.8): where the upper-level pattern must connect through, print a large silver pad that pierces the insulating layer for pressure contact — the crude millimeter-scale way; reliability first.</li>
+</ul>
+<p>◎ Thermocompression feel: as the tool tip presses down, you feel the wire "settle without slipping". Practice: press-weld 30 bonds on scrap wafers. Compensation for misjudgment: the pull test — after bonding hang a 50–100 g weight on the wire and pull; <strong>the wire breaks while the joint holds = pass</strong>; sample ≥3 bonds per batch.</p>
+<p>[Card 35-05 Metal Interconnect] (eight fields)</p>
+<ol>
+<li><strong>Input materials</strong>: wafers with contact holes open; silver paste (formula on file; mixed the day it is used); 40–60 mesh silk screen on frame; fine gold/silver wire ≥0.1 mm; rosin, solder.</li>
+<li><strong>Tools required</strong>: screen-printing station (blank print checked for uniformity before use); squeegee; firing furnace (peak control ±15 °C); heated bonding tool and weights; moving-coil meter; four-point-probe or two-probe line-measurement station.</li>
+<li><strong>Operating sequence and control points</strong>: ① mix the silver paste same-day and print four test lines on a witness wafer; ② align the screen to the mask (reference flat + crosses); ③ print lines in one squeegee pass — <strong>no touch-up pass</strong>; ④ binder burnout 150–250 °C for 10–20 min; ⑤ firing peak 750–850 °C for 10–20 min; ⑥ measure test-line sheet resistance and file it; ⑦ knife-scrape adhesion spot check; ⑧ bond the lead wires; spot-check bonds with pull tests.</li>
+<li><strong>Empirical parameters and calibration methods</strong>: paste mix 75–80/3–6/15–20 (fine-tune with the twin indicators of test-line open rate and sheet resistance); firing peak 750–850 °C (balling on the line surface sets the upper limit; adhesion sets the lower); thermocompression 250–350 °C × 1–3 s + 300–800 g weight (level set by pull-test pass rate).</li>
+<li><strong>Process observation record items</strong>: paste batch number, firing furnace number and profile, test-line sheet resistance, open-line count, pull-test spot-check results — entered in the interconnect column of the run record.</li>
+<li><strong>Accept / rework / scrap criteria</strong>: accept = network continuity matches the layout + test-line sheet resistance in band + adhesion and pull spot checks passed; rework = local open lines (repair with solder-bridge dots, register each repair point; ≤3 repair points, beyond that scrap); scrap = large-area balling or blistering (re-oxidation and re-opening windows is no longer worth it), adhesion peeling across the whole wafer.</li>
+<li><strong>Common failures and troubleshooting order</strong>: open lines → first check for thin paste (review the test lines) → check for clogged mesh (wash the screen) → check squeegee speed; balling → check firing over-temperature → check insufficient binder burnout; poor adhesion → check frit content too low → check firing peak too low; bond lifting → check bond-pad oxidation (refire the silver) → check tool temperature.</li>
+<li><strong>L1/L2/L3 evidence</strong>: L1 = one acceptable printed line + test-line data; L2 = whole-wafer interconnect network continuity passing + pull-test spot-check records; L3 = paste formula and firing profile in the ledger, open-line rate tabulated per batch and retrievable; a different person reproduces it.</li>
+</ol>
+<h3 id="35b12-on-wafer-testing-of-individual-devices">35.B.12 On-Wafer Testing of Individual Devices<a class="headerlink" href="#35b12-on-wafer-testing-of-individual-devices" title="Permanent link">&para;</a></h3>
+<p>(Retained from Section 35.9) <strong>Wafer-level on-chip testing</strong>: a self-built probe station — microscope (Chapter 24) + micropositioner stage (Chapter 27) + two or three spring probes (fine wire ground to points, Chapter 31): diode characteristics (conducts forward, blocks reverse), transistor β (a small change in base current producing a large change in collector current; moving-coil meter reading ratio); curve recording: I–V curves hand-plotted point by point (Chapter 25 recording regime) — <strong>device parameter cards linked to wafer number and furnace number</strong> (a transplant of the Chapter 22 traceability system: a bad chip traces back to the bad furnace run, and via the wafer travel card back to the bad ingot — the responsibility chain of the two parts closes here).</p>
+<h3 id="35b13-verifying-the-simplest-integrated-logic-function">35.B.13 Verifying the Simplest Integrated Logic Function<a class="headerlink" href="#35b13-verifying-the-simplest-integrated-logic-function" title="Permanent link">&para;</a></h3>
+<p>(Retained from Section 35.10) Logic criterion table (standalone tests, nothing else connected):</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Test</th>
+<th>Pass standard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single-transistor switch</td>
+<td>Base powered/de-powered controls a lamp</td>
+<td>Lamp on/off repeatable</td>
+</tr>
+<tr>
+<td>Inverter (NOT gate)</td>
+<td>Input high → output low</td>
+<td>Output inverts for both input states; stable over 10 repeats</td>
+</tr>
+<tr>
+<td>Two-input AND/OR (DTL)</td>
+<td>Four input combinations</td>
+<td>Truth table entirely correct</td>
+</tr>
+<tr>
+<td>Two-gate cascade</td>
+<td>First gate's output drives the second</td>
+<td>Logic still correct after cascading</td>
+</tr>
+</tbody>
+</table>
+<p>Environmental tests: warming in the palm (parameters drift within tolerance), light tapping (poor contact = dry joint) — <strong>the three reliability moves: temperature, vibration, time</strong>.</p>
+<h3 id="35b14-why-the-first-chip-must-be-extremely-crude">35.B.14 Why the First Chip Must Be Extremely Crude<a class="headerlink" href="#35b14-why-the-first-chip-must-be-extremely-crude" title="Permanent link">&para;</a></h3>
+<p>(Retained from Section 35.11) The yields of the process steps multiply: oxidation 95% × lithography 90% × diffusion 90% × metallization 95% … after ten steps half is gone (empirical; requires field statistics) — <strong>the simpler the design, the fewer the steps, the higher the yield</strong>. Three disciplines of crude design: line widths at three or more times the process limit, to leave margin; all patterns of right angles and straight lines (masks easy to draw, etching easy to do); redundant design (build three identical circuits side by side on the same chip; at test, enable whichever is best). <strong>First-mask integration target (registered): 2–6 devices and 1 logic gate per chip</strong> — this is already the realistic ceiling of this route; density gains come from the long iteration of yield gains (Chapter 36).</p>
+<h3 id="35b15-from-laboratory-samples-to-repeatable-manufacture">35.B.15 From Laboratory Samples to Repeatable Manufacture<a class="headerlink" href="#35b15-from-laboratory-samples-to-repeatable-manufacture" title="Permanent link">&para;</a></h3>
+<p>(Retained from Section 35.12 and joined to the Chapter 42 version system) <strong>Statistical process control, the beginning</strong>: record for every wafer (cleaning bath run / oxidation furnace number / resist batch / exposure time / weather and humidity) — classify the yield data of the first 50 wafers by defect type (the electrical version of the Chapter 4 failure classification); yield ramp-up priority: first wipe out "total-wipeout" defects (parameters outside the process window), then attack "random defects" (dust, particles); the realistic version of clean operation — <strong>the six rules of the simple cleanroom: enclosed cell + wet cleaning + oilcloth floor + personnel dress code + vessels covered at all times + daily settling-dust slide counts</strong> (dust is the chief of random defects; the payoff is immediate; verify with yield data); version control: process cards and photomasks numbered and frozen together — <strong>mask drawing numbers take the M prefix and merge into the Chapter 42 drawing-library version system (the Section 42.6 four-step change process); changing one parameter = opening a new version; verbal change instructions are forbidden</strong>.</p>
+<h3 id="35b16-bottlenecks-that-cannot-be-crossed-cleanliness-material-purity-equipment-and-metrology">35.B.16 Bottlenecks That Cannot Be Crossed: Cleanliness, Material Purity, Equipment, and Metrology<a class="headerlink" href="#35b16-bottlenecks-that-cannot-be-crossed-cleanliness-material-purity-equipment-and-metrology" title="Permanent link">&para;</a></h3>
+<p>(Retained from Section 35.13) The honest list (what is still missing to "rebuild a modern chip industry"):</p>
+<ol>
+<li>Cleanliness: modern-grade cleanrooms (filtered laminar flow, particle-count monitoring) — today there is only "simple clean measures + yield statistics";</li>
+<li>Material purity: continuous, stable supply of electronic-grade chemicals and gases (the Chapter 34 L3 gap);</li>
+<li>Equipment: step-and-repeat photolithography (sub-micron), ion implantation (doping precision), epitaxial growth — all products of multiple generations of industrial iteration;</li>
+<li>Metrology: sub-micron line-width measurement, trace impurity analysis (ppb level), inline defect inspection — <strong>what cannot be measured cannot be built</strong> (the ultimate embodiment of Iron Law 4 of the General Outline);</li>
+<li>Economies of scale: the design–process–test–packaging division-of-labor system (the collaboration of tens of thousands; an echo of the Chapter 1 population-and-division-of-labor question).</li>
+</ol>
+<p><strong>Conclusion</strong>: this route can reach "handcraft-process-grade integrated circuits" (millimeter features, a handful of gates integrated, reproducible small batches); it is a genuine integrated circuit — real materials, real devices, real logic, real verification — but it is not the modern chip industry. Admitting this boundary is the final brick in this manual's credibility.</p>
+<hr />
+<h2 id="parameter-master-table">Parameter Master Table<a class="headerlink" href="#parameter-master-table" title="Permanent link">&para;</a></h2>
+<p><strong>Part A 35.A (bulk-material parameters)</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Calibration method</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Silicon melting point</td>
+<td>1414 °C</td>
+<td>Physical constant; temperature control referenced to it</td>
+<td>35.A.4</td>
+</tr>
+<tr>
+<td>Substrate resistivity target band</td>
+<td>1–10 Ω·cm (n-type)</td>
+<td>Four-point probe on head-and-tail samples of every ingot</td>
+<td>35.A.3</td>
+</tr>
+<tr>
+<td>Master alloy phosphorus content</td>
+<td>0.05–0.1% (mass)</td>
+<td>Charge calculation + per-ingot resistivity iteration</td>
+<td>35.A.3</td>
+</tr>
+<tr>
+<td>Pull rate (body section)</td>
+<td>0.3–1 mm/min</td>
+<td>Read from the diameter–time curve</td>
+<td>35.A.4</td>
+</tr>
+<tr>
+<td>Necking</td>
+<td>2–4× pull rate; neck diameter 3–5 mm; length 10–20 mm</td>
+<td>Surface smooth, free of lumps</td>
+<td>35.A.4</td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>5–20 r/min</td>
+<td>Uniform swirl marks on the melt surface</td>
+<td>35.A.4</td>
+</tr>
+<tr>
+<td>Pulling chamber vacuum</td>
+<td>1–10 Pa</td>
+<td>McLeod gauge (Chapter 33)</td>
+<td>35.A.4</td>
+</tr>
+<tr>
+<td>Cutting speed</td>
+<td>3–8 mm/h</td>
+<td>Measured on this machine's first ingot</td>
+<td>35.A.6</td>
+</tr>
+<tr>
+<td>Wire diameter / kerf</td>
+<td>0.3–0.5 mm / 0.5–0.8 mm</td>
+<td>Inferred from measured kerf</td>
+<td>35.A.6</td>
+</tr>
+<tr>
+<td>Wafer thickness / five-point range</td>
+<td>0.4–0.6 mm / &lt;0.1 mm</td>
+<td>Micrometer, five points</td>
+<td>35.A.6</td>
+</tr>
+<tr>
+<td>Abrasive-removal rule</td>
+<td>Each stage ≥3× the previous stage's grit size</td>
+<td>Back-checked from polishing time</td>
+<td>35.A.6</td>
+</tr>
+<tr>
+<td>Polishing duration</td>
+<td>1–3 h per face</td>
+<td>Dark-field criterion</td>
+<td>35.A.6</td>
+</tr>
+<tr>
+<td>Resistivity uniformity</td>
+<td>Five-point range &lt;20%</td>
+<td>Four-point probe</td>
+<td>35.A.7</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Part B 35.B (surface-process parameters)</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+<th>Calibration method</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wet oxidation rate (1100 °C)</td>
+<td>about 0.4–0.6 μm/h</td>
+<td>This furnace's stepped samples</td>
+<td>35.B.5</td>
+</tr>
+<tr>
+<td>Dry oxidation rate</td>
+<td>about 0.08–0.15 μm/h</td>
+<td>Same</td>
+<td>35.B.5</td>
+</tr>
+<tr>
+<td>Masking oxide target thickness</td>
+<td>0.4–0.6 μm</td>
+<td>Color chart + weighing</td>
+<td>35.B.5</td>
+</tr>
+<tr>
+<td>Resist mix</td>
+<td>8 g gelatin per 100 mL water + 1.5–2.5 g ammonium dichromate</td>
+<td>Twin indicators: t_min and unexposed control</td>
+<td>35.B.6</td>
+</tr>
+<tr>
+<td>Resist shelf life</td>
+<td>3–7 days</td>
+<td>Daily unexposed control</td>
+<td>35.B.6</td>
+</tr>
+<tr>
+<td>Dry film thickness</td>
+<td>1–3 μm</td>
+<td>Witness-wafer weighing</td>
+<td>35.B.6</td>
+</tr>
+<tr>
+<td>Exposure time</td>
+<td>1.5 × t_min</td>
+<td>Same-day time-gradient method</td>
+<td>35.B.6/8</td>
+</tr>
+<tr>
+<td>Development / hard bake</td>
+<td>30–40 °C, 1–3 min / 80–100 °C, 15–30 min</td>
+<td>Water runs clear in development / fingernail scratch + test etch</td>
+<td>35.B.6</td>
+</tr>
+<tr>
+<td>Overlay accuracy</td>
+<td>≤ half line width</td>
+<td>Cross-mark deviation reading</td>
+<td>35.B.8</td>
+</tr>
+<tr>
+<td>BHF mix / rate</td>
+<td>HF:ammonium fluoride solution 1:3–1:7; 0.05–0.15 μm/min</td>
+<td>Stepped sample + water-drop beading</td>
+<td>35.B.9</td>
+</tr>
+<tr>
+<td>NaOH silicon etch</td>
+<td>30–40%, 75–85 °C; (100) 0.3–0.8 μm/min; {111} 20–50× slower</td>
+<td>Large-window weighing + angle-lap staining</td>
+<td>35.B.9</td>
+</tr>
+<tr>
+<td>Predeposition</td>
+<td>1050–1100 °C, 15–60 min; boron target 20–60 Ω/□</td>
+<td>Source-temperature search procedure + witness wafer</td>
+<td>35.B.10</td>
+</tr>
+<tr>
+<td>Drive-in</td>
+<td>1100–1150 °C, 1–4 h</td>
+<td>Junction depth measured by angle-lap staining</td>
+<td>35.B.10</td>
+</tr>
+<tr>
+<td>Junction depth targets</td>
+<td>Base 1–2 μm, emitter 0.8–1.5 μm</td>
+<td>Angle-lap staining</td>
+<td>35.B.10</td>
+</tr>
+<tr>
+<td>Drift halt line</td>
+<td>Witness-wafer sheet-resistance drift &gt;10%</td>
+<td>Witness-wafer ledger</td>
+<td>35.B.10</td>
+</tr>
+<tr>
+<td>Silver paste mix (mass)</td>
+<td>silver 75–80 / frit 3–6 / vehicle 15–20</td>
+<td>Test-line open rate + sheet resistance</td>
+<td>35.B.11</td>
+</tr>
+<tr>
+<td>Firing</td>
+<td>binder burnout 150–250 °C, 10–20 min; peak 750–850 °C, 10–20 min</td>
+<td>Line-surface balling / adhesion criteria</td>
+<td>35.B.11</td>
+</tr>
+<tr>
+<td>Thermocompression bonding</td>
+<td>250–350 °C, 300–800 g weight, 1–3 s</td>
+<td>Pull-test pass rate</td>
+<td>35.B.11</td>
+</tr>
+<tr>
+<td>First-mask line width</td>
+<td>0.5–1 mm</td>
+<td>Mask declaration + test targets</td>
+<td>35.B.7</td>
+</tr>
+</tbody>
+</table>
+<h2 id="failure-modes-and-diagnosis">Failure Modes and Diagnosis<a class="headerlink" href="#failure-modes-and-diagnosis" title="Permanent link">&para;</a></h2>
+<p><strong>Part A (bulk-material failures — ordered from most common to hardest to detect)</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Candidate causes</th>
+<th>Verification</th>
+<th>Disposition</th>
+<th>Prevention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ingot pulls polycrystalline</td>
+<td>Thermal shock, vibration, bad seed</td>
+<td>Broken ridge line + acid-etched cross-section of the head sample</td>
+<td>Downgrade the whole ingot to test pieces</td>
+<td>Never skip necking; keep the ring-watch records</td>
+</tr>
+<tr>
+<td>Sliced wafers bowed / tapered</td>
+<td>Insufficient wire tension; thin slurry; guide worn off-axis</td>
+<td>Knife-edge straightedge light-gap test + five-point micrometer</td>
+<td>Lap to correct</td>
+<td>Tension set with quantified weights</td>
+</tr>
+<tr>
+<td>Wafer warpage</td>
+<td>One-sided over-lapping</td>
+<td>Look for the under-gap on a flat plate + five points</td>
+<td>Lap the other face symmetrically</td>
+<td>Alternate faces in stages</td>
+</tr>
+<tr>
+<td>Polishing scratches will not come out</td>
+<td>Fine-lapping damage not removed; abrasive grades mixed</td>
+<td>Dark-field scattering</td>
+<td>Back to polishing / back to fine lapping</td>
+<td>Abrasives graded; dedicated tray per grade</td>
+</tr>
+<tr>
+<td>Resistivity off-band</td>
+<td>Master alloy charge miscalculated; segregation fluctuation</td>
+<td>Four-point probe on head-and-tail samples</td>
+<td>Use downgraded by segments</td>
+<td>Iterate the master-alloy account ingot by ingot</td>
+</tr>
+<tr>
+<td>Iron contamination (hardest to detect)</td>
+<td>Contact with steel vessels/tools</td>
+<td>Abnormal resistivity temperature coefficient (34.7) + abnormal junction characteristics</td>
+<td>Re-melt and re-purify</td>
+<td>Quartz/ceramic discipline (34.2)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Part B (pattern-process failures — ordered from most common to hardest to detect)</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Candidate causes</th>
+<th>Verification</th>
+<th>Disposition</th>
+<th>Prevention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Missing corners and open lines after development</td>
+<td>Dust; underexposure; aged resist</td>
+<td>Magnifier + review of t_min and the unexposed control</td>
+<td>Strip the resist and recoat (limit 2 times)</td>
+<td>The six clean rules + same-day calibration</td>
+</tr>
+<tr>
+<td>Ragged window edges / edge seepage</td>
+<td>Insufficient hard bake; BHF too concentrated; over-vigorous agitation</td>
+<td>Test-etched witness wafer + microscope</td>
+<td>Device wafers scrapped</td>
+<td>Time the hard bake; fix the buffer ratio</td>
+</tr>
+<tr>
+<td>A single pattern bad on one wafer</td>
+<td>Dust propping the mask; local clamping gap</td>
+<td>Inspect the mask against the light; check the backing pad</td>
+<td>Downgrade that wafer to witness duty</td>
+<td>Pre-press blow-off + fringe self-check</td>
+</tr>
+<tr>
+<td>Masking failure (doping outside the windows too)</td>
+<td>Oxide too thin or pinholed</td>
+<td>Masking witness-wafer sheet-resistance comparison</td>
+<td>Scrap the wafer</td>
+<td>Oxide step ladder + dark-field pinhole check</td>
+</tr>
+<tr>
+<td>Overlay offset beyond limit</td>
+<td>Loose positioning strip; careless alignment</td>
+<td>Cross-mark deviation reading</td>
+<td>Downgrade to a looser-tolerance layer</td>
+<td>Alignment procedure made into a card</td>
+</tr>
+<tr>
+<td>Silver-paste open lines / balling</td>
+<td>Thin paste; insufficient burnout; firing over-temperature</td>
+<td>Test lines + microscope</td>
+<td>Solder-bridge repair, ≤3 points</td>
+<td>The test-line system</td>
+</tr>
+<tr>
+<td>β / sheet-resistance drift (hard to detect)</td>
+<td>Source/furnace temperature drift; source exhausted</td>
+<td>Witness-wafer ledger trends</td>
+<td>Halt the furnace and investigate (halt beyond ten percent)</td>
+<td>Witness-wafer system + periodic thermocouple checks</td>
+</tr>
+<tr>
+<td>Back-side parasitic junction (hard to detect)</td>
+<td>Back exposed during diffusion</td>
+<td>Soft diode reverse characteristic — lap the back and retest</td>
+<td>Lap off 20–30 μm of the back</td>
+<td>Double-sided oxidation, windows on the front only</td>
+</tr>
+<tr>
+<td>Whole mask mirrored (hardest to detect; largest loss)</td>
+<td>Miscounted odd/even copy inversions</td>
+<td>Mask verification wafer checked against the design logic table</td>
+<td>Scrap the batch; remake the mask</td>
+<td>Polarity checklist, dual signature (35.B.7)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="process-card-index">Process Card Index<a class="headerlink" href="#process-card-index" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Card number</th>
+<th>Name</th>
+<th>Use</th>
+<th>Card location (eight fields)</th>
+<th>Copy to workstation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>35-01</td>
+<td>Slicing and Polishing</td>
+<td>Multi-wire slicing, chamfering, two-stage lapping, mirror polishing, the five inspections</td>
+<td>End of 35.A.6 (Part A)</td>
+<td>Slicing room / Lapping room</td>
+</tr>
+<tr>
+<td>35-02</td>
+<td>Dichromate–Gelatin Resist Preparation and Calibration</td>
+<td>Mixing resist, same-day sensitivity calibration, coating, development and hard bake</td>
+<td>End of 35.B.6</td>
+<td>Darkroom / Coating station</td>
+</tr>
+<tr>
+<td>35-03</td>
+<td>Masked Contact Exposure</td>
+<td>Clamping, gap self-check, exposure timing, overlay alignment</td>
+<td>End of 35.B.8</td>
+<td>Exposure bench</td>
+</tr>
+<tr>
+<td>35-04</td>
+<td>Wet Etching</td>
+<td>BHF window-etch rate calibration, anisotropic silicon etching</td>
+<td>End of 35.B.9</td>
+<td>Etching room (two baths kept apart)</td>
+</tr>
+<tr>
+<td>35-05</td>
+<td>Metal Interconnect</td>
+<td>Silver-paste mixing and screen printing, firing, bonding and pull-test sampling</td>
+<td>End of 35.B.11</td>
+<td>Printing / Firing / Bonding stations</td>
+</tr>
+</tbody>
+</table>
+<p>All five cards carry the full eight fields and copy out on a single sheet: the Part A card files with Part A, the four Part B cards with Part B; the card number is the workstation copy number, and revisions go through the Chapter 42 four-step change procedure.</p>
+<h2 id="acceptance-criteria-l1l2l3">Acceptance Criteria L1/L2/L3<a class="headerlink" href="#acceptance-criteria-l1l2l3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>L1 (phenomenon observed)</strong>: Part A — one single-crystal ingot (uniform-diameter section ≥30 mm, head sample on file), 1 wafer passing slicing and polishing (dark field + water film + five-point thickness); Part B — microphotographic mask made (grid distortion calibration on file, polarity checklist signed); one successful time-gradient sensitivity calibration; photolithography–etching pattern transferred into the oxide (lines complete under the magnifier); a single junction (diode) measured on-wafer.</li>
+<li><strong>L2 (acceptable product repeatable)</strong>: Part A — ≥10 good wafers from one ingot, five-point four-point-probe range &lt;20%, the wafer-travel-card system running; Part B — a single planar transistor with on-wafer β on target and repeatable (three or more wafers in the batch); one testable logic gate via hybrid integration (Kilby-style); BHF and anisotropy rate ledgers established; yield statistics begun (complete-flow data for a first batch of ≥20 wafers).</li>
+<li><strong>L3 (system level: materials, spares, records, succession)</strong>: planar-process DTL gates in small batches (yield steady at double-digit percentages; empirical; requires long-term statistics); the probe–packaging–test loop running; the process-card and photomask version-freeze regime enforced (merged into the Chapter 42 drawing library); Part A wafer supply line with wafer output rate ≥60% for three consecutive ingots — <strong>"repeatable manufacture" achieved; "sustainable production" handed to Chapter 36</strong>.</li>
+</ul>
+<h2 id="labor-staffing-and-consumption">Labor, Staffing, and Consumption<a class="headerlink" href="#labor-staffing-and-consumption" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Staff</th>
+<th>Labor hours (empirical; must be field-calibrated)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pulling one ingot (30–50 mm × 60–100 mm, including melt-charge watch)</td>
+<td>2, rotating</td>
+<td>1–2 days/ingot</td>
+</tr>
+<tr>
+<td>Slicing one ingot (3–4 wires wound in parallel)</td>
+<td>1 tending</td>
+<td>5–8 days/ingot (yields 40–60 wafers)</td>
+</tr>
+<tr>
+<td>Lapping + polishing one wafer</td>
+<td>1</td>
+<td>0.3–0.5 person-days</td>
+</tr>
+<tr>
+<td>Full flow for one batch of 10 wafers, Part A</td>
+<td>2</td>
+<td>2–3 weeks</td>
+</tr>
+<tr>
+<td>One oxidation run (including heating-ladder samples)</td>
+<td>1</td>
+<td>0.5 day</td>
+</tr>
+<tr>
+<td>Resist mixing + same-day calibration</td>
+<td>1</td>
+<td>0.5 day (daily)</td>
+</tr>
+<tr>
+<td>Lithography for a batch of 10 (coat–expose–develop–etch)</td>
+<td>2</td>
+<td>1 day</td>
+</tr>
+<tr>
+<td>One diffusion run (predeposition + drive-in + angle-lap staining)</td>
+<td>2</td>
+<td>1–1.5 days</td>
+</tr>
+<tr>
+<td>Interconnect + on-wafer test for a batch</td>
+<td>2</td>
+<td>1–2 days</td>
+</tr>
+<tr>
+<td>One Part B wafer run (10 wafers, four-mask overlay)</td>
+<td>2–3 dedicated</td>
+<td>5–8 days</td>
+</tr>
+<tr>
+<td>First integrated circuit development (including failed rework)</td>
+<td>2–3</td>
+<td>3–6 months</td>
+</tr>
+<tr>
+<td>Consumption</td>
+<td>Per wafer run: 5–10 wafers, 50–100 mL HF, 1–2 g ammonium dichromate, 5–10 g silver powder, several carbon arc rods</td>
+<td>Entered in the materials ledger</td>
+</tr>
+</tbody>
+</table>
+<h2 id="safety-boundaries">Safety Boundaries<a class="headerlink" href="#safety-boundaries" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>The HF red line holds for the whole chapter</strong> (Chapter 26): gloves and goggles, calcium preparation on hand, HF bath with dedicated labels; the ammonium fluoride solution under the same rules;</li>
+<li><strong>Hexavalent chromium red line (new in this chapter)</strong>: dichromate dust and solutions — skin ulcers, sensitization by inhalation; weigh in a shallow tray by the wet method, wearing gloves and apron; <strong>collect the waste liquid separately, reduce it with ferrous sulfate solution (orange-red turning green is the proof), then precipitate with lime; direct discharge is strictly forbidden</strong> (Chapter 26 poison protocols);</li>
+<li>Hot alkali silicon etching: 80 °C alkali dissolves soapy fats and scalds — face shield, long-handled fixtures, splash lip on the bath rim;</li>
+<li>Diffusion source vapor inhalation risk — furnace-area ventilation + masks (35.B.10); dopants and acids stored in separate cabinets per Chapter 26;</li>
+<li>Arc-light exposure injures the eyes — light shroud and filter; looking directly at the carbon arc is forbidden (35.B.8);</li>
+<li>Pulling-zone high temperature and quartz crucible shatter risk: goggles, isolation shield (same rules as Chapter 34);</li>
+<li>Dicing swarf and silver-powder dust: goggles + wet paste mixing, wet cleaning;</li>
+<li>All electrical testing follows the Chapter 32 protocol (de-energize before rewiring).</li>
+</ul>
+<h2 id="a-existing-tool-list-partial">A. Existing Tool List (partial)<a class="headerlink" href="#a-existing-tool-list-partial" title="Permanent link">&para;</a></h2>
+<p>Wafer materials chain (Chapter 34 purification, zone refining, four-point probe); the low-vacuum ladder and McLeod gauge (Chapter 33); glass lampworking and quartzware (Chapters 14, 26); diffusion furnaces and temperature control (Chapters 12, 25); HF and photosensitive chemistry (Chapter 26); lenses and microscopy (Chapter 24); planar datums and knife-edge straightedges (Chapter 20); measuring instruments and the traceability system (Chapter 22); the electrical measurement system (Chapters 30–33); ceramic packaging (Chapters 11–12); printing and silk screen (Chapters 26, 15); silver (Chapters 16–17); drawing and the version system (Chapter 42).</p>
+<h2 id="b-new-tools-introduced-in-this-chapter">B. New Tools Introduced in This Chapter<a class="headerlink" href="#b-new-tools-introduced-in-this-chapter" title="Permanent link">&para;</a></h2>
+<p>Part A: the necking pull program and ring-watch recording method; the master-alloy doping iteration method; the roll-lapping–cleavage-orientation–reference-flat system; multi-wire slicing with quantified tension (Card 35-01); the chamfering protocol; the two-stage-lapping 3× rule; the five-item inspection of dark field–water film–five points; A/B/C grading and wafers traveling with their cards. Part B: the wet-oxidation system and the stepped-sample color chart, oxide thickness by weighing; <strong>the dichromate–gelatin resist and same-day sensitivity calibration (time-gradient + ink step-tablet methods, Card 35-02)</strong>; mask enlarged drawings–microphotography and grid-distortion calibration, the master–working-mask system, the <strong>polarity checklist</strong>; <strong>the contact-exposure clamping fixture and gap control (fringe self-check + test-target verification wafers, Card 35-03)</strong>; <strong>BHF window etching and anisotropic silicon etching with rate ledgers (Card 35-04)</strong>; two-step diffusion and the source-temperature search, masking witness wafers, angle-lap staining junction measurement, back-side parasitic precautions; silver-paste screen printing–firing interconnect with pull-test sampling (Card 35-05); the self-built probe station; the four-piece logic truth-table verification set; the three disciplines of crude design and redundant design; the six rules of the simple cleanroom and settling-dust counts; the yield statistics and defect classification system; the honest list of "uncrossable bottlenecks".</p>
+<h2 id="c-unresolved-dependencies">C. Unresolved Dependencies<a class="headerlink" href="#c-unresolved-dependencies" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sub-millimeter photolithography (photosensitive material and optics upgrades; dry etching);</li>
+<li>Ion implantation and epitaxy (a generational equipment gap);</li>
+<li>ppb-level metrology (a generational gap in analytical chemistry);</li>
+<li>Precise crystal orientation (X-ray);</li>
+<li>Aluminum electrolysis (the unlock item for aluminum interconnect; registered in Chapter 32);</li>
+<li>Modern-grade cleanrooms (filtered laminar flow and particle counting);</li>
+<li>Packaging at scale and automated testing (begins in Chapter 36).</li>
+</ul>
+<h2 id="next-step-dependencies">Next-Step Dependencies<a class="headerlink" href="#next-step-dependencies" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Chapter 36: from repeatable to sustainable — the test system, failure analysis, the ramp route for complex logic, and an honest statement of capability boundaries;</li>
+<li>Chapter 42 loop-back: the three mask-drawing standards and the drawing-library version system (M-series drawing numbers) are consumed and frozen by this chapter; this chapter's process cards merge into its four-step change process;</li>
+<li>Whole-book loop-back: this chapter is the grand confluence of the six lineages — measurement (Chapters 3→22→27→34), materials (Chapters 8→23→26→34), precision (Chapter 20 planar datums → mask base plates → reference flats), energy (Chapters 6→28→32 electricity and arc light), and knowledge carriers (Chapters 45→46 paper, ink, and drawings) all arrive here. <strong>The first integrated circuit validates not the chip, but the entire dependency graph.</strong></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Ch35-Part-A-Silicon-and-Wafer-Preparation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Ch 35 Part A Silicon and Wafer Preparation">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Ch 35 Part A Silicon and Wafer Preparation
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Ch36-From-First-Chip-to-a-Sustainable-Electronics-Industry/" class="md-footer__link md-footer__link--next" aria-label="Next: Ch 36 From First Chip to a Sustainable Electronics Industry">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Ch 36 From First Chip to a Sustainable Electronics Industry
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CC BY-NC-SA 4.0 · Jweokk · 本版为快照，不跟随更新
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "search.suggest", "search.highlight", "toc.follow", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/shelf-counter.js"></script>
+      
+    
+  </body>
+</html>
