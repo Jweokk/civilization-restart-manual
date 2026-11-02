@@ -138,3 +138,6 @@ nav:
     - Appendix B Level Acceptance Master Table: 13-Appendices/Appendix-B-Level-Acceptance-Master-Table.md
     - Appendix C Safety Red Lines and Fatal Errors: 13-Appendices/Appendix-C-Safety-Red-Lines-and-Fatal-Errors.md
     - Appendix D Terminology and Units: 13-Appendices/Appendix-D-Terminology-and-Units.md
+
+extra_javascript:
+  - assets/shelf-counter.js
