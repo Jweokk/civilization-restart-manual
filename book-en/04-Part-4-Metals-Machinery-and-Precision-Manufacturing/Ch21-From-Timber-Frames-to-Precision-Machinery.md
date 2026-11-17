@@ -338,6 +338,10 @@ This boundary is written down so that no one later treats "there is no centrifug
 
 ## Process Card Index
 
+[Card 21-01] Scraping Bearing Shells and Measuring Clearance (at the end of Section 21.3) · [Card 21-02] Belt Tensioning and Slip Control (at the end of Section 21.6) · [Card 21-03] Gear Layout Approximate Tooth-Cutting (at the end of Section 21.1.1) · [Card 21-04] Water-Wheel Siting and Power Estimation (at the end of Section 21.5) · [Card 21-05] Water-Powered Drop Hammer: Construction and Acceptance (at the end of Section 21.9) · [Card 21-06] Ratchet Mechanism: Fabrication and Acceptance (at the end of Section 21.11)
+
+6 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Standards
 
 - **L1**: a gear pair's marking-compound rolled contact patch meets target; the crank-connecting-rod assembly hand-turns smoothly through the full cycle; the water wheel runs wet with output measured (force-measuring method) and recorded.

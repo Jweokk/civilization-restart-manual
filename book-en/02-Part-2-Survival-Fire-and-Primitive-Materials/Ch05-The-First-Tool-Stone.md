@@ -263,6 +263,10 @@ The complete hafting procedure is given in one place in Section 9.1.
 
 ## Process Card Index
 
+[Card 05-01] Platform Preparation and Hard-Hammer Flaking (at the end of Section 5.3) · [Card 05-02] Pressure Flaking and Edge Retouch (at the end of Section 5.5) · [Card 05-03] Stone Axe Hafting and Load Test (at the end of Section 5.3) · [Card 05-04] Edge Grinding and Bevel-Angle Verification (at the end of Section 5.5)
+
+4 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 * Wooden straightedge, rope scale, angle board, plumb bob, record tablets (Chapter 3).

@@ -111,7 +111,7 @@ Establish the **experimental and conceptual foundation** for electronic devices,
 
 | Level | Pressure | Means of attainment | The tube's fate in it |
 | --- | -------------------------- | --------------- | --------------- |
-| Rough vacuum | \~10⁴–10³ Pa (about 10–20 mmHg) | Water-jet aspirator (limited by water temperature and water column) | Filament dies at once: too much gas |
+| Rough vacuum | \~10⁴–10³ Pa (about 75–7.5 mmHg) | Water-jet aspirator (limited by water temperature and water column) | Filament dies at once: too much gas |
 | Low vacuum | \~10²–10 Pa | Grease-sealed piston pump (single stage) | Filament lights briefly, then oxidizes |
 | Medium vacuum | \~1–0.1 Pa | Piston pump run long + degassing | Diode works marginally (glow discharge still present) |
 | High vacuum | ≤0.1–0.01 Pa | **+ mercury displacement pump stage** | **Stable operating region of the triode** |
@@ -266,7 +266,7 @@ At the soft-glass narrow neck of the exhaust-station line, seal with a soft flam
 [Card 33-05 Crystal Detector: Point Selection and Rectification Ratio] (eight fields)
 
 1. **Input materials**: mineral (galena, chalcopyrite and other natural semiconductors, surveyed in Chapter 16); cat's whisker (fine metal wire); adjustable holder.
-2. **Tools required**: meter or simple galvanometer, adjustable contact rig, signal source (spark gap or resonant circuit). Calibration source: **the rectification ratio is the only criterion** — forward/reverse resistance ratio, not "it sounds louder".
+2. **Tools required**: ohmmeter (galvanometer comparison) or simple galvanometer, adjustable contact rig, signal source (spark gap or resonant circuit). Calibration source: **the rectification ratio is the only criterion** — forward/reverse resistance ratio, not "it sounds louder".
 3. **Sequence and control points**: break a fresh cleavage face, mount, probe point by point, **measure forward and reverse resistance at each point and compute the ratio**, fix the best point, connect and try reception. Control points: **probe and measure every point** (one mineral varies enormously between points); light contact pressure — press hard and it becomes an ohmic contact and rectification vanishes.
 4. **Empirical parameters and calibration**: ratio = reverse / forward resistance, higher is better; resonant demonstration point L ≈ 2.5 H with C ≈ 1 µF gives f₀ ≈ 100 Hz (buzzer band, empirical, measure it); contact pressure limited to "signal received without the ratio collapsing".
 5. **Observations to record**: per mineral — type and origin / points probed / forward and reverse resistance and ratio at each / chosen point / reception result.
@@ -471,6 +471,10 @@ Distinguish materials with three tests — temperature difference, light, and co
 
 ## Process Card Index
 
+[Card 33-01] Wire-Wound Resistor and Power Rating (at the end of Section 33.1.3) · [Card 33-02] Evacuation and Pressure Reading (at the end of Section 33.5.4) · [Card 33-03] Sealing, Outgassing, and Tip-Off (at the end of Section 33.6.4) · [Card 33-04] Carbon Filament: Making and Life-Grade Registration (at the end of Section 33.13) · [Card 33-05] Crystal Detector: Point Selection and Rectification Ratio (at the end of Section 33.8) · [Card 33-06] McLeod Gauge: Making and Calibration (at the end of Section 33.12) · [Card 33-07] Socket Making and Pin Standardization (at the end of Section 33.14) · [Card 33-08] Glow-Discharge Voltage Calibration (at the end of Section 33.15)
+
+8 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 * **L1**: R/L/C three-component behavior tests reproduced; ore detection audible/readable; three-state relay-logic demo; carbon-filament air/vacuum comparison experiment completed.
@@ -489,7 +493,7 @@ Distinguish materials with three tests — temperature difference, light, and co
 | McLeod gauge making and calibration | 2 people (1 lampworking, 1 calibrating) | 3–5 days |
 | Mercury displacement pump build | 2 people | 5–8 days |
 | One demo tube, whole process (exhaust, degas, experiment) | 2 people | 1–2 days (the mercury-pump stage takes most of it) |
-| Consumables | Per tube: glass stock, carbon filaments, mercury loss 5–20 g (into the poison ledger) | Entered in the Chapter 42/53 ledgers |
+| Consumables | Per tube: glass stock, carbon filaments, mercury loss 5–20 g (into the poison ledger) | Entered in the Chapter 38/49 ledgers |
 
 ## Safety Boundary
 

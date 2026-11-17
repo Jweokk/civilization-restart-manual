@@ -87,7 +87,7 @@ The defects Part A deals with — polycrystallinity, dislocations, cracks, resis
 
 | Material | Identification standard | Minimum specification | Acceptable substitute (cost) | Signs of a bad lot | Unit consumption |
 |---|---|---|---|---|---|
-| Polysilicon feedstock | Bright gray conchoidal fracture | Chapter 34 purified product, resistivity curve along the rod on record | Zone-refined re-purified stock (purer, more expensive) | Dull fracture, metallic bright spots, or oxidized yellow skin | 80–120 g per ingot |
+| Polysilicon feedstock | Bright gray conchoidal fracture | Chapter 34 purified product, resistivity curve along the rod on record | Zone-refined re-purified stock (purer, more expensive) | Dull fracture, metallic bright spots, or oxidized yellow skin | 100–450 g per ingot (recomputed from a φ30–50 × 60–100 mm ingot at ρ = 2.33 g/cm³; record the actual mass) |
 | Quartz crucible | Transparent, rings clearly when struck | No cracks; inner diameter ≥ ingot diameter +10 mm | High-purity graphite crucible (ash contamination, resistivity uniformity worsens; downgrade honestly) | Clustered bubbles, cloudy patches | 1 per ingot (reusable several times) |
 | Seed crystal | Mirror cross-section, no mottling | Length ≥30 mm | Picked from spontaneously nucleated slowly cooled melt | Snaps at the neck, mottled cross-section | 1 per ingot (recoverable) |
 | Cold-drawn steel wire | Bright, rust-free | 0.3–0.5 mm | Music wire (more durable) | Knots, rust spots (crooked kerf) | 2–5 m per ingot |

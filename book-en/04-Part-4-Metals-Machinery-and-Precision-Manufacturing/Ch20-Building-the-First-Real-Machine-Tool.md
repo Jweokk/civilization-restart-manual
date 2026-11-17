@@ -337,6 +337,10 @@ Machine-tool inspection **once a year**, plus added inspections after impacts/re
 
 ## Process Card Index
 
+[Card 20-01] Three-Plate Mutual Lapping (at the end of Section 20.3) · [Card 20-02] Hand Threading by the Template-Nut Method (at the end of Section 20.5) · [Card 20-03] Scraping and Point-Count Acceptance (at the end of Section 20.4.1) · [Card 20-04] Boring-Bar Hole Boring (at the end of Section 20.6) · [Card 20-05] Thread-Cutting Change Gears and Mismatch Protection (at the end of Section 20.9)
+
+5 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 - **L1 proof-of-principle**: three-plate mutual lapping complete, any two plates ≥ 4 points per 25×25 mm (rubbings on file); hand-made screw and nut engage over the full length with no binding; spring-pole lathe turns a wooden rod to roundness ≤ 0.5 mm. Evidence: rubbings, test pieces, record sheets.

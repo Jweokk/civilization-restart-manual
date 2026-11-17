@@ -453,6 +453,10 @@ Strip width specifications: warp strips 6–8 mm with faces free of split wounds
 
 ## Process Card Index
 
+[Card 07-01] Retting and Degumming (at the end of Section 7.4) · [Card 07-02] Reverse-Twist Rope Making (at the end of Section 7.4) · [Card 07-03] Static-Load Stepping and Calibration (at the end of Section 7.4) · [Card 07-04] Bow Drill Component Making (at the end of Section 7.6) · [Card 07-05] Knot Atlas (at the end of Section 7.9) · [Card 07-06] Net Weaving (at the end of Section 7.10)
+
+6 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 - Chapter 5 full stone kit (knife, scrapers, points, axe, hammers, pressure flaker, bone tools).

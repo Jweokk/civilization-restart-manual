@@ -352,6 +352,10 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 
 ## Process Card Index
 
+[Card 13-01] Slaking Quicklime (at the end of Section 13.2) · [Card 13-02] Mortar Test Cubes and Masonry Acceptance (at the end of Section 13.4) · [Card 13-03] Rammed Lime-Sand-Clay (Sanhetu) (at the end of Section 13.4) · [Card 13-04] Nine-Step Building Procedure (at the end of Section 13.5) · [Card 13-05] Three-Tier Fire Equipment and Separation Distances (at the end of Section 13.7)
+
+5 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Labor, Manpower, and Consumption
 
 | Item | Manpower | Labor-hours (experience value) |

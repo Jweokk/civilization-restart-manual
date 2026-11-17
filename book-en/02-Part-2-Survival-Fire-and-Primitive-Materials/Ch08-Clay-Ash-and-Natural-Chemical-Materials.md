@@ -261,6 +261,10 @@ Storage: dry and off the ground, rodent-proof; **two copies stored in different 
 
 ## Process Card Index
 
+[Card 08-01] Lye Extraction and the Floating-Egg Scale (at the end of Section 8.3) · [Card 08-02] Clay: Three Field Tests and Settling Grading (at the end of Section 8.2) · [Card 08-03] Birch-Bark Tar and Hafting Glue (at the end of Section 8.5) · [Card 08-04] Plant Acid: Extraction and Use in the Carbonate Test (at the end of Section 8.3)
+
+4 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 - Chapter 5 full stone tool set; Chapter 7 woodworking tools, bow drill, cordage, tripod; Chapter 6 full heat sources.

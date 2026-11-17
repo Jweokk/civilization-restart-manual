@@ -349,6 +349,10 @@ In frozen ground the bulk of casualties is cold injury, not industrial injury. T
 
 ## Process Card Index
 
+[Card 51-01] Ice Thickness Measurement and Clearance (at the end of Section 51.12) · [Card 51-02] Pre-Winter Servicing (at the end of Section 51.8) · [Card 51-03] Three Winter-Stock Ledgers (at the end of Section 51.8) · [Card 51-04] Kang Heat-Storage Stove: Construction and Firing Regime (at the end of Section 51.11) · [Card 51-05] Winter Bog-Iron Harvesting and Roasting (at the end of Section 51.12) · [Card 51-06] Frostbite Treatment (at the end of Section 51.19) · [Card 51-07] Dried-Fish Line (at the end of Section 51.20)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 - **L1**: insulated house + heat-storage stove pass a real winter test (fuel ledger meets target); the three seasonal-storage ledgers established; first bog iron into the furnace; the ice-thickness tiered table field-measured and archived.

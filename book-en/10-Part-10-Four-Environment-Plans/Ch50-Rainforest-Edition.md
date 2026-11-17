@@ -362,6 +362,10 @@ The monthly ledger has four columns: raw sand mined and hauled, concentrate outp
 
 ## Process Card Index
 
+[Card 50-01] Rainforest Site Assessment (at the end of Section 50.1) · [Card 50-02] Three-Stage Mold Control (at the end of Section 50.4) · [Card 50-03] Damp-Weather Insulation Testing (at the end of Section 50.4) · [Card 50-04] Bamboo Pipe Joints (at the end of Section 50.10) · [Card 50-05] Alluvial-Tin Sluice (at the end of Section 50.12)
+
+5 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 - **L1**: Ten-dimension assessment card fully measured; fails-first order table on the wall; one batch of leather/rope/paper through the three-line anti-mold process with 30 days of observation.

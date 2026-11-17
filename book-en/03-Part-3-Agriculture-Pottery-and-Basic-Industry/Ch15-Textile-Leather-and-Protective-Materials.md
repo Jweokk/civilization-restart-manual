@@ -373,6 +373,10 @@ Grading usage: workwear and sack cloth take "medium" or above; flags, archive-ma
 
 ## Process Card Index
 
+[Card 15-01] Drop Spinning: Three Twist Grades (at the end of Section 15.2) · [Card 15-02] Eight Steps of Plain Weave on the Backstrap Loom (at the end of Section 15.2) · [Card 15-03] Vegetable Tanning in Nine Steps (at the end of Section 15.3) · [Card 15-04] Oilcloth and Waxed Cloth (at the end of Section 15.5) · [Card 15-05] Two-Finger Gloves and Protective Face Shields (at the end of Section 15.6) · [Card 15-06] Drive Belts: Making and Static Load Rating · [Card 15-07] Plant Dyeing: Three Colors to Start (at the end of Section 15.8) · [Card 15-08] Wet Felting and Wadding (at the end of Section 15.9)
+
+8 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 - Chapter 7 fiber and rope craft and lashings; Chapter 5 bone needles and awls; Chapter 11 pottery (spindle-whorl material, dye vat, heating pots); Chapter 8 ash alkali, fats and oils, tar glue; Chapter 13 milk of lime; Chapter 12 bellows leather-goods needs; Chapter 10 flax and wool raw materials; Chapter 9 woodworking tooling.

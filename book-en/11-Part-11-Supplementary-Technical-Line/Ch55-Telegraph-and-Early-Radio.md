@@ -316,6 +316,10 @@ The crystal detector **starts no new workmanship** — the point-selection flow 
 
 ## Process Card Index
 
+[Card 55-01] Morse Key and Sounder (at the end of Section 55.1.4) · [Card 55-02] Repeater Station (at the end of Section 55.2.5) · [Card 55-03] Spark-Gap Transmitter (at the end of Section 55.3.3) · [Card 55-04] Crystal Receiver (at the end of Section 55.4.4)
+
+4 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 * **L1**: key and sounder usable as a pair; full dictation correct on the 36-character code table; a single station's key controls relay pull-in and release; the transmitter gives spark and the wavemeter reads; the crystal set is audible and copyable on the local demonstration signal.

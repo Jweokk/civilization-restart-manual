@@ -335,6 +335,10 @@ The "distribution board" of the 32.8 checklist is refined here into a buildable 
 
 ## Process Card Index
 
+[Card 32-01] Fuse Calibration (at the end of Section 32.3.2) · [Card 32-02] Ampacity Calibration (at the end of Section 32.3.1) · [Card 32-03] Three-Electrode Rough Ground Test (at the end of Section 32.3.3) · [Card 32-04] Network-Building Checklist Execution (at the end of Section 32.8) · [Card 32-05] Electric-Shock First Aid (at the end of Section 32.9) · [Card 32-06] Distribution Board Fabrication (at the end of Section 32.10) · [Card 32-07] Lightning Rod Installation (at the end of Section 32.12)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Work Hours, Manpower, and Consumption
 
 | Item | Manpower | Work hours (empirical) |

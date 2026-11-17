@@ -357,6 +357,10 @@ One machine is a power source; two machines are a system—get paralleling wrong
 
 ## Process Card Index
 
+[Card 31-01] Magnetizing and Residual-Magnetism Recovery (at the end of Section 31.3) · [Card 31-02] Winding Slot Insertion, Binding, and Varnish Dipping (at the end of Section 31.4.2) · [Card 31-03] Carbon Brush Making and Bedding-In (at the end of Section 31.7.1) · [Card 31-04] "Spinning but No Power" Troubleshooting (at the end of Section 31.8.1) · [Card 31-05] Wire Drawing and Annealing (at the end of Section 31.4.1) · [Card 31-06] Commutator Mica Undercutting (at the end of Section 31.11) · [Card 31-07] Field Rheostat (at the end of Section 31.12)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 - **L1**: all three modes of change reproduced in the Faraday experiment; the hand-cranked machine lights one carbon-filament lamp / drives bubbling in electrolysis.

@@ -1,5 +1,5 @@
 site_name: The Civilization Restart Manual
-site_description: From a single stone back to electricity · 56 chapters · 286 eight-field process cards · Chinese and English
+site_description: From a single stone back to electricity · 56 chapters · 286 eight-field process cards · appendices A–G · Chinese and English
 site_url: https://restart.fly2ai.top/en/
 docs_dir: book-en
 site_dir: build/site-en
@@ -138,6 +138,9 @@ nav:
     - Appendix B Level Acceptance Master Table: 13-Appendices/Appendix-B-Level-Acceptance-Master-Table.md
     - Appendix C Safety Red Lines and Fatal Errors: 13-Appendices/Appendix-C-Safety-Red-Lines-and-Fatal-Errors.md
     - Appendix D Terminology and Units: 13-Appendices/Appendix-D-Terminology-and-Units.md
+    - Appendix E Salvage Industry: 13-Appendices/Appendix-E-Salvage-Industry.md
+    - Appendix F Survival of the Manual Itself: 13-Appendices/Appendix-F-Survival-of-the-Manual-Itself.md
+    - Appendix G Civilization-Level Pitfalls, Curriculum, and Open Questions: 13-Appendices/Appendix-G-Civilization-Level-Pitfalls-Curriculum-and-Open-Questions.md
 
 extra_javascript:
   - assets/shelf-counter.js

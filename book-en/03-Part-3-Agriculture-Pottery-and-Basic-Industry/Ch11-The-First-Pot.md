@@ -433,6 +433,10 @@ Black-core exception path: pieces with black cross-sections go through one more 
 
 ## Process Card Index
 
+[Card 11-01] Firing Curve and Stoking Rhythm (at the end of Section 11.5) · [Card 11-02] The Three Coil Tests and Standard Water Bands (at the end of Section 11.2) · [Card 11-03] Levigation and Settling Classification (at the end of Section 11.1) · [Card 11-04] Glaze Gradient Test Tiles (at the end of Section 11.9) · [Card 11-05] The Three-Part Sintering Check (at the end of Section 11.6) · [Card 11-06] Kiln Loading Layout (at the end of Section 11.10) · [Card 11-07] Clay Pipe Tees and Bends (at the end of Section 11.11)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Labor Hours, Manpower, and Consumption
 
 | Item | Manpower | Labor hours (empirical values) |

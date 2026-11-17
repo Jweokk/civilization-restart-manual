@@ -198,7 +198,7 @@ Calibration method: cross-check within the same furnace against the standard sam
 4. **Empirical parameters and calibration**: forging window **bright orange to bright yellow (1000–1200 °C)**, 1–3 min per heat; folding **3–6 times**, once per heat, direction alternating; slag thread target 50–100 mm continuous (calibrated with test pieces, see Card 18-04).
 5. **Observations to record**: per piece — number of heats / duration of each / fold count and direction / slag squeezed out and its color / density of the finished section (any laminated slag).
 6. **Pass / rework / scrap criteria**: pass = dense section with no laminations, no delamination after folding, workable into a tool; rework = slag still present, add folds (but not beyond 6 — over-folding decarburizes); scrap = extensive internal slag or folding cracks (downgrade to small items or remelt).
-7. **Common failures and diagnosis order**: (1) cracks at the first blow → below the window, back to the fire; (2) delamination → folding in one direction, switch to alternating; (3) gets harder and the hammer will not bite → decarburization from too many heats or too fierce a fire; reduce folds; (4) slag will not come out → blows too heavy or heat too short; use light rapid blows and lengthen the heat.
+7. **Common failures and diagnosis order**: (1) cracks at the first blow → below the window, back to the fire; (2) delamination → folding in one direction, switch to alternating; (3) gets harder and the hammer will not bite → carburization, from too many heats and repeated soaking against the charcoal (the piece hardens and turns brittle); reduce folds; (4) slag will not come out → blows too heavy or heat too short; use light rapid blows and lengthen the heat.
 8. **L1 / L2 / L3 evidence**: L1 = one densified wrought iron billet plus record; L2 = three billets with fold counts and section quality comparable; L3 = a second person forges one billet to the section standard from this card alone.
 
 ### 18.7 From Bloom to Usable Iron Tools
@@ -230,7 +230,7 @@ Calibration method: cross-check within the same furnace against the standard sam
 | Product | Solid-state bloom → forged into wrought iron | Liquid pig iron (C >2%), then refined into steel |
 | Furnace temperature | About 1200–1400 ℃ peak at the tuyere zone; iron does not melt | Hearth >1500 ℃; slag and iron fully molten |
 | Continuity | Batch: one run, one pancake, furnace opened to draw iron | Continuous charging, continuous tapping of iron and slag |
-| Scale | kg-level per run | Hundreds of tons per day |
+| Scale | kg-level per run | Thousands to ten thousand tons per day |
 | Dependencies | Chapter 12 bellows + refractory clay + charcoal | Strong blast, coke, large refractory structures, slag-iron separation systems |
 
 **Why this stage does not chase liquid pig iron**: molten iron requires the hearth to hold >1400 ℃ for a long time — the charcoal-and-bellows system can only manage that occasionally; and liquid pig iron is high in carbon and badly brittle, with limited refining means at this stage (stir-refining (puddling) is a conditional route, Section 19.8.2). **The correct order: first obtain forgeable iron stock reliably through direct reduction (this chapter's L2), then chase capacity and the liquid route (long-term, pending greater air volume and coke).** Stated honestly: this chapter's route caps iron output at a few kg per run — enough to support tool bootstrapping and workshop production, not enough to support a machine industry at scale.
@@ -286,7 +286,7 @@ The single-tuyere, flat-bottom furnace is a starting point, not an endpoint. Thi
 
 **Cold-furnace verification (mandatory before sealing with clay)**: pass a straight rod (length ≥2× the hearth diameter) through both tuyeres — the rod tips should meet at the furnace center; check the two tube mouths for equal height against the stilled surface of a water bowl (the connected-vessel leveling method, Chapter 3). After ignition, **equal brightness at the two tuyeres** is the sign of a sound run; one bright and one dark means uneven air paths — check the duct joints for leaks and the tubes for charcoal blockage first, then the installation tolerances.
 
-**Benefit**: the hearth heats evenly and the bloom pancake grows round and centered (in single-tuyere furnaces the pancake habitually skews toward the side opposite the tuyere, with local overheating on the air side); the dead column of charge at the center shrinks; at the same layer ratio the slag thread settles into the target band more easily.
+**Benefit**: the hearth heats evenly and the bloom pancake grows round and centered (in single-tuyere furnaces the bloom grows against the wall directly below the tuyere, denser and higher in carbon on the air side — attached at low blast, detached at high blast, as the experimental record shows; verify against this furnace's own tap record rather than assuming); the dead column of charge at the center shrinks; at the same layer ratio the slag thread settles into the target band more easily.
 
 **The cost account (computed before the change)**: budget air demand at roughly 1.5–2× the original (empirical; calibration: watch the double-tuyere brightness and slag thread during the first trial run, converging by ±10% per run) — the two-operator rotation floor rises from 20 full strokes per minute to 35–40; shift-change intervals shrink from 30 min to 15–20 min; add the labor bill to the shift schedule first. **If the bellows cannot feed a double tuyere, stay with a single tuyere — a half-alive double-tuyere furnace is worse than a single one** (the air short-circuits; see the failure-mode table).
 
@@ -354,6 +354,8 @@ Once the hammer, anvil, chisel, and axe are bootstrapped (Section 18.7), the sec
 
 **Iron sheathing for tool handles**: iron-sheet wrapping on the loaded ends — hammer handle butt, shovel handle mouth — fixed with two or more rivets. Purpose: stop the wooden handle from splitting lengthwise and extend handle life. Criteria: the sheathing sits tight to the wood; no shake under the hand.
 
+**Two output lines (do not plan on one)**. The 1.5–3 kg per run in this chapter's parameter table is the **novice acceptance line** — the first runs done right, with clear criteria, repeatable. Skilled work is much higher: in the full run records of experimental archaeology, one run of 94 kg charcoal produced a 14 kg bloom at about 60% iron yield (Sauder & Williams 2002, Historical Metallurgy 36(2): 122–131), and blooms in the hundred-smelt datasets are mostly 3–5 kg and upward — **5–14 kg of bloom per run at 30–60% Fe yield is reachable**. Plan fuel wood, labour and downstream forging capacity on the potential line; judge acceptance on the novice line. What separates the two lines is operating experience, not equipment.
+
 ## Master Parameter Table
 
 | Parameter | Value | Class |
@@ -362,7 +364,7 @@ Once the hammer, anvil, chisel, and axe are bootstrapped (Section 18.7), the sec
 | Layer ratio (ore : charcoal) | 1 : 1.5–2 | Empirical starting point |
 | Total charcoal per run | 80–120 kg (including heat storage and losses) | Empirical |
 | Steady-state charcoal consumption | 20–35 kg charcoal / kg dense iron | Empirical range, must be calibrated |
-| Iron per run | 1.5–3 kg dense stock | L2 criterion |
+| Iron per run | 1.5–3 kg dense stock (novice acceptance line; 5–14 kg on skilled runs, see end of Section 18.6) | L2 criterion |
 | Run duration | 6–9 h, 3–4 people in shifts | Empirical |
 | Tuyere bore | 25–40 mm, angled down 10°–15° | Empirical |
 | Slag thread target | 50–100 mm continuous fine filament | Empirical, calibrated against coupons |
@@ -394,6 +396,10 @@ Once the hammer, anvil, chisel, and axe are bootstrapped (Section 18.7), the sec
 | Rivets crack on riveting | ① upset at too low a temperature ② rivet stock slaggy / brittleness source ③ hole too small, upsetting allowance too large | Read the crack pattern: radial head cracks point to rivet temperature and hole diameter; a crack crossing the shank section points to the rivet stock — check its fracture | Rivet at bright orange or above; switch to Grade A stock rivets; re-verify hole diameters |
 
 ## Process Card Index
+
+[Card 18-01] One Bloomery Furnace Run (at the end of Section 18.4) · [Card 18-02] Folding, Forging, and Slag Squeezing (at the end of Section 18.6) · [Card 18-03] Building the Furnace in Seven Steps (at the end of Section 18.4) · [Card 18-04] Slag-Rod Temperature Reading (at the end of Section 18.5.2) · [Card 18-05] Converting to Twin Tuyeres (at the end of Section 18.10.1) · [Card 18-06] Chain-Link Forge Welding (at the end of Section 18.12)
+
+6 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
 
 ## Acceptance Criteria
 

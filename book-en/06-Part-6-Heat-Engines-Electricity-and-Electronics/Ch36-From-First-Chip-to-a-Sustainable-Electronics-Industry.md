@@ -184,7 +184,7 @@ Interpretation regime: **one pen per array, one column per furnace** — four cu
 
 ### 36.10 Three-Tier Packaging Process in Detail
 
-- **Tier 1 · wax seal + glass cap (test pieces)**: the die is silver-paste sintered onto a porcelain substrate → wire bonding (thermocompression: fine silver wire pressed onto aluminum/silver pads, ◎ hand-feel — pressure judged by "the wire deforms but does not break"; practice method: bond 50 points on scrap dies and record the pull-to-break force) → glass cap wax-sealed. Life target: days-class (for verification only);
+- **Tier 1 · wax seal + glass cap (test pieces)**: the die is silver-paste sintered onto a porcelain substrate → wire bonding (thermocompression: fine silver wire pressed onto silver pads (aluminum interconnect is outside Chapter 35's capability line, so aluminum is not written here), ◎ hand-feel — pressure judged by "the wire deforms but does not break"; practice method: bond 50 points on scrap dies and record the pull-to-break force) → glass cap wax-sealed. Life target: days-class (for verification only);
 - **Tier 2 · ceramic DIP (small batch)**: dual-inline porcelain cavity (porcelain parts per Chapters 11–12), silver-paste wiring, die sintering, bonding, glazed-seal porcelain lid — glaze-seal criterion: continuity retest unchanged after 10 min in boiling water (initial hermeticity check);
 - **Tier 3 · potting (harsh environments)**: machine-level devices potted in resin/bitumen — electrical testing must be completed before potting (nothing can be repaired after potting); potting bubbles are removed by vacuum impregnation (reusing the Chapter 33 vacuum bench).
 
@@ -275,7 +275,7 @@ Board selection rule: line width <1.5 mm or more than 50 traces → the photores
 | Tier | Conditions | Duration (empirical value) | Coverage | Criterion |
 |---|---|---|---|---|
 | Ambient tier | Full-load power at room temperature, test points recorded every 24 h | 72 h | All units | No opens or shorts; key test-point drift <5% |
-| High-temperature tier | Powered inside an insulated box at 50–60 °C | 24 h | All harsh-environment posts; 10% sample of routine batches | Same as above, and power components stay within the hand-temperature red line (Chapter 27) |
+| High-temperature tier | Powered inside an insulated box at 50–60 °C | 24 h | All harsh-environment posts; 10% sample of routine batches | Same as above, and power components stay within the hand-temperature red line (Chapter 27; **hold the oven at the 50 ℃ lower bound**, and correct the red line for ambient temperature) |
 
 The high-temperature source is a kiln-mouth waste-heat warming room or a flue-gas warming box (kiln-temperature experience per Chapter 12): hang thermometers at three points inside the box; if the readings at any two points differ by <5 °C at 10 min, the box temperature passes; retest once at each change of season. **A burn-in run whose records have a gap (more than 1 missed recording point) is treated as not burned in, and the clock restarts** — the cost of rerunning will itself force the watch-keeping discipline into being.
 
@@ -285,10 +285,10 @@ The high-temperature source is a kiln-mouth waste-heat warming room or a flue-ga
 
 | Environment | Primary threat | Deployment kit additions | Details |
 |---|---|---|---|
-| Island/coastal | Salt fog and humidity | Resin potting + wax-sealed outer cover; desiccant replaced monthly | Chapter 50 |
-| Desert | Dust and static | Double-layer oiled paper, felt filter on air intakes, dust blown out weekly | Chapter 51 |
-| Permafrost | Low-temperature brittle cracking | Thick felt lining; a warm-up-30-min-before-power-on procedure | Chapter 52 |
-| Rainforest | Mold and moisture | Full potting; lime-wash brushed on the wooden box's inner walls | Chapter 53 |
+| Island/coastal | Salt fog and humidity | Resin potting + wax-sealed outer cover; desiccant replaced monthly | Chapter 53 |
+| Desert | Dust and static | Double-layer oiled paper, felt filter on air intakes, dust blown out weekly | Chapter 52 |
+| Permafrost | Low-temperature brittle cracking | Thick felt lining; a warm-up-30-min-before-power-on procedure | Chapter 51 |
+| Rainforest | Mold and moisture | Full potting; lime-wash brushed on the wooden box's inner walls | Chapter 50 |
 
 **The transport and installation acceptance sheet** (one per box, signed for by two people):
 1. Unpacking inventory: box lining intact; the three-piece set (36.16) and the spare-parts bag complete;
@@ -303,7 +303,7 @@ The high-temperature source is a kiln-mouth waste-heat warming room or a flue-ga
 1. **Input materials**: complete units or devices awaiting screening (electrically passed, medical-record card and three-piece set present); rated-voltage supply (Chapters 31–32); spares and record cards.
 2. **Tools required**: burn-in rack (rows of powered positions, **fire patrol in the continuously powered area**); holding oven or kiln waste-heat warm room (high-temperature tier, Chapter 12 furnace experience); three-point thermometer set (oven uniformity); test-point voltmeter (Chapters 31–33 meter ranges); timer and inspection log.
 3. **Operating sequence and control points**: ① set conditions by tier: **ambient tier = full-load powered at room temperature for 72 h (all units), test points read every 24 h; high-temperature tier = 50–60 ℃ in a holding oven for 24 h (all units for harsh-environment posts, 10% sampling for routine batches)** → ② verify oven temperature first: hang three thermometers, **any two reading within <5 ℃ over 10 min** means the oven passes (re-check at season change) → ③ power up for continuous burn-in → ④ log at each point → ⑤ re-measure test points off the rack → ⑥ record the screening verdict. Control points: **a gap in the burn-in record (more than one missed reading) means the unit counts as un-burned-in and the clock restarts** — the cost of a rerun is what enforces watch discipline.
-4. **Empirical parameters and calibration**: 72 h ambient for all units, 24 h at 50–60 ℃ for the high tier (**empirical, to be calibrated to this line's early-failure rate**); criteria: no open or short circuit, key test points drifting <5%; the high tier adds "power components below the hand-temperature red line" (Chapter 27). Duration calibration: **a first-month field early-failure rate <2% means screening is sufficient** (empirical, reviewed quarterly); if higher, first lengthen the ambient tier, then check deployment protection.
+4. **Empirical parameters and calibration**: 72 h ambient for all units, 24 h at 50–60 ℃ for the high tier (**empirical, to be calibrated to this line's early-failure rate**); criteria: no open or short circuit, key test points drifting <5%; the high tier adds "power components below the hand-temperature red line" (Chapter 27; oven at the 50 ℃ lower bound, red line corrected for ambient temperature). Duration calibration: **a first-month field early-failure rate <2% means screening is sufficient** (empirical, reviewed quarterly); if higher, first lengthen the ambient tier, then check deployment protection.
 5. **Observations to record**: equipment number / batch code, tier, start and end times, test-point readings every 24 h, three oven thermometers, gaps and missed readings, off-rack re-measurement values, verdict and destination (release / downgrade / repair).
 6. **Pass / rework / scrap criteria**: pass = no open or short circuit throughout, test-point drift <5%, record without gaps; rework (rerun) = record gaps or more than one missed reading (clock restarts as un-burned-in), a single point drifting over 5% but recovering on re-measurement (extend one tier and re-screen); scrap = failure during burn-in (entered in the failure file and analysed per Card 36-02), still drifting after re-screening.
 7. **Common failures and diagnosis order**: (1) early failure in the field → first check whether burn-in was completed and long enough → check whether the record has gaps (equivalent to no burn-in) → extend burn-in; (2) power components overheating in the high tier → first check whether oven temperature exceeded 50–60 ℃ → check heat sinks (hand-temperature red line) → reduce loading density; (3) uneven oven temperature → first check the three-thermometer spread → check heat-source layout and air path; (4) clustered failures in one batch → check the batch code (component batch) → hand over to the Card 36-02 Pareto.
@@ -375,6 +375,10 @@ Change discipline: **every revision must be made on the three-piece set on the s
 | Drawing does not match the machine | Repair substitutions never written back; revision changed the machine but not the drawing | Monthly spot-check of one unit, verified item by item against the three-piece set | Restate the change-column regime; write substitutions back on the spot (36.13, 36.16) |
 
 ## Process Card Index
+
+[Card 36-01] Test Master Run In-Furnace (at the end of Section 36.1) · [Card 36-02] Three Failure Questions and the Three-Level Autopsy (at the end of Section 36.2) · [Card 36-03] Simple Clean Room: Positive Pressure and Acceptance (at the end of Section 36.7) · [Card 36-04] Batch Yield Control Chart (at the end of Section 36.7) · [Card 36-05] Burn-In Screening (at the end of Section 36.15) · [Card 36-06] Self-Made Copper-Clad Board (at the end of Section 36.14) · [Card 36-07]  (at the end of Section 36.16)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
 
 ## Labor Hours, Manpower, and Consumption
 

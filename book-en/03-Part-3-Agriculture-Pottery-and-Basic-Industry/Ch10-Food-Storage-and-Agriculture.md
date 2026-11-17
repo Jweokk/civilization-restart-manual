@@ -341,6 +341,10 @@ There is no pottery at this stage — long-term liquid storage, sealed moisture-
 
 ## Process Card Index
 
+[Card 10-01] Edibility Test (Graded-Exposure Method) (at the end of Section 10.1) · [Card 10-02] Compost (at the end of Section 10.3) · [Card 10-03] Earth Cellar (at the end of Section 10.6) · [Card 10-04] Seed Saving and Germination Testing (at the end of Section 10.2) · [Card 10-05] Plant-Derived Insecticide Decoction (at the end of Section 10.5)
+
+5 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Acceptance Criteria
 
 - **L1**: one complete edibility test (at least 1 item reaching level 7 or a stop level); one 2×2-pace trial plot through sprouting, harvest, and account; one successful sour-pickle or dried preservation batch (passing the day-7 spot check).

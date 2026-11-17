@@ -67,7 +67,7 @@ mkdocs build -f mkdocs-en.yml   # English → build/site-en
 
 ## Status of this edition
 
-Fifth edition (v5.0): 56 chapters, 11 parts, 286 eight-field process cards, Chinese and English chapter by chapter. Every technical parameter carries a source or an explicit calibration requirement; nothing was filled in to make a table look complete.
+Fifth edition (v5.1): 56 chapters, 11 parts, 286 eight-field process cards, appendices A–G, Chinese and English chapter by chapter. v5.1 is an erratum release: the 13 confirmed errors plus a set of inconsistent figures and formatting lapses found by an external audit of the whole repository have been fixed one by one, and three appendices have been added — salvage industry, survival of the manual itself, and a civilization-level pitfall map. Every technical parameter carries a source or an explicit calibration requirement; nothing was filled in to make a table look complete.
 
 This is a snapshot, not a continuously updated site. Issues are welcome; revisions ship as new editions.
 

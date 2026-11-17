@@ -412,6 +412,10 @@ Review conclusions go into the ledger's appendix; triggering without reviewing c
 
 ## Process Card Index
 
+[Card 09-01] Four-Way-Joint Hafting (at the end of Section 9.1) · [Card 09-02] Anti-Vibration Double-Wedge Method (at the end of Section 9.1) · [Card 09-03] Wooden Caliper Making and Zero Calibration (at the end of Section 9.1) · [Card 09-04] Grinding-Bench Work and Angle-Board Checks (at the end of Section 9.2) · [Card 09-05] Seven-Station Flow Line and Workstation Layout (at the end of Section 9.5) · [Card 09-06]  (at the end of Section 9.10) · [Card 09-07]  (at the end of Section 9.10)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 - Chapter 5: full stone tool set + bone tools. Chapter 6: full heat-source and charcoal management set. Chapter 7: woodworking tools, bow drill, cordage, carrying gear. Chapter 8: glues, pigments, specimen library, record system.

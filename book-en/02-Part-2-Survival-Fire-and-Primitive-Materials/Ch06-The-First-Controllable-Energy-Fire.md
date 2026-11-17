@@ -279,6 +279,10 @@ Chapter 2 declares twice that "until boiling-disinfection capability is establis
 
 ## Process Card Index
 
+[Card 06-01] Hand-Drill Fire Making, Full Sequence (at the end of Section 6.3) · [Card 06-02] Preparing Charred Tinder (at the end of Section 6.2) · [Card 06-03] Pulse-Blowing an Ember into Flame (at the end of Section 6.2) · [Card 06-04] Banking the Fire Overnight and the Ember Tube (at the end of Section 6.5)
+
+4 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## A. Existing Tools List
 
 - Chapter 5 full set: stone-flake knife, scraper, pointed flake, hand axe, hard hammer, soft hammer, pressure flaker, bone tools, wooden anvil.

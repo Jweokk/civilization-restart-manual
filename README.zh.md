@@ -4,11 +4,11 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Chinese + English](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%2B%20English-7c6cff.svg)](#)
-[![Edition](https://img.shields.io/badge/edition-v5.0-f59e0b.svg)](CHANGELOG.md)
+[![Edition](https://img.shields.io/badge/edition-v5.1-f59e0b.svg)](CHANGELOG.md)
 
 [English](./README.md) · [在线阅读](https://restart.fly2ai.top/) · [英文版](https://restart.fly2ai.top/en/)
 
-56 章 · 11 部 · 286 张工艺卡 · 中英双语 · CC BY-NC-SA 4.0
+56 章 · 11 部 · 286 张工艺卡 · 附录 A–G · 中英双语 · CC BY-NC-SA 4.0
 
 ---
 
@@ -98,7 +98,7 @@ mkdocs build -f mkdocs-en.yml   # 英文 → build/site-en
 
 ## 版本政策
 
-这是一份**快照，不是活文档**。没有定时重建，也不会自动更新：线上看到的是 v5.0，就一直停在 v5.0，直到下一个版本发布。勘误欢迎提 issue，随下一版一起改。
+这是一份**快照，不是活文档**。没有定时重建，也不会自动更新：线上看到的是 v5.1，就一直停在 v5.1，直到下一个版本发布。勘误欢迎提 issue，随下一版一起改。
 
 ## 版权
 

@@ -506,6 +506,10 @@ Three tasks, ordered by purpose: coloring (identification and decoration), polis
 
 ## Process Card Index
 
+[Card 17-01] Native-Copper Cold-Working and Annealing Cycle (at the end of Section 17.2) · [Card 17-02] One Crucible Reduction Run (at the end of Section 17.3) · [Card 17-03] Pouring Procedure (at the end of Section 17.4) · [Card 17-04] Four Rules of Hot Forging (at the end of Section 17.6) · [Card 17-05] Bronze Ratio Gradient Trial (at the end of Section 17.8) · [Card 17-06] Riser and Gating Design (at the end of Section 17.9) · [Card 17-07] Hot Tinning (at the end of Section 17.12)
+
+7 cards, each transcribable onto a single page, all eight fields present: input materials / tools required (with calibration source) / operating sequence and control points / empirical parameters and calibration / observations to record / pass, rework and scrap criteria / common failures and diagnosis order / L1–L3 evidence.
+
 ## Work-hours, Labor, and Consumption
 
 | Item | Labor | Work-hours (empirical value) |
