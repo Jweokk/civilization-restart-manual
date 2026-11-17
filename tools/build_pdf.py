@@ -14,6 +14,7 @@ import argparse
 import datetime
 import os
 import re
+import shutil
 import sys
 
 import markdown
@@ -159,8 +160,11 @@ def build(lang, version):
     os.makedirs(outdir, exist_ok=True)
     out = os.path.join(outdir, f"{M['out']}-v{version}.pdf")
     HTML(string=html, base_url=root).write_pdf(out, stylesheets=[css])
+    # 稳定名别名：站内链接与下载计数都指它，换版不必改链接、计数不分裂
+    stable = os.path.join(outdir, f"{M['out']}.pdf")
+    shutil.copyfile(out, stable)
     size = os.path.getsize(out) / 1e6
-    print(f"{lang}: {len(body)} docs → {out}  ({size:.1f} MB)")
+    print(f"{lang}: {len(body)} docs → {out} + {os.path.basename(stable)}  ({size:.1f} MB)")
     return out
 
 

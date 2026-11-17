@@ -69,7 +69,7 @@ mkdocs build -f mkdocs-en.yml   # English → build/site-en
 
 Fifth edition (v5.2): 56 chapters, 11 parts, 286 eight-field process cards, appendices A–G, Chinese and English chapter by chapter. v5.1 was an erratum release: the 13 confirmed errors plus a set of inconsistent figures and formatting lapses found by an external audit of the whole repository were fixed one by one, and three appendices were added — salvage industry, survival of the manual itself, and a civilization-level pitfall map. v5.2 closed three open items: the oxide-thickness weighing formula was corrected, all 286 cards were tagged with a source tier (result: E × 286), and a full PDF now ships.
 
-**Whole-book download**: [English PDF](reboot-manual-en-v5.2.pdf)　·　[Chinese PDF](reboot-manual-zh-v5.2.pdf) Every technical parameter carries a source or an explicit calibration requirement; nothing was filled in to make a table look complete.
+**Whole-book download**: [English PDF](reboot-manual-en.pdf)　·　[Chinese PDF](reboot-manual-zh.pdf) Every technical parameter carries a source or an explicit calibration requirement; nothing was filled in to make a table look complete.
 
 This is a snapshot, not a continuously updated site. Issues are welcome; revisions ship as new editions.
 

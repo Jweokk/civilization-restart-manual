@@ -8,7 +8,7 @@
   "use strict";
 
   var SITE = "restart";          // 站点白名单里的 id
-  var PDF = "";            // 页脚展示下载数的「整本 PDF」文件名；留空则不展示
+  var PDF = "reboot-manual-zh.pdf";  // 页脚展示下载数的「整本 PDF」文件名（稳定名，不随版本变）；留空则不展示
   var API = "https://counter.fly2ai.top";
   var mounted = false;
   var state = null;
