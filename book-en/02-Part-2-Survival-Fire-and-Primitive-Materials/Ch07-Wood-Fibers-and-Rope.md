@@ -105,8 +105,7 @@ Radial-split boards (through the pith) are dimensionally more stable than tangen
 | Dry grass stems | Medium | **Plummets** | Dry-state tying and fuel only |
 | Sinew | High | Medium | Softens when wet; for seams only (7.3) |
 
-[Card 07-01 Retting and Degumming] (eight fields)
-
+[Card 07-01 Retting and Degumming] (eight fields · source tier E)
 1. **Input materials**: linden or paper-mulberry inner bark (ring-cut in spring-summer when the cambium is active; only a 30 cm strip per tree, never a full girdle); retting water.
 2. **Tools required**: wooden mallet (pounding soft), clean water (combing out), temperature anchor card (to judge the water grade), record board. Calibration source: water temperature by the Chapter 3 feel grades (cool / neither cold nor hot / warm), no thermometer; time anchored to the day.
 3. **Sequence and control points**: strip the bark (30 cm per tree) → ret in water → set the retting period by the water-temperature class → mid-course spot checks (does the outer skin separate from the woody core?) → pound soft with the mallet → comb the fiber bundles out in water → store hung dry. Control points: **take it out early rather than over-ret** — over-retted fiber snaps like paper when pulled.
@@ -124,8 +123,7 @@ Radial-split boards (through the pith) are dimensionally more stable than tangen
 4. Splicing: stagger the two strands' splice tails ≥10 cm apart, roll the overlap into the strands, and keep the joint no thicker than the rope body.
 5. Finishing: tuck-braid the end three turns or whip it dead with fine cord.
 
-[Card 07-02 Reverse-Twist Rope Making] (eight fields)
-
+[Card 07-02 Reverse-Twist Rope Making] (eight fields · source tier E)
 1. **Input materials**: two bundles of equal-thickness bast fiber (the bundle diameter decides half the finished rope diameter); fine cord (for whipping the ends).
 2. **Tools required**: bare hands (rolling on the knee or thigh); a stone-flake knife for cutting rope; known-weight stones and water bags (for the 07-03 calibration). Calibration source: rope diameter estimated at the standard rod's sub-unit grade; load steps only from known-weight objects.
 3. **Sequence and control points**: take two equal bundles → twist each strand tight in the same direction (Z twist) → with both hands in step, wind the two strands together in the opposite direction (S ply) → on splicing, stagger the two splice tails ≥10 cm and roll the overlap into the strands → tuck-braid the ends three turns or whip them dead with fine cord. Control points: **single strands Z, plying S, uniform across the whole team** (a reversed direction will kink the rope).
@@ -149,8 +147,7 @@ Radial-split boards (through the pith) are dimensionally more stable than tangen
 - Static-load test: suspend the rope and load it in steps (stones/water bags of known weight), holding each step for 1 minute, and record the breaking step. The breaking value divided by 5 is that batch's working-load ceiling; divide by 10 when lifting people.
 - Impact test: drop a weight equal to half the static breaking load in free fall from 1 m onto a tensioned rope; surviving 10 drops qualifies it as a lifting sling.
 
-[Card 07-03 Static-Load Stepping and Calibration] (eight fields)
-
+[Card 07-03 Static-Load Stepping and Calibration] (eight fields · source tier E)
 1. **Input materials**: the rope batch to be calibrated (sampled from the batch); known-weight stones or water bags (stepped load); a fixed suspension point (crossbeam or tree limb) and slings.
 2. **Tools required**: hanging cord, water bags and stone set (stepped ballast), wooden caliper or standard rod (to measure diameter), record board. Calibration source: load comes from known-weight stones or water bags (Chapter 3 weighing), not from eyeballing.
 3. **Sequence and control points**: suspend the rope → load in steps → hold each step 1 minute → record the breaking step → divide by the safety factor for that batch's working load → impact test (half the breaking load, 1 m free fall, 10 drops). Control points: **every step must be held 1 minute** (loading fast misjudges); for lifting people divide by 10 instead.
@@ -223,8 +220,7 @@ Acceptance: apply a static load of 1.5 times the working load to the joint and h
 
 **Maintenance**: restring as soon as the string loosens (wrap count unchanged); dulled drill point → retouch by pressure flaking (Chapter 5); bearing-cap socket worn deep and slipping → re-cut the cap face.
 
-[Card 07-04 Bow Drill Component Making] (eight fields)
-
+[Card 07-04 Bow Drill Component Making] (eight fields · source tier E)
 1. **Input materials**: bow-arm stock (straight-grained elastic wood, 60–80 cm); bowstring (4–6 mm rope); shaft stock (round straight hardwood for boring, softwood for fire lighting); stone drill point (Chapter 5 pointed flake); bearing cap (hardwood block or stone with a socket); animal fat.
 2. **Tools required**: stone-flake knife, scraper, adze (shaping, 7.8); grinding stone (truing the shaft round); angle board (checking shaft and hole position); marking tool. Calibration source: component lengths measured against the standard rod's graduations; shaft roundness judged by rolling it.
 3. **Sequence and control points**: shape the bow arm (arc about 5 cm high when strung) → string it (1.5–2 turns around the shaft) → shave the shaft round and fit the stone point → cut the socket in the bearing cap and grease it → trial spin (does the point trace a circle?) → boring. Control points: **the wrap count and stroke length may not be changed casually** (change them and the speed changes); a socket worn deep and slipping means re-cut the cap face.
@@ -324,8 +320,7 @@ The five knots of 7.4 cover "joining and lashing"; this section completes the te
 | Common failures and check order | Slip: (1) check whether the load direction is rigged backwards (2) check whether the finish lacks a half hitch (3) check whether the rope surface is too slick (newly twisted rope lacks fuzz; pre-fuzz it before use) |
 | L1/L2/L3 evidence | L1: one demonstration of each of the ten knots; L2: 3 pull-test records per knot on file; L3: knot-type vs. use ledger + quarterly retraining records |
 
-[Card 07-05 Knot Atlas] (eight fields)
-
+[Card 07-05 Knot Atlas] (eight fields · source tier E)
 1. **Input materials**: calibrated rope (7.4, any of the 3–10 mm classes, about 50 cm per knot per practice run); wooden poles, rings, stakes to tie onto.
 2. **Tools required**: bare hands for the most part; stone-flake knife for cutting rope (Chapter 5); known-weight stones (for the slippage-load ratio calibration). Calibration source: diameter and breaking load from the 07-03 calibration table; load applied in known-weight stone steps.
 3. **Sequence and control points**: tie per the atlas → run the **three checks for load-bearing knots** (load direction, finish, wear point) → register item by item in the ledger. Control points: failing either the **load direction** or the **finish** check forbids hanging any load.
@@ -371,8 +366,7 @@ The five knots of 7.4 cover "joining and lashing"; this section completes the te
 | Common failures and check order | Net draws skewed: (1) check whether decreases/increases are piled on one side (2) check the interlocking knots for uneven tightness (3) check whether the gauge has worn narrow |
 | L1/L2/L3 evidence | L1: a 10 cm × 10 cm test piece kept as a reference; L2: one fishing net survives one launch without losing meshes; L3: net output, losses, and wet-strength spot checks entered in the ledger |
 
-[Card 07-06 Net Weaving] (eight fields)
-
+[Card 07-06 Net Weaving] (eight fields · source tier E)
 1. **Input materials**: 3–6 mm bast rope (wet-strength-retaining type: linden/mulberry inner bark); one spreader bar; stock = net area × mesh density plus a 15% allowance.
 2. **Tools required**: mesh gauge (hardwood board, width = mesh side × 2, thickness 3–5 mm, edges rounded, self-made); stone-flake knife for cutting rope (Chapter 5). Calibration source: mesh size = gauge width ÷ 2; wet swelling passes as long as the gauge is not jammed.
 3. **Sequence and control points**: cast a row of base loops on the spreader bar (bowlines, spacing = one mesh) → interlocking knots row by row (two consecutive half hitches around the two mesh posts of each mesh, tightened) → decrease/increase meshes per plan (**left-right symmetry is mandatory**) → finish edges with three tucked turns. Control point: count the meshes as each row completes; a miscount unravels that row.

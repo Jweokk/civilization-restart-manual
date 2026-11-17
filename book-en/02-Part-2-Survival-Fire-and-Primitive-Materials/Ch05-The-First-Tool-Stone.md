@@ -100,8 +100,7 @@ Failure troubleshooting (expanded to five patterns in v2): ① all debris → st
 
 **Load test (mandatory after every hafting; current lashing material = temporary binding of vine/wet rawhide strips; cord and knots are a Chapter 7 preview — backfill the formal lashing once Chapter 7 is unlocked)**: swing the axe into bare wood 20 times — lashing displacement < 2 mm and no creaking is a pass; then re-check with 1.5x impact (5 full-force blows into hardwood). If displacement exceeds the limit, twist it tighter and retest first; if still loose, re-lash with a longer binding section. Lashings are consumables: **bindings soaked by rain or immersion must be retested** (wet expansion and dry shrinkage change the binding force).
 
-[Card 05-01 Platform Preparation and Hard-Hammer Flaking] (eight fields)
-
+[Card 05-01 Platform Preparation and Hard-Hammer Flaking] (eight fields · source tier E)
 1. **Input materials**: a core from fist- to double-fist size (no visible cracks, at least one flat face usable as a platform); a dense cobble hammer, 300–600 g; one piece of hide or thick bark as a hand pad. **Reject any blank with a visible crack without test-striking it** — a cracked blank shatters ten times out of ten and wastes hours.
 2. **Tools required**: hard hammer (inspect its striking face once every half-day; on any penny-shaped spall, turn it or replace it), angle gauge (Chapter 3, for platform angle), anvil block (keeps the core from rolling). Calibration source: hammer weight balanced on the Chapter 3 balance into the 300–600 g band; angle gauge self-checked by the 3-4-5 cord method.
 3. **Sequence and control points**: select core → dress the platform (strike a continuous flat band 10–20 mm wide along the core edge) → flake (strike 5–10 mm in from the platform edge, 30–40 cm stroke, short snapping blow) → inspect the flake. **Two control points: the platform angle must be <90° (measured with the gauge; ideal 70–85°); the strike must land 5–10 mm from the edge — placement beats force.**
@@ -111,8 +110,7 @@ Failure troubleshooting (expanded to five patterns in v2): ① all debris → st
 7. **Common failures and diagnosis order**: (1) all debris → first check whether the strike is too far from the edge, then whether the platform angle is ≥90°; (2) lengthwise split → internal crack, discard the blank, do not blame technique; (3) hammer skids → platform edge too rounded, dress a sharp ridge; (4) hinge → insufficient force or strike too deep; (5) edge crumbling past halfway → switch from hard to soft hammer (go to Card 05-02).
 8. **L1 / L2 / L3 evidence**: L1 = one acceptable flake plus one record sheet; L2 = ≥60% success over ten consecutive cores plus per-core records; L3 = a second person reaches L2 from this card alone, and the two batches' platform-angle distributions can be compared.
 
-[Card 05-03 Stone Axe Hafting and Load Test] (eight fields)
-
+[Card 05-03 Stone Axe Hafting and Load Test] (eight fields · source tier E)
 1. **Input materials**: a knapped axe head (bifacial, tough stone 15 cm or longer); a straight dry handle (diameter matched to the hafting groove — too thin it twists, too thick it will not bind); vine or wet rawhide strip (**temporary binding only in this chapter; the proper cord and knots arrive in Chapter 7 and are back-filled**); one short stick for tightening; a wooden tablet for records.
 2. **Tools required**: stone knife (trimming vine ends), wooden wedge (opening the groove), scored tablet (displacement datum). Calibration source: no dedicated gauge; displacement read against scored lines to about 1 mm.
 3. **Sequence and control points**: slip knot to locate (blade to first pass on the handle) → cross wrapping (figure-eight 6–10 passes at the blade-handle crossing, finished with a flat knot) → toggle-stick tightening (2–3 turns, end tucked in) → **load test (mandatory after every hafting, never skipped)**. Control points: wrap count and tightening turns are written into the record, not left to "looks about right".
@@ -164,8 +162,7 @@ Specification table for the four tool classes:
 
 All outputs of this section are numbered in one scheme and registered into the tool archive (wooden tablet, Chapter 3 record format).
 
-[Card 05-02 Pressure Flaking and Edge Retouch] (eight fields)
-
+[Card 05-02 Pressure Flaking and Edge Retouch] (eight fields · source tier E)
 1. **Input materials**: a struck flake blank (edge cuts but is ragged); an antler billet or hardwood billet, 200–400 g, as soft hammer; an antler tip ground blunt as pressure flaker; coarse and fine sandstone slabs; hand pad.
 2. **Tools required**: soft hammer, pressure flaker, sandstone slabs, angle gauge. Calibration source: billet weight balanced on the Chapter 3 balance; pressure-point position by eye plus marker (measured once Chapter 20 arrives).
 3. **Sequence and control points**: soft-hammer "stroke" along the platform edge (hug the edge, do not strike air — yields longer, thinner flakes) → seat the pressure flaker 2–3 mm above the edge at about 45°, press with arm-and-chest weight, removing 2–5 mm chips → work once around the edge. Control points: 2–3 mm from the edge and about 45°; deviation in either causes edge collapse.
@@ -175,8 +172,7 @@ All outputs of this section are numbered in one scheme and registered into the t
 7. **Common failures and diagnosis order**: (1) edge collapse → check whether the pressure angle is too steep, then whether force is excessive; (2) flakes will not come off → flaker too blunt, or seated too far in (>3 mm); (3) uneven serration → uneven step spacing, switch to counting steps; (4) edge getting thinner and thinner → chips too wide, back off to 2 mm.
 8. **L1 / L2 / L3 evidence**: L1 = one retouched knife edge plus an edge photo (or rubbing); L2 = five consecutive passes plus serration-depth records; L3 = a second person reaches L2 from this card alone with a scrap rate <20%.
 
-[Card 05-04 Edge Grinding and Bevel-Angle Verification] (eight fields)
-
+[Card 05-04 Edge Grinding and Bevel-Angle Verification] (eight fields · source tier E)
 1. **Input materials**: dulled flake or ground blank (tough stone such as hornfels or basalt); coarse and fine sandstone slabs; water; hand pad.
 2. **Tools required**: sandstone slabs (coarse for shaping, fine for establishing the edge — never interchange), pressure flaker, angle gauge, wooden tablet. Calibration source: bevel angle measured with the Chapter 3 gauge; slab flatness verified by rubbing two slabs face to face and checking for light gaps (rough precursor to the Chapter 20 three-plate method).
 3. **Sequence and control points**: coarse sandstone to shape (remove notches, true the edge line) → fine sandstone with water to establish the bevel → pressure-flake the serration (go to Card 05-02) → verify bevel angle. Control point: **the bevel angle must fall inside the use band** — flake knife 20–40°, scraper 45–70°, awl blank 60–80°, axe 60–90°; anything outside is rework.

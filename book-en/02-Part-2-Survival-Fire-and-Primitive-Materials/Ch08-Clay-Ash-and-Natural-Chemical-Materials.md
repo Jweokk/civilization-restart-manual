@@ -61,8 +61,7 @@ Temper gradient test: make one set of test bars at each of 0%, 10%, 20%, 30% (pe
 
 **Drying procedure**: shade-dry in a cool place under grass or large leaves; full-dry criterion: the bar lightens in color, feels cool-free against the lip, and its weight no longer drops. Record all data in the test sheet.
 
-[Card 08-02 Clay: Three Field Tests and Settling Grading] (eight fields)
-
+[Card 08-02 Clay: Three Field Tests and Settling Grading] (eight fields · source tier E)
 1. **Input materials**: 1–2 kg of soil from candidate deposits (a representative sample, surface soil scraped away); water; one control lump of known-good clay (for hand-feel reference only). **Take samples from at least three spots per deposit** — river-bend sediment is layered even within one site.
 2. **Tools required**: a stone flake (to cut a fresh test face), a wooden trough or gourd or large shell for settling (must show layers visibly), scored rule (Chapter 3), record sheet. Calibration source: rule scored against the Chapter 3 standard rod; settling fractions read by eye, no instrument.
 3. **Sequence and control points**: lick test → ribbon test → shrinkage test → settling test for sand content, in that order, recording each. Control points: **after the lick test spit it out and rinse — do not chew, do not swallow** (pathogens and grit); **the shrinkage test must run a full 24 hours** — reading early mistakes "not yet dry" for "no cracking".
@@ -94,8 +93,7 @@ Temper gradient test: make one set of test bars at each of 0%, 10%, 20%, 30% (pe
 
 **Other basic feedstock registration checklist** (location, estimated quantity, verification test, intended use): salt (salt springs, salt earth, sea salt — taste test and evaporation residue); sulfur (yellow crystalline blocks in volcanic areas; blue flame and acrid fumes when burned — register, do not mine; handled in Chapter 23); trona (white frost on alkaline lakes); bitumen/petroleum seeps (black, sticky, flammable); quartz sand (abrasive and Chapter 14 glass feedstock; grain criteria: rounded grains, silt-free, 0.1–0.5 mm); ochre ore (8.4); graphite (black shiny scratch mark; register).
 
-[Card 08-01 Lye Extraction and the Floating-Egg Scale] (eight fields)
-
+[Card 08-01 Lye Extraction and the Floating-Egg Scale] (eight fields · source tier E)
 1. **Input materials**: wood ash (**hardwood ash preferred** — higher potassium-to-calcium ratio, stronger lye; softwood ash is weak — never mix and record them as one); water; one fresh egg (for the floating test; wash and reuse); a dedicated, clearly marked lye vessel (red stripe, see 8.4). Ash must be stored dry; once it cakes from damp, extraction yield drops.
 2. **Tools required**: standard wooden measure (Chapter 3, for the volume ratio), wooden trough or hide bag for steeping, stirring stick, **a dedicated marked lye container**. Calibration source: ratio measured by volume with the same measure every time; strength graded by the floating egg, no instrument.
 3. **Sequence and control points**: ash into vessel → add water at the volume ratio → steep 2–4 hours → stir twice midway → stand → decant the clear supernatant → second extraction if a stronger liquor is needed. Control points: **steeping time and stir count**; decant only after standing — liquor carrying grit etches unevenly and clogs.
@@ -105,8 +103,7 @@ Temper gradient test: make one set of test bars at each of 0%, 10%, 20%, 30% (pe
 7. **Common failures and diagnosis order**: (1) lye too weak → check ash type first (softwood ash is low in potassium), then steeping time; (2) turbid liquor → insufficient standing or unfiltered grit; (3) large strength difference between two extractions from the same batch → incomplete records, go back and record ash type and time; (4) **corrosive injury** → lye burns skin and eyes; rinse after handling, keep away from wounds — this belongs at the head of the card, not in a footnote.
 8. **L1 / L2 / L3 evidence**: L1 = one batch plus egg-grade record; L2 = one hardwood and one softwood batch with the grade difference documented; L3 = a second person makes the same grade from this card alone, and both judge the egg consistently.
 
-[Card 08-04 Plant Acid: Extraction and Use in the Carbonate Test] (eight fields)
-
+[Card 08-04 Plant Acid: Extraction and Use in the Carbonate Test] (eight fields · source tier E)
 > **Scope note**: this card covers only extracting an acid liquor for the limestone test, all of it supported by the body text. The "fruit-mash acidification" in the original index entry has no established process in the text, so it is not written here — better a gap than an invention. A proper vinegar process would need its own chapter.
 
 1. **Input materials**: sorrel leaves (or any plant leaf with a clear sour taste) or soured fruit mash, either one; a freshly cut face on the rock being tested (**it must be freshly cut — a weathered face will not fizz and will make limestone look like quartzite**).
@@ -170,8 +167,7 @@ Principle: oxygen-starved pyrolysis converts betulin and other constituents of b
 **Bond-strength test (rough quantification)**: standard lap specimens — two planed wood strips lapped 3×3 cm; after the glue cures 24 hours: first break by hand (three force grades: opens with a light pull / opens with a hard pull / will not open), then hang weights in increasing steps until it separates; record the separation load and the failure face (glue-line failure = weak glue; wood tear = glue stronger than the wood). n≥3 per recipe.
 
 **Storage**: tar lumps wrapped in leaves and kept in a cool place; gum lumps stored dry; lye and glue kept in separate zones.
-[Card 08-03 Birch-Bark Tar and Hafting Glue] (eight fields)
-
+[Card 08-03 Birch-Bark Tar and Hafting Glue] (eight fields · source tier E)
 1. **Input materials**: inner birch bark (outer crust scraped off, inner layer only); fine charcoal powder (sieved from the Chapter 6 bed); dry grass fiber or chopped moss (cut under 5 mm); soil (for sealing the pit). **Peel and roll the bark fresh** — dried inner bark goes brittle, will not roll tight, and yield drops sharply.
 2. **Tools required**: flake knife (scraping the outer crust), earthen pit (or a spent clay pot after Chapter 11), receiving vessel (bark roll or broad leaf). Calibration source: no thermometer — judge the fire by the color and consistency of tar seeping from the wall; pyrolysis time calibrated on site against roll diameter and weather.
 3. **Sequence and control points**: roll bark tight into a solid cylinder 5–8 cm across → stand it upright in the pit, backfill and tamp the soil → leave a small hole at the top → heap charcoal around the pit → pyrolyse 1–2 hours → pull the fire, let cool → scrape the glossy black tar from the inner wall and core. Control points: **the backfill must be tamped** (leaks burn the charge to ash) and **the top hole must not be omitted** (it is the vent; plugged, the roll can burst).

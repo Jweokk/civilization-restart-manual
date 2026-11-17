@@ -73,8 +73,7 @@
 - The two ends scratch each other with no difference → wrought iron, mark "iron," use as structural stock or carburizing feedstock;
 - The whole batch breaks on quenching → carbon too high or a brittle source (sulfur-phosphorus / burnt), mark "brittle source," quarantine, and trace back through Chapter 18's furnace-number records.
 
-[Card 19-01 Iron-Stock Grading Test] (eight fields)
-
+[Card 19-01 Iron-Stock Grading Test] (eight fields · source tier E)
 1. **Input materials**: 1 bar drawn from every batch of iron stock entering the library (forged into a standard strip about 10×200 mm); 1 companion coupon of the same source as the batch; a hardness reference set of three blocks — copper (soft), wrought iron (medium), hardened steel (hard).
 2. **Tools required**: forge (able to hold bright orange), tongs, still-water tub, anvil and hand hammer, fracture bench; a standard steel coupon fired in the same heat (heat-color reference); scratch and grading record sheet. Calibration source: every heat-color call is checked against the standard steel coupon in the same fire — a grading made on color alone is never accepted.
 3. **Sequence and control points**: ① forge the standard strip (10×200 mm) → ② heat one end to bright orange, **even along the whole section; local overheating causes misjudgment** → ③ **enter vertically into water, depth ≥100 mm, agitate at once** → ④ when cold, scratch the two ends against each other, then against all three reference blocks → ⑤ record and grade. Reading: the quenched end clearly cannot scratch the unquenched end = steel (≥0.3% order, enters the edge-tool candidates); no difference either way = wrought iron (structural stock or carburizing feedstock); the whole batch breaking on quenching = brittle source — quarantine it and trace the Chapter 18 furnace number.
@@ -117,8 +116,7 @@ Principle: at 900–1000 °C carbon atoms diffuse into the iron's surface; depth
 
 Depth versus time is **not linear** (it grows roughly as √time) and is extremely sensitive to temperature: 50 °C low, and the same time may halve the case depth. **Calibration method: bury 3 coupons at different positions inside the box; after opening, fracture them one by one and measure the case depth** — a large positional spread = uneven temperature inside the box; fix the furnace before discussing the process.
 
-[Card 19-02 Solid Carburizing] (eight fields)
-
+[Card 19-02 Solid Carburizing] (eight fields · source tier E)
 1. **Input materials**: forged blanks with grinding allowance left on (single-side allowance by use: chisel edge 0.8–1.0 mm / axe edge 1.0–1.2 mm / punch and drill 1.3–1.5 mm; surface filed to fresh metal, free of scale and oil); packing (charcoal crushed to 2–5 mm 70%–80% + bone ash or leather ash 10%–20% + potassium carbonate 5%–10%, all dry — wet packing means an uneven case); fireclay sealing compound; 3 coupons forged with the same batch (T / W / C positions, wire-tied lettered tags); charcoal (for the furnace).
 
 2. **Tools required**: carburizing box (pot + lid, box number recorded); high-temperature furnace (Chapter 12, standard coupon + box color double check); coupons and a fracture bench (hammer, anvil, rule); long-handled tongs; mortar and sieve (crushing charcoal, mixing); water for wet mixing and a mask (bone and leather ash are wetted to avoid inhaling dust); the carburizing ledger (box number, three-coupon depths, packing batch, reuse count). Calibration source: temperature by standard coupon (the Chapter 12 cone system) + box color (dark orange = at temperature); case depth measured on the fracture, never guessed from color.
@@ -135,8 +133,7 @@ Depth versus time is **not linear** (it grows roughly as √time) and is extreme
 
 8. **L1 / L2 / L3 evidence**: L1 = one box with three coupon fractures on file (positions, individual depths, box number complete); L2 = two consecutive boxes within 0.5 mm, with the ledger able to trace recipe and reuse count from the box number; L3 = the site's "packing recipe–soak time–case depth" calibration written up and transcribed into the ledger, the approved-box list running, and a second person reproducing a passing three-coupon spread on the same box type from this card.
 
-[Card 19-04 Interrupted Quenching (Water → Oil)] (eight fields)
-
+[Card 19-04 Interrupted Quenching (Water → Oil)] (eight fields · source tier E)
 1. **Input materials**: graded or carburized steel parts (edge tools in the 0.6%–0.9% carbon band; thin parts at 0.8%–1.3% belong to the oil-quench grade and do not use this card); clear water (still-water tub ≥15 L); animal-fat / fish-oil tank (lidded). **The higher the carbon and the thinner the part, the less a full water quench is allowed.**
 2. **Tools required**: forge (750–800 ℃ cherry-red window), long tongs, water tub, lidded oil tank (≥3 m from open flame, a bucket of dry sand at hand, **water never used on an oil fire**), timing (spoken seconds or the Chapter 3 drip clock), scrap lengths for practice, standard steel coupon.
 3. **Sequence and control points**: ① heat to 750–800 ℃ (cherry red to bright cherry red; standard coupon plus heat color judged together; overheating past bright yellow coarsens the grain and invites cracking) → ② **edge down, enter vertically, depth ≥100 mm, then stroke up and down to break the vapor film** → ③ cool in water a few seconds; **the instant the shudder / hiss stops, transfer to oil** (too early and it will not harden, too late and it cracks) → ④ cool in oil all the way (lid on, never lifted mid-way to look) → ⑤ **temper immediately on leaving the oil; never set the part aside overnight**. Control points: the card has exactly one hand-skill point — the transfer instant; thin parts entering flat-face are forbidden (violent warping).
@@ -168,8 +165,7 @@ Operating rules:
 
 **Whole-process mnemonic: forge to shape → carburize (wrought-iron blanks) → quench hard → temper tough → grind the edge → deliver tested parts.** Skip any step and everything after it is void.
 
-[Card 19-05 Tempering by Color Step] (eight fields)
-
+[Card 19-05 Tempering by Color Step] (eight fields · source tier E)
 1. **Input materials**: quenched parts not yet left overnight (old scale ground off and the face polished to bright metal); animal fat / fish oil for the oil bath; hot ash (for the buried slow cool).
 2. **Tools required**: furnace-mouth hot-draft position or oil-bath tank (surface just smoking, about 200–250 ℃), grinding stone and wiping cloth, side-light position (never backlight), tongs, timing (spoken seconds or drip clock), the seven-step color table of Section 19.3.3.
 3. **Sequence and control points**: ① polish the face to be tempered immediately after quenching → ② into the furnace-mouth draft or the oil bath, **watch the color in side light, one glance every 10 s** → ③ **judge at "color just showing"** (at the same temperature the longer the time the deeper the color; early rather than late) → ④ after the color shows, wait 1–2 min for the core to reach the same temperature (short for thin parts, long for thick) → ⑤ quench in water or set in still air (oil-bath parts soak 30–60 min first) → ⑥ color name and time into the tool record. Control point: color is only the surface — the 1–2 min of step ④ is never skipped.
@@ -203,8 +199,7 @@ Operating rules:
 
 ### 19.5 How to Make Chisels, Saws, and Edge Tools
 
-[Card 19-03 Steel Chisel Full Process] (eight fields)
-
+[Card 19-03 Steel Chisel Full Process] (eight fields · source tier E)
 1. **Input materials**: Chapter 18 Grade-A wrought iron bar 20×20×200 mm (bends ≥8 times, fibrous fracture); one box of carburizing packing (recipe in Card 19-02); clear water in a still tub ≥15 L and a lidded oil tank; handle wood and wedges (for fitting); abrasives (grindstone, dipping basin).
 
 2. **Tools required**: forge (750–800 ℃ cherry-red window for judging heat), anvil, hammer, tongs; angle plate (Chapter 3, to check the edge angle); carburizing box with three coupons, fracture bench; grinding bench; hardness reference set (copper / wrought iron / hardened steel); bend-test bench (fixed vise + angle reference); tool record card. Calibration source: temperature by standard steel coupon + heat color judged together; the quench seconds from a three-group comparison on scrap from the same batch (water 1 s / 2 s / 3 s); the edge angle measured with the angle plate, not by eye.
@@ -285,8 +280,7 @@ When the bloomery furnace hearth overheats it occasionally produces **white cast
 
 **Honest boundary:** without a thermometer or composition analysis, puddling is a process with an "extremely narrow empirical window" — this section is positioned as a **recovery route** for white cast iron, not as the main line of steel supply. The main line remains "wrought iron + carburizing."
 
-[Card 19-06 Puddling Route (White-Cast-Iron Recovery)] (eight fields)
-
+[Card 19-06 Puddling Route (White-Cast-Iron Recovery)] (eight fields · source tier E)
 1. **Input materials**: white cast iron from the Grade-D library, ≥3 kg (bright white shell-like fracture, unforgeable, logged separately); charcoal; fireclay (to build the shallow flat hearth); coupon stock from the same source. **This card is a recovery route for white cast iron, not a main-line steel source** — the main line remains "wrought iron + carburizing."
 2. **Tools required**: shallow flat hearth (fireclay, strong blast), bellows (able to bias the blast high), wooden or iron stirring rod, tongs, anvil and hammer (for the Section 18.6 fold forging), fracture bench.
 3. **Sequence and control points**: ① charge the white cast iron and melt it to a semi-molten mush (it need not melt fully) → ② **operate with an oxidizing flame (blast biased high)** — the opposite of reducing smelting; here oxygen is wanted to burn the carbon out → ③ stir and turn repeatedly with the rod (◎ as if stir-frying, so the mush surface meets the flame evenly) → ④ after about 30–60 min of stirring, ball it up and draw it out → ⑤ proceed to the Section 18.6 fold forging → ⑥ **fracture and grade a coupon every heat; grade each ball separately and never blend grades across a heat**. Control points: semi-molten but not running, an oxidizing flame, and constant turning — miss any one and decarburization stops halfway.
@@ -389,8 +383,7 @@ Spring failure is a silent failure — you find out only when it collapses insid
 4. Take 1 more spring per batch and bend-break it: bright fine grain = the stock grade is correct; gray fibrous = insufficient carbon (wrong grade; stop the whole batch and back-trace the grading records);
 5. L0/L1/stroke/compression counts go into the record (the same system as the Section 19.7 tool records).
 
-[Card 19-07 Spring Making] (eight fields)
-
+[Card 19-07 Spring Making] (eight fields · source tier E)
 1. **Input materials**: Steel Grade B bar (entry section 2×3 mm or φ3 mm, annealed, same-batch grading on ≥3 bars in agreement); acceptable substitute: Grade-A iron thin sheet, fully carburized (leaf springs ≤1.5 mm thick only; performance cost: breaks first where the case is uneven, shorter life); per-piece stock by developed length = π×mean diameter×turns +15%. **Carburized blanks are forbidden for thick coil springs** (a 1 mm-level case coiled into a φ20 mm ring will crack).
 2. **Tools required**: mandrel (forged per Chapter 18; diameter = target inner diameter × 0.85), forge, oil tank, oil-bath tank, compression-test fixture (threaded press screw + pressure plate + stroke limit sleeve), equal-thickness gauge strips (Chapter 3 feeler gauges), calipers or gauge.
 3. **Sequence and control points**: anneal (cherry-red upper limit, 1 h soak, buried in ash for an extremely slow cool) → cut → wind on the mandrel (or forge the plate and set the camber) → **oil quench with the mandrel on; never strip it before quenching** → blue-step temper to set, 30 min → cool slowly in ash → strip the mandrel → 100% compression test. **This chapter treats springs only in summary form (Section 19.10); the full procedures are set out in 19.10.2 for coil springs and 19.10.3 for leaf springs, and this card invents no process beyond them.** Control points: the turns must seat tight against one another, and the setting step is never skipped.
@@ -442,8 +435,7 @@ A set of three goes into the spares library (the Chapter 9 regime), each with a 
 
 Dull-tooth signals: the file skids, chip flow is intermittent, chips pack into the gullets. Quantified criterion: measure the tooth depth with soft-lead impressions; **wear of ≥1/3 of the tooth depth means refurbish** (continuing with dull teeth = slide-press-hardening the blank face, after which it is harder to chisel). Refurbishment route: anneal (the Section 19.7 regime) → re-chisel the overcut (the undercut may stay if still good) → oil quench → pale-straw temper → break in on soft material. **Refurbishment is capped at 2 times:** each refurbishment thins the blank face by 0.3–0.5 mm; below 3 mm blank thickness, scrap to the iron-stock account recovery column.
 
-[Card 19-08 File Tooth Cutting] (eight fields)
-
+[Card 19-08 File Tooth Cutting] (eight fields · source tier E)
 1. **Input materials**: Steel Grade B or high-carbon blank (annealed; entry size 200×25×4 mm, thickness ≥4 mm); acceptable substitute: carburized blank (case ≥1 mm so the tooth tips land inside the case; performance cost: one refurbishment grinds through the case and the file is scrapped). **Cut the teeth first, quench second** — on hardened stock the chisel cannot bite and the blank chips at the edges.
 2. **Tools required**: jump-chisel fixture (guide groove = blank thickness + 0.5 mm, stop block, pitch scribe template), 3 matched chisels, fixed-weight hammer, annealing pot, soft-lead impression plate, fine file and oilstone, brass-wire brush.
 3. **Sequence and control points**: anneal → file the blank faces smooth → scribe the tooth lines → clamp in the groove → chisel the undercut (45°) → chisel the overcut (60°) → **count and verify every tooth** → trim edges and straighten → oil quench → pale-straw temper at 200–220 ℃ → fit the handle → break in on soft material for 10–20 strokes. **This chapter treats file tooth cutting only in summary form (Section 19.11); the full procedures are in 19.11.1–19.11.4, and this card invents no process beyond them.** Control points: the advance comes from the stop block's dead point, not the eye; a skipped tooth cannot be added after the quench (re-cutting means a full anneal and starting over).

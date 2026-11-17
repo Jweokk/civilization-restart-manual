@@ -96,8 +96,7 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 | Lime paste (aged) | putty-like, kept under water | — | first choice for plastering and mixing |
 | Underburned lumps | heavy, gray dense hard core in the fracture | no reaction | reburn; must not enter the feed pile |
 
-[Card 13-01 Slaking Quicklime] (eight fields)
-
+[Card 13-01 Slaking Quicklime] (eight fields · source tier E)
 1. **Input materials**: properly burned lime lumps (three checks: noticeably lighter, uniformly white and friable on a fresh break with no hard core, water dripped on a fresh break hisses and boils); water at ≥3–5 times the lime volume. **Under-burned white cores must be picked out and returned to the kiln** — buried in the slaking pit they become the "pops" that burst out of a wall months later.
 2. **Tools required**: large pit or wooden trough (sized to the batch), wooden paddle, bamboo baskets (batch charging), clay jar for storing unslaked lime (lidded, clay-sealed). Calibration source: water measured by volume with the Chapter 3 standard measure.
 3. **Sequence and control points**: **fill the water first** → slide lime in by the basketful **slowly along the pit edge** → stir, keeping an arm's length away → add the next basket only when steam stops and the lumps have fully broken down → split the product (thick slurry raked into a storage pit under water). Control points: water must be in place before any lime goes in; **never throw a little water onto lime** (violent boiling and spatter) and never dump a whole charge at once — these two are the main cause of injuries in this chapter.
@@ -162,8 +161,7 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 - Cure as for mortar (sprinkle water and cover with straw, no baking sun); walking on it the next day is fine; heavy loads (wheels, machine bases) wait 7–30 days;
 - Acceptance: probe and scrape with the tip of an iron rod (the Chapter 16 iron rod or a hardwood rod) — a white mark only, with no crumbling, passes; crumbling or powdering means rework and re-ram.
 
-[Card 13-02 Mortar Test Cubes and Masonry Acceptance] (eight fields)
-
+[Card 13-02 Mortar Test Cubes and Masonry Acceptance] (eight fields · source tier E)
 1. **Input materials**: lime putty aged ≥7 days; sand passing the 8.2 settling test with low clay content; burnt-clay powder (for hydraulic mixes); water. **Clay in the sand is the hidden cause of mortar cracking** — wash sand that fails the settling test before use.
 2. **Tools required**: standard measure (Chapter 3, for volume ratios), cube molds (wooden frames, n ≥ 3 per mix), scored rule, plumb line, trowel. Calibration source: ratios measured by volume with the same measure; strength judged coarsely by whether cubes crack (no press available); wall plumb measured with a plumb line.
 3. **Sequence and control points**: measure by ratio → mix to workability → cast cubes (n ≥ 3 per mix) → cure (straw cover, sprinkling, several days) → lay masonry with checks as you go → accept. Control points: **adding water on site at will is forbidden** (more water = more drying shrinkage = cracks); every batch goes into the log, no "adjusting the mix by feel".
@@ -173,8 +171,7 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 7. **Common failures and diagnosis order**: (1) cubes crack → check water content first, then sand clay content, then whether curing was interrupted; (2) mortar never hardens → putty proportion too low, or carbonation is starved of moisture (must stay damp while hardening); (3) plaster tears when trowelling → sand too coarse or mix too lean; (4) wall leans → layout or laying was not plumbed; the further it goes the worse, so dismantle early.
 8. **L1 / L2 / L3 evidence**: L1 = one batch of cubes plus one masonry acceptance record; L2 = one air-hardening and one hydraulic batch, with cube results comparable to their ratios, and both masonry sections accepted; L3 = a second person mixes and accepts from this card alone, and both read the same wall's plumb within half a finger.
 
-[Card 13-03 Rammed Lime-Sand-Clay (Sanhetu)] (eight fields)
-
+[Card 13-03 Rammed Lime-Sand-Clay (Sanhetu)] (eight fields · source tier E)
 1. **Input materials**: lime putty, sand, clay (volume 1:2:2; crushed brick dust may replace part of the clay to add hydraulic character); water. Clay must pass the 8.2 three tests; sandy clay calls for proportionally less sand.
 2. **Tools required**: tamper (wood or stone, weight matched to crew), formwork for edges, standard measure (Chapter 3), iron or hardwood probe (for acceptance scraping), watering can.
 3. **Sequence and control points**: dry-mix thoroughly → add water to the "clench into a ball, shatters on dropping" stage → spread in layers (**half a palm thick loose**) → 3–5 tamper passes per layer → next layer only when both criteria are met. Control points: **loose-layer thickness and tamper passes**; moisture judged by the clench test (a ball that holds without seeping is the upper limit, one that shatters on dropping is the lower), not by feel alone.
@@ -212,8 +209,7 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 8. Ground and apron: indoor floor rammed + lime paste surface; outdoor grade sloped outward all around.
 9. Acceptance: walls plumb (plumb line: deviation <1 finger per rod height, experience value); roof pour test does not leak; floor shows no rising damp.
 
-[Card 13-04 Nine-Step Building Procedure] (eight fields)
-
+[Card 13-04 Nine-Step Building Procedure] (eight fields · source tier E)
 1. **Input materials**: stone, brick, or adobe; lime mortar or sanhetu as the element requires; timber (roof frame, lintels, rafters); thatch or tile; water.
 2. **Tools required**: 3-4-5 cord (layout), A-frame level (Chapter 3), stakes and line, tamper, trowel, plumb line, tripod (for raising the roof frame). Calibration source: square and level all trace back to the Chapter 3 cord and level — never "looks straight".
 3. **Sequence and control points (nine steps, none skippable)**: (1) siting — high ground, good drainage, near materials and water, downwind of living quarters; (2) layout — 3-4-5 cord for square, level frame, stake the lines; (3) excavation — down to firm soil, one palm wider than the wall line; (4) stone footing — bedded in mortar, at least 30 cm above grade; (5) walls — per 13.4; leave lintel seats at openings, with stone or hardwood lintels bearing ≥one palm at each end; (6) roof frame — ridge beam and rafters, mortised and lashed, raised as a unit with a tripod; (7) roofing — thatch two fingers thick, weighted, steep for drainage; tile overlap ≥1/3; eaves overhang 1–2 palms; (8) floors and apron — compacted with a mortar surface inside, graded away from the building outside; (9) acceptance. Control points: **footing height in step 4 and lintel bearing in step 5** — skip either and you will be back to fix it.
@@ -273,8 +269,7 @@ The acid must be strong enough to make you "wince on tasting" to be sensitive; i
 - **Fire-separation discipline** (the 15 paces / 8 paces of 13.5 are minimums; double them in windy regions); **fire alarm signal** (a bell struck in continuous rings) and night evacuation routes drilled once per season;
 - **Fuel store red lines**: hay and firewood stacks capped at person height (tall stacks self-ignite), 3 paces between stacks, ventilated against damp (internal fermentation heating of a damp stack is where smoldering starts).
 
-[Card 13-05 Three-Tier Fire Equipment and Separation Distances] (eight fields)
-
+[Card 13-05 Three-Tier Fire Equipment and Separation Distances] (eight fields · source tier E)
 1. **Input materials**: a covered water jar per zone (half-buried for winter frost), long-handled dipper, dry sand (one pit at the furnace area and one at the fuel store), wooden shovel, long-handled iron hook (evolved from the Chapter 16 probe).
 2. **Tools required**: the equipment above; a bell or noise-maker for the alarm; marked evacuation routes. Calibration source: equipment is allocated per building zone, not per headcount.
 3. **Sequence and control points (fit-out and drill)**: fit all three tiers per zone — **water** (covered jar plus long-handled dipper), **sand** (dry sand pit plus shovel; oil and metal fires must not be fought with water), **hook** (long-handled iron hook to drag burning material apart and pull down unsafe racks) → verify separation distances → agree the alarm signal (bell rung in continuous strokes) and the night evacuation route → **drill once a quarter**. Control points: all three tiers must be present in the same zone; missing one means none.

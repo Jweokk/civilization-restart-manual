@@ -104,8 +104,7 @@ Where the CO comes from: in the combustion zone C + O₂ → CO₂ releases heat
 6. **Stop blast and draw the iron**: open the furnace mouth (with the reserved clay-charcoal plug section), and while hot draw out the **bloom pancake** with wooden tongs / carrying bars (800–1000 ℃, yellow-red to orange-red). Slag hangs all around it — do not grip it bare-handed for long.
 7. **Clean out and reset**: dig out leftover charcoal and slag, inspect the lining for erosion, patch with clay. Lining life is about 3–8 runs (empirical); keep a furnace-body archive.
 
-[Card 18-01 One Bloomery Furnace Run] (eight fields)
-
+[Card 18-01 One Bloomery Furnace Run] (eight fields · source tier E)
 1. **Input materials**: concentrate 20–40 kg (**grade ≥40%, 5–20 mm, dry**); metallurgical charcoal 80–120 kg (including heat losses); limestone 0–4 kg depending on the basicity strategy. Wet or badly graded ore wastes everything downstream.
 2. **Tools required**: the bloomery, bellows (**two-person rotation**), furnace hook and rake, slag rod, carrying pole, tongs, full leather protection (apron, gloves, face shield). Calibration source: temperature read from fire color and furnace behavior, not from a pyrometer.
 3. **Sequence and control points**: (1) **ignite and charge the bottom charcoal** — fill to 200 mm above the tuyere, insert fire, gentle blast; (2) **heat up** — once the charcoal is fully alight and the tuyere plane is bright red (15–30 min), switch to strong blast; (3) **charge in layers** — charcoal layers 80–100 mm, ore layers 40–60 mm alternating to the top, making up layers as the burden sinks; **keep the burden line steady**; (4) **run and maintain** — every 10–15 min rake the burden loose with the long rod where it has crusted; watch slag seep from the slag notch or below the tuyere; (5) **judge the end point** — after the last charge run another 30–60 min; the top flame weakens and the burden stops sinking; (6) **stop the blast and tap** — open the tap hole, take out the **bloom at 800–1000 °C (yellow-red to orange-red)** with tongs and pole; (7) **clean and reset** — clear charcoal and slag, inspect lining erosion and patch. Control points: **steady burden line** and **end-point criteria** (weakening flame plus no further sinking) — tap early and the iron is raw, tap late and it sticks.
@@ -115,8 +114,7 @@ Where the CO comes from: in the combustion zone C + O₂ → CO₂ releases heat
 7. **Common failures and diagnosis order**: (1) will not light or heats slowly → damp charcoal, too little bottom charcoal, insufficient blast; (2) burden crusts and blocks → raking interval over 15 min; (3) little iron, much slag → low grade or too little charcoal in the ratio; (4) bloom black and slag-laden → limestone short or tapped late; (5) lining cracks in one run → insufficient drying at build (Card 18-03).
 8. **L1 / L2 / L3 evidence**: L1 = one complete run producing iron; L2 = three consecutive runs with comparable yield and charcoal consumption, steady within 1.5–3 kg; L3 = a second person runs one from this card alone and meets the standard.
 
-[Card 18-03 Building the Furnace in Seven Steps] (eight fields)
-
+[Card 18-03 Building the Furnace in Seven Steps] (eight fields · source tier E)
 1. **Input materials**: refractory clay (Chapter 12 mix: 50–70% grog plus 30–50% refractory clay); ordinary clay with straw (outer layer); tuyere clay pipe; wooden cylindrical inner form and outer ring boards; flat stone or rammed earth.
 2. **Tools required**: wooden form, rammer, trowel, blast pipe, slip bucket. Calibration source: furnace dimensions per the table (hearth depth 150–250 mm, wall 80–120 mm, tuyere about a quarter of furnace height above the base).
 3. **Sequence and control points (seven steps, none skippable)**: (1) **siting** — open air or a ventilated shed, dry ground, **at least 5 m from timber**, with room within reach for 2 on the bellows, 1 stoker, and a forge; (2) **base** — flat stone bedding or a rammed-earth platform, laid with refractory bricks; (3) **set the form** — wooden cylindrical inner form with outer boards forming an annular cavity; (4) **fill the wall** — ram refractory clay in layers, **embedding the tuyere pipe**; (5) **withdraw the form and dress the mouth** — leave about a 100 mm mouth, connect the blast pipe and seal with wet clay; (6) **dry** — **shade-dry at least 3 days, then gentle heat for 1 day; firing wet cracks it**; (7) **preheat** — before the first run, burn half a charge of charcoal empty and raise heat over 2–3 h, inspect for cracks and patch with slip. Control points: **the drying time in step 6** (skip it and the furnace cracks in one run) and tuyere position and angle.
@@ -154,8 +152,7 @@ Calibration method: cross-check within the same furnace against the standard sam
 
 **Impurity awareness**: sulfur makes iron **hot-short** (cracks on the first forging blow; troubleshooting in Section 18.9); phosphorus makes it **cold-short**. Nothing at this stage can test for either — only ore sorting as the gate, plus reading back from forging behavior; "brittleness-source" ore sites get flagged on the resource map (the Chapter 16 backfill system).
 
-[Card 18-04 Slag-Rod Temperature Reading] (eight fields)
-
+[Card 18-04 Slag-Rod Temperature Reading] (eight fields · source tier E)
 1. **Input materials**: molten slag in a running bloomery; a slag rod (long iron or copper rod). **The slag is the furnace's thermometer** — you cannot see the iron, but you can see the slag.
 2. **Tools required**: slag rod with a polished tip, heat-resistant gloves, a viewing position at the side, never in line with the slag notch. Calibration source: the criteria are **drawing length and fluidity**, not color alone.
 3. **Sequence and control points**: draw slag from the notch or from below the tuyere → fling and draw it out on the rod → read the thread. Control points: **sample from a fixed position** (slag at the notch and slag under the tuyere are not equivalent — record which); draw the thread immediately after taking it (it will not draw once cool).
@@ -190,8 +187,7 @@ Calibration method: cross-check within the same furnace against the standard sam
 5. **Judging density**: the hammer note turns from dull to crisp (auxiliary); fracture spot-check shows fine, tight fiber and no continuous black slag line; **the water-quench test: a dense piece enters water with no stream of bubbles** (bubbles rising out of pores = not dense, directly countable).
 6. **Burning-through warning**: sparks bursting like fireworks, edges whitening and fuzzing = local burning; cut that section off and scrap it — better short than bad.
 
-[Card 18-02 Folding, Forging, and Slag Squeezing] (eight fields)
-
+[Card 18-02 Folding, Forging, and Slag Squeezing] (eight fields · source tier E)
 1. **Input materials**: the bloom (from 18-01, taken at 800–1000 °C and worked hot); flux (river sand or a borax substitute); charcoal. The goal is to turn porous, slag-laden bloom into dense, uniform wrought iron.
 2. **Tools required**: **a large flat hard rock as anvil** (basalt, granodiorite — half-buried and fixed, face ground flat); hard stone hammer 800–1500 g used together with a copper hammer (**the first iron is used to make an iron hammer**); forked hardwood stick for holding (iron-shod fork lasts) plus a carrying pole. Calibration source: temperature by fire color (bright orange to bright yellow, 1000–1200 °C).
 3. **Sequence and control points**: onto the anvil hot → **light rapid blows to squeeze slag** (slag is brittle, iron is soft; hammering welds the iron skeleton while slag breaks and runs out of the seams) → turn and work the other face → fold → reheat → repeat. Control points: **1–3 min per heat** (cool it and it cracks under the hammer); **fold 3–6 times, once per heat, alternating direction** (folding one way only laminates the slag).
@@ -290,8 +286,7 @@ The single-tuyere, flat-bottom furnace is a starting point, not an endpoint. Thi
 
 **The cost account (computed before the change)**: budget air demand at roughly 1.5–2× the original (empirical; calibration: watch the double-tuyere brightness and slag thread during the first trial run, converging by ±10% per run) — the two-operator rotation floor rises from 20 full strokes per minute to 35–40; shift-change intervals shrink from 30 min to 15–20 min; add the labor bill to the shift schedule first. **If the bellows cannot feed a double tuyere, stay with a single tuyere — a half-alive double-tuyere furnace is worse than a single one** (the air short-circuits; see the failure-mode table).
 
-[Card 18-05 Converting to Twin Tuyeres] (eight fields)
-
+[Card 18-05 Converting to Twin Tuyeres] (eight fields · source tier E)
 1. **Input materials**: an existing furnace (built per 18-03); two tuyere clay pipes (20–30 mm bore); blast pipe and tee; refractory clay. Purpose: a single tuyere starves the center and over-blows the edges; twin tuyeres stretch the combustion zone into a line.
 2. **Tools required**: scored rule, straight rod for cold-furnace checking, angle gauge, slip. Calibration source: **height difference and intersection offset between the two tuyeres are measured with a straight rod in the cold furnace**, never by eye.
 3. **Sequence and control points**: mark the two tuyere positions (opposed or at 90° depending on furnace type) → bed the pipes → **cold check with the straight rod: height difference ≤10 mm, intersection offset ≤15 mm** → connect the tee → seal with clay → dry. Control point: **height difference and intersection offset** — misaligned tuyeres over-blow one side and starve the other, worse than a single tuyere.
@@ -329,8 +324,7 @@ Forge welding is the common underlying process of fold forging (step 4 of Sectio
 - **Quartz sand (standing stock)**: clean, dry sand. Action: with FeO it forms a low-melting iron-silicate slag film that both shuts out air and "pushes" the weld-line impurities out. Dose: until the weld face carries a white frost. **Wet sand and clay-bearing sand are forbidden** (explosive spatter + slag inclusions).
 - **Borax (if registered; long-term item)**: lower melting point, better fluidity — an upgraded replacement for quartz sand; register acquisition channels for the Chapter 16 resource-map backfill; until it is in hand it stays out of the process.
 
-[Card 18-06 Chain-Link Forge Welding] (eight fields)
-
+[Card 18-06 Chain-Link Forge Welding] (eight fields · source tier E)
 1. **Input materials**: wrought iron bar (from 18-02, section sized to the ring); flux (river sand or borax); charcoal. Chain welding is the first practical "iron made with iron" joint, and the best practice piece for fire-color control.
 2. **Tools required**: anvil, hammer, tongs, **a tapered mandrel that fits inside the ring** (sets the internal diameter), flux pot. Calibration source: **fire color** — bright yellow to near white (about 1250–1350 °C), "a sweat means weld."
 3. **Sequence and control points**: heat the bar to bright yellow → bend into a U → pass it through the previous ring → heat both ends to near white → **apply flux** → bring together and hammer (**weld at the sweat**: the instant fine droplets appear on the surface, strike) → true the ring on the mandrel → cool and check. Control points: **flux goes on only at near-white** (earlier and it burns off, later and the oxide layer is too thick to weld); **the first blow after closing must be fast**.

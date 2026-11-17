@@ -232,8 +232,7 @@ Where per-entry weighing is impossible (whole stacks, whole kiln charges), entry
 
 Calibration: pick 3 typical piles per material, measure volume then weigh the whole pile for a local coefficient; re-standard after any ore-source or kiln change. Converted entries must carry the marker "converted" in the summary column; month-end stocktakes spot-check converted batches first.
 
-[Card 38-01 Materials Ledger Card] (eight fields)
-
+[Card 38-01 Materials Ledger Card] (eight fields · source tier E)
 1. **Input materials**: ledger pages (Ch. 4 recording materials: bound book or waxed board), requisition stubs, ink and charcoal pencil, opening-stocktake record (verification item 8).
 2. **Required tools**: scale (Ch. 3/22; check zero and full scale against a standard weight before use, >2% error = out of service), volume measures (≤5% error), three-color board (painted plank). No higher-precision instruments needed.
 3. **Operating sequence and control points**: ① opening stocktake by weight establishes the account, marked "data origin date"; **② every receipt and issue entered same day, dual-signed, stock balance computed same day**; **③ in-transit listed separately, never in stock**; ④ missing requisition stubs reported same day; ⑤ Card 38-03 stocktake executed every month-end; ⑥ calibrated unit costs copied into the summary table immediately with date.
@@ -332,8 +331,7 @@ Three immediate conclusions:
 | Doubling output = doubling woodland pressure | 61 ha·yr/t | Recompute N₂ (37.2.2) before any new furnace; against the 37.2.5 example settlement (400 ha woodland, 750 t/yr), 1 t/yr of iron already consumes 15% of annual yield |
 | Fuel is the largest single cost item in iron | First in both FWE and person-days | Fuel-saving technology (furnace insulation, waste-heat preheating of blast) pays better than mining more ore |
 
-[Card 38-02 Energy Ledger Conversion and Computation Card] (eight fields)
-
+[Card 38-02 Energy Ledger Conversion and Computation Card] (eight fields · source tier E)
 1. **Input materials**: conversion table (38.3.2 copied onto the flyleaf), monthly materials ledger (Card 38-01), per-furnace unit-cost records, weighing water and a measure (for approximate heat-value calibration).
 2. **Required tools**: scale (calibrated per Card 38-01), graduated measure and water-boiling stove (boiling method), ledger book; no higher-precision instruments needed.
 3. **Operating sequence and control points**: ① calibrate the local firewood-equivalent first (boiling method, median of 3); **② the conversion table is settlement-wide and unique — copy onto the flyleaf with version date**; **③ all green-wood batches converted before entry**; ④ fill physical quantity / FWE / person-days per stage in the blank table; ⑤ attach computation basis per stage; ⑥ compare results against next month's actual consumption; deviation >30% → re-examine stage factors.
@@ -539,8 +537,7 @@ Rule: a color change without a record = an unhandled event (L3 veto item); retur
 
 Recovery runs in reverse order; the shutdown order is written on the board's reverse and archived with the color-change records.
 
-[Card 38-03 Monthly Stocktake Card] (eight fields)
-
+[Card 38-03 Monthly Stocktake Card] (eight fields · source tier E)
 1. **Input materials**: current month's sub-ledgers from every workshop, full requisition stub book, last month's stocktake sheet, three-color board, scrap-retention basket, standard weights for spot re-weighing.
 2. **Required tools**: scale (cross-checked once before starting, >2% error = out of service), board chalk or colored earth. No higher-precision instruments needed.
 3. **Operating sequence and control points**: ① stocktake only after month-end close; **② two-person count + 10% re-weigh sample**; ③ compute gap rate; >5% triggers the three-check this month; **④ three-check order fixed: missing records → pilferage → process drift**; ⑤ update and post the three colors; ⑥ dual-sign and archive, copies to the works supervisor and the council.

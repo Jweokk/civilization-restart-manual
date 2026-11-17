@@ -47,8 +47,7 @@ Applicable to: open channels, waterwheel supply flumes, drainage ditches — sit
 
 **Pipe-flow worked example (order-of-magnitude sanity check demonstration)**: a pipe of 50 mm inner diameter, center-point water-column difference 128 mm → center velocity v=√(2×9.8×0.128)≈1.58 m/s; this tube's center coefficient 0.82 → mean velocity ≈1.30 m/s; cross-sectional area π×0.025²≈1.96×10⁻³ m² → flow ≈2.55 L/s ≈153 L/min. Cross-check: a 200 L bucket fills in about 78 s, timing error <1% — the whole chain is of reasonable magnitude and may be entered in the ledger.
 
-[Card 27-03 Weir Flow Calibration] (eight fields)
-
+[Card 27-03 Weir Flow Calibration] (eight fields · source tier E)
 1. **Input materials**: one weir plate (3 mm thin steel sheet or board sheathed with iron sheet); point gauge (needle tip + vernier, resolution 0.5 mm); standard bucket (volume fixed by weighing, 50–200 L, bucket number in the ledger); timer.
 2. **Tools required**: square (90° verification of the notch); fine file (45° chamfer of the edge); level and plumb line; Chapter 3 layout tools; full volume–time-method set (27.4.1).
 3. **Operating sequence and control points**: ① lay out – saw – file the notch to 90°±0.5° (check the light gap with a square) ② 45° edge on the downstream face — **control point: drip test with the nappe lifting off the plate face** ③ stand the plate plumb, crest ≥150 mm above downstream ④ gauge zero point — **control point: needle tip just touching the V apex** ⑤ set 6 head steps (20–150 mm), 3 timed buckets per step — **control point: measurement point 3–4 times the maximum head from the weir** ⑥ record the six H-Q points; chisel the table plate.
@@ -93,8 +92,7 @@ A compression-type vacuum gauge: take a known-volume sample of the system gas, c
 4. High-vacuum regime: McLeod gauge spot readings + discharge-tube color cross-check (Chapter 33); when the two disagree, the McLeod gauge rules;
 5. Leak prevention in gauge-changing actions: grease the joints (Chapter 33 vacuum grease) or add a small U-shaped mercury-seal trap; **if the system pressure rises back >10% within 5 min after a gauge change, shut down and check the joints** (empirical value; calibrate to system volume: for small-volume systems substitute an absolute criterion of 5 mmHg).
 
-[Card 27-04 Vacuum Gauge Selection and Handover] (eight fields)
-
+[Card 27-04 Vacuum Gauge Selection and Handover] (eight fields · source tier E)
 1. **Input materials**: the vacuum system to be measured (joints M10×1.5 or ground-glass, Chapter 33 specs); that day's barometer reading; mercury ≥500 g (washed to mirror-bright); two glass tubes φ8×900 mm (Chapter 14).
 2. **Tools required**: open U-tube and closed single-tube mercury vacuum gauges (self-made per 27.5.2); McLeod gauge (drawn from Chapter 33, draw number entered in the ledger); mercury tray and sulfur powder; pinhole filter paper/chamois (filtering mercury); steel rule or vernier (reading column heights, Chapter 22).
 3. **Operating sequence and control points**: ① judge the pressure regime — **control point: an unknown system always starts on the open gauge; connecting the McLeod gauge directly to draw conclusions is forbidden** ② connect the open gauge to the system and record h; absolute pressure = that day's barometer − h ③ when h has <40 mmHg remaining, switch to the closed gauge ④ when the closed liquid column is <10 mm, switch to McLeod gauge spot readings ⑤ grease/mercury-seal the joints at the gauge change — **control point: a >10% rise-back within 5 min after the change means stop and hunt leaks** ⑥ record the gauge used, the readings, and the gauge-change times for each stage.

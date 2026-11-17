@@ -36,8 +36,7 @@
 
 **Wooden caliper (completed in v2: the first "reading" measuring tool — a size comparator for the pre-iron age)**: nail or scribe a fixed straight stop (reference jaw) at one end of a hardwood strip; on the strip, scribe lines at the standard rod's "finger-width" graduations to position the sliding jaw — after the sliding jaw (a small straight-stop block) is pressed against the workpiece, press-scribe its edge line onto the strip and read the nearest graduation. **Zero calibration**: with both jaws closed, the sliding jaw's edge should press on the zero line — if it is off, shim thin wood slivers behind the back of the jaw to correct, then fix with a scorched brand on the hardwood strip + a dot of tar (wire waits for Chapters 17–18). Precision: finger-width graduations + eyeballed half-finger (about the 5–8 mm grade, rule of thumb) — stronger than "looks about right," one grade weaker than the Chapter 20 snap gauge; it is made precisely so that **"the same size" has evidence before a snap gauge exists**. Re-check zero weekly (wood swells and shrinks; tighten the schedule in the wet season).
 
-[Card 09-03 Wooden Caliper Making and Zero Calibration] (eight fields)
-
+[Card 09-03 Wooden Caliper Making and Zero Calibration] (eight fields · source tier E)
 1. **Input materials**: one hardwood strip (the beam); two straight-stop blocks (reference jaw and sliding jaw); thin wood slivers (for shimming the zero); tar (for fixing the setting).
 2. **Tools required**: marking tool (to scribe the standard rod's "finger" graduations), charcoal for branding the hardwood beam (scorch marks fix the lines), grinding stone (truing the jaw faces). Calibration source: the graduations are taken from the standard rod's finger-level sub-units (Chapter 3); **graduations are never self-invented**.
 3. **Sequence and control points**: nail or scribe the fixed straight stop at one end (reference jaw) → scribe finger graduations along the beam → press the sliding jaw against the workpiece and press-scribe its edge line onto the beam, reading the nearest graduation → **zero calibration** (with both jaws closed the sliding jaw's edge should press the zero line) → if off, shim thin slivers behind the back of the jaw → fix with a scorch brand plus a dot of tar → re-check weekly. Control points: **no use before the zero is calibrated**; tighten the re-check schedule in the wet season.
@@ -49,8 +48,7 @@
 
 **Anti-vibration handle wedge (completed in v2)**: driven wedge locks loosen under long-term impact; use all three anti-loosening methods together — (1) **double-wedge cross**: drive one wedge with the grain and one cross-grain, interleaved (their expansion locks each other); (2) dip the wedges in glue (tar glue) before driving to fill the gaps; (3) one wrap of wire/cord as a collar at the handle end to hold down the wedge mouth. Weekly inspection: the moment a gap shows at the wedge mouth, re-drive it (clean grit out of the gap first — sand crushes wood fibers).
 
-[Card 09-02 Anti-Vibration Double-Wedge Method] (eight fields)
-
+[Card 09-02 Anti-Vibration Double-Wedge Method] (eight fields · source tier E)
 1. **Input materials**: two hardwood wedges (one with the grain, one cross-grain; 7.5 specification: face angle 8°–12°, 2–3 mm blunt head); tar glue; cord (or wire after Chapters 17–18) for the end collar.
 2. **Tools required**: wooden mallet (driving), scraper (cleaning the gap), angle board (checking the wedge face angle), marking tool. Calibration source: wedge face angle checked against the angle board (the 45/60/90 hard grades plus the approximate grade); wedge dimensions per 7.5.
 3. **Sequence and control points**: clean the gap (**grit must go — sand crushes wood fibers**) → drive the first wedge with the grain → drive the second cross-grain, interleaved (their expansion locks each other) → dip the wedges in glue to fill the gaps → one collar wrap at the handle end to hold the wedge mouth down → weekly check. Control points: the two wedges must be **one with and one across the grain** (two in the same direction is just a single wedge).
@@ -73,8 +71,7 @@
 
 **Tool anatomy essentials**: handle diameter 3–3.5 cm (palm-fit rule; standard part in 9.4); the axe's balance point near the head, the adze's near the edge; straight-grained handles, no knots on load-bearing faces. Ranked main causes of hafting failure: force line off > glue layer too thick > uneven lashing > slot too wide.
 
-[Card 09-01 Four-Way-Joint Hafting] (eight fields)
-
+[Card 09-01 Four-Way-Joint Hafting] (eight fields · source tier E)
 1. **Input materials**: blade (stone axe / adze / knife / chisel / scraper, per the 9.1 table); handle stock (straight-grained hardwood, handle diameter 3–3.5 cm); tar glue (8.5 recipe); wet rawhide strip or sinew (7.3); hardwood wedge (7.5 specification).
 2. **Tools required**: fire chisel and stone chisel (slot), scraper (dress the walls), wooden mallet (driving the wedge), bench scribing (aligning the force line), angle board (checking the haft angle). Calibration source: slot interference referenced to blade thickness; the haft angle per the 9.1 table (axe edge line perpendicular to the handle axis, adze 60°–75°) checked with the angle board.
 3. **Sequence and control points**: (1) cut the slot (width = blade thickness with 0.5–1 mm interference, depth = 2/3 of blade height) → (2) apply glue (warm, coating the full blade-slot mating faces) → (3) seat the blade on the force line (striking force through the edge midpoint and the handle axis, verified with bench lines) → (4) lash (cross pattern, 5 turns above and 5 below the slot mouth) → (5) wedge lock (drive a hardwood wedge with the grain until fully expanded) → (6) rest 24 hours. Control points: **force-line alignment**; **the glue layer must not be thick**.
@@ -108,8 +105,7 @@
 
 Grinding a complete stone axe takes 3–8 hours (rule of thumb, must be field-calibrated); grinding is a slow process — throughput is maintained by division of labor (9.5).
 
-[Card 09-04 Grinding-Bench Work and Angle-Board Checks] (eight fields)
-
+[Card 09-04 Grinding-Bench Work and Angle-Board Checks] (eight fields · source tier E)
 1. **Input materials**: three abrasive-stone grades (coarse: scratches visible to the eye; medium: felt by a fingernail; fine: no grain feel); water and quartz sand (fine sand sprinkled on the slab); leather (polishing); the stone blank to be ground.
 2. **Tools required**: stop blocks (clamping the coarse and medium stones between the bench stops to form the grinding bench), wooden angle board (45°/60°/90°, Chapter 3 bootstrap), charcoal dust (flatness mating check), reference straightedge (Chapter 3). Calibration source: angle by fitting against the angle board and sighting the light gap; flatness by charcoal-dust mating of two workpieces or by light-gap sighting.
 3. **Sequence and control points**: scribe with allowance → coarse-grind off the allowance → medium-grind to shape → fine sand on the slab plus leather polish; check the edge angle against the angle board between every pass. Control points: **grinding striations consistent in direction and parallel to the edge** (the evidence the angle has not changed); keep the original edge angle throughout.
@@ -192,8 +188,7 @@ Grinding a complete stone axe takes 3–8 hours (rule of thumb, must be field-ca
 
 **Safety collaboration iron rules**: a 3 m exclusion zone around flaking splash; before swinging tools (axe, hammer), call out to anyone behind you; no hands in the bow-drill cord zone; clear slurry off the grinding bench promptly against slips.
 
-[Card 09-05 Seven-Station Flow Line and Workstation Layout] (eight fields)
-
+[Card 09-05 Seven-Station Flow Line and Workstation Layout] (eight fields · source tier E)
 1. **Input materials**: blanks (stone and bone, sorted into the 9.7 three-way material rack); per-station consumables (tar glue, rawhide strips, sinew, quartz sand); archive cards (9.10, one card per tool).
 2. **Tools required**: station kits (flaking: hard hammer, soft hammer, pressure flaker; grinding: grinding bench; slotting: fire chisel and stone chisel; hafting: glue, wedge, lashing stock; inspection: template, angle board, wooden caliper). Calibration source: inspection tooling is the 9.4 standard parts, and the criteria are the 9.8 three-grade system.
 3. **Sequence and control points**: lay out the seven stations — quarry → rough flaking → finish flaking → grinding → handle-slot cutting → hafting (glue + lashing + wedge) → inspection → every piece travels with its card → the inspector, independent of the maker, signs (carved mark) against the 9.1 acceptance table. Control points: **the inspector must not also be the maker**; every piece carries the maker's number.
@@ -369,7 +364,7 @@ Replacement plan, three lines: N retired this month → replace with N next mont
 3. Check spec: losses uniform → the spec itself does not fit the station; go back and revise the 9.1 specification table.
 
 Review conclusions go into the ledger's appendix; triggering without reviewing counts as the ledger system failing — data produced and not used is worse than no data.
-[Card 09-06  ] (eight fields)
+[Card 09-06  ] (eight fields · source tier E)
 1. **Input materials**: bone tube (outer diameter = target hole diameter −1 mm, wall ≥2 mm); quartz sand, double-sieved grades (≤1 mm to break through, ≤0.3 mm to finish); water. Substitute: bamboo tube for bone tube (wears about twice as fast; calibrate hole diameter the same way).
 2. **Tools required**: bow drill (7.6; cord tension criterion: the plucked cord rings crisp); cap-pressing block; slurry bowl; test rod (thin stick, diameter = hole diameter −1 mm). Calibration: run dry; the tube end's wobble circle ≤1 mm means concentric.
 3. **Operating sequence**: (1) positioning dimple (chip 1–2 mm deep with the stone point) → (2) coarse slurry in, medium bow speed → (3) lift the tube and clear the cuttings every 20–30 seconds → (4) check drift against the layout lines every 5 minutes → (5) switch to fine slurry before breakthrough → (6) after breakthrough, flip the piece and tap the core loose. **Control point**: force may only be vertical (the cap-presser's duty, 9.5).
@@ -378,7 +373,7 @@ Review conclusions go into the ledger's appendix; triggering without reviewing c
 6. **Pass/rework/scrap**: hole diameter = tube diameter +0.5–1 mm and perpendicular offset <1 mm = pass; drift found while the hole is shallow, ground oval and brought back round = rework; drift past half thickness or a chipped hole mouth >2 mm = scrap, cut down to a small part.
 7. **Common failures and troubleshooting order**: not cutting → first check for blunt sand (change sand) → then check tube-end wear (regrind the end) → last check insufficient speed (tighten the cord). Hole drift → first check dimple depth → then check lateral force at the cap → last check a tilted stock face (shim level and re-clamp).
 8. **L1/L2/L3 evidence**: L1 keeps the first-hole workpiece; L2 keeps the three-hole calibration record + caliper-measured hole diameters; L3 keeps the monthly hole-piece ledger + sand-consumption record (bowls per hole).
-[Card 09-07  ] (eight fields)
+[Card 09-07  ] (eight fields · source tier E)
 1. **Input materials**: degreased bone plate (after the 9.9 simmering, 1.5–2.5 mm thick, length ≥8 cm). Substitute: hardwood whittled needles (do not endure piercing; practice only).
 2. **Tools required**: grinding-bench fine stone; leather strip (fine polish); fine bone tube (for drilling the eye); tallow. Calibration: check the grinding-stone face flatness weekly by the 9.2 mutual-grinding method.
 3. **Operating sequence**: (1) cut the blank (groove-and-snap) → (2) coarse tier grinds the needle's taper → (3) fine tier grinds the point, rolling it on a fingertip as you go to check roundness → (4) grind the tail section flat and thin → (5) spin-grind the eye with the tube drill (half from each face, preventing one-face breakout) → (6) fine-polish the whole needle with the tallow-charged leather strip. **Control point**: the eye sits within the tail quarter of the needle, centered.

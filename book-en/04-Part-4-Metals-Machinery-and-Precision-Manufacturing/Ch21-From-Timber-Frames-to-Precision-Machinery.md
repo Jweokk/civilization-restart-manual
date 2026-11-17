@@ -47,8 +47,7 @@ Tooth-cutting route when no dedicated machine tool exists:
 
 **Honest positioning of first-generation gears**: tooth-profile error produces transmission-ratio fluctuation at the ±5% level (empirical value) — acceptable for power transmission, speed change, and counting; precision indexing (e.g., the precise indexing of the Chapter 22 lead-screw change gears) requires selecting the most accurate pair, tagging it "indexing-grade," and managing it separately.
 
-[Card 21-03 Gear Layout Approximate Tooth-Cutting] (eight fields)
-
+[Card 21-03 Gear Layout Approximate Tooth-Cutting] (eight fields · source tier E)
 1. **Input materials**: gear blank (wood/cast iron, cast free of shrinkage cavities, rings clear when struck); stiff paper or thin board (for the 1:1 tooth template — a 5-tooth segment suffices); marking compound; paper strips (for backlash).
 2. **Tools required**: dividing and layout tools (Chapter 3 cord-wrapping method / angle plate); scribe and straightedge; chisel, file, oilstone; shaft brackets for the marking-compound roll. Calibration source: pitch circle computed from module and tooth count; base circle approximated as 0.94×D.
 3. **Sequence and control points**: (1) fix module and tooth count (m = 4–6 mm for power transmission, 2–3 mm for instruments; meshing gears must share the module) → (2) draw the pitch circle D = m×z and the base circle ≈0.94×D (20° pressure angle) → (3) divide into z parts by cord-wrapping or angle plate and draw the tooth centerlines → (4) swing arcs from the base-circle division points to unfold the profile; **make the 1:1 template first (5-tooth segment) and only lay out on the blank after the template rolls without interference** → (5) chisel first, then file, leaving 0.5 mm for finishing; polish with file + oilstone → (6) apply marking compound and roll to check the contact patch, leave tip clearance 0.2×m, measure backlash with paper strips. Control point: laying out on the blank with an unverified template scraps the whole wheel.
@@ -73,8 +72,7 @@ Tooth-cutting route when no dedicated machine tool exists:
 
 Structure: bearing housing (cast iron or hardwood) + bearing bush (bronze is best, Chapter 17; grease-soaked hardwood as a substitute for low-speed service). Scrape-fit the bush bore to the shaft (Section 20.4 contact-band method) and cut an X-shaped oil groove in the **non-load-bearing zone** (a groove cut in the load-bearing zone destroys the oil film — the oil film is the plain bearing's life).
 
-[Card 21-01 Scraping Bearing Shells and Measuring Clearance] (eight fields)
-
+[Card 21-01 Scraping Bearing Shells and Measuring Clearance] (eight fields · source tier E)
 1. **Input materials**: bearing-bush blanks (bronze preferred; hardwood soaked in grease for low-speed service); an inspected journal; marking compound; a thin copper/leather shim set; lead wire about 1 mm in diameter (Chapter 31 fine lead wire, or a hammered thin sheet); lubricant (animal fat, vegetable oil, graphite-powder grease).
 2. **Tools required**: scraper (Section 20.4 scraping technique); bearing housing; flat pad for lead crushing; micrometer (Chapter 22, to read the crushed lead thickness); chisel and scraper for the oil groove; wax chip (compensation for the hand temperature check). Calibration source: crown clearance measured by lead crush, never replaced by feel.
 3. **Sequence and control points**: (1) mate the bush to the housing, bush-back-to-bore contact ≥60% → (2) apply marking compound to the journal, assemble, rotate → (3) scrape the high spots until **the contact band sits centrally and covers ≥60% of bush length** → (4) fit shims to set clearance, recheck the crown clearance by lead crush → (5) cut the X-shaped oil groove in the **non-load-bearing zone** (a groove in the loaded zone destroys the oil film) → (6) reassemble, hand-turn, and run 30 min to read the temperature rise. Control point: both the contact band and the crown clearance must pass before reassembly; one alone does not close the job.
@@ -111,8 +109,7 @@ Construction: wooden wheel body (mortise-and-tenon + hot-shrunk iron hoop), shaf
 
 **Energy storage (smoothing fluctuation)**: an upper reservoir pond (release water to drive the wheel — equivalent energy storage), a flywheel (smooths second-scale fluctuation), a suspended-weight drop hammer (potential energy storage to drive forging).
 
-[Card 21-04 Water-Wheel Siting and Power Estimation] (eight fields)
-
+[Card 21-04 Water-Wheel Siting and Power Estimation] (eight fields · source tier E)
 1. **Input materials**: siting data — flow Q (m³/s, measured in the dry season), head H (m, measured in the dry season), ice-season records; ≥1 season of water-source or wind records (Chapters 2, 3 resource archive).
 2. **Tools required**: measuring line and ranging rods, timer (Chapter 3), field instruments for flow and head, resource-archive sheets. Calibration source: Q and H must be measured in the dry season and archived; estimation is not allowed.
 3. **Sequence and control points**: (1) measure Q and H in the dry season over several days and archive the steady value → (2) choose the type by head: <2 m undershot, 2–4 m breastshot, ≥4 m overshot (preferred whenever attainable) → (3) compute P = 1000×Q×H×η → (4) compare the order of magnitude with the intended duty (grinding/blast vs forging hammer) → (5) if short, change the site first (raise H or lift Q×H threefold or more) before discussing construction → (6) after construction measure actual output against the estimate and retest quarterly. Control point: **compute the site before building**; starting because "the water looks strong" is not allowed.
@@ -128,8 +125,7 @@ Construction: wooden wheel body (mortise-and-tenon + hot-shrunk iron hoop), shaf
 
 Layout discipline: line shaft ≥2.5 m above the floor to prevent entangling people; a bearing housing every 3–4 m; drive direction aligned with the process flow (raw material in → finished product out, no backtracking).
 
-[Card 21-02 Belt Tensioning and Slip Control] (eight fields)
-
+[Card 21-02 Belt Tensioning and Slip Control] (eight fields · source tier E)
 1. **Input materials**: leather/thick fabric belt (joints staggered, Chapter 15); belt wax or rosin; chalk.
 2. **Tools required**: tension pulley; belt-shifting fork (fitting or removing a belt while running is forbidden); driver and driven pulleys (D₁, D₂ known); timer (Chapter 3). Calibration source: slip measured by counting chalk lines, not judged by eye.
 3. **Sequence and control points**: (1) press the mid-span with a finger and estimate deflection — 10–20 mm is right (◎) → (2) chalk a line on both pulleys, run under load for 10 driver revolutions, count the driven pulley's actual revolutions → (3) compute slip = (10×i − actual)/(10×i); above 2% means action → (4) three remedies in order: raise the tension pulley → rub wax/rosin on the belt face → if the belt is too wide or the pulley too small, change the pulley and add a tension pulley to increase wrap → (5) remeasure slip and run 1 h, then feel belt temperature. Control point: **measure before treating** — "it looks slack so tighten it" is not allowed.
@@ -184,8 +180,7 @@ Five principal components:
 
 **Practice and acceptance (50 blows, two passes)**: no-load blows for 30 min (listen to the frame, watch the anvil block, feel the guide-bore temperature) → strike cold iron stock 50 blows → re-tighten the entire frame once (wedges, pins, footings) → strike 50 more → recheck. Acceptance criteria: **no loosening at any joint after the 50 blows** (mortise joints do not rock when pushed by hand, wedge faces do not sound dull when re-struck), hammer-rod guide-bore temperature bearable to the hand indefinitely, no visible offset of the hammer head from the anvil center.
 
-[Card 21-05 Water-Powered Drop Hammer: Construction and Acceptance] (eight fields)
-
+[Card 21-05 Water-Powered Drop Hammer: Construction and Acceptance] (eight fields · source tier E)
 1. **Input materials**: fully dried hardwood — 4 posts + assorted beams and braces (about 1.5 m³ total, dried per the Chapter 7 monthly weight check); anvil iron ≥60 kg (Chapter 18 forging); hammer head in cast/wrought iron ≥30 kg (or hard stone ≥50 kg); iron hoops, wedge keys, and safety pin — ≥5 kg iron in total; footing stones.
 2. **Tools required**: woodworking chisels, adze, auger (Chapter 7); plumb bob, spirit level, string line (Chapter 3); forging and casting (Chapters 17, 18); φ20×30 mm lead columns and a hand sledge of known weight (energy comparison). Calibration source: drop height measured as the actual free fall from the release point to the anvil face, not the cam stroke.
 3. **Sequence and control points**: (1) set the footing stones (tamp until they do not sink underfoot; pit deeper than the local frost depth) → (2) raise the frame and plumb it (vertical ≤10 mm/m) → (3) bury the anvil block (≥1 m deep, tamped) → (4) fit the hammer rod and guide frame (guide clearance 3–5 mm per side; scrape-fit once after the wooden guides heat up) → (5) fit the lifting cam/hooks and hand-turn the full cycle (hammer reaches position, releases cleanly, no double-strike) → (6) fit the safety pin and pedal release (dead travel 20–40 mm) → (7) 30 min of no-load blows, three checks (frame sound, anvil-block jump, guide temperature) → (8) 50 blows on cold stock + re-tighten the whole frame → (9) 50 more blows for acceptance. Control point: **the over-top safety pin goes in for all four situations** (maintenance, changing stock, long conversations, end of shift).
@@ -239,8 +234,7 @@ To turn continuous rotation into intermittent motion, three basic classes in ris
 
 Feed-per-stroke rough calculation: each swing advances one circular pitch = π×D/z. Example: φ120 mm, 18 teeth → ≈21 mm per tooth — adequate for rough feed; for finer steps, add teeth, or reduce the pawl's swing with a lever (a 3:1 lever ratio → ~7 mm per tooth).
 
-[Card 21-06 Ratchet Mechanism: Fabrication and Acceptance] (eight fields)
-
+[Card 21-06 Ratchet Mechanism: Fabrication and Acceptance] (eight fields · source tier E)
 1. **Input materials**: ratchet blank (cast iron/hardwood) ×1; forged-iron pawls ×2–3 (1 in use, 2 spare); thick steel spring plate or weighted lever ×1 set; pawl pivot; a test weight of 1/2 the rated load.
 2. **Tools required**: chisel, file (Chapter 7); forging and water quenching (Chapters 18, 19); angle plate and dividing tools (Chapter 3); oilstone; sling and weight for the reverse test. Calibration source: pawl tip angle checked against an angle gauge or template, not by eye.
 3. **Sequence and control points**: (1) divide the rim and lay out the teeth (12–24 teeth, Chapter 3 dividing method) → (2) chisel the teeth: **back-face bevel first, working face last; the working face must not be beveled backward** (a backward bevel means the pawl cannot push or slips teeth) → (3) forge the pawls and quench only the 10–15 mm tip section → (4) fit the pawl pivot and pressing parts → (5) swing 100 times unloaded → (6) reverse test under 1/2 rated load. Control point: the chiseling direction on the working face and the length of the hardened tip.

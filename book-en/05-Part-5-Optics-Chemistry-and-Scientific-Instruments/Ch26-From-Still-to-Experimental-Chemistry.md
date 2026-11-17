@@ -113,8 +113,7 @@ The same reaction, scaled up tenfold, often fails — the three great scale-up e
 
 Where does multi-round recrystallization's "stage gain" come from? From **the difference in how solubility changes with temperature**. For each new salt batch (or new impurity system), measure once at five temperature tiers and draw the local curve:
 
-[Card 26-02 Solubility Curve Determination] (eight fields)
-
+[Card 26-02 Solubility Curve Determination] (eight fields · source tier E)
 1. **Input materials**: salt sample to purify at the 50 g scale (measured in one batch; crush and mix a caked sample first, or the five points describe five different batches); distilled water (the 26.6 solvent zero).
 2. **Tools required**: the Chapter 25 thermometer (the objective reading behind the hand-feel tiers), the Chapter 25 balance (salt and water), five identical glass cups (water level scribed on the wall), a stirring rod, graph paper (Chapter 25).
 3. **Operation sequence and control points**: (1) prepare one cup of a measured amount of water at each of five temperature tiers (winter water / room temperature / warm to the hand / hot to the hand / near boiling — recorded by hand-feel tier + thermometer) → (2) add salt in small increments, stirring until **it no longer dissolves and crystals remain on the cup bottom** (saturated) → (3) compute "salt consumed ÷ water amount" = the saturated solubility at that temperature → (4) connect the five points into a curve. Control points: **salt goes in small portions, many times** (dumping it in at once = judging saturation before dissolution is complete = the whole curve reads low); record the actual water temperature at every tier; never let a tier name stand in for a reading.
@@ -139,8 +138,7 @@ For every operation that produces irritant/toxic gas, the tail gas must pass thr
 
 Universal saturation check for absorbents: test the absorbent with red-cabbage indicator paper strips — change the liquid when the color shift reaches the set tier.
 
-[Card 26-03 Tail-Gas Absorption Apparatus] (eight fields)
-
+[Card 26-03 Tail-Gas Absorption Apparatus] (eight fields · source tier E)
 1. **Input materials**: absorbent chosen by gas (the 26.10 master table) — ash lye / caustic lye (chlorine, SO₂/SO₃, hydrogen sulfide), water in three vessels in series (HCl), dilute acid (vinegar / dilute sulfuric acid, NH₃), alkali solution (the cyanide family: red line, boundary only, no process); two or more absorption bottles (same size, marked "stage 1 / stage 2"); inverted funnel; rubber hose (Chapter 15); red-cabbage indicator paper strips (same lineage as 26.14).
 2. **Tools required**: a bottle rack or fixing (against tipping); stoppers and delivery tubes (self-made ground-joint pieces from 26.12 will do); indicator paper strips; a ventilated station.
 3. **Operation sequence and control points**: (1) pick the absorbent from the master table → (2) charge stage one with the **inverted funnel half-submerged in the liquid surface** → (3) put stage two in series (delivery tube below the surface, outlet led to a ventilated point) → (4) connect the reaction's tail gas — the apparatus is in place before the reaction starts → (5) change the liquid at saturation. Control points: **the funnel is half-submerged** — fully submerged means a suck-back pulls liquid straight into the reaction vessel; not touching the surface means incomplete absorption; the apparatus must not be dismantled until the tail-gas phase is complete (stop the gas first, pull the tube second — the 26.15 Iron Law).
@@ -158,8 +156,7 @@ Universal saturation check for absorbents: test the absorbent with red-cabbage i
 
 Scale-up discipline (retained from 26.8): scale up only one order of magnitude at a time, recalibrating tier by tier.
 
-[Card 26-04 Three-Stage Wash Cleanliness Criterion] (eight fields)
-
+[Card 26-04 Three-Stage Wash Cleanliness Criterion] (eight fields · source tier E)
 1. **Input materials**: vessels to wash (glass / glazed ceramic — reagent grade uses only these two); clean water; soap or alkali liquor; dilute acid; distilled water (final rinse).
 2. **Tools required**: wash bottle (26.12 — the hand never touches the inner wall during the final rinse); brush or cloth; red-cabbage indicator paper; a dedicated drying rack; side light (the 24.3 side-light projection bench serves to view the water film).
 3. **Operation sequence and control points**: water rinse (general) → soap boil (grease) → dilute-acid wash (metal residue / scale) → distilled-water rinse (the reagent-grade final wash). Control points: **the order must not be reversed** — acid first bakes the grease onto the wall; rinse with clean water between stages, and the final rinse uses distilled water only (one tap-water rinse undoes the work).
@@ -204,8 +201,7 @@ The 26.3 prototype is standardized here into a replicable standard piece:
 - Assembly and glue seal: seat the ceramic plate into the shoulder with the joint gap controlled at 1–2 mm and seal with tung-oil-lime putty (shade-dry 3 days; for strong-acid filtration switch to a poured sulfur-cement joint, mixed fresh and used at once, and stowed back per the 26.7 zoning rules); lay one layer of filter cloth on the plate face (filter paper is better — same lineage as the 26.3 hot filtration);
 - Matching filter flask: heavy-wall bottle + side nipple to the aspirator (the Chapter 15 rubber-hose line); the flask-mouth stopper uses this section's self-made ground-joint piece.
 
-[Card 26-05 Büchner Funnel] (eight fields)
-
+[Card 26-05 Büchner Funnel] (eight fields · source tier E)
 1. **Input materials**: heavy-wall funnel (mouth 60–80 mm) | porous ceramic plate (19–37 holes, 2–3 mm diameter; substitute: a drilled, wax-impregnated hardwood board — filters water-based liquids only, short life) | tung-oil-lime glue | filter cloth
 2. **Tools required**: fine carborundum and a lapping plate (Chapter 9) | plate-cutting saw frame | aspirator and rubber hose (Chapter 15)
 3. **Operation sequence and control points**: grind the plate face flat → trial-fit and set the gap (1–2 mm) → mix the glue and seal the joint all the way around → shade-dry 3 days → lay the filter cloth → mount on flask and trial-draw. **Control point: after sealing, trial-draw a vacuum — the seal counts only when not one bubble shows at the joint edge**
@@ -265,8 +261,7 @@ Alkali-soluble group (cross-validation): neutralize the alkali solution slowly w
 
 **The detection registration system**: every detection is entered in four columns — sample number, ion (confirmed/presumptive, two levels), supporting observations (referenced against color-sample tube numbers), recheck method. No recheck, no "confirmed."
 
-[Card 26-07 Group Detection of Cations] (eight fields)
-
+[Card 26-07 Group Detection of Cations] (eight fields · source tier E)
 1. **Input materials**: 1 g ore sample | dilute hydrochloric acid, caustic lye, ammonia water (26.6 reagent grade) | distilled water | red-cabbage paper | the standard color-sample tube set (26.5)
 2. **Tools required**: a set of test tubes | clean wire (flame tests) | the Chapter 25 balance | alcohol lamp and stand | white porcelain plate
 3. **Operation sequence and control points**: ignite → water-soluble test → acid-soluble test → alkali-soluble test → staged detection → recheck → register. **Control point one: fresh sample at every tier; control point two: every color judgment is checked against the color-sample tubes**
@@ -321,8 +316,7 @@ The chapter's "titration prototype" is raised here into a protocol that can be t
 - Preparation example: weigh 10.6 g of constant-weight soda ash (balance 0.1 g tier); dissolve first in about 800 mL of distilled water; transfer to a 1000 mL measuring vessel; top up to the mark drop by drop with the wash bottle; stopper, invert and shake ten times — this gives 0.100 mol/L-class standard solution (10.6 g ÷ 106 g/mol = 0.100 mol, made up to 1 L; the concentration rests on the weighing record, not on volume precision);
 - Standardizing an acid with the standard solution: take 10.0 mL of the acid to be standardized + indicator; titrate with the standard alkali to the endpoint, consuming 9.6 mL — the acid concentration = 0.100 × 9.6 ÷ 10.0 = **0.096 mol/L**; transcribe to the label (26.11 six elements) and the concentration ledger together.
 
-[Card 26-06 Standard Solution Preparation] (eight fields)
-
+[Card 26-06 Standard Solution Preparation] (eight fields · source tier E)
 1. **Input materials**: anhydrous soda ash (two recrystallization rounds, baked to constant weight) | distilled water (the 26.6 solvent zero)
 2. **Tools required**: the Chapter 25 balance (zero-checked before use) | glass weighing boats (26.16) | a 1000 mL measuring vessel (weighing-corrected) | a desiccator | a thermometer
 3. **Operation sequence and control points**: two recrystallization rounds → bake 2 h → weigh cool and dry → re-bake 1 h and re-weigh → make to volume → shake to homogeneity → apply the six-element label. **Control point: the constant-weight criterion unmet, no making to volume**

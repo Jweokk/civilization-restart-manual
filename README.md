@@ -4,7 +4,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Chinese + English](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%2B%20English-7c6cff.svg)](#)
-[![Edition](https://img.shields.io/badge/edition-v5.1-f59e0b.svg)](CHANGELOG.md)
+[![Edition](https://img.shields.io/badge/edition-v5.2-f59e0b.svg)](CHANGELOG.md)
 
 [中文说明](./README.zh.md) · [Read online](https://restart.fly2ai.top/) · [English edition](https://restart.fly2ai.top/en/)
 
@@ -98,7 +98,7 @@ mkdocs build -f mkdocs-en.yml   # English → build/site-en
 
 ## Edition policy
 
-This is a **snapshot, not a living document**. There is no scheduled rebuild and no auto-update: the site you are reading is edition v5.1 and stays v5.1 until a new edition is cut. Corrections are welcome as issues and ship in the next edition.
+This is a **snapshot, not a living document**. There is no scheduled rebuild and no auto-update: the site you are reading is edition v5.2 and stays v5.2 until a new edition is cut. Corrections are welcome as issues and ship in the next edition.
 
 ## License
 

@@ -68,8 +68,7 @@ The problem with body units (elbow, hand-span, finger, pace) is that **they diff
 
 **Conclusion written into the unit charter**: a relative difference of 15–30% means — Jia's "five hand-spans" may be Yi's "four hand-spans". **Body units are permitted for single-person self-use only (you make it, you check it yourself); cross-person handover and entry into archives are forbidden**. For cross-person handover, the smallest permitted unit starts from the "standard rod". The personal pace calibration card (3.7) solves the reliability problem of "using your own pace for your own work".
 
-[Card 03-05 Body-Unit Error Statistics] (eight fields)
-
+[Card 03-05 Body-Unit Error Statistics] (eight fields · source tier E)
 1. **Input materials**: ≥6 subjects from the same team; a standard rod (as the conversion reference); a clay scribing field or tablets.
 2. **Tools required**: standard rod, marking tool, error record sheet (the 3.4 template). Calibration source: body units record only the differences among people and are never converted outward; every outward conversion is made against the standard rod.
 3. **Sequence and control points**: each person measures in turn finger width (widest point of the proximal phalanx face), hand-span (thumb tip to little-finger tip at full stretch), elbow (elbow tip to middle-finger tip), pace (mean of 10 natural paces), arm span (tip to tip of the two middle fingers) → 3 measurements per item, median taken → all readings onto the sheet → compute the in-team range and the range ÷ median percentage → write the conclusion into the unit charter. Control points: one protocol per item (landmarks fixed in the sheet header); re-zero between the 3 runs.
@@ -109,8 +108,7 @@ Orientation is the common prerequisite of layout (Chapter 13 kiln foundations, h
 
 **Verification and precision**: re-measure every 1–2 days; the angle difference between the two lines should be ≤ half a finger width (eyeball estimate, ◎; compensation: measure the distance difference between the end stakes of the two lines). Multi-day averaging can lower the error further. **Principle of equal-shadow symmetry**: the sun is symmetric about noon between morning and afternoon, so two shadows of equal length are necessarily symmetric about the north-south line — this is given by geometry and does not depend on any tool precision.
 
-[Card 03-02 True-North Determination by Construction] (eight fields)
-
+[Card 03-02 True-North Determination by Construction] (eight fields · source tier E)
 1. **Input materials**: one straight-grained dry wooden rod (about 1.5 m tall); small stakes; rattan for scribing the arc; a scribe; a level clay surface about 2×2 m.
 2. **Tools required**: plumb line (to true the rod), A-frame level (to level the clay surface), scribing tool. Calibration source: the plumb line relies on gravity and needs no calibration; the arc radius is the "rod-base-to-A distance", taken with the same length of rattan that scribes the arc.
 3. **Sequence and control points**: level the clay surface → stand the rod and true it plumb (plumb line against the rod in two directions) → in the morning drive stake A at the shadow tip and scribe an arc about the rod base → all day, every one section or so, record the shadow-tip stake → in the afternoon, when the shadow length **again equals** the arc radius, drive stake B → the A–B line is the east-west line → fold the rattan in half to take the midpoint, construct the perpendicular bisector of AB through the rod base: that is the north-south line → scribe a groove along it and bury stakes at both ends. Control points: **the rod must be plumb**; **B may be driven only when the equal shadow finally arrives**.
@@ -142,8 +140,7 @@ Principle: a still water surface is a level surface. Four methods (progressing b
 
 **Failure modes**: wind acting on the hammer line (windbreak); rattan stretching when damp (calibrate the dry and wet states separately); tie cords loosening (run the reversal self-check before every use).
 
-[Card 03-03 A-Frame Reversal Self-Calibration] (eight fields)
-
+[Card 03-03 A-Frame Reversal Self-Calibration] (eight fields · source tier E)
 1. **Input materials**: two equal-length wooden legs; one crossbar; one stone hammer; rattan (for lashing and for the hammer line).
 2. **Tools required**: plumb line (stone hammer on rattan, hanging free), marking tool. Calibration source: **no external standard** — self-calibration rests only on the 180° reversal, not on the legs being equal.
 3. **Sequence and control points**: lash the two legs into an A → connect the midpoints of the two legs with the crossbar → hang the stone-hammer line from the apex → scribe a mark at the crossbar midpoint → read the offset in the normal orientation → turn the whole frame 180° and read again → take the midpoint of the two offsets as the true midpoint. Control points: the reversal must turn the whole frame (legs not swapped); **the reversal step may not be omitted**.
@@ -202,8 +199,7 @@ Public anchors: sunrise, noon (the shortest-shadow moment on the north-south lin
 1. **Beats**: agree a fixed command or chant as "one section"; each person long-term records "heartbeats per section" and takes the average; the beat is governed by the command, heartbeats serve only as a cross-check;
 2. **Water clock**: a bamboo segment or gourd holds water; a small hole is pierced in the bottom with a natural sharp point. **Defect declared honestly: the drip rate slows as the water level falls, so timing is not linear.** Two responses:
 
-[Card 03-01 Drip-Rate Segmented Calibration] (eight fields)
-
+[Card 03-01 Drip-Rate Segmented Calibration] (eight fields · source tier E)
 1. **Input materials**: one bamboo-segment or gourd water vessel (inner wall blackened with soot so the water level is visible); a natural sharp point to pierce the bottom hole; a scribe needle; clay tablet and charcoal for records.
 2. **Tools required**: scribe needle (to score the inner-wall graduations), command beats as the time ruler, marking tool. Calibration source: graduation spacing comes from the fold-in-half bisection, not from a rule; the only time ruler is the command beat — no outside clock is borrowed.
 3. **Sequence and control points**: pierce the bottom hole → score equal divisions on the inner wall (4–8 divisions by fold-in-half bisection) → calibrate division by division (while the level falls from line i to line i+1, count command sections, repeat 3 times and record the range) → make the "division-to-time table" and hang it beside the pot. Control points: **each division is calibrated on its own; never infer the rest from one division**; a new pot means recalibrating the whole table.
@@ -221,8 +217,7 @@ Public anchors: sunrise, noon (the shortest-shadow moment on the north-south lin
 
 The balance on which all later proportioning (from Chapter 8 on) depends is given its manufacturing method here, no longer just "pick a stone":
 
-[Card 03-06 Equal-Arm Balance] (eight fields)
-
+[Card 03-06 Equal-Arm Balance] (eight fields · source tier E)
 1. **Input materials**: one straight hardwood beam (70–90 cm, knot-free, straight-grained); cord in three grades; two shell / hardwood hanging pans; a set of calibration stones (chosen by repeated balancing of the two pans, each numbered); a scribing needle and charcoal; a clay tablet (for the record and the notch numbers).
 2. **Required tools**: scribing needle (zero line and end lines); chisel (shallow V notch); hard-bone / hardwood seat block (carrying the V); crossbar (to hang the beam); pillar (three lines scribed); fine needle (pointer); the smallest-unit calibration stone. Calibration sources: equal arms are measured with **one and the same cord wrapped round the beam** and **cross-checked by the reversal method** (same method as Card 03-03); weights are copied level by level as a **binary balancing chain** (1/2, 1, 2, 4, 8) — no external weights are borrowed.
 3. **Operating sequence and control points**: ① scribe the zero line at the exact middle; at both ends wrap the same cord to measure equal distances and scribe the end lines → ② **reversal cross-check**: place the same stone at each end and swap them — if it does not balance, the ends differ in weight or in arm length; repair until the tilt direction is unchanged after swapping → ③ chisel a shallow V notch in the top midline, seat it on a hard-bone / hardwood block, hang the beam from the crossbar → ④ hang a fine needle from the bottom midline; scribe three lines on the pillar (left / middle / right, one finger width apart) → ⑤ sensitivity test: after balancing empty, add the smallest-unit stone — **a pointer deflection ≥ half a line width passes** → ⑥ weight multiplication 1→2 (duplicate by placing two stones side by side) →4→8, copying level by level with the balance, each piece notch-numbered and archived. Control points: **the V notch is where the whole balance's precision resides — ground smooth, never chipped**; if sensitivity falls short, only lighten the beam or shorten the hang distance — never add stones to fake a reading; **the pans and hanger cords must never lift loads or people** (structural strength unverified).
@@ -260,8 +255,7 @@ The balance on which all later proportioning (from Chapter 8 on) depends is give
 
 **Version management**: every improvement issues a new version of the process card; the old card is archived marked "superseded by version X", searchable in both directions. **Verbal changes to processes are forbidden** — any practice change that has not entered a new card version is logged as an operational error.
 
-[Card 03-04 Pace Calibration] (eight fields)
-
+[Card 03-04 Pace Calibration] (eight fields · source tier E)
 1. **Input materials**: one standard rod (the primary "rod" unit, shade-dried hardwood); small stakes (to mark the ends of the measured distance); clay tablet or marking board.
 2. **Tools required**: standard rod, marking tool, error record sheet (the 3.4 template). Calibration source: every pace count is converted into "rods", never into millimetres — this chapter has no millimetre-level absolute standard.
 3. **Sequence and control points**: pick level, dry, firm ground → measure off a known distance with the rod (say 10 rods, stakes at both ends) → the person walks it at a natural pace and counts paces → walk it out and back once each → repeat 3 times and take the median → compute "paces per rod" and score it onto the personal pace calibration card. Control points: **a natural pace only** (no deliberate overstriding); restart the walk each time without carrying the previous count.

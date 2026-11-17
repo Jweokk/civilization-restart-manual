@@ -329,8 +329,7 @@ Degraded entry for non-literate settlements: where literacy is not yet universal
 
 ## Process Cards
 
-[Card 43-01 Archive Filing Card (Classification—Protection—Borrowing)] (eight fields)
-
+[Card 43-01 Archive Filing Card (Classification—Protection—Borrowing)] (eight fields · source tier E)
 1. **Input materials**: items to be filed (new-version process cards, ledger monthly pages, failure-analysis closing sheets, negative-results record pages, acceptance-evidence index slips); archive paper folio/quarto (Chapter 41, holds ink without feathering); pigment tags; one-of-three insect-proofing materials (amur cork extract / smoke / pepper juice).
 2. **Required tools**: moisture-absorbing cabinet (≥300 mm off the floor, out of daylight, ≥15 m from open flame); 5 lime cloth bags; master catalog volume; scribing rule (Chapter 3); bone awl or iron awl (Chapters 5/19); two locks (originals compartment + sealed compartment).
 3. **Operating sequence and control points**: ① number "Class-Year-Sequence" (A/T/H + year + sequence); items derived from batches also record furnace–batch–piece numbers; **② classify: tier by frequency of use (active/technical/historical); classification disputes are settled by the rule "will it be consulted within a month"**; ③ bind + one-of-three insect-proofing treatment (the treatment leaves a visible mark); ④ enter the six catalog columns (number/name/source/date/compartment/original-and-copy locations); ⑤ shelve: original into the archive room, copy into the off-site building (≥50 m); **⑥ register borrowing in three columns; originals never leave the archive room; copies ≤7 days, then chased**; ⑦ periodic checks: ten-day moisture, quarterly pests (Chapter 41), monthly page-filling, annual inspection and sealing (year volume numbered and sealed; opens only on dual signatures).
@@ -340,8 +339,7 @@ Degraded entry for non-literate settlements: where literacy is not yet universal
 7. **Common failures and troubleshooting order**: cannot find an item → check the catalog first → then the borrowing column → then the binding order; original damaged → copy substitutes + transcribe a new copy quickly; catalog drifted → a failed 10-min spot check means rebuilding that segment within the month.
 8. **L1 / L2 / L3 evidence**: L1 = all three tiers shelved + catalog opened with ≥10 lines; L2 = one quarter of continuous catalog entries + no overdue borrowings + one dual-signed copy check; L3 = one year of annual sealing executed + two quarterly inspections + one handover drill (the eight-item checklist dual-signed).
 
-[Card 43-02 Parameter Transcription Card (Ledger Format + Blank Form)] (eight fields)
-
+[Card 43-02 Parameter Transcription Card (Ledger Format + Blank Form)] (eight fields · source tier E)
 1. **Input materials**: field-calibration records from the chapters (with the calibrator's signature); blank ledger volumes (quarto, six columns, 12–16 rows per page); countersignature space.
 2. **Required tools**: master catalog volume; scale and calipers (cross-checked per Chapters 3/22 before use); "see ledger" marking stamp.
 3. **Operating sequence and control points**: ① check the source: transcribe only when the calibration record page and calibrator's signature are complete; **② transcribe the six columns: parameter name (chapter-section) / manual default / local field-calibrated value / calibration date / calibrated by / re-verification interval**; ③ the reviewer (grade 2 or above) checks against the source and countersigns; **④ stamp "see ledger" at that parameter on the workstation card**; ⑤ changed rows: strike the old value with a single line, note the new value and date beside, enter the dual-signature number in the notes (per Chapter 39 39.7); ⑥ the monthly check reviews rows due for re-verification; rows flagged red for two cycles revert to the manual default and are recorded; ⑦ on annual inspection day, bind the annual volumes into the technical archive.
@@ -358,8 +356,7 @@ Degraded entry for non-literate settlements: where literacy is not yet universal
 | | | | | | | |
 | | | | | | | |
 
-[Card 43-03 Skill Assessment Card (Four-Grade Assessment Sheet)] (eight fields)
-
+[Card 43-03 Skill Assessment Card (Four-Grade Assessment Sheet)] (eight fields · source tier E)
 1. **Input materials**: the examinee's skill-matrix row (Chapter 37 37.5); the drawn post process card; blind-test sample sets (slag-color series, three fracture morphologies, tempering-color plates, three sound states—the physical evidence of the 43.5.2 table); drill fault plans (including the Chapter 31 search table, the Chapter 20 three checks, a ledger-conflict case).
 2. **Required tools**: the full set of criteria evidence (test bars, reference plates, calipers, scale—used after cross-checking); timing (incense-stick markings or a water clock, Chapter 3); assessment sheets in two copies (examinee copy + archive copy).
 3. **Operating sequence and control points**: ① grade application (self-nominated or master-nominated, filed); **② the assessment panel of two assembled, at least one member with no teacher–student lineage to the examinee (guards against master–apprentice mutual vouching)**; ③ live operation: draw 1 card, complete within the limit, physical evidence only; ④ blind interpretation ≥10 items, pass line ≥8/10; ⑤ one troubleshooting drill case, judged on the search order; ⑥ all three scores entered in the evidence column; **⑦ issue or suspend: all three pass = issue; one item failed = retest that item within 30 days; two failed = redo the whole session**; ⑧ results into the skill matrix + certificate wall + ledger (the four certificates' retraining dates registered at the same time).

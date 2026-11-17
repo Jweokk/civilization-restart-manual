@@ -94,6 +94,12 @@ Source: [S2] one furnace charge of 94 kg charcoal yielded a 14 kg iron bloom,
         to be calibrated per furnace
 ```
 
+**Where the label goes**: 286 cards, and a paragraph repeated 286 times is noise. So this tier is not written out as prose — **every card carries its tier in the header** (`(eight fields · source tier E)`), where whoever transcribes it sees it on the first line; Appendix A's master table still recognises card numbers only. Where several sources genuinely meet inside the text (the two-tier production passage in Chapter 18, for instance), the label is written into the sentence in the format above.
+
+**Tie-break rule (several tiers in one card)**: where a card mixes textbook constants with self-derived ranges, tag the **lowest** tier — conservatively. The reason is plain: a transcriber carries the whole card, and its criteria are only as trustworthy as the weakest number in it, not the strongest.
+
+**Result of this edition's sweep**: all 286 cards were tagged one by one, and the answer is **E × 286**. This is not laziness; it is the book's actual state. There is no page-by-page literature anchoring anywhere in it: every process range, criterion and calibration step is self-derived and handed to the field to calibrate. The one first-hand experimental anchor (the Sauder & Williams 2002 run record quoted in Chapter 18's two-tier production passage) sits in the body text to show that 5–14 kg per run is reachable with practice; it does not by itself underpin any single card's accept criteria. Tiers S1 and S3 went unused this round — **an empty tier is not a missing item; it is the slot left for whoever measures the numbers in a card, one at a time, and fills it in.**
+
 **Relation to measurement**: for a parameter marked [E], the long-term answer is not to go looking for literature but to measure it against the card—the Chapter 18 L2 criterion (a second person reproduces from the card) already demands this step, and the source label only makes it explicit. **A number rises from [E] to [S2] by one reproducible measurement, not by one more persuasive citation.**
 
 ## Part D — Open Questions: This Book Is a Floor, Not a Ceiling

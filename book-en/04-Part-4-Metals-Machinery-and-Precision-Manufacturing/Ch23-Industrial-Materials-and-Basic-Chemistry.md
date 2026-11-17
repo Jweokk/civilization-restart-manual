@@ -71,8 +71,7 @@ Record a process card for every step: charge quantity, temperature band, time, y
 
 **Cleaners**: soap = fat/oil + causticized lye heated together (saponification). Register the ratio per fat type (empirical: excess alkali injures the skin; the product passes when the indicator reads near neutral and the lather is stable). Alkaline boil-washing (ash lye water against greasy soil); acid derusting (vinegar soak → upgraded to dilute sulfuric / dilute hydrochloric acid derusting after Section 23.9). Keep the glycerin byproduct (Chapter 26 reagent).
 
-[Card 23-06 Saponification] (eight fields)
-
+[Card 23-06 Saponification] (eight fields · source tier E)
 1. **Input materials**: fat or oil (animal fat or vegetable oil, logged by type and kept in separate pots); causticized lye (lime + ash lye → caustic potash/soda: caustic soda from causticizing Leblanc soda for hard soap, caustic potash from causticizing ash lye for soft soap); water; table salt (for salting-out).
 2. **Required tools**: saponification pot (iron — alkalis go in iron), stirring rod, stove fire, indicator (red-cabbage juice or litmus extract), soap-cutting table and drying rack, ceramic salting-out vat, goggles, grease-impregnated gloves, apron.
 3. **Sequence and control points**: melt the fat clear in the pot over a gentle heat → add the causticized lye to suit the fat type and boil together with stirring until a film lifted on the rod clings without dripping (soap paste) → check near-neutral with the indicator; if alkali is in excess, add fat and re-boil → turn out into molds or cut into blocks and air 7 days → (continuing 23.12) salting-out: scatter salt, stir gently and boil, let stand to separate, collect the lower glycerin water separately. Control points: add the alkali in portions and recheck with the indicator after each; **tasting is strictly forbidden**.
@@ -130,8 +129,7 @@ Four control variables: **ratio** (balance), **temperature** (fire-color band �
 
 **Step 2 · Dry distillation to make the acid**:
 
-[Card 23-01 Sulfuric Acid by Green Vitriol Dry Distillation] (eight fields)
-
+[Card 23-01 Sulfuric Acid by Green Vitriol Dry Distillation] (eight fields · source tier E)
 1. **Input materials**: fully dried green vitriol crystals (FeSO₄·7H₂O; emerald-green coarse prisms pass, yellowing turbidity means over-roasted — add a little iron filings to reduce before concentrating, an empirical method that must be registered and verified); pyrite crushed to 5–15 mm with coal-bearing gangue picked out (Chapter 16). The vitriol must be sun-dried first — a wet charge yields only water in the first stage and wastes fuel.
 2. **Required tools**: ceramic retort (lidded and sealed, fired from below, loaded no more than 2/3 full), ceramic or glass condenser bend, two receiving jars (ceramic/glass, the second in series as a buffer), wooden plugs and sealing clay, an ash-lye absorption bottle on the condenser outlet for tail gas, a balance (to cross-check specific gravity), a wood splinter (charring test), goggles, grease-impregnated gloves, wooden tongs.
 3. **Sequence and control points**: ① roast the pyrite in the muffle kiln at low red heat 4–8 h with ample airflow — oxidation, not reduction — until the ore turns brown; ② water-leach the roasted ore in a ceramic urn 12 h until the leachate is green and clear; ③ evaporate to a crystal film, let stand and cool slowly to crystallize green vitriol; ④ load the dried vitriol (≤2/3), run the outlet tube obliquely downward with its end **above** the receiving jar's liquid surface (never below it — back-suction bursts the jar); ⑤ raise the heat slowly on a gentle fire to drive off residual water (this fore-run is thin; discard it or keep it as dilute acid); ⑥ go to a strong fire until the retort body is dull red — white fumes enter the condenser, condense and drip into the jar; ⑦ kill the fire when the white fumes thin; ⑧ let the distillate stand to settle out suspended residue. Control points: an inspection hole in the sealing clay, pressure relief in the system, an ash-lye absorption bottle on the condenser outlet.
@@ -152,8 +150,7 @@ Yield reference (empirical, must be field-calibrated): about 4–8 kg pyrite →
 4. **Fractional crystallization (separating table salt)**: hot-filter the hot saturated solution **while still hot** (hot filtration removes the table salt that has already crystallized out — table salt's solubility barely changes with temperature, so it drops out during concentration; saltpeter's solubility changes steeply and it stays in the liquor); let the filtrate stand and cool slowly — **needle-/hair-like saltpeter crystals precipitate**; reconcentrate the mother liquor and cool it out again; after two passes, recheck purity by crystal form and flame color (violet flame, Chapter 26);
 5. Crystal-form criterion: needle clusters = saltpeter; cubes = table salt contamination (recrystallize once).
 
-[Card 23-02 Saltpeter Boiling] (eight fields)
-
+[Card 23-02 Saltpeter Boiling] (eight fields · source tier E)
 1. **Input materials**: nitre earth, one batch of the 50 kg class (source judged per 23.9.2); wood ash; water; firewood. **The source must be logged to the exact spot** for rotation and yield comparison.
 2. **Tools required**: leaching tub, filter bed (mat or sand), iron pan for hot filtering, crystallizing basin, flame-test kit (fine iron wire plus flame). Calibration source: nitre is identified by **crystal form plus flame colour** — never by taste.
 3. **Sequence and control points**: earth into the tub, leach with water, **hot-filter to remove salt (the soul of this card)**, liquor into the basin, **crystallize by slow cooling**, lift and dry the crystals, flame test. Two control points: **filter hot** (cold filtering carries salt into the crystal and leaves only recrystallization to save it); **cool slowly** (fast cooling gives fine crystals carrying impurities).
@@ -170,8 +167,7 @@ Yield reference (empirical, must be field-calibrated): about 4–8 kg pyrite →
 3. Reddish-brown fumes (NO₂ decomposition products) mean overheating — back the fire down one band;
 4. **Entirely outdoors + crosswind + goggles**: nitric acid mist damages lungs and eyes faster than sulfuric acid.
 
-[Card 23-03 Nitric Acid Distillation] (eight fields)
-
+[Card 23-03 Nitric Acid Distillation] (eight fields · source tier E)
 1. **Input materials**: dried saltpeter (23-02 needle-cluster crystals with violet flame); concentrated sulfuric acid (oil of vitriol, 23-01) at saltpeter : acid ≈1:1 by mass (empirical starting point); a clean, dry glass retort and a glass receiving bottle.
 2. **Required tools**: glass retort (best; ceramic second, but **ceramic bottles are forbidden as receivers**), glass receiving bottle, condenser/delivery tube, balance (ratios in parts by mass), goggles, grease-impregnated gloves, wooden tongs, ash-lye absorption bottle (tail gas), outdoors or a four-sided cross-flow shed.
 3. **Sequence and control points**: weigh the charge at 1:1 into the retort → heat on a gentle fire → distillate into the glass receiving bottle → on seeing red-brown fumes back the fire down one band → kill the fire at the end, leaving the bottle mouth for pressure relief. Control points: **glass receivers only** (a ceramic bottle corroding through under nitric acid is a real accident); the delivery tube never below the liquid; outdoors + crosswind + goggles throughout.
@@ -188,8 +184,7 @@ Yield reference (empirical, must be field-calibrated): about 4–8 kg pyrite →
 3. Accept the resulting dilute hydrochloric acid on the indicator (red cabbage turns red) and its rust-removing power;
 4. **Unabsorbed tail gas goes into ash lye** — the HCl is neutralized by the lye and no white fumes escape.
 
-[Card 23-04 Hydrochloric Acid Absorption] (eight fields)
-
+[Card 23-04 Hydrochloric Acid Absorption] (eight fields · source tier E)
 1. **Input materials**: table salt (dry, unclotted); concentrated sulfuric acid (oil of vitriol) at salt : acid ≈3:1 by mass (empirical starting point); three jars of clean water; ash lye (tail-gas neutralization).
 2. **Required tools**: acid-resistant retort (ceramic/glass), delivery tube, **three water jars in series** (inverted funnel or angled tube end near the water surface), ash-lye absorption bottle, red-cabbage indicator, goggles, grease-impregnated gloves, wooden tongs, outdoors or a cross-flow shed.
 3. **Sequence and control points**: mix salt + acid at 3:1 in the retort → heat, pungent HCl gas evolves → lead the gas through the tube into the three jars in turn (mouth near the water surface, **not inserted deep**, guarding against back-suction) → when the third jar is nearly odorless, absorption is complete → unabsorbed tail gas into ash lye. Control points: the three-jar series cannot be shortened; tube-mouth position; the last-jar odor call must be confirmed by two people.
@@ -212,8 +207,7 @@ Yield reference (empirical, must be field-calibrated): about 4–8 kg pyrite →
 2. Calcine salt cake + powdered coke + powdered limestone at high temperature (Chapter 12 furnace, above red heat for 2–4 h) → black ash; crush the black ash and water-leach it → sodium carbonate solution (filter off insoluble residues such as calcium sulfide) → evaporate and crystallize to crude soda; recrystallize once to remove color.
 **Pollution honestly declared**: the leaching residue contains calcium sulfide, which gives off rotten-egg-smelling hydrogen sulfide on contact with acid — **keep residue heaps far from water sources and dwellings, and spray them with ash lye water to bind and fix them** (empirical practice; register and verify); the waste-residue disposal line connects to Chapter 49.
 
-[Card 23-05 Leblanc Soda Ash] (eight fields)
-
+[Card 23-05 Leblanc Soda Ash] (eight fields · source tier E)
 1. **Input materials**: table salt; concentrated sulfuric acid (oil of vitriol); powdered coke; powdered limestone; water. Charge salt cake : coke : limestone ≈2:1:2 (mass, empirical starting point).
 2. **Required tools**: salt-cake reaction pot (acid-resistant, with a gas off-take), the Chapter 12 high-temperature furnace (red heat and above), crushing and sieving tools, leaching tank and filter, evaporating pan, crystallizing basin, ash-lye water (for spraying and fixing the residue heap), goggles, grease-impregnated gloves.
 3. **Sequence and control points**: ① heat salt + sulfuric acid → salt cake (sodium sulfate), releasing HCl which the off-take leads into water, co-producing hydrochloric acid; ② mix salt cake + powdered coke + powdered limestone at 2:1:2 and calcine above red heat 2–4 h to black ash; ③ crush the black ash and water-leach → sodium carbonate solution, filtering off insoluble residue such as calcium sulfide; ④ evaporate and crystallize to crude soda; ⑤ recrystallize once to decolorize. Control points: the charge ratio, calcination temperature and duration, a clear leachate; **keep the residue heap far from water sources and dwellings and spray it with ash-lye water to bind and fix it**.
@@ -312,8 +306,7 @@ The same pot of fat, a different alkali, a different soap — **the element in t
 - Molded method: wick centered and held taut (the mold mouth locates it with a slotted wooden slat clamping the wick); pour the wax at skin-forming temperature; cool through ≥2 h before demolding; pass = glossy surface, wick centered, no pores in the cross-section;
 - Dipped method: tie the wick bundles to a crossbar and repeat "dip in wax — air 2 min"; each layer adds thickness on the order of 0.5–1 mm; dip 15–25 times until finger-thick (empirical; floats with wax temperature: cooler wax gives thicker layers but a rougher surface). Suits a small workshop turning out dipped candles in parallel batches.
 
-[Card 23-07 Candles] (eight fields)
-
+[Card 23-07 Candles] (eight fields · source tier E)
 1. **Input materials**: wax or fat (picked clean of refuse, **free of water and salt** — water in hot fat spatters, salted fat smokes black); wick thread (cotton or hemp, three-strand tight braid); substitute: stearin for beeswax (weaker flame, more smoke — **must be labelled honestly**).
 2. **Tools required**: clay melting pot over a sand bath (**open flame on melting fat is a fire risk**, managed as for boiling tung oil); bamboo or clay moulds, or a dipping frame; slotted wooden strip to centre the wick at the mould mouth.
 3. **Sequence and control points**: melt to the point where the surface just skins over, hang the wick straight, cast in moulds or dip (dip–rest 2 min–dip), cool, trim, **burn one test candle before releasing the batch**. Control points: sand-bath heat only, wick centred and taut, **cool at least 2 h before demoulding**.
@@ -347,8 +340,7 @@ The same pot of fat, a different alkali, a different soap — **the element in t
 2. First coat thin, as primer (paint slightly thin) → surface-dry (a touch leaves nothing on the finger) → **hard-dry (a fingernail scratch leaves no white mark)** → only then the next coat;
 3. 2–3 coats in total. On the linseed-oil line, surface-dry about 1–2 days and hard-dry 3–7 days (empirical values; they swing widely with temperature and humidity; postpone in rainy weather). **Painting the next coat over a face that has not hard-dried is the leading cause of films that never dry** — better to stop work for three days than to rush that half day.
 
-[Card 23-08 Paint] (eight fields)
-
+[Card 23-08 Paint] (eight fields · source tier E)
 1. **Input materials**: pigment powder — iron red / iron yellow (red or yellow clay or limonite earth: wash out the fine slip → dry the cake → low-temperature roast; the hotter the roast the darker the color, so three kiln steps are compared and the step chosen), red lead (thin lead sheet stacked in a muffle furnace at the 300–500 ℃ class, long aerial oxidation, the orange-red crust scraped off and ground fine — **linked to the Section 17.8 lead red line**), indigo (held in reserve); cooked oils — linseed oil (first choice for top coats), tung oil (**which must be cooked until "a drip into water beads and does not spread"**), semi-drying oils (blending softeners only, ratio registered batch by batch); substrate (derusted, acid-pickled, rinsed, dried through ≥1 day); substitutable: iron red for red lead (less outdoor rust protection, compensated by extra coats).
 
 2. **Tools required**: mortar and pestle (ground until grit-free between the fingers); bristle brushes (dedicated to paint); ceramic paint jars (**iron jars hasten oxidative skinning — use ceramic, with a water seal floating at the mouth**); a mixing stick (hanging-thread consistency check); test panels (3 per batch); pickle bath and clean water; dry sand and wet burlap sacks (at hand whenever tung oil is cooked); balance or scale (ratio records); painting record sheet and component ledger; red-lead-dedicated tools (brush, jar, clothing — zero sharing with the food line). Calibration source: consistency from the hanging thread (about 5 cm unbroken); drying judged by hand in two steps — surface-dry (a touch leaves nothing on the finger) and hard-dry (a fingernail scratch leaves no white mark) — not guessed from the calendar.

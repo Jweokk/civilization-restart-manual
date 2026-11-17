@@ -66,8 +66,7 @@ Establish the **experimental and conceptual foundation** for electronic devices,
 
 * The three-component behavior table (responses to DC/AC) is page one of the language of circuits — **this table must be written from memory by every person, and each person must also measure it once by hand**.
 
-[Card 33-01 Wire-Wound Resistor and Power Rating] (eight fields)
-
+[Card 33-01 Wire-Wound Resistor and Power Rating] (eight fields · source tier E)
 1. **Input materials**: resistance wire (iron or copper alloy, Chapter 31 drawing process); ceramic tube former (Chapter 11); two coats of insulating varnish for moisture and wear protection.
 2. **Tools required**: winding jig, calipers (Chapter 22), supply and ammeter for the power test, hand for the temperature check. Calibration source: resistance set by **wire length and diameter** (measure resistance per unit length once per batch); power set by **temperature rise**, not by calculation.
 3. **Sequence and control points**: choose wire for the target resistance, wind onto the tube (**turns must not touch** — touching shorts several turns), fix the leads, **two varnish coats each fully dry**, then power test: **raise current until the "too hot to hold" line (about 60 °C)** and record that current as the rating. Control points: turn-to-turn insulation and both coats dry.
@@ -150,8 +149,7 @@ Close the valve to isolate the pump, and read the McLeod gauge at 5 min, 15 min,
 
 * Pressure rises linearly → **leak** dominates → remedy: spark scanning + sectional clamping of the rubber line to localize (clamp near the pump end and the pressure still rises = the tube leaks; it does not rise = the leak is on the pump side).
 
-[Card 33-02 Evacuation and Pressure Reading] (eight fields)
-
+[Card 33-02 Evacuation and Pressure Reading] (eight fields · source tier E)
 1. **Input materials**: sealed envelope (per 33-03); pumping train (water-jet aspirator, piston pump, mercury diffusion pump).
 2. **Tools required**: vacuum gauge (McLeod or glow observation), pumps, sealing grease. Calibration source: **every criterion is read against the pressure ladder table**, never by feel.
 3. **Sequence and control points (step down one grade at a time, never skip)**: rough vacuum (~10⁴–10³ Pa, aspirator), low vacuum (~10²–10 Pa, grease-sealed single-stage piston pump), medium vacuum (~1–0.1 Pa, piston pump at length plus outgassing), high vacuum (≤0.1–0.01 Pa, **plus one mercury diffusion stage**). Control points: hold and measure at each grade — the filament dies at rough vacuum, lights briefly then oxidizes at low, a diode barely works at medium, and **high vacuum is the triode's stable region**.
@@ -214,8 +212,7 @@ The number-one cause of vacuum-tube failure is not incomplete pumping but **cont
 
 At the soft-glass narrow neck of the exhaust-station line, seal with a soft flame and pull apart (◎ hand technique: heat the neck evenly with the flame until soft, draw it thin first, then part it, and immediately fire-polish the break round) — after seal-off, **recheck the tube at 24 h** (leave a test port where the McLeod gauge can stay attached, or substitute spark-glow + behavior testing): pass if the one-way conduction characteristic has not degraded.
 
-[Card 33-03 Sealing, Outgassing, and Tip-Off] (eight fields)
-
+[Card 33-03 Sealing, Outgassing, and Tip-Off] (eight fields · source tier E)
 1. **Input materials**: glass envelope (α ≈ 9×10⁻⁶/K, soda-lime or lead glass); leads (**fine platinum wire is the matched first choice but has no local route — carried as an open item**; **very fine iron wire ≤0.5 mm works as a transitional seal with high slow-leak risk**); carbon electrode pressed in, which moves the conduction problem to the carbon-lead interface. **Glass with copper wire (α ≈ 17) is forbidden** — nearly a factor of two apart, it cracks or leaks.
 2. **Tools required**: torch or small furnace, jigs, leak agents (water drop, dust), baking rig. Calibration source: **expansion mismatch under 10% counts as matched** — read the table, do not experiment.
 3. **Sequence and control points**: seal (fuse glass to lead; **differential contraction on cooling is the root of micro-cracks and slow leaks**), leak test at the seal, **bake out about 150–250 °C for 15–30 min**, fit getter if used, evacuate, **tip off**. Control points: the **α difference of the sealing pair** and **bake temperature and time** — neither may be adjusted by feel.
@@ -263,8 +260,7 @@ At the soft-glass narrow neck of the exhaust-station line, seal with a soft flam
 
 **Interference elimination for negative-resistance registration (correcting the previous edition)**: the old edition registered "current decreases as voltage in some direction increases" directly as possible negative resistance — poor contact, measurement error, and true negative resistance get mixed together. **New protocol**: on observing the phenomenon, first run two elimination steps — ① tap and re-seat the contact and retest (rules out poor contact); ② swap meter and leads and retest (rules out measurement error); only what still reproduces stably after both eliminations is entered in the negative-resistance observation register (the mechanism explanation belongs to Chapter 34; do not speculate).
 
-[Card 33-05 Crystal Detector: Point Selection and Rectification Ratio] (eight fields)
-
+[Card 33-05 Crystal Detector: Point Selection and Rectification Ratio] (eight fields · source tier E)
 1. **Input materials**: mineral (galena, chalcopyrite and other natural semiconductors, surveyed in Chapter 16); cat's whisker (fine metal wire); adjustable holder.
 2. **Tools required**: ohmmeter (galvanometer comparison) or simple galvanometer, adjustable contact rig, signal source (spark gap or resonant circuit). Calibration source: **the rectification ratio is the only criterion** — forward/reverse resistance ratio, not "it sounds louder".
 3. **Sequence and control points**: break a fresh cleavage face, mount, probe point by point, **measure forward and reverse resistance at each point and compute the ratio**, fix the best point, connect and try reception. Control points: **probe and measure every point** (one mineral varies enormously between points); light contact pressure — press hard and it becomes an ohmic contact and rectification vanishes.
@@ -333,8 +329,7 @@ Distinguish materials with three tests — temperature difference, light, and co
 
 * **Coarse Q comparison (compare rank only, no numeric measurement)**: with the same capacitor, sweep two coils of different core-insertion depth once each — **the narrower bright-zone turn width has the higher Q** (the sharper peak). The concept Q = f₀/Δf lands intuitively as "peak width"; the comparison conclusion goes into the component register. Absolute reed-frequency measurement (an improvised stroboscope: hand-cranked through speed-up gears driving a multi-hole spinning disk to freeze the reed's image visually; the disk speed is known, so it can be computed) is registered as a challenge item and does not affect the comparison method. [Background/Outlook: the frequency-selective loop is the first cornerstone of radio reception]
 
-[Card 33-06 McLeod Gauge: Making and Calibration] (eight fields)
-
+[Card 33-06 McLeod Gauge: Making and Calibration] (eight fields · source tier E)
 1. **Input materials**: glass tubes and two capillaries **of identical bore**, mercury, scale plate. **The two capillaries must match** — mismatch biases every reading.
 2. **Tools required**: mercury, rule, level reference, connection to the vacuum system. Calibration source: **compression ratio sets the range** (~10⁴); the scale is computed from geometry, not drawn by rule of thumb.
 3. **Sequence and control points**: form the U and capillaries, fill with mercury, fit the scale, **zero both columns**, connect to the system, compress and read, convert to pressure. Control points: **matched bores** and **zero correction**; read both the column difference and the compressed height.
@@ -363,8 +358,7 @@ Distinguish materials with three tests — temperature difference, light, and co
 
 * **Thoriated-tungsten substitution direction (register only, do not start)**: thoriated cathodes could lower emission temperature and extend life — the tungsten-filament route is already excluded under the Master Plan exclusion table; there is no local thorium source and no starting point; keep a one-line catalog entry and spend no labor hours on it.
 
-[Card 33-04 Carbon Filament: Making and Life-Grade Registration] (eight fields)
-
+[Card 33-04 Carbon Filament: Making and Life-Grade Registration] (eight fields · source tier E)
 1. **Input materials**: organic precursor yarn (cotton thread, hemp fibre, Chapter 15); carbonizing setup (sealed crucible plus furnace, Chapter 12).
 2. **Tools required**: crucible, furnace, calipers for the section, supply with voltage steps, brightness reference. Calibration source: section by calipers; life registered as **hours burned to failure**.
 3. **Sequence and control points**: select the yarn, carbonize sealed (oxygen excluded, heat with the furnace), retrieve the filament, check section (**0.2–0.5 mm square**), mount, burn at each voltage step and record life. Control points: **carbonizing must be oxygen-free** (with air it burns to ash); section drift sets the life grade directly.
@@ -388,8 +382,7 @@ Distinguish materials with three tests — temperature difference, light, and co
 
 * **Contact springs and insertion-cycle lifetime registration**: contacts are spring copper strips (Chapter 31 copper alloy) with two-point contact, pre-bent with overtravel; **lifetime criterion: after 200 insertion cycles, contact resistance ≤ 1.5× the initial value** (voltage-drop method: pass a known current and read the contact voltage drop, Chapter 27 meters); measure once every 50 cycles into the ledger.
 
-[Card 33-07 Socket Making and Pin Standardization] (eight fields)
-
+[Card 33-07 Socket Making and Pin Standardization] (eight fields · source tier E)
 1. **Input materials**: pin wire (1.0 / 1.5 / 2.0 mm, same Chapter 31 drawing route as resistance wire); insulating body (ceramic, varnished hardwood, or a phenolic substitute); spring contacts.
 2. **Tools required**: drill and reamer, pitch-circle layout (Chapter 3 angle plate and dividers), contact-resistance measurement. Calibration source: **pitch circle and pin spacing laid out to the standard value**, not fitted to whatever envelope is at hand.
 3. **Sequence and control points**: lay out pitch circle and pin positions, drill, fit pins and springs, trial insertion, **measure contact resistance**, number and log. Control points: **pitch circle and spacing** (off and the tube will not insert or the pins land wrong); spring pressure firm but not excessive.
@@ -420,8 +413,7 @@ Distinguish materials with three tests — temperature difference, light, and co
 
 * **Prototype voltage-test pen**: a G4-step tube + current-limiting resistor inside an insulated tube, a probe at one end and a metal cap for the hand at the other: it lights = "live and above the striking step". **The lower limit is bounded by the physics of the Paschen minimum (several hundred volts class); below that it does not light** — for low-voltage live testing, substitute the series-lamp method (the Chapters 31–32 line-repair practice). Current limiting is set by criterion, not a fixed value: working voltage ÷ resistance ≤0.5 mA (order-of-magnitude sanity check: 220 V ÷ 470 kΩ ≈ 0.5 mA, below the human perception threshold of about 1 mA, empirical value; when only hundred-kΩ-class resistors are available, temporary use under the two-person rule only); two-way check before use: it must light on a known-live point and must not light on a confirmed-dead point; high-voltage testing under the two-person rule (this chapter's safety boundary).
 
-[Card 33-08 Glow-Discharge Voltage Calibration] (eight fields)
-
+[Card 33-08 Glow-Discharge Voltage Calibration] (eight fields · source tier E)
 1. **Input materials**: glow tube, adjustable high-voltage source, sphere gap for calibration, fixed-pressure gas supply at 10 Pa.
 2. **Tools required**: sphere gap (**~3 kV/mm calibration**), voltmeter or gap-distance reading, gas supply and pressure gauge. Calibration source: **gap distance is the voltage** (3 kV/mm), not a hard-read meter.
 3. **Sequence and control points**: connect the tube, fix pressure at 10 Pa, raise voltage step by step, record the start and end of each glow region, **check the same points with the sphere gap**, log the voltage scale. Control points: **pressure must be fixed** (glow voltage differs completely at other pressures); the gap check is not optional.

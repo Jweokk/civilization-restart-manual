@@ -72,8 +72,7 @@
 
 **Reserve quantities (empirical values; must be field-calibrated)**: heating one person through one night takes roughly 15–25 kg of wrist-thick firewood; cooking one meal about 2–4 kg; double the reserve for the rainy season. Stack the woodpile raised off the ground and roof it with bark against rain.
 
-[Card 06-02 Preparing Charred Tinder] (eight fields)
-
+[Card 06-02 Preparing Charred Tinder] (eight fields · source tier E)
 1. **Input materials**: inner bark of young shoots or plant down at rag grade (dry grass down, bast fiber both work); a clay pot (after Chapter 11) or a freshly dug ash pit; storage pouches. **Raw and charred tinder must be labeled and stored apart** — mixed together, you cannot tell a material problem from a firing problem when it fails to light.
 2. **Tools required**: clay pot or ash pit (deep enough to bury the charge), stone slab (for spreading to dry), an established ember bed (Section 6.5). Calibration source: readiness is judged by color plus a burn test, not by a thermometer.
 3. **Sequence and control points**: load pot or bury in ash pit → slow bake over low heat (**never over open flame** — a flame turns the batch to ash in seconds) → watch the color turn from yellow-white to brown → pull a pinch and test-light it. Control points: low heat throughout; both the color change and the burn test must pass — color alone runs under-charred.
@@ -83,8 +82,7 @@
 7. **Common failures and diagnosis order**: (1) will not light → check for moisture first (is the pouch sealed), then under-charring; (2) turns to ash at a touch → over-charred, fire too close or too long; (3) half raw, half charred in one batch → uneven heating, pot packed too full (fill to seven-tenths).
 8. **L1 / L2 / L3 evidence**: L1 = one passing batch plus burn-test record; L2 = three batches from three different source materials, all passing, with times and final colors comparable; L3 = a second person produces a passing batch from this card alone, with matching burn-test results.
 
-[Card 06-03 Pulse-Blowing an Ember into Flame] (eight fields)
-
+[Card 06-03 Pulse-Blowing an Ember into Flame] (eight fields · source tier E)
 1. **Input materials**: an established ember (black powder cake or a glowing spot in charred tinder); fire-nest material (toothpick twigs → fine twigs → finger-thick sticks, added in layers); tinder. **Build the nest before you blow** — blowing first and gathering wood after is a common way to lose the ember while it waits.
 2. **Tools required**: none beyond breath; a small reserve of tinder for re-seeding.
 3. **Sequence and control points**: two or three short puffs (each about one-tenth of a lungful) → pause to let the glow deepen → glow spreads to the size of a cup mouth → tuck fine twigs around it → one long breath brings flame. Two control points: **blowing is pulsed, not continuous**; **do not add twigs before the glow reaches cup-mouth size** (twigs added early smother it).
@@ -125,8 +123,7 @@ Failure troubleshooting table:
 
 **Upgrade preview**: the bow drill (Section 7.6) drives the shaft with a cord bowstring — less effort and stable speed, with a success rate several times that of the hand drill (empirical value). Until cord technology is established, the hand drill is the mainline; hand-drill training must not be omitted from the records.
 
-[Card 06-01 Hand-Drill Fire Making, Full Sequence] (eight fields)
-
+[Card 06-01 Hand-Drill Fire Making, Full Sequence] (eight fields · source tier E)
 1. **Input materials**: drill shaft (40–70 cm long, 0.6–1.2 cm diameter, straight and round, dry straight-grained medium-hard wood such as willow or elder); fireboard (1.5–2.5 cm thick, about 5 cm wide, 30 cm or longer, dry soft wood); tinder passing the three tests in field 4; birch bark or a broad leaf to catch powder. **Shaft and board must be equally dry** — one dry and one damp grinds the hole smooth without producing black powder.
 2. **Tools required**: flake knife (Chapter 5, to cut the V-notch), a spare fireboard (for when the hole wears oversize), record tablet. Calibration source: speed and pressure cannot be instrumented — infer from the result: black powder means the parameters are right, brown powder means pressure is short.
 3. **Sequence and control points**: seat the shaft in a shallow dimple → clasp between the palms and rub while pressing down → just before the hands reach the bottom, snap them back up (**the shaft must not leave the hole**) → drill continuously 1–5 minutes → stop and check the powder pile. Control points: the V-notch must reach the center of the hole (too shallow and powder will not exit, too deep and the shaft wobbles); never release pressure during the hand reset.
@@ -178,8 +175,7 @@ Cooking and baking rely on the coal bed, not on open flame.
 
 **Turning the heat source into a hearth**: build a stove from stone slabs. Slab selection: dense sedimentary or igneous rock; layered stone, vug-bearing stone, or water-absorbing stone explodes when heated. Trial-burn method: roast a candidate slab over a small fire for 10 minutes; if it does not burst, crackle, or crack, it is usable. This stone stove is the prototype of the Chapter 11 pottery kiln and the Chapter 12 furnace.
 
-[Card 06-04 Banking the Fire Overnight and the Ember Tube] (eight fields)
-
+[Card 06-04 Banking the Fire Overnight and the Ember Tube] (eight fields · source tier E)
 1. **Input materials**: a charcoal bed after 30–60 minutes of open burning (at least a bowl-mouth-sized heap); dry ash, 5–10 cm (**must be dry — damp ash smothers the fire**); a thin layer of soil; an ember tube (bamboo section or small clay pot, lidded, with a pinhole in the lid).
 2. **Tools required**: a wooden or stone paddle (for raking coals and spreading ash), ember tube, a small bag of spare dry ash. Calibration source: no instrument — next morning's ember condition is the verdict on last night's banking.
 3. **Sequence and control points**: rake coals into a heap → cover with 5–10 cm dry ash → press a thin soil rim around it → leave a finger-width air hole. For the tube: put a small red coal plus charred tinder inside, lid on, pinhole open. Control points: **ash depth and hole size** — sealing the hole smothers it, opening it burns it out; one finger-width is the empirical middle.

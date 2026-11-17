@@ -88,8 +88,7 @@ The mechanisms of this section are the "meter movement" shared by all four instr
 
 **The temperature-standard hierarchy (pyramid)**: 1 standard thermometer (used only to calibrate other thermometers, never enters the workshop; quarterly three-point re-verification; scrapped on any knock) → working thermometers (monthly one-point spot check against the standard + quarterly boiling-point re-verification). The structure is isomorphic with the Chapter 22 length-standard pyramid.
 
-[Card 27-01 Glass Thermometer Three-Point Calibration] (eight fields)
-
+[Card 27-01 Glass Thermometer Three-Point Calibration] (eight fields · source tier E)
 1. **Input materials**: ungraduated thermometer blank (top-expansion-chamber type, capillary with no column breaks, 1 per run); crushed ice ≥500 g; 50 g of beeswax from the reference-wax batch (batch number in the ledger); 3 L clean water; same-day barometer reading.
 2. **Tools required**: boiling-water bath pot ≥2 L (open); wax bath cup seated in a boiling-water double boiler (wax temperature stays under 100 ℃); dividers and scriber (Chapter 3; true the divider points to zero before use); fine flat file; timing water clock; standard thermometer (for reverse-measuring the wax batch and for spot checks).
 3. **Operating sequence and control points**: ① ice-water bath, equilibrate ≥10 min, mark the ice point — **control point: record the mark only once the reading has held for 1 min**; ② mark the wax point during the solid–liquid coexistence period of the wax bath (bulb fully immersed, equilibrate ≥5 min) — **control point: the wax must be on its melting plateau; insert the thermometer as soon as it begins to clear overall**; ③ mark the boiling point in the open boiling-water bath (t_b=100−(760−P)/27); ④ measure L₁/L₂ — **control point: per-℃ column lengths of the two segments differing by >5% means scrap**; ⑤ transfer the two segments, each with its own equal division; ⑥ three-point re-check + 30 ℃ same-bath spot check.
@@ -191,8 +190,7 @@ The diaphragm type is easy to make and suits low pressures and low pressure diff
 - **A boiler without a valid calibration tag must not be fired** (Chapter 28 release clause);
 - Three events — a knock, over-travel, a suspicious reading — mean it goes straight back for calibration (consistent with the 27.10 period grading).
 
-[Card 27-02 Spring-Tube Pressure Gauge Manufacture and Deadweight Calibration] (eight fields)
-
+[Card 27-02 Spring-Tube Pressure Gauge Manufacture and Deadweight Calibration] (eight fields · source tier E)
 1. **Input materials**: tin-bronze tube 6×0.8×200 mm (Chapter 17, quantity per gauge); rosin 20 g; one pair of elliptical press dies (hardened); R35 tube-bending form; tin solder and flux; 1 × M10×1.5 fitting; φ2 mm copper pin; movement parts (sector gear–pinion–hairspring–pointer–white blank dial, self-made per 27.1).
 2. **Tools required**: deadweight tester (27.3.4, d10.000 piston; cross-verify the mercury-column point before use); micrometer (Chapter 22; zero check + one gauge-block point before use); hand hammer and files; arc template (0.5 mm feeler gauge / thick paper shim); soap-solution brush (leak checking).
 3. **Operating sequence and control points**: ① anneal ② fill with rosin ③ die-press the ellipse — **control point: stop when the die faces meet at the seam** ④ remove the wax and wash clean — **control point: rinse with solvent until no film remains** ⑤ bend the 270° arc (ellipse major axis pointing at the form center; compensate the springback with a corrective bend) ⑥ solder the fixed-end fitting + seal-solder the free end and solder the pin ⑦ **pressure test at 1.5 × full scale for 5 min (no leak / return to zero ≤1 division / zero unchanged on repressurizing)** ⑧ fit the movement ⑨ deadweight five-point dot-marking (five points each rising and falling) ⑩ formal dial + lead seal + calibration tag.

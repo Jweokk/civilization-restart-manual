@@ -74,8 +74,7 @@ Hand-fitted nuts (the Section 20.5 template method) cannot do volume. Tap making
 - **Tapping procedure**: ① drill the tap-drill hole per the table ② chamfer the hole mouth (prevents a turned-up lip) ③ enter the tap and check squareness in two directions with a square ④ every half turn, **back off a quarter turn** to break the chip (◎ hand-feel: a sudden torque rise means back off immediately; forcing = broken tap) ⑤ drip oil (mandatory on steel) ⑥ first run the taper tap (long cutting lead) through, then the second tap (short cutting lead) to finish sizing;
 - **Broken-tap removal**: a broken tap is tapping's number-one accident. Removal method: anneal (heat the tap locally to dark red to soften it), then tap it back out counterclockwise with a punch; if it cannot be removed, the workpiece is scrapped (a hardened broken tap cannot be drilled)—**hence the tapping discipline: verify squareness, break chips promptly, stop the instant torque spikes**.
 
-[Card 22-01 Tapping] (eight fields)
-
+[Card 22-01 Tapping] (eight fields · source tier E)
 1. **Input materials**: a conforming tap-drill hole (drilled per the tap-drill table, drill diameter verified with a snap gauge); a tap (turned to the standard external thread, then 3–4 chip flutes cut, quenched and tempered brown-yellow, straightened); tapping oil (mandatory on steel); the workpiece, clamped.
 2. **Tools required**: tap wrench (wooden handle / iron frame with a square hole over the tap's square tail); drills and snap gauge; try square (squareness checked in two directions); oil can; punch and a heating furnace (for annealing out a broken tap). Calibration source: tap drill checked against major diameter − pitch; thread form calibrated to the prototype standard (Section 22.3.1, item 4).
 3. **Sequence and control points**: (1) drill per the tap-drill table → (2) chamfer the hole mouth to prevent a turned-up lip → (3) enter the tap and check squareness in two directions with a square → (4) every half turn **back off a quarter turn** to break the chip (◎ back off the instant torque spikes; forcing = broken tap) → (5) drip oil → (6) run the taper tap through, then the second tap to size → (7) inspect with go/no-go gauges. Control point: **squareness, chip breaking, stop on torque spike** — break one and the tap snaps.
@@ -95,8 +94,7 @@ Bolts working loose are the number-one source of assembly accidents; overtighten
 - **Three locking methods**: double-nut jam locking (bottom nut tightens, top nut locks); cotter pins (pin match-fitting, Chapter 20); wire lacing (bolt groups laced head-to-tail, so any one bolt loosening is restrained by its neighbors);
 - **Vibration sites must use locking**—every bolt on line shafts, waterwheels, and hammer frames (vibration environments, Chapter 21 + the weekly tightening items on the Chapter 39 inspection checklist).
 
-[Card 22-04 Torque-Limited Tightening and Locking] (eight fields)
-
+[Card 22-04 Torque-Limited Tightening and Locking] (eight fields · source tier E)
 1. **Input materials**: standard bolts and nuts (M6×1 / M10×1.5 / M16×2); locking parts (second nut, cotter pin, lacing wire); the parts being joined.
 2. **Tools required**: wrench with a "pull line" scribed on the bar at 200 mm from the bolt center; one-hand pull (the operator judges it); a connection that may be tested to destruction (for calibration); micrometer (to measure overall bolt length for stretch). Calibration source: the working band comes from a destruction test, not from "how tight it feels."
 3. **Sequence and control points**: (1) set the band by joint type — snug (anti-loosening duty) / half tight (routine) / full torque line (sealing and load-bearing) → (2) verify the pull line at 200 mm on the wrench bar → (3) pull steadily with one hand and stop exactly at the line → (4) choose the locking method: double-nut jam (bottom tight, top locks), cotter pin, wire lacing (group laced head-to-tail so any one loosening is held by its neighbors) → (5) vibration sites must be locked (line shafts, waterwheels, hammer frames) → (6) weekly re-tightening enters the inspection checklist. Control point: **stop at the line** — past the line is over-tight.
@@ -112,8 +110,7 @@ Bolts working loose are the number-one source of assembly accidents; overtighten
 - **Taper pins**: the reamer carries a 1:50 taper; the pin is seated when, after driving, the large end stands slightly proud—**a taper pin can be removed and reinstalled repeatedly without losing locating accuracy** (superior to the parallel pin; used for locations that will be serviced);
 - **Interference sleeve fitting** (gears/pulleys on shafts): turn the hub bore to shaft diameter −0.05 mm class, heat the hub (boiling water / hot-oil bath) so it expands, slip it on, and let it cool and grip tight—the precision version of Chapter 21's "burn-on sleeve method."
 
-[Card 22-05 Pin Fitting and Interference Fits] (eight fields)
-
+[Card 22-05 Pin Fitting and Interference Fits] (eight fields · source tier E)
 1. **Input materials**: parallel pins or taper pins (1:50 taper); gear/pulley and shaft (hole to be reamed); reamer (straight edges, no flutes; taper reamer with 1:50 taper); thin oil.
 2. **Tools required**: tap/reamer wrench; wooden mallet and a heavy hammer with backing block; heating bath (boiling water or hot oil); micrometer; snap gauge. Calibration source: interference computed from measured pin diameter minus measured hole diameter, not judged by the sound of the blow.
 3. **Sequence and control points**: (1) ream the hole to size (1:50 taper reamer for taper pins) → (2) clear chips and oil → (3) drive the parallel pin with 0.01–0.03 mm class interference: the wooden mallet takes it smoothly for the first 2/3 of the length, the last 1/3 needs the heavy hammer and backing block → (4) drive the taper pin until the large end stands slightly proud (it can be removed and refitted repeatedly without losing location) → (5) interference sleeve fitting: turn the hub bore to shaft diameter −0.05 mm class, heat the hub to expand it, slip it on, let it shrink and grip, in one continuous motion (hands never enter the bore). Control point: **"easy first, tight last" is the only conforming interference.**
@@ -131,8 +128,7 @@ Bolts working loose are the number-one source of assembly accidents; overtighten
 - Thread gauges: go gauge (full thread form; should thread over the full length), no-go gauge (truncated thread form; should stop within 2 turns);
 - Manufacture: hardened steel, lapped working faces, calibrated against a micrometer and standard parts—**a gauge is "a standard part in its limit form."** Scrap criterion: a go end that will not go, or a no-go end that goes, is scrap.
 
-[Card 22-02 Making and Calibrating Go/No-Go Gauges] (eight fields)
-
+[Card 22-02 Making and Calibrating Go/No-Go Gauges] (eight fields · source tier E)
 1. **Input materials**: hardened steel blanks (Chapter 19 brown-yellow temper band); standard parts (prototype screw / standard blocks); 20 test parts of known size distribution (pre-sorted with a micrometer).
 2. **Tools required**: lapping plate (the Chapter 20 three-plate set); micrometer (five-point checked); standard parts; stamp and handle stock; compartmented box and thin oil. Calibration source: calibrated against standard parts by the comparison method — **never by direct absolute measurement**.
 3. **Sequence and control points**: (1) set the two end sizes — plug gauge go end at the lower limit of the tolerance band (should pass), no-go end at the upper limit (should stop); snap gauge for shafts, same logic reversed → (2) form, then harden and temper → (3) lap the working faces until contact spots form a continuous patch on the plate → (4) calibrate go and no-go ends against standard parts by comparison → (5) stamp "GO/NO-GO" and the gauge number on the handle → (6) inspect 20 test parts of known distribution; every verdict must be correct. Control point: the go end and the no-go end are made to opposite limits of the band — **they must never come out the same size**.
@@ -170,8 +166,7 @@ Division of labor unfolds along the process card: a layout worker need not under
 
 **Micrometer** (the fruit of lead-screw bootstrapping): an M10×1.5 lead screw—thimble advance of 1.5 mm per revolution, with 30 graduations around the thimble at 0.05 mm each; a 10-division vernier scribed around the thimble pushes the reading down to 0.005 mm (empirical value, must be calibrated). Key points: lapped lead screw, wring-fitted anvil flatness, C-frame stiffness, **ratchet constant pressure** (a consistent measuring force is the precondition of repeatability).
 
-[Card 22-03 Micrometer Verification] (eight fields)
-
+[Card 22-03 Micrometer Verification] (eight fields · source tier E)
 1. **Input materials**: micrometer (M10×1.5 lead screw — 1.5 mm advance per thimble revolution, 30 graduations at 0.05 mm each, a 10-division vernier reading down to 0.005 mm); gauge-block set (1/2/5/10/20/50) or standard parts of known size; gauge card.
 2. **Tools required**: gauge blocks or standard parts; silk cloth; thin oil; gauge card (number, calibration records, next calibration date). Calibration source: the check reference is the gauge-block set, whose own upstream is the standard bar (Section 22.7 reference pyramid — only upper calibrates lower).
 3. **Sequence and control points**: (1) zero — close the anvil and read zero, log the deviation on the card → (2) five-point gauge-block check covering the full range → (3) repeatability — range of ten measurements on the same part → (4) once a month, plus immediately after any knock → (5) out-of-tolerance handling: clean and recalibrate, or record an error table and correct by segment, or make a new lead screw. Control point: **hold the frame, not the anvil** — hand heat is the first source of reading drift.
@@ -235,8 +230,7 @@ Key-size empirical rule: **key width ≈ shaft diameter / 4, rounded to a whole 
 
 **Interchangeability boundary**: a match-fitted spline is a one-to-one pair, with no interchange. Stamp matched-pair numbers at assembly (continuing the Chapter 20 matched-pair numbering convention) and record the pair numbers in the archive; if the shaft fails, copy it using the original shaft as the master gauge (the master-gauge method restores that pair's interchangeability); if the bore fails, the whole set is re-matched. When key-flank play becomes hand-detectable (about the 0.1 mm class), impact noise appears in the drive—judged rework.
 
-[Card 22-07 Match-Fitted Splines] (eight fields)
-
+[Card 22-07 Match-Fitted Splines] (eight fields · source tier E)
 1. **Input materials**: the finished spline-bore part (bore bored / reamed to size, wall still to be keyed); one match-fitting spline shaft (keys cut to nominal size, hardened — it serves as the color-marking master gauge); red lead powder + machine oil (mixed to a paste); marking color (for the bore end face); a keyway go/no-go snap gauge (made first, on the Section 22.4 go/no-go idea); 0.05 mm class thin paper slips (final check); an angle block (for the equal division).
 
 2. **Tools required**: scriber and square; angle block (equal-division self-check, Section 22.5 closing-error equalization); narrow chisel and hammer; one coarse and one fine file (in matched condition); bench vise (to hold the bore part against turning); red lead dish and brush; snap gauge (preliminary keyway depth); thin paper slips; matched-pair number stamps; match-fitting record card. Calibration source: equal division from the angle block, keyway depth from the snap gauge, final acceptance from spot coverage plus the paper slip — never "it feels about right".
@@ -302,8 +296,7 @@ Gauge blocks are the companion standard parts of the Section 22.8 comparator: a 
 
 The six blocks combine into 63 sizes in total (2⁶−1). A size that cannot be built (e.g., 44) does not take the forced-fit route; it takes the comparison route: stack the nearest combination, zero against it, and read the difference on the comparator (the proper meaning of the Section 22.8 comparison measurement). Combination discipline: **one stack ≤4 blocks** (each additional wringing face adds another share of wringing-failure risk, empirical value); after combining, recheck the stack once against the standard bar, to cover the small errors sandwiched into the wringing faces; when done, separate immediately, wipe clean, oil, and return each block to its compartment—gauge blocks left in the wrung state for long periods seize by stress corrosion, an accident of the scrapping class.
 
-[Card 22-06 Gauge-Block Manufacture and Wringing] (eight fields)
-
+[Card 22-06 Gauge-Block Manufacture and Wringing] (eight fields · source tier E)
 1. **Input materials**: hardened steel blanks (uniform section 30×9 mm, Chapter 19 brown-yellow temper band); coarse and fine abrasives; silk cloth; thin oil; weights for aging.
 2. **Tools required**: abrasive-charged fine-lapping plate (the best of the three plates, Chapter 20); coarse lapping plate; micrometer; standard bar; comparator; compartmented wooden box. Calibration source: length referred to the standard bar, zeroed on the comparator.
 3. **Sequence and control points**: (1) saw and rough-machine, leaving 0.10–0.15 mm lapping allowance on both faces → (2) harden and temper, then **natural aging ≥7 days** (stacked under weights, undisturbed) → (3) rough-lap until tool marks and black scale are gone; check parallelism at four corners and ten points, and only enter fine lapping when the range is ≤0.02 mm → (4) fine-lap with **a 90° rotation in place every 10–20 strokes**, until the block wrings and holds → (5) calibrate length: zero against the standard bar, record center length and four-corner readings on the card. Control point: aging cannot be skipped; rotation cannot be skipped.

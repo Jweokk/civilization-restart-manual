@@ -88,8 +88,7 @@ Operating procedure:
 
 **First products**: select copper sheet — cold-forge native copper lumps into 1–2 mm sheet (3–5 cycles), then cut (hammering + repeated bending to break off blanks) into small knives, awls, and fishhook blanks, and sharpen them on the Chapter 9 grinding table. Functional positioning: cutting soft materials, drilling, scraping — immediately replacing bone awls and some stone-flake knives.
 
-[Card 17-01 Native-Copper Cold-Working and Annealing Cycle] (eight fields)
-
+[Card 17-01 Native-Copper Cold-Working and Annealing Cycle] (eight fields · source tier E)
 1. **Input materials**: native copper (all three checks: copper-red or brown-red with green patina that scrapes away to metal; **it flattens under the hammer without cracking** — the one test unique to metals and far more reliable than color; about 2.6 times heavier than an equal volume of quartz, and it leaves a bright metallic streak on a streak plate). Fail any check and it is not native copper — stop.
 2. **Tools required**: stone anvil, stone hammer (Chapter 5), charcoal fire (Chapter 6), water basin for cooling. Calibration source: reduction measured with a scored rule; annealing temperature has no thermometer and is read from oxide color.
 3. **Sequence and control points**: thumb-sized trial piece (hammer lightly; flattening with edge cracking means stop) → cold work (light even blows in air, working from center outward) → judge hardening → anneal → cool → cold work again, repeat. Control points: **maximum 20% reduction per pass**; **stop and anneal at the first of three hardening signs** — the hammer ring turns sharp and high, hairline cracks appear at the edge in raking light, or the hammer face starts to skid.
@@ -131,8 +130,7 @@ Operating procedure:
 | Ingots porous and blackened | Reduction incomplete / secondary oxidation after tapping | Extend the hold; stir with the stick before tapping to pool the copper; pour immediately |
 | Crucible cracks and leaks | Poor crucible / heating too aggressively | Change the crucible; stage the heating (preheat 15 minutes first) |
 
-[Card 17-02 One Crucible Reduction Run] (eight fields)
-
+[Card 17-02 One Crucible Reduction Run] (eight fields · source tier E)
 1. **Input materials**: crushed copper ore (malachite, azurite, identified per 17.1); charcoal granules; quartz sand flux at 1–3% of charge weight. Ore crushed to bean size — powder too fine chokes the air path.
 2. **Tools required**: crucible (**filled to eight-tenths**, leaving room for the boil), bellows (Chapter 12), furnace (Chapter 12 shaft furnace), tongs, record board. Calibration source: no pyrometer — **drop a small copper offcut in as a witness; when it melts, the temperature is there**.
 3. **Sequence and control points**: charge ore and charcoal in layers (crushed ore 2 : charcoal granules 1 by volume) → heat → hold to reduce → stir once midway → tap out. Control points: **fill to eight-tenths** (a full crucible boils over) and **judge temperature by the witness copper melting** (bright orange 1000–1100 °C is only a visual aid).
@@ -166,8 +164,7 @@ Within a **radius of ≥3 m of the pouring zone and the carrying route there mus
 4. Solidification: let stand and cool. Thin pieces 15 minutes, thick pieces 1 hour or more before demolding (empirical value, must be field-calibrated). **Never splash water on a hot casting to speed cooling** — shock cooling cracks the copper + steam burns.
 5. Shakeout and cleanup: after demolding, hammer off the gate burrs and remove the flash on the grinding table.
 
-[Card 17-03 Pouring Procedure] (eight fields)
-
+[Card 17-03 Pouring Procedure] (eight fields · source tier E)
 1. **Input materials**: molten copper; fired clay mold (made per 17.5, **must be preheated**); skimming tool.
 2. **Tools required**: long-handled crucible tongs (heat-insulated), pouring cup, preheat fire. Calibration source: mold temperature judged by water — **a drop hisses and boils off at 100–200 °C**; if it does not, the mold is too cold.
 3. **Sequence and control points**: preheat the mold → skim the melt → pour in a thin continuous stream → let it solidify undisturbed → knock out and inspect. Two control points: **pour height ≤10 cm** (more entrains air and spatters) and **an unbroken stream** (a break means a cold shut).
@@ -219,8 +216,7 @@ Four rules of hammering technique:
 | Copper awl, awl-knife | Copper bar cold-forging + annealing cycle → grind to a point | Overall length 80–120 mm |
 | Copper hammer | Solid casting in a clay mold → haft | Head weight 500–800 g (weighed on the balance) |
 
-[Card 17-04 Four Rules of Hot Forging] (eight fields)
-
+[Card 17-04 Four Rules of Hot Forging] (eight fields · source tier E)
 1. **Input materials**: cast billet or copper bar (from 17.3); charcoal fire. Knock off surface scale first, or it gets hammered into the metal.
 2. **Tools required**: hammer (weight matched to the work), anvil, template (Chapter 9 template method), tongs. Calibration source: temperature by color (start at visible dull red, stop at 450 °C); dimension by template gap, **light gap <1 mm**.
 3. **Sequence and control points (four rules)**: (1) **light rapid blows beat heavy slow ones** (heavy blows crack slag and porosity open); (2) **work in sequence** — from one end to the other, from center to edge when spreading; (3) **turn often** — alternate faces to avoid thinning one side into a curl; (4) **check the template constantly** — once per heat. Control points: neither the temperature window nor the template check may be skipped.
@@ -279,8 +275,7 @@ Four rules of hammering technique:
 
 ---
 
-[Card 17-05 Bronze Ratio Gradient Trial] (eight fields)
-
+[Card 17-05 Bronze Ratio Gradient Trial] (eight fields · source tier E)
 1. **Input materials**: pure copper (from 17.2 or 17.3), tin (source registered per 17.1). **Arsenical copper is separate** — 3–7% arsenic is a hard toxicity line (see 17.8); only run it with ventilation and protection.
 2. **Tools required**: crucible, balance (Chapter 3, for copper and tin), sample molds (several identical small bars), bend-test fixture (vise plus angle reference). Calibration source: ratios by weighing, never by eye; performance by bend angle and scar width, never by tapping and listening.
 3. **Sequence and control points**: melt three charges at three ratios (8%, 10%, 12% tin) → cast identical bars in the same mold → bend each through 30°–90° → measure the scar width at the bend → pick the best. Control points: **all three runs under identical conditions** (same mold, same temperature, same cooling), or the comparison is worthless.
@@ -333,8 +328,7 @@ Why decreasing: with a large cup, slag floats in the cup; with the cross-section
 | Common failures and check order | Shrinkage in the piece: check riser position → riser size → feed timing; uneven walls: measure print length → count chaplet density → check mold-half misalignment; mold not filling: measure S → check the vents → check the copper temperature |
 | L1/L2/L3 evidence | L1: one wall-check-ring sectioning record; L2: a wall-thickness ledger of 3 consecutive cored pieces + riser cross-section rubbings; L3: calibration records of riser ratio, S value, and feed interval transcribed into the ledger, so the next furnace follows the ledger instead of trial and error |
 
-[Card 17-06 Riser and Gating Design] (eight fields)
-
+[Card 17-06 Riser and Gating Design] (eight fields · source tier E)
 1. **Input materials**: casting drawing or the pattern itself (mark the thermal hot spot — the thick mass that solidifies last); estimated melt volume.
 2. **Tools required**: scored rule, tablet for the proportional arithmetic (Chapter 3). Calibration source: dimension and area ratios from empirical proportions; S scaled per kilogram of melt.
 3. **Sequence and control points**: locate the hot spot → size and place the riser → set the three gating areas → pour → check where shrinkage appears. Control points: **the riser must sit on the thickest, last-solidifying mass** (anywhere else is no riser at all) and **the pouring cup must be able to hold back slag**.
@@ -451,8 +445,7 @@ Three tasks, ordered by purpose: coloring (identification and decoration), polis
 
 ---
 
-[Card 17-07 Hot Tinning] (eight fields)
-
+[Card 17-07 Hot Tinning] (eight fields · source tier E)
 1. **Input materials**: copper piece (degreased and deoxidized — **tin will not take on an oily surface**); tin (melts at 232 °C).
 2. **Tools required**: tin crucible, tongs, balance (to weigh the gain and back-calculate coating), skimming tool. Calibration source: coating thickness is not measured in microns — **it is back-calculated from weight gain over a known area**.
 3. **Sequence and control points**: degrease and deoxidize → preheat → dip into the tin bath → withdraw and drain → weigh. Control points: **bath at 232 °C with a mirror-still surface** — dross means the bath is oxidizing from excess heat; skim before dipping.

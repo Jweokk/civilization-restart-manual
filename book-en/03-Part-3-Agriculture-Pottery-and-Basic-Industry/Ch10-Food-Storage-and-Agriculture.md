@@ -41,8 +41,7 @@ In the early restart the biggest food risk is not "finding nothing to eat" but p
 
 **Resource survey**: work outward from the camp as the center, using the transect method of Chapter 2. For every suspected edible plant record: location, quantity, edible parts, ripening season, harvest difficulty. **The same plant differs in safety by season** (in some roots and tubers toxicity rises at fruiting), so record a fresh version each season.
 
-[Card 10-01 Edibility Test (Graded-Exposure Method)] (eight fields)
-
+[Card 10-01 Edibility Test (Graded-Exposure Method)] (eight fields · source tier E)
 1. **Input materials**: the plant sample to be tested (fresh, same plant and same part; the same plant differs in safety by season, so record one version per season); clean water for rinsing the mouth; a test record sheet. Only one sample is introduced at a time.
 
 2. **Tools required**: stone flake or small knife (to crush the sample); drip clock and day anchor (Chapter 3, for timing); record board. Calibration source: time by drip-clock divisions, the 8 h waits checked against the day anchor at dawn and dusk; doses by body units — thumbnail-sized / thumb-tip-sized / a small palmful (Chapter 3 body-unit error statistics).
@@ -94,8 +93,7 @@ Anything scoring below "medium" on all three is managed only as a foraging resou
 
 Where distance cannot be had, stagger sowing dates: early/late sowing puts the two varieties' flowering more than a month apart; record heading and flowering dates daily to verify. Seed-saving records go into the ledger; if the germination rate falls back the following year, investigate whether last year's isolation failed.
 
-[Card 10-04 Seed Saving and Germination Testing] (eight fields)
-
+[Card 10-04 Seed Saving and Germination Testing] (eight fields · source tier E)
 1. **Input materials**: seed from superior plants **ear-selected in the field** and harvested separately (strong stalk, large ear, full grain, no disease or insect spots — not picked out of the heap after harvest); seed quantity = next season's sowing rate × 2; damp sand for the germination box; wooden trough and straw cover; separate labels (variety, year, plot).
 
 2. **Tools required**: damp-sand box (wooden trough + damp sand + straw cover); rule or standard measure; balance (Chapter 3, for batch weight); small knife (to open and inspect the embryo); record sheet. Calibration source: germination rate = sprouted grains ÷ 50, directly countable; sand moisture by the "holds when squeezed, crumbles at a touch" hand-feel grade (same as cold stratification).
@@ -143,8 +141,7 @@ No plot carries the same plant family more than two seasons running; the nitroge
 
 Raw materials come in two classes: **greens** (high nitrogen: fresh manure, legume green manure, tender grass, vegetable leaves) and **browns** (high carbon: straw, hay, sawdust, dry leaves). Target carbon-to-nitrogen ratio about 25–30:1 — **starting rule of thumb by volume: green 1 : brown 1–2** (must be field-calibrated: the pile's heat and smell are its carbon-nitrogen gauge).
 
-[Card 10-02 Compost] (eight fields)
-
+[Card 10-02 Compost] (eight fields · source tier E)
 1. **Input materials**: greens (high nitrogen: fresh manure, legume green manure, tender grass, vegetable leaves); browns (high carbon: straw, hay, sawdust, dry leaves); topsoil (to inoculate microbes); water; wood ash (a little). Target carbon-to-nitrogen ratio about 25–30:1, volume starting point green 1 : brown 1–2.
 
 2. **Tools required**: a stick (core-temperature probe); water carrier (water to "wet but not running"); straw-mud (rainy-season cover); record sheet. Calibration source: there is no instrument for the C:N ratio — **the pile's heat and smell are the gauge**, read weekly by the three-step field judgment in item 4 to calibrate the local green:brown ratio.
@@ -216,8 +213,7 @@ A complete tool set costs about 20–40 labor-hours (experience value, must be f
 
 **Storage containers and pest defense**: grain enters storage in baskets / mud-lined baskets raised half a cubit off the ground against damp and rats; turn and sun or smoke monthly against insects; the ledger records intake quantity, moisture spot checks, and losses to mold, insects, and rats each logged separately — **a seasonal loss rate >10% stops everything for an investigation**.
 
-[Card 10-05 Plant-Derived Insecticide Decoction] (eight fields)
-
+[Card 10-05 Plant-Derived Insecticide Decoction] (eight fields · source tier E)
 1. **Input materials**: bitter-acrid materials (per the local survey: chinaberry leaves/bark, mugwort, tobacco leaves, garlic, chili, pyrethrum flowers if registered), fresh leaves chopped or dry leaves at half quantity; water (10× volume); a little soap solution (Chapter 23 soap or lye) as a spreading-sticker; mugwort dry powder (for granary mixing).
 
 2. **Tools required**: pottery pot or stone boiling (Chapter 6, low-fire grade); straining cloth or woven basket; sprayer (gourd, perforated vessel); balance or standard measure (Chapter 3, for grain weight and powder weight). Calibration source: strength by "10× water, simmered to about half" plus the half-quantity rule for dry leaves; the mixing ratio weighed at 1%–2% of grain weight.
@@ -249,8 +245,7 @@ There is no pottery at this stage — long-term liquid storage, sealed moisture-
 | Hide bag | short hauls of liquid | holds water once grease-sealed |
 | Cellar / ice cellar | tubers, grain, fresh produce | no liquids in the cellar |
 
-[Card 10-03 Earth Cellar] (eight fields)
-
+[Card 10-03 Earth Cellar] (eight fields · source tier E)
 1. **Input materials**: a site (low water table, no seepage after rain, stable soil, away from tree roots and building foundations); tubers, grain and the like for storage; sun-dried sand (for sand burial against insects); dry grass (floor padding, replaced regularly); lid board, straw curtain, and a bundle of bamboo with the nodes knocked through (vent pipe).
 
 2. **Tools required**: digging and hauling tools (digging stick, spade, baskets); A-frame level (Chapter 3); torch and cord (entry oxygen test); a strip of dry paper (humidity indicator); record sheet. Calibration source: cellar temperature by the "cool" hand-feel grade, humidity by the hung dry paper, oxygen deficiency by the torch — none of the three has an instrument.

@@ -93,8 +93,7 @@ In order of first failure. Omens written on the duty board.
 | Battery room temperature | Weekly inspection | **Daily inspection** (heated room lower limit = hand-feel "not cold" level) |
 | Frozen food store | Monthly stocktake | Ten-day stocktake (freeze–thaw cycles = accelerated spoilage; thawed-then-refrozen food is discarded) |
 
-[Card 51-02 Pre-Winter Servicing] (eight fields)
-
+[Card 51-02 Pre-Winter Servicing] (eight fields · source tier E)
 1. **Input materials**: every machine and tool in the settlement (belts, bearings, hydraulics or water systems, leather parts); grease, thin oil, graphite grease, leather dressing. **Must be finished before the first hard frost** — servicing after the frost sets in is work done in frozen ground for nothing.
 2. **Tools required**: wrenches, grease gun, tensioning tools, drain or insulation materials. Calibration source: clearances and belt tension rechecked with Chapter 20 rules, not by feel.
 3. **Sequence and control points (tick every item, none skippable)**: (1) grease changed to thin oil or graphite grease (cold viscosity) → (2) all leather parts redressed → (3) clearances rechecked → (4) belt tension set → (5) water systems drained or insulated. Control points: **every item ticked and signed** (one omission parks a machine all winter) and **completion before the first frost** — the deadline is itself a criterion.
@@ -104,8 +103,7 @@ In order of first failure. Omens written on the duty board.
 7. **Common failures and diagnosis order**: (1) machines seize in the first week of winter → grease was not changed to thin oil and set solid; (2) belt snaps → tension never rechecked; (3) water system splits → draining not done, or half done; (4) frost-heave cracks found in spring → weekly observation was not run, the early signs were missed.
 8. **L1 / L2 / L3 evidence**: L1 = one winter's per-machine servicing sheet with all five items; L2 = two consecutive winters with no downtime or freeze damage from missed servicing; L3 = a second person runs a pre-winter service from this card alone, with matching clearance readings.
 
-[Card 51-03 Three Winter-Stock Ledgers] (eight fields)
-
+[Card 51-03 Three Winter-Stock Ledgers] (eight fields · source tier E)
 1. **Input materials**: fuel (firewood, charcoal, oil), food (grain, dried fish, meat), spares (belts, edges, rope, nails).
 2. **Tools required**: balance (Chapter 3), storehouse and bin marking, inventory sheets. Calibration source: weighing and ten-day stocktaking, never "looks like enough".
 3. **Sequence and control points**: estimate winter consumption → compute the autumn-stock target from the formula → stock each item before autumn ends → **stocktake every ten days** → ration as soon as half remains. Control points: **the ice-period days in the formula must be locally measured** (not an average), and the redundancy factor may not be dropped.
@@ -142,8 +140,7 @@ The heat-storage stove is frozen ground's "heat battery" — the principle of on
 - **Acceptance**: a new kang's first firing must be a "curing burn" — three days of empty small fire to drive out moisture (a wet stone bed will condense water and steam the first night); every flue joint leak-checked with a smoke thread (burn damp grass in the firebox; wherever a seam smokes, patch it with clay);
 - **CO red line restated**: smoke leaking through kang seams is an odorless night killer — **one smoke-thread leak check per month + watching the flame of an indoor torch** (a weakening flame triggers a ventilation check).
 
-[Card 51-04 Kang Heat-Storage Stove: Construction and Firing Regime] (eight fields)
-
+[Card 51-04 Kang Heat-Storage Stove: Construction and Firing Regime] (eight fields · source tier E)
 1. **Input materials**: stone for the firebox (internal clear about **2 chi square**), large flat stone slabs (3–5 layers for the kang surface), refractory clay mortar, ash (for banking), fuel.
 2. **Tools required**: masonry tools, damp straw for the smoke-line leak test, a torch for flame watching indoors. Calibration source: CO leakage is found by **smoke-line testing** and **torch flame observation**, never by smell — CO has none.
 3. **Sequence and control points**: stone firebox → long flue (the heat-storage body) → 3–5 layers of slab for the kang surface with **refractory clay mortar bedded between slabs** (**a leaking joint is a CO red line**) → **three days of gentle test firing on a new stove** (dry-out: a damp stone bed condenses water and steams the first night) → normal firing regime. Control points: **bedding the slab joints** and **the three-day dry firing** — economizing on either costs lives.
@@ -161,8 +158,7 @@ The heat-storage stove is frozen ground's "heat battery" — the principle of on
 - **Into the furnace**: roasted nodules are the Chapter 18 bloomery furnace's "selected ore" (grade about 40–55%; bog iron's advantage is **almost no gangue** — less slag, less charcoal);
 - **Reserve ledger**: two winters of harvesting data + a swamp-area estimate → "annual iron output" enters the Chapter 38 ledger — bog iron is sustainable, but **the annual output ceiling is governed by the swamp's regeneration rate** (iron-bacteria deposition adds millimeters per year; overdraft means exhaustion).
 
-[Card 51-05 Winter Bog-Iron Harvesting and Roasting] (eight fields)
-
+[Card 51-05 Winter Bog-Iron Harvesting and Roasting] (eight fields · source tier E)
 1. **Input materials**: bog-iron concretions (**marked in summer** — iridescent films on water, rusty springs at the shore; find the rich beds before winter); fuel for roasting. Ice must first be cleared per Card 51-01.
 2. **Tools required**: ice chisel (cutting **1 chi square** holes), long-handled rake or basket, stone slab bed for roasting, mallet for the ring test. Calibration source: grade and roast completion read from the fracture and the ring, not from instruments.
 3. **Sequence and control points**: ice cleared → chisel holes (**1 chi square, one every 3 paces**) → haul concretions → **sort by dropping in water (sinks = true ore, floats = mud balls, discard)** → roast (spread **3 fingers thick** on the slab bed, gentle fire then strong for **2–4 h, turned twice**) → charge the furnace. Control points: the water-drop sort and the turning count.
@@ -172,8 +168,7 @@ The heat-storage stove is frozen ground's "heat battery" — the principle of on
 7. **Common failures and diagnosis order**: (1) excessive slag in the furnace → under-roasted or poorly sorted; (2) furnace will not hold heat and charcoal burn soars → roasting incomplete, organics competing for oxygen inside; (3) mostly mud balls hauled → the summer marking was wrong, re-mark the beds; (4) holes caving in → went out on ice below clearance, back to Card 51-01.
 8. **L1 / L2 / L3 evidence**: L1 = one winter's harvest and roasting records plus one acceptable furnace charge; L2 = two consecutive winters of data, with annual iron output and bog-area estimate entered in the Chapter 38 ledger; L3 = a second person runs a winter's work from this card alone and produces acceptable ore.
 
-[Card 51-01 Ice Thickness Measurement and Clearance] (eight fields)
-
+[Card 51-01 Ice Thickness Measurement and Clearance] (eight fields · source tier E)
 1. **Input materials**: the ice surface to be measured (river or lake reach); a pole or rope as a safety line, one measuring and one watching. **This card governs lives**; the clearance criteria are not negotiable.
 2. **Tools required**: ice drill or chisel (to cut through), a graduated sounding rod (Chapter 3), colored marker flags. Calibration source: thickness measured with the graduated rod — **never "it looks thick enough"**.
 3. **Sequence and control points**: **three-point sampling** (near shore, center, and any doubtful spot, one hole each) → measure thickness → **take the minimum** as the criterion for that reach → set the clearance class from the table → plant flags → re-survey every ten days. Control points: **minimum of three points** (ice varies; an average will lie) and **re-measure at once when temperatures rise sharply**, do not wait for the next ten-day round.
@@ -289,8 +284,7 @@ In frozen ground the bulk of casualties is cold injury, not industrial injury. T
 - **⑦ Failure troubleshooting (verify in order for the same symptom)**: no reddening after 30 min of rewarming — ① water temperature insufficient (re-measure by thermometer or elbow test) → ② incomplete immersion (shoes, socks, gloves not fully removed) → ③ third-degree or worse frostbite (send for care immediately).
 - **⑧ L1/L2/L3 evidence**: L1 one treatment record; L2 whole-team training assessment (simulated treatment, everyone passes; roster archived); L3 archive of actual winter cases and review records.
 
-[Card 51-06 Frostbite Treatment] (eight fields)
-
+[Card 51-06 Frostbite Treatment] (eight fields · source tier E)
 1. **Input materials**: water at **38–42 °C** (at least **10 L** per immersion, enough to submerge the limb); dry clothing and blankets; warm water bottles wrapped in cloth; warm sugar water; clean dressings. First- and second-degree cases may use body-warmth rewarming; third degree and above require water.
 2. **Tools required**: water thermometer (Chapter 3 instrument, **ice-point calibrated**); fallback — **if ice crystals float in the water it is over temperature, discard it**. No thermometer is not a reason to skip treatment.
 3. **Sequence and control points**: **remove frozen boots and gloves (separate stuck skin with warm water pouring, never tear)** → **immerse in 38–42 °C water for 20–30 min** → wrap in dry dressings and elevate → give warm sugar water → record → decide on referral. Control points: **no rubbing, no fire, no snow** (these three cause most frostbite disability); err on the cool side of the temperature range.
@@ -311,8 +305,7 @@ In frozen ground the bulk of casualties is cold injury, not industrial injury. T
 - **⑦ Failure troubleshooting (verify in order for the same symptom)**: fish racks going slimy in batches — ① hang spacing too dense, no ventilation → ② left out in the rain and re-dampened → ③ raw material out of water too long (salt the next batch earlier).
 - **⑧ L1/L2/L3 evidence**: L1 one sample fish kept from the first qualified rack; L2 three consecutive racks with pass rate ≥8/10; L3 full-run shrink-ratio table and winter consumption review.
 
-[Card 51-07 Dried-Fish Line] (eight fields)
-
+[Card 51-07 Dried-Fish Line] (eight fields · source tier E)
 1. **Input materials**: fish from the run (**into the line within 2 h of leaving water**; beyond that, salt first then dry); salt if available (**5–10% of fish weight**; may be omitted when daytime temperature is below 10 °C). Time out of water is this line's first criterion, not its last.
 2. **Tools required**: filleting knife (Chapter 7 edge, fully sharpened), balance (Chapter 3, **rechecked against the standard stone on the first day of the run**), drying rack (ventilated, not in direct sun).
 3. **Sequence and control points**: gut (**a cut gallbladder downgrades the whole fish; the bile-contaminated section must be removed**) → split along the back and flatten, **backbone intact** → salt **0.5–1 day** (if using salt) → rack and dry → weigh down. Control points: **gallbladder removal** and **backbone left intact** (a broken backbone will not flatten, and an unflattened fish will not dry through).

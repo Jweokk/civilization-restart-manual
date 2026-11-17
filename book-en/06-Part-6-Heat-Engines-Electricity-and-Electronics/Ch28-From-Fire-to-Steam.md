@@ -66,8 +66,7 @@ Whether a riveted seam leaks is decided not by a layer of brazing but by **caulk
 - **Do not caulk the inner seam** (caulking the outer edge already presses the lap faces together);
 - Practice method: practice a 500 mm seam on scrap plate, then run a hydrostatic test and compare leak-point counts—when leaks go from "a line of beads" to "isolated spots," you have graduated.
 
-[Card 28-05 Riveted-Seam Caulking] (eight fields)
-
+[Card 28-05 Riveted-Seam Caulking] (eight fields · source tier E)
 1. **Input materials**: a riveted lap seam (double row, staggered, 28.4.1); plate stock (copper/bronze preferred, wrought iron acceptable); **no filler** — the pressure-tight seal comes from riveting plus caulking, while tin brazing serves only as external anti-corrosion, never as the pressure seal.
 2. **Tools required**: round-nose caulking chisel (blunt, rounded edge — working, not cutting); light hammer; oilstone (finish smoothing); chalk (circling leak points); the hydrostatic-test set (28-01); scrap plate practice piece (500 mm seam).
 3. **Operation sequence and control points**: (1) start working at 45° along the outer edge of the lap seam, one set and one advance, force even and slow → (2) first pass at 45° working the outer edge along the whole seam → (3) second pass vertical, lightly closing the seam → (4) smooth with the oilstone → (5) hydrostatic test for leaks (full 28-01 procedure). Control points: **never caulk the inner seam** (working the outer edge already presses the lap faces together; caulking inside pries the seam open); judge the force by sound — a "dull thud" is right, a "sharp ring" means you are cutting metal, so stop and ease off at once.
@@ -89,8 +88,7 @@ Worked example: valve seat diameter 20 mm → area = π×1² = 3.14 cm²; target
 
 **Action test**: after each valve is set, perform a live popping test—raise pressure slowly to the set value; the valve should pop open automatically to vent steam, and reseat automatically as pressure falls. Lift the valve manually once a week to test popping (to prevent the plug from sticking).
 
-[Card 28-04 Safety-Valve Setting and Live Popping] (eight fields)
-
+[Card 28-04 Safety-Valve Setting and Live Popping] (eight fields · source tier E)
 1. **Input materials**: safety valve (direct-weight type for the first generation, lever type later); weight sized by the formula, cast iron or lead, drillable for the lead seal; valve plug and stem; valve seat of known diameter, measured and entered in the register.
 2. **Tools required**: calipers or bore gauge (seat diameter); balance or weights (to verify the weight's actual mass — the weight counts as weighed, not as marked); pressure gauge (Chapter 27-calibrated, range covering the set pressure); hand pump (the 28-01 set); lead-seal press and pellets; white paint and scriber; the register.
 3. **Operation sequence and control points**: (1) measure the seat diameter → compute the area → solve lifting pressure = (weight + self-weight of plug and stem) ÷ seat area for the weight → (2) weigh the weight on the balance (plug and stem self-weight included) → (3) assemble → (4) **first verification (measured check)**: raise pressure slowly to the lift point and read the actual popping pressure → (5) compare against the formula; if they agree, lead-seal, assign a custodian, register → (6) **second verification (live popping test)**: raise pressure to the set value; the valve must pop open on its own to vent steam and reseat itself as pressure falls, with both popping and reseating pressures read and recorded → (7) lift the valve by hand once a week to test popping (prevents the plug sticking) and register it. Control points: **calculated but never popped means not set** (a correct formula alone does not pass); once lead-sealed the weight is untouchable, and nobody may ever add weight to the valve.
@@ -102,8 +100,7 @@ Worked example: valve seat diameter 20 mm → area = π×1² = 3.14 cm²; target
 
 #### 28.4.4 Complete Hydrostatic Test Procedure (release ceremony; one vessel, one file)
 
-[Card 28-01 Hydrostatic Test] (eight fields)
-
+[Card 28-01 Hydrostatic Test] (eight fields · source tier E)
 1. **Input materials**: vessel awaiting release (riveting + caulking + brazing complete); working pressure value (in writing); test pressure = 2 times working pressure
 2. **Tools required**: hand pump (lever-actuated piston pump + check valve, Chapters 12/20 technique); pressure gauge (range ≥ test pressure, calibrated); chalk (for marking leak points); wooden mallet
 3. **Operation sequence and control points**: ① fill the vessel with water and **purge all air** (vent at the top until water shows, then close)—trapped air is a stored-energy bomb; the test is invalid and dangerous → ② raise pressure in stages: 1/2 → 1 → 1.5 → 2 times working pressure, **hold 10 min at each stage** (pump idle during the hold; any pressure drop means a leak) → ③ inspect at each stage: watch for leak beads section by section along the riveted seams, caulked seams, brazed seams, and valve seats; circle them with chalk → ④ hold at the 2-times stage for 30 min: no leakage, no visible deformation, no pressure drop; **no hammering or tightening of any kind during the hold** → ⑤ after venting to below working pressure, tap lightly along the seam zones with a soft-faced hammer (keep personnel out of the tapping direction; set up an exclusion zone) → ⑥ depressurize and drain (open the relief slowly; fast opening forbidden) → ⑦ fill out the release record (test date / stage pressures / leak-point count / corrective action / conclusion), **stamp the lead-seal mark**
@@ -128,8 +125,7 @@ The tool marks left by boring are longitudinal grooves; seals leak steam and wat
 - What the pattern does: the crossing grooves hold oil and grease so the piston seals bed in and conform—**a cylinder without cross-hatch either polishes bright and seizes, or leaks steam past the piston and has no power**;
 - Final inspection: the wall shows a uniform fine cross pattern to the eye, no bright patches (a bright patch = honing missed that spot; it will surely leak), no deep scratches; roundness re-checked by the three-point method unchanged.
 
-[Card 28-02 Cylinder Boring and Honing] (eight fields)
-
+[Card 28-02 Cylinder Boring and Honing] (eight fields · source tier E)
 1. **Input materials**: cylinder body with the hole pre-formed on a clay core (leaving 3–5 mm boring allowance); saponified oil-water coolant; rubbing paper and charcoal stick.
 2. **Tools required**: boring bar with dual supports (Chapter 20), bore gauge (for the three-point method); honing bar (converted boring bar) + 2–4 oilstones (Chapter 9 fine grade) + wooden wedges to expand them; hand crank or bow string (rotation), one person to push and pull; calipers.
 3. **Operation sequence and control points**: bore — dual supports synchronized, measure after every pass, until roundness/taper are met → hone — rotation + reciprocation compound motion, converting the longitudinal tool marks into a uniform cross-hatch → final inspection (visual pattern + three-point re-measurement). Control points: **coolant throughout honing (saponified oil-water)** — dry honing embeds grit in the wall and heat-distorts it; the pattern is judged visually against the 45° crossing criterion.
@@ -172,8 +168,7 @@ Building and verifying the work cycle step by step:
 3. The rod linkage completes the valve switching for the next cycle—self-sustained running;
 4. Power output: the piston rod connects to one end of the beam (lever), the other end to the pump rod—**naturally suited to pumping water** (mine drainage was its first historical use).
 
-[Card 28-03 First Start-Up and Loading] (eight fields)
-
+[Card 28-03 First Start-Up and Loading] (eight fields · source tier E)
 1. **Input materials**: boiler and cylinder that passed the 2× hydrostatic test (release files on record); safety valve set and live-popped; all three gauges present (thermometer / pressure gauge / water-level gauge, Chapter 27 release slip).
 2. **Tools required**: the Chapter 25 flow-method measuring gear and record sheets; long fire hook, relief valve, wooden probe rod (pre-work check item 8); shutdown tag-out kit; listening rod (for steam blow-by and knocking in the cylinder).
 3. **Operation sequence and control points**: (1) trial-run unloaded, no load connected → (2) after several dozen cycles, stop and inspect: seal temperature rise, packing seepage rate, sweating of the riveted seams (any sweating = stop, recheck the caulking) → (3) load gradually (half pump stroke first, then full pump stroke) → (4) record parameters. Control points: **hold boiler gauge pressure near zero (≈0–0.2 kgf/cm²)** — the urge to "stoke it a bit harder" already belongs to the high-pressure route, which is out of bounds; raise the load one step at a time, checking the three items of step (2) before every step up.
@@ -279,8 +274,7 @@ The principle in one sentence: **lime precipitates magnesium (treating temporary
 - Operating order: **open the master valve first, then the operating valve; when done, close the operating valve first, then the master valve**; tight-shutoff criterion as in Section 28.10.4 (listen + watch the pipe mouth);
 - Logging: each shift records three columns—"feedwater quantity / blowdown quantity / operator"—signed by two people; forgetting to close the blowdown goes into the failure-mode table (first class of human-error accident).
 
-[Card 28-06 Feedwater Softening] (eight fields)
-
+[Card 28-06 Feedwater Softening] (eight fields · source tier E)
 1. **Input materials**: raw feedwater (hardness roughly judged by the soap method, drop count on file); slaked lime (freshly slaked, Chapter 23); soda (Chapter 23); reference soft water (rainwater, a separate sample of the same batch kept for comparison).
 2. **Tools required**: soap-solution bottle and dropper; 100 mL graduated cylinder (for the soap-method sample); 500 mL beaker and stirring rod (bench test); two-compartment reaction–settling pool (used in rotation); sand filter tank (sand 0.5–2 mm, bed ≥400 mm); measuring staff on the feedwater tank (read before and after each shift); porcelain dish (to evaporate blowdown water and see the residue); handhole wrench (weekly scale-thickness check, Section 28.10.3).
 3. **Operating sequence and control points**: ① rough hardness judgment — add soap solution drop by drop to a 100 mL sample with shaking, recording the drops needed for **persistent foam ≥1 cm that holds 5 min** → ② 500 mL bench test — dose at the same ratio, stand 2 h, retest with soap solution → ③ once the bench test passes, dose the whole pool and stir 10 min → ④ stand ≥2 h for reaction and ≥12 h for settling → ⑤ run the supernatant through the sand filter (turbid sources settle ≥12 h first, two pools in rotation) → ⑥ **only water that passes the retest enters the feedwater tank**. Control points: **softened water that fails the retest never enters the boiler** (better to halt the boiler and wait for water — scale is a debt that grows by the month and wrecks boilers by the quarter, so it costs more than downtime); backwash the sand filter as soon as the outflow turns turbid, and never send turbid water to the boiler.
@@ -318,8 +312,7 @@ Symptom two: the piston stops at bottom dead center and does not return (the ret
 2. Check whether the injection valve is fully closed—**with injection water always on, the cylinder never warms up; the fill steam condenses instantly and the piston can never be lifted** (this is the most common cause of "no return stroke");
 3. Valve plug seized—disassemble, inspect, and lap (Chapter 20 lapping route), then re-run after reassembly.
 
-[Card 28-07 Valve-Gear Adjustment] (eight fields)
-
+[Card 28-07 Valve-Gear Adjustment] (eight fields · source tier E)
 1. **Input materials**: fully assembled linkage (Section 28.12.1); the machine's filed optimal scale values
 2. **Tools required**: sleeve wrench; white powder; calipers (to measure actual valve travel); shutdown and tag-out kit (Section 28.9 Iron Law is a precondition)
 3. **Operation sequence and control points**: ① shut down, withdraw fire, vent to gauge zero, tag out → ② bar the engine through the full stroke and mark both valves' open/close points in white powder → ③ compare against the target phasing (Section 28.12.2) → ④ **turn ≤1 division per adjustment; run unloaded 15 min and record the stroke count** → ⑤ pick the best, lock the locknuts, redraw the lines → ⑥ log the scale position

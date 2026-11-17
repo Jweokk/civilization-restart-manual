@@ -54,6 +54,7 @@ One card = one independently executable operation (e.g., "anneal a batch of glas
 | 8 L1/L2/L3 evidence | What physical items and written records to preserve after acceptance at each level |
 
 - Card number rule: `chapter number - sequence number` (e.g., 20-01). Card numbers are unique across the book; Appendix A carries the master index.
+- **Source tier**: the card header reads `(eight fields · source tier E)`, taking one of S1 / S2 / S3 / E; the four tiers and their notation are defined in Appendix G, Part C. Where several tiers coexist inside one card, the **lowest** governs (conservative labelling). A card tagged E must have its parameters measured by that card's own calibration method before it can count toward the next acceptance level.
 - Card length: 1–2 pages (about 1500–3000 characters). Failure to fill all eight fields = a downgrade declaration for that process; adjectives may not be used to fill the gaps.
 - Hospital operating procedures, factory process cards, and flight checklists all have this structure — it is not a new invention; it is the industry baseline this book must meet.
 

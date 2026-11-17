@@ -77,8 +77,7 @@
 
 For every bolt woven keep a labor-hours account: time warping, weaving, and finishing separately — this is the data for later piecework by division of labor and capacity planning (an extension of the Section 9.5 system).
 
-[Card 15-01 Drop Spinning: Three Twist Grades] (eight fields)
-
+[Card 15-01 Drop Spinning: Three Twist Grades] (eight fields · source tier E)
 1. **Input materials**: fiber (hemp, wool, graded per 15.1); whorl (clay: 2–3 fingers across, half a finger thick, center hole drilled by the 9.2 sand method; or ground stone), **in weight grades**; spindle shaft (straight hardwood 40–50 cm, grooved at the top to catch the yarn, seated in the whorl at the bottom).
 2. **Tools required**: whorls (light for fine yarn, heavy for coarse), shafts, balance (Chapter 3, for yarn count). Calibration source: twist direction and amount depend on **speed against feed rate** — hand and eye, no instrument.
 3. **Sequence and control points**: join fiber to the shaft tip → let the hanging spindle turn to insert twist → draft and wind as you go. Two control points: **one twist direction for the whole settlement (S twist)**, reversed when plying (the 7.4 reverse method); **speed must match feed rate** — at the same feed, a faster spindle gives more twist and a tighter, finer, harder yarn.
@@ -88,8 +87,7 @@ For every bolt woven keep a labor-hours account: time warping, weaving, and fini
 7. **Common failures and diagnosis order**: (1) thickness wanders → feed rate out of step with spindle speed; (2) frequent breakages → short fiber or too little twist; (3) yarn hard as cord → too much twist, slow down or feed faster; (4) yarn falls apart when pulled → twist direction opposite to the previous length (not standardized).
 8. **L1 / L2 / L3 evidence**: L1 = one acceptable rod of yarn plus its count; L2 = five consecutive batches with stable breakage and count; L3 = a second person spins to the same count from this card alone, weights within 5%.
 
-[Card 15-02 Eight Steps of Plain Weave on the Backstrap Loom] (eight fields)
-
+[Card 15-02 Eight Steps of Plain Weave on the Backstrap Loom] (eight fields · source tier E)
 1. **Input materials**: yarn (from 15-01, warp and weft prepared separately); loom parts (warp beam, shed rod, heddle rod, beater). The **minimum frame-less loom**; cloth width is set by the shed rod's length.
 2. **Tools required**: backstrap for tension, beater, shed rod, heddle rod. Calibration source: weft density counted against a rule (picks per finger-width), never by eye.
 3. **Sequence and control points (eight steps)**: (1) **warping** — wind the warp on the beam, dividing odd and even threads across the two rods; (2) **tension** — backstrap; (3) **first shed** — the natural shed formed by the shed rod; (4) **pass the weft**; (5) **beat**; (6) **change shed** — heddle rod; (7) **pass the weft**; (8) **beat**; then repeat 3–8. Control points: **constant weft tension** (every pick the same tightness — keep the beater stroke even); **densest selvedge** (a missed weft at the edge unravels the cloth).
@@ -117,8 +115,7 @@ For every bolt woven keep a labor-hours account: time warping, weaving, and fini
 
 **Product grading**: fully tanned + passing the boiling-water test + supple = L2-grade leather; an intact grain with no knife holes is top grade; hides with knife holes are cut into small pieces (palm patch material for gloves). Use routing: thick leather → drive belts, soles, apron fronts; medium leather → vessels, bellows leather, protective gear; soft leather → garment linings, the outer layer of wound wraps.
 
-[Card 15-03 Vegetable Tanning in Nine Steps] (eight fields)
-
+[Card 15-03 Vegetable Tanning in Nine Steps] (eight fields · source tier E)
 1. **Input materials**: fresh hide (**flayed with the fat left on, pelt shape intact**); tannin source (oak bark, oak cups, spruce bark — chosen by region and registered with a harvesting quota); lime milk (Chapter 13); clean water; grease for finishing.
 2. **Tools required**: stone flake knife, stretching frame (roped at four corners, propped at an angle), bone or stone scraper (5.4), blunt knife for dehairing, tanning pit. Calibration source: tannage is judged by **cross-section and the boiling test** — two hard criteria, not by calendar.
 3. **Sequence and control points (nine steps)**:
@@ -171,8 +168,7 @@ For every bolt woven keep a labor-hours account: time warping, weaving, and fini
 
 **Leather waterproofing**: kneaded-in grease + a smoking finish (step 9 of Section 15.3); the stitch holes are the main seepage path — wax the thread (beeswax/grease) + oil-seal after sewing.
 
-[Card 15-04 Oilcloth and Waxed Cloth] (eight fields)
-
+[Card 15-04 Oilcloth and Waxed Cloth] (eight fields · source tier E)
 1. **Input materials**: cloth (coarse hemp or cotton); **drying oil** (linseed, perilla — a regional option, and the critical choice: a non-drying oil never dries); or wax. The goal is **shower resistance**, not waterproofing, and the line between them must be stated.
 2. **Tools required**: dipping trough, drying rack. Calibration source: **the pour test** — stretch the cloth and pour water; beading = pass. Not by feel.
 3. **Sequence and control points**: soak the cloth in oil (or work in wax) → hang for several days → when the oil has oxidized to a non-tacky film it is oilcloth. Control points: **drying oil only**; the coat must be thin and even (thick coats stay tacky and crack).
@@ -200,8 +196,7 @@ For every bolt woven keep a labor-hours account: time warping, weaving, and fini
 
 **Equipment maintenance system**: inspect after every shift (etch holes, scorch holes, cracks, seams); keep one spare set at key posts (the spare-parts system, Section 9.4); enter wear and tear in the ledger; two acceptance tests for gear — the **spark test** (apron: charcoal sparks falling on it for 3 seconds must not burn a hole through) and the **lime test** (lime worker's gloves: wet lime slurry smeared on the surface, the inside must stay dry for 30 minutes).
 
-[Card 15-05 Two-Finger Gloves and Protective Face Shields] (eight fields)
-
+[Card 15-05 Two-Finger Gloves and Protective Face Shields] (eight fields · source tier E)
 1. **Input materials**: heavy leather (gloves), thick wool felt (apron and front panel), densely woven hemp (lime worker's full cover), coarse glass pane and leather frame (viewing shield), mesh curtain and oiled leather.
 2. **Tools required**: cutting patterns, bone needle and hemp thread (15.2 sewing), lap seam for reinforcement. Calibration source: equipment is allocated by **trade hazard**, not per head; the standard is "no injury in the worst case."
 3. **Sequence and control points (fit by trade)**: (1) **kiln and glass workers** — thick felt apron with a leather front panel, long-sleeved wool, **narrow-slit wooden-frame viewing shield** (Chapter 14), multi-layer leather soles; (2) **lime workers** — densely woven hemp covering the whole body, mesh face curtain plus a damp cloth over nose and mouth, **oiled leather gloves**, wash and change immediately after work; (3) **wood and stone workers** — **two-finger leather gloves**, leg guards, coarse glass goggles with a leather frame (blocking chips, not for optical clarity). Control point: glove form follows the trade — two-finger (dexterity) and oiled (corrosion) are not interchangeable.
@@ -234,8 +229,7 @@ For every bolt woven keep a labor-hours account: time warping, weaving, and fini
 **Explicitly cannot do**: wide-width and jacquard looms (upgrade items); activated-carbon respiratory protection (after Chapter 23); high-voltage electrical insulation (chapter-wide red-line declaration: cloth and leather are unreliable).
 **External dependencies**: tannin-bark harvest quotas and regrowth cutting plans; flax and wool as agricultural by-products (Chapter 10).
 
-[Card 15-06 Drive Belts: Making and Static Load Rating] (eight fields)
-
+[Card 15-06 Drive Belts: Making and Static Load Rating] (eight fields · source tier E)
 1. **Input materials**: heavy leather (cut in strips, **skived lap joint** into an endless belt) or double-layer woven belting soaked in wax and oil; thread plus tar glue (8.5) for the joint.
 2. **Tools required**: strip cutter, punch and sewing tools, **static load rig and weights** (for rating). Calibration source: allowable load is **breaking load ÷ 5**, not an estimate.
 3. **Sequence and control points**: cut the strip → **skive a lap joint** (never a butt joint — a butt joint opens at the first pull) → sew and glue → close into a loop → **static test to failure** → set allowable load at one fifth. Control point: **the joint is tested separately** — most belt failures are joint failures, and the whole-belt figure alone tells you nothing.
@@ -278,8 +272,7 @@ Grading usage: workwear and sack cloth take "medium" or above; flags, archive-ma
 > **[Process Card 15-07] Plant Dyeing Three-Color Line** (summary form)
 > ① Inputs: fully scoured white cloth (wet through, wrung half-dry); dry dye starting 1:1 (indigo mud proportioned per vat); mordant chosen from three (alum at 10% of cloth weight / iron-rust water / concentrated ash water). ② Tools: numbered dedicated dyeing pottery pot, dye vat, mordant jars, linen dye bags, stirring rod — check for cracks before use; leak-test the dye vat with clean water for half a day first. ③ Order: mordant → wring half-dry → enter the bath → hold temperature and turn often → lift out and wash until the water runs clear → shade-dry (no sun-baking). ④ Parameters: bath ratio starting 1:1 (gradient sets the level); hot dye 60–70 ℃, madder 45–60 min, pagoda-tree flowers 30 min; indigo vat 5–10 min per dip, dip counts recorded as color numbers. ⑤ Records: dye batch number, dye lot, mordant, dips/duration, and color name into the cloth archive. ⑥ Criteria: all three fastness tests ≥ medium = qualified; color too light = redye deeper (rework path); blotchy = troubleshoot per ⑦. ⑦ Troubleshooting: blotchy color → cloth not wet through → liquor not stirred through → pieces folded over each other mid-dye; no color → vat ash water too strong → temperature too low → dye exhausted (check against old-batch color samples). ⑧ Evidence: each batch keeps a 5×5 cm color sample pinned to the archive with the three test results attached.
 
-[Card 15-07 Plant Dyeing: Three Colors to Start] (eight fields)
-
+[Card 15-07 Plant Dyeing: Three Colors to Start] (eight fields · source tier E)
 1. **Input materials**: white cloth or yarn; dye sources activated by local register (**never force a color you do not have**) — blue: indigo (polygonum, baphicacanthus, or isatis leaf); red: madder root (two years or older); yellow: sophora flower buds.
 2. **Tools required**: dye pot, lye water (indigo), cloth bags for crushed roots; **temperature by hand** — "hot enough that you can hold 3 seconds" is about 60–70 °C.
 3. **Sequence and control points**: **blue** — leaves plus lye water steeped to rot for **5–7 days** (shorter in summer), stir and dip, **5–10 min per dip**, repeated; **red** — madder root washed, shade-dried, crushed into a bag, dye hot at **60–70 °C, never boiling**; **yellow** — sophora buds picked at bud stage and shade-dried; buds picked after flowering are a grade paler. Control points: **madder must not boil** (boiling turns red brown and dull); hot-dye temperature judged by three-point touch.
@@ -308,8 +301,7 @@ Grading usage: workwear and sack cloth take "medium" or above; flags, archive-ma
 > **[Process Card 15-08] Wet-Felt Felting and Wadding** (summary form)
 > ① Inputs: Grade-3 short-flock wool (burrs picked out) 250–400 g/m²; warm ash water 50–60 ℃; templates. ② Tools: wooden roller, flat board or reed mat, water sprayer, scale (Chapter 3), cutting knife — check the roller for straightness; a bent roller presses unevenly. ③ Order: lay crossed layers → mist each layer wet → pat through cloth → knead → rolling sets (flip and turn) → wash out the alkali → shade-dry → trim edges to the template. ④ Parameters: 4–6 layers; 6–8 rolling sets, 20 passes per set; shrinkage 20–30% (self-measured and recorded). ⑤ Records: wool batch, layer count, rolling sets, dry weight and shrinkage. ⑥ Criteria: edges do not tear apart + weight reaches its class = qualified; layer separation = rework and re-roll; weight light by more than 15% → downgrade per use or scrap. ⑦ Troubleshooting: layer separation → layers under-wetted → kneading too short; white spots with loose wool → locally not soaked through; loose corners → corners under-rolled. ⑧ Evidence: each batch keeps a 10×10 cm felt sample pinned to the archive (weight and thickness recorded).
 
-[Card 15-08 Wet Felting and Wadding] (eight fields)
-
+[Card 15-08 Wet Felting and Wadding] (eight fields · source tier E)
 1. **Input materials**: third-grade short wool (graded per 15.1, picked free of grass and burrs); **warm lye water at 50–60 °C** (hand grade: hot, but a fingertip can stay 3 seconds). Too cold and the scales will not open; too hot to handle.
 2. **Tools required**: interleaf cloth, wooden roller, pattern, balance for weight. Calibration source: weight and shrinkage by weighing and square-sample calibration.
 3. **Sequence and control points**: prepare wool → **lay in cross layers** (4–6 layers, each layer in one direction with the next turned 90°, 2 fingers larger than the pattern all round) → pour warm lye water → **pat through a cloth for 5 min first** (stops the layer shifting) → **rub with the full palm in circles for 10 min** (no finger-grabbing) → **roll 20 passes forward and back** → rinse in warm water until clear → tear edges straight and level on a board → dry a day in shade, turn, dry again → trim to pattern. Control points: cross-layer direction, water temperature, and the **pat–rub–roll order, which cannot be reversed**.

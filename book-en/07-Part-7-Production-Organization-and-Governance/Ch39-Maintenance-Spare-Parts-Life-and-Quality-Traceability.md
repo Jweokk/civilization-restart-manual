@@ -126,8 +126,7 @@ Principle: **periods may only be shortened, never lengthened**; the grounds for 
 
 Look (cracks, rust color, wear debris, drift) → listen (abnormal noise, dead sound, strike sustain) → touch (temperature, vibration, looseness) → smell (scorched odor = lubrication failure; sour odor = corrosion environment worsening) → compare (against last month's numbers, against spare parts, against identical machines). **Comparison is the chief of the five senses**: a single reading becomes information only when placed into a ledger series. The daily sheet accepts only numbers or "no abnormality seen + signature"; writing the bare word "normal" and being done with it is forbidden—this is precisely the root disease named in the first row of the failure-modes table.
 
-[Card 39-01 Equipment Inspection Card (with period-table template)] (eight fields)
-
+[Card 39-01 Equipment Inspection Card (with period-table template)] (eight fields · source tier E)
 1. **Input materials**: the equipment register (every unit numbered); grease (Chapters 8, 15); chalk or lime wash and kerosene (for oil-stain crack reveal); paper forms or a chalkboard.
 2. **Required tools**: feeler gauges and lead wire, steel rule, calipers (Chapter 22, cross-checked before use), wax sheet, magnet, small hammer, lamp. Accuracy needed: 0.1 mm-class calipers suffice; home-made feeler leaves are each checked for thickness against the calipers.
 3. **Operating sequence and control points**: (1) work through the register unit by unit — **the four daily actions (look, listen, feel, record) are never skipped**; (2) every quantitative item (clearance, weight loss, counts) **must carry a number**; (3) any over-line item gets an "out of service" board on the spot and is reported to the workshop head; (4) the form's footer records "items whose period was shortened this round, and why"; (5) the monthly inspection runs on the same day as the counting-house monthly stocktake, with the spares column checked on the same form.
@@ -193,8 +192,7 @@ Spares rotting on the shelf is the stealthiest failure: the part is fetched for 
 | Grease rancidity | smell: acid; touch: sticky, separated | downgraded to non-bearing rust protection |
 | Storage conditions | ≥200 mm off ground on sleepers, off walls, ventilated, rain-proof | violations corrected that month, entered in the monthly sheet |
 
-[Card 39-03 Spares Ledger Card] (eight fields)
-
+[Card 39-03 Spares Ledger Card] (eight fields · source tier E)
 1. **Input materials**: equipment register, Chapter 38 ledger (consumption flow), 39.3.2 minimum table, monthly stock-inspection records.
 2. **Required tools**: ledger book, scale, calipers; cross-checked per Chapters 3, 22 before use.
 3. **Operating sequence and control points**: ① one row per spare: number, tier, minimum, on hand, location; **② every issue and receipt entered immediately — "use first, record later" forbidden**; ③ rows below minimum flagged red, triggering a rebuild work order copied to scheduling (Ch. 37); ④ monthly stocktake reconciles books and goods; gap >5% investigated that month (Ch. 37 warehouse rules); ⑤ stock-inspection results entered in the "stock status" column.
@@ -245,8 +243,7 @@ This table is the book's master expected-life ledger for consumables, gathering 
 
 ◎ Judging "wood or metal for this shaft" by touch (feel heat, listen) is insufficient — the criterion always returns to the 60 ℃ line and the speed ledger.
 
-[Card 39-04 Spare-Part Life Card (Life-Table Calibration and Retirement Registration)] (eight fields)
-
+[Card 39-04 Spare-Part Life Card (Life-Table Calibration and Retirement Registration)] (eight fields · source tier E)
 1. **Input materials**: the original 39.4 life table (empirical column); the item-number file (commissioning date, cumulative usage); Card 39-03 spares ledger (issue and restock flow, rebuild lead time); scrap tickets (item number, reason, scrapping person, signed at Level 2 and above); the Card 39-02 stub for any item retired for an abnormal cause.
 2. **Required tools**: ledger book (one row per item, the replacement table copied onto the flyleaf); scale and calipers (wear, wall thickness, elongation measurement), steel rule and scriber, a time base (sundial or water clock, Ch. 3, for accumulated running hours). Calibrate before use: zero and full-scale check on the scale, zero the calipers, cross-check per Chapters 3 and 22 — out-of-tolerance instruments are withdrawn.
 3. **Operating sequence and control points**: ① on entry into the register fill item number, commissioning date, and unit of measure at once, **taking the unit row by row from the 39.4 table (furnace campaign / furnace / kiln firing / crucible melt / lift / cycle / year / day / h) — never mixing them**; ② at every retirement fill cumulative usage + scrap reason + scrapping person on the spot, scrap authority resting at Level 2 and above; ③ merge same-type items into one row and give the settlement's measured range (shortest value to median); **④ recompute the whole table on the annual inspection day, replacing the empirical column with measured values on every row that has them and noting the replacement year**; ⑤ items retired for abnormal causes — fatigue fracture, early corrosion — are flagged "abnormal" at the row end and force-routed to Card 39-02 for the five-step analysis and into the failure-sample library (39.6.3); ⑥ copy the measured rebuild lead time (upper quartile) into the minimum-formula field of Card 39-03 and recompute the minimum.
@@ -335,8 +332,7 @@ The library's enemy is becoming a junk pile: untagged items are counted quarterl
 
 **Step 5: Archive the conclusion and revise the process card.** The conclusion is three lines: root cause, evidence, fix. The fix lands on the card as a revision — header version +1 (e.g., Card 19-03 v2 → v3); the old version is **not destroyed** but archived with the superseded reason (linking the Ch. 43 archive); register on the Card 39-02 stub and circulate card swaps to all holding stations. If the root cause is in the equipment rather than the process, revise the inspection sheet or spares minimum — with the same version trail.
 
-[Card 39-02 Failure Analysis Card (Five-Step Flow Sheet)] (eight fields)
-
+[Card 39-02 Failure Analysis Card (Five-Step Flow Sheet)] (eight fields · source tier E)
 1. **Input materials**: the failed item (preserved), travelling batch tags, shift and inspection records, material batch ledger, item archive.
 2. **Required tools**: magnifier (Ch. 24), steel rule and calipers (cross-checked), standard file and hardness reference set (Ch. 19), scale, kerosene and whiting powder, paper. Dry-brush fracture faces before examination; water washing forbidden.
 3. **Operating sequence and control points**: ① sketch the scene and number scattered pieces; **② fracture read before touched: judge beach marks / coarse grain / fibrous and draw**; ③ back-trace batch numbers to ore and charcoal lots; missing links logged as "chain broken"; ④ hypothesis list ranked by probability, each marked verifiable / not-yet-verifiable; **⑤ single-variable verification requires controls — verification without a control group is void**; ⑥ three-line conclusion + card revision number registered + swap signed.

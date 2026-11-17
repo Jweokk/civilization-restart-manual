@@ -142,8 +142,7 @@ Setting the value: two full seasons of records and no major disaster → 1.3; le
 
 Suppose a settlement has 300 people: arable land 80 ha, composted rotation, y taken as 1500 kg/ha, net retention 0.70 → net grain 84 t; weighted r = 250 kg → N₁ = 336 people. Forest 400 ha, annual growth 2.5 t/ha, coefficient taken as 0.75 → usable 750 t/year; total per-capita wood (household 1.1 t + workshop-converted 0.75 t) = 1.85 t → N₂ = 406 people. Water: sufficient in the dry season → N₃ does not bind. min = 336, k taken as 1.4 → **N = 240 people < the current 300 people**. Conclusion: this settlement is already overloaded, and its options are only three — reclaim land and/or compost to raise yields, seal furnaces to cut workshop wood, or split off part of the people to establish a separate outpost. This example shows what the three-ceiling method is for: what it often tells you is not "how many more people can be taken in" but "what must be cut right now".
 
-[Card 37-01 Carrying-Capacity Estimate Card] (eight fields)
-
+[Card 37-01 Carrying-Capacity Estimate Card] (eight fields · source tier E)
 1. **Input materials**: population roster, arable and forest registers, weighed grain-stock records, 7-day fuel weighing records, farming-season harvest records; volume measures and scales (Chapter 3; cross-checked against standard weights before use).
 2. **Required tools**: survey rope and ranging poles (Chapter 3), 10 m quadrat rope, scales, account book. Calibrate before use: compare the survey rope's length against a standard rule; if error >0.5%, replace the rope; check the scales' zero point and full scale with known weights.
 3. **Operating sequence and control points**: ① Check the 8 pre-work verification items and mark missing ones on the cover; **② compute N₁, N₂, N₃ item by item, each on its own line**; **③ take the min, then divide by k, obtaining a range rather than a single value**; ④ Reverse check: if the current population exceeds 80% of the ceiling, put production cuts, land reclamation, or furnace closure on the agenda and write this into the estimate document's conclusion field; ⑤ Transcribe into the ledger, noting the data cutoff date.
@@ -253,8 +252,7 @@ Control rules:
 3. Mandatory 8 h of rest after a night shift; running straight into the day shift is not allowed.
 4. No more than 4 night shifts per person per week; the account office checks the schedule for violations.
 
-[Card 37-02 Shift Schedule Card] (eight fields)
-
+[Card 37-02 Shift Schedule Card] (eight fields · source tier E)
 1. **Input materials**: the skill matrix (Card 37-03), the minimum establishment of each continuous process (Sections 37.4.2/37.4.3), the ration quota table (Section 37.1), the time basis from moon phase or sundial (Chapter 3).
 2. **Required tools**: the time basis (Chapter 3 sundial or water clock, cross-checked against the noon shadow before use), a schedule board with chalk or cards, an account book. Accuracy requirement: shift-change error ≤15 min.
 3. **Operating sequence and control points**: ① List the continuous processes to be lit this ten-day period and their minimum establishments; **② schedule the night shifts first (starting from the hardest hours), then the day shifts**; **③ check three lines per person: ≤4 night shifts per week, ≤12 h continuously on duty, 8 h rest after a night shift**; ④ List the spare crew on a separate page; ⑤ Post publicly and copy to the account office and the mess kitchen (those with occupation-based ration uplift draw rations against the schedule).
@@ -305,8 +303,7 @@ Redundancy iron rule: **every key post (miner, kiln worker, forging smith, elect
 
 Apprentice cost: apprenticeships run 0.5–4 years, and an apprentice's output counts as 1/3–1/2 of a skilled worker's. When balancing off-farm headcount, reserve an extra 0.3–0.5 apprentice quota for every grade-2 post, or three years on there will be no one to take over.
 
-[Card 37-03 Skill Matrix Card] (eight fields)
-
+[Card 37-03 Skill Matrix Card] (eight fields · source tier E)
 1. **Input materials**: the population roster (with age and health), each chapter's process cards and assessment criteria, past ledgers (who did what, pass rates).
 2. **Required tools**: matrix grid paper or a wooden board with chalk, and an account book. No precision instruments, but assessment evidence must correspond to physical objects (test bars, defective pieces, records).
 3. **Operating sequence and control points**: ① List names by post; **② grade each person 0–3 on each skill item, accepting evidence only, never word of mouth**; **③ flag red the posts where "only 1 person has reached grade 2" and arrange apprenticeship at once**; ④ Re-evaluate once per season, writing the reason for every promotion or demotion; ⑤ Transcribe into the ledger.

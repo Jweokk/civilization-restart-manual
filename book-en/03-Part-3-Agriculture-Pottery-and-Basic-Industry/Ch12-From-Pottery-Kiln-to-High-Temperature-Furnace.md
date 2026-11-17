@@ -155,8 +155,7 @@ Furnace temperature won't rise
 
 **Discipline: after each cause class is checked, log it in the firing archive. Skipping items to guess is the number-one cause of drawn-out commissioning.**
 
-[Card 12-05 Furnace Temperature Won't Rise: Troubleshooting] (eight fields)
-
+[Card 12-05 Furnace Temperature Won't Rise: Troubleshooting] (eight fields · source tier E)
 1. **Input materials**: the firing in which the cone set is slow to advance; charcoal samples (knock sound, core, equal-volume weight); bellows and valve flaps; the charge record of this firing and of the baseline firing (volume, tightness, charge line); the first-bake record; wet grass bundles.
 
 2. **Tools required**: back of a hand (to feel air at the port, heat at the outer wall); probe rod (charge tightness); equal-volume weighing (damp charcoal comparison); wet grass bundles (port draft test); scribed rod (erosion depth); firing archive. Calibration source: air strength by the standard-fire comparison against historical levels; heat loss by "3 s of hand" on the outer wall; every verdict rests on the historical record, not on how it feels now.
@@ -194,8 +193,7 @@ Furnace temperature won't rise
 
 **Comparative air-flow calibration (no instruments)**: with the same standard fire (equal charcoal, equal air port), blow in turn with the leather bag bellows / one box / two boxes; record the number of wood charges needed for the standard test piece to reach the same change level — this becomes the team's "wind-strength comparison table"; from then on, speak only reproducible language like "single box, level three".
 
-[Card 12-01 Piston Bellows Manufacture and Maintenance] (eight fields)
-
+[Card 12-01 Piston Bellows Manufacture and Maintenance] (eight fields · source tier E)
 1. **Input materials**: planed boards (for a plank-built box about 60×30×30 cm; the inner walls must be planed smooth); 2 hides of leather (valve flaps and piston seal ring — take supple, flat, scar-free sections); felt or hemp tow (piston-edge packing, rod-hole wrapping); animal fat (piston and rod lubrication, 0.2 kg per high-temperature firing); tar glue (joint sealing); an outlet clay pipe (diameter from the Section 12.4.1 table); one hardwood pull rod.
 
 2. **Tools required**: the full Chapter 7 / 9 woodworking kit (plane, chisel, saw, drill, rope hoops); a leather awl and thread; a standard fire (equal charcoal, equal ports) for the air-strength comparison; a leather bag for displacement measurement; wet grass bundles and the back of a hand (air and heat checks); the firing archive and the crew's air-strength comparison chart. Calibration source: displacement by the leather-bag method — hold the outlet against a fully inflated bag and time how long it takes to collapse, then convert; air strength by the standard-fire comparison against the historical "strength level"; "the air feels strong" is never a conclusion.
@@ -228,8 +226,7 @@ Refractory bricks and lining parts shrink after firing. **Without measuring the 
 
 **Local judgment for the alumina–silica rule of thumb**: refractoriness rises with alumina content. Rough field test for local clays: light color (white, gray-white) and greasy texture usually mean higher refractoriness; deep red = high iron, refractoriness drops and melt staining is easy. Take material from different strata of the same deposit and run test bars against each other (the Chapter 11 panning regime); **build a local "material color–shrinkage–refractoriness" triple archive for each site**.
 
-[Card 12-02 Firing-Shrinkage Test Bars] (eight fields)
-
+[Card 12-02 Firing-Shrinkage Test Bars] (eight fields · source tier E)
 1. **Input materials**: the mix of this batch (refractory base mix: grog 50%–70% + refractory clay 30%–50%); water; identification marks (batch number, stratum). One run per batch of clay or mix.
 
 2. **Tools required**: test-bar mold (100×20×20 mm); scribing knife (two 100 mm datum lines); rule (zeroed against the standard rod, Chapter 3); slump-cone set (to judge the temperature band); kiln. Calibration source: dimensions against the standard rod; the band reached is judged by the cone set, never by fire color.
@@ -266,8 +263,7 @@ Refractory bricks and lining parts shrink after firing. **Without measuring the 
 
 **Inspection system**: a cold walk-around after every firing (visual check + tap-sounding for hollow spots; a hollow spot sounds dull); every 10 firings, erosion depth measured with the fixed scribed rod; seasonal maintenance (roof repaired and drainage cleared before the rainy season). The data goes into the ledger (the furnace-and-kiln page of the Chapter 39 inspection system starts here).
 
-[Card 12-03 Rammed Lining and First-Bake Curve] (eight fields)
-
+[Card 12-03 Rammed Lining and First-Bake Curve] (eight fields · source tier E)
 1. **Input materials**: refractory face material (refractory base mix: grog 50%–70% + refractory clay 30%–50%, precast brick or monolithic ramming); insulation material (wood ash mixed with clay, chopped-grass mud, crushed pumice if available); structural material (ordinary adobe or coarse ceramic brick); water; formwork and furnace shell.
 
 2. **Tools required**: formwork and shell; wooden mallet (layer-by-layer ramming); scribed rod (erosion depth); drip clock (first-bake timing, Chapter 3); the back of a hand (outer-wall temperature criterion); record sheet. Calibration source: outer-wall temperature is substituted by "bearable against the back of the hand for 3 s" ≈ 60–70 °C; first-bake stages by hand-feel grade plus white steam.
@@ -309,8 +305,7 @@ There is no thermometer (the glass thermometer waits for Chapters 14+25). The ge
 
 **Handling spatial non-uniformity**: four cone sets in one firing map this furnace's temperature distribution — the map decides where the glass crucible goes and where the ore goes (Chapter 18). The distribution maps of successive firings should agree; disagreement = furnace-condition drift; check the lining and the flues.
 
-[Card 12-04 Slump-Cone Thermometry] (eight fields)
-
+[Card 12-04 Slump-Cone Thermometry] (eight fields · source tier E)
 1. **Input materials**: reference materials of known melting/softening point — table salt (melting about 801 °C, pure grade; coarse salt reads lower), potassium carbonate (about 891 °C, Chapter 8 ash-alkali purification), homemade glass (softening range about 700–900 °C), quartz sand grains (>1400 °C, does not melt; the high-end "unmelted" marker); numbered clay-tile stands.
 
 2. **Tools required**: small cones (each material pressed half a finger tall); clay-tile stands and numbers; long rod (to place and retrieve cones at representative positions); firing archive. Calibration source: each reference material is first calibrated once against a known stable kiln temperature, after which cone readings are the team's temperature language; the fire-color table is auxiliary only (±100 °C order, never quantitative).
@@ -375,8 +370,7 @@ Precursors of through-leakage (a silent failure; first, record how to detect it)
 
 **Fitting the crucible tongs**: the jaw curve is matched to the crucible's outer-wall curve — **bend them using a scrapped crucible as the template**; wrap the jaws with three layers of wet hemp rope (heat insulation + grip + prevents pinch-cracking). Acceptance (cold): a crucible full of sand carried 10 steps without slipping or pinch-cracking. Fit compensation criterion: a sheet of paper between jaw and wall — the paper can be drawn out but the crucible cannot be lifted = too loose; the paper cannot be drawn and the wet rope's imprint dents the wall = too tight. ◎ hand-feel: grip force — practice: carry a cold crucible full of sand 20 times, then two different crucibles 20 more; misjudgment compensation: replace hand-feel with the paper criterion and the depth of the wet-rope imprint.
 
-[Card 12-06 Crucible Manufacture and Pre-Firing] (eight fields)
-
+[Card 12-06 Crucible Manufacture and Pre-Firing] (eight fields · source tier E)
 1. **Input materials**: refractory clay (a batch whose 12.6.1 test bars passed); grog 60%–70% (coarse:fine = 2:1, coarse grains at rice-grain size); hemp cloth (cover for shade-drying); substitute: if grog runs short, drop to variant A (clay 40% / grog 60%) and thicken the wall by 2 mm, with the life penalty booked. Three variants: A 40/60 medium-temperature charges and trial firings, B 35/65 the glass-melting default, C 30/70 high-temperature trials (insufficient plasticity, prone to delamination — verify with test bars batch by batch).
 
 2. **Tools required**: calipers (zeroed against the standard rod); a scrapped crucible as template (for the jaw curve); clay-compacting board; another kiln's low-fire stage (for pre-firing); wet hemp rope (three wraps on the jaws). Calibration source: three-point wall thickness with calipers against the standard rod; the pre-firing end point aligned with this kiln's cone level; jaw fit by the paper-sheet criterion in place of hand-feel.
@@ -418,8 +412,7 @@ In this example, a cold furnace plus a rainy-season first firing: 200×1.3 = 260
 
 **Payoff ranking of insulation retrofits (plug the biggest, cheapest path first)**: ① seal air-leaking joints (slurry the seams, half a day; directly cuts excess air); ② thicken the ash insulation layer (ash is free, one day); ③ lengthen the flue to preheat the intake air (two to three days); ④ thicken the lining and rebuild (several days, smallest payoff, comes last). Criterion: record 3 baseline firings' firewood before and after each retrofit; a drop of ≥10% counts as effective; an ineffective retrofit is undone and logged.
 
-[Card 12-07 Rough Heat Balance] (eight fields)
-
+[Card 12-07 Rough Heat Balance] (eight fields · source tier E)
 1. **Input materials**: the firewood ledger for 5 consecutive firings (the median taken as baseline, never the best one); the fuel tier table; this furnace's temperature distribution map (four cone sets); time to each cone level and smoke-color records.
 
 2. **Tools required**: lever balance (checked against the standard weights); drip clock (Chapter 3); boiling-water timing comparison (fuel tiers calibrated by burning equal weights under the same pot of the same amount of water and recording minutes to boil). Calibration source: throughout, "shares" (heat input = 100 shares) are the comparative unit, never absolute calorific values; two sticks struck together sounding dull = damp, charged at the damp tier.

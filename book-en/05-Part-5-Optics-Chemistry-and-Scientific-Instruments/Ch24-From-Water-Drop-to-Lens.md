@@ -95,8 +95,7 @@ Remember one criterion: **the spot diameter in the image is never smaller than t
 
 **Section outputs**: imaging-rule verification records and focal-length measurement records (one file per lens: number, diameter, focal length, measurement method).
 
-[Card 24-05 Side-Light Projection Glass Selection] (eight fields)
-
+[Card 24-05 Side-Light Projection Glass Selection] (eight fields · source tier E)
 1. **Input materials**: vessel-grade glass blanks (Chapter 14, T-4 grade, about a 20% pass rate); magnifier (for stones and color patches). **Not every piece of glass can become a lens** — this card exists to throw out the unusable ones before any grinding is spent on them.
 2. **Tools required**: strong light source (furnace mouth or several candles), white screen, darkroom, ink (for the seep test), Iceland spar (8.3, for stress figures, if available). Calibration source: striae are revealed by side-light projection — **striae are themselves transparent and invisible in transmitted light**.
 3. **Sequence and control points (four criteria in elimination order, coarse to fine)**: (1) **no cracks** — tap and listen (clear, long ring is good; a dull thud is rejected), then ink-dot seep test for a seep line; (2) **properly annealed** — Iceland spar held close shows stress figures; without spar, 30 days' storage with no self-cracking plus a tap recheck; (3) **no striae** — strong light from the side onto a white screen; no banded light and dark in the shadow; point bubbles ≤3 per finger-width and <0.3 mm; (4) **no stones, no color patches** — visual plus magnifier on the unmachined face; no hard points, no dark clumps; uniform pale green is acceptable. Control points: the order cannot be reversed — cracks and stress are eliminated first so no work is wasted.
@@ -130,8 +129,7 @@ Remember one criterion: **the spot diameter in the image is never smaller than t
 
 **Section outputs**: side-light projection inspection bench, four-criteria selection worksheet, crucible-batch selection archive. **Level: L2** (the criteria are repeatable to execute).
 
-[Card 24-01 Abrasive Settling and Grading] (eight fields)
-
+[Card 24-01 Abrasive Settling and Grading] (eight fields · source tier E)
 1. **Input materials**: river-bank coarse sand or crushed and screened quartz gravel (Chapter 2); water. Wash the mud out first — mud makes all three settling fractions cloud together.
 2. **Tools required**: tall container (the taller, the cleaner the separation), stirring rod, three labeled receiving jars (coarse / medium / fine), scored rule. Calibration source: grading rests on one objective quantity — **settling time** — not on judging grain size by eye.
 3. **Sequence and control points**: stir the sand thoroughly in water → **settle 30 s**, pour the suspension into the coarse jar → stir the remainder → **settle 5 min**, pour into the medium jar → stir → **settle 30 min**, pour into the fine jar → let each settle, pour off clear water, dry in shade, label. Control points: pour at the three fixed times, and **pour slowly so the settled sand is not stirred back up**.
@@ -141,8 +139,7 @@ Remember one criterion: **the spot diameter in the image is never smaller than t
 7. **Common failures and diagnosis order**: (1) fractions will not separate → settling times out of order or pouring too fast; (2) coarse grains still in the fine jar → sand not washed first, or not re-stirred before the third pour; (3) low yield → source too coarse, change sand source; (4) long scratches on a polished surface → contaminated fine grade, return to fine grinding.
 8. **L1 / L2 / L3 evidence**: L1 = one batch graded and jarred with proportions recorded; L2 = three consecutive batches grading stably (fine grade passes) and one acceptable lens polished with that sand; L3 = a second person grades from this card alone, fine-grade yields within 10%.
 
-[Card 24-04 Pitch Polishing Lap: Making and Tuning Hardness] (eight fields)
-
+[Card 24-04 Pitch Polishing Lap: Making and Tuning Hardness] (eight fields · source tier E)
 1. **Input materials**: natural pitch (or **rosin:beeswax ≈ 2:1 as substitute**); wooden lap disc with a flat face; polishing agent (30-minute fine mud, or hematite red ochre in a thin slurry).
 2. **Tools required**: heating vessel (**water bath or furnace-mouth waste heat**, away from open flame), scraper, a tool of the matching curve (for pressing the shape). Calibration source: hardness is read from feel and season, not from a thermometer.
 3. **Sequence and control points**: pour pitch onto the disc **about one finger-joint thick** → while warm and plastic, press the matching tool into it to form the curve → cut a grid of grooves (to hold slurry and let air escape) → let it harden → charge with slurry → polish. Control points: **pour thickness and the temperature at pressing** — too cool and the curve will not take, too hot and it runs.
@@ -197,8 +194,7 @@ Remember one criterion: **the spot diameter in the image is never smaller than t
 
 **Alternative route (regions lacking bitumen/rosin)**: hardwood disk plus a beeswax/grease coating for polishing — it can polish bright but holds its figure poorly, and image quality drops half a grade (usable for magnifiers, marginal for objectives); boundary: it cannot support the Section 24.7 telescope objective batch. Regions lacking hematite substitute the finest settling sludge for red rouge, with polishing time roughly doubled (empirical value).
 
-[Card 24-02 Sagitta Method for Curvature, and a Home-Made Spherometer] (eight fields)
-
+[Card 24-02 Sagitta Method for Curvature, and a Home-Made Spherometer] (eight fields · source tier E)
 1. **Input materials**: the lens under test, or a tool whose curve is already ground; a ring of known internal diameter d (three-point ring). Without a ground surface there is nothing to measure — curvature has to exist before it can be checked.
 2. **Tools required**: **three-point ring** (three feet define one plane) plus a central measuring screw (Chapter 20 thread) or a depth comparator; a flat glass plate for the zero. Calibration source: zero the screw on flat glass before every measurement — **an unchecked zero invalidates every reading**.
 3. **Sequence and control points**: zero the spherometer on flat glass → move to the convex surface, all three feet seated → turn the screw down to contact and read the sagitta h → compute R. Control points: **all three feet must sit on the spherical surface** (on a chamfer the reading runs high), and **re-zero for each lens**.
@@ -238,8 +234,7 @@ Example: for a target magnifier with f=50 mm, grind equiconvex surfaces with R�
 
 **Section outputs**: spherometer, curvature–focal-length calculation table, lap-tool sagitta standard archive. **Level: L2**.
 
-[Card 24-03 Star-Test Image Quality Inspection] (eight fields)
-
+[Card 24-03 Star-Test Image Quality Inspection] (eight fields · source tier E)
 1. **Input materials**: lens under test; star source (a candle flame in a dark corner, better a **pinhole lamp — 0.5 mm hole in a box wall**, reusing the 24.1 technique); white screen (ground glass best, thin paper acceptable).
 2. **Tools required**: screen holder that moves fore and aft, dark cloth or darkroom. Calibration source: pinhole size checked with Chapter 3 rules; "image-pattern form" judged against a reference table, not personal impression.
 3. **Sequence and control points**: in darkness, form a real image of the star on the screen → **move the screen forward and back** to watch the pattern change → classify the defect against the table → decide the rework destination. Control points: must be dark, must be a single point source, and must be read at **three positions — inside focus, at focus, outside focus**; reading only at focus misses spherical aberration.

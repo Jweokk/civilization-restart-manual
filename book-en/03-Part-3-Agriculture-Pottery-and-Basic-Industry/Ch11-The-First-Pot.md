@@ -49,8 +49,7 @@ Three requirements for pottery clay: **fine** (you can add coarse material to it
 
 Yield rule of thumb: one batch of raw soil yields fine clay of roughly thirty to forty percent by volume (empirical value, must be field-calibrated). Closed by-product loop: the coarse sand settled at the bottom of the first trough, washed clean and sun-dried, is the standard sand temper of 11.2.
 
-[Card 11-03 Levigation and Settling Classification] (eight fields)
-
+[Card 11-03 Levigation and Settling Classification] (eight fields · source tier E)
 1. **Input materials**: raw clay from a known pit (checked against the three 11.1 requirements: fine, plastic at least medium, low soluble salts); water at **1:3–4 by volume**. Do not expect levigation to save a salty clay — the salts sit in the pore structure and washing will not remove them. Change pits.
 2. **Tools required**: wooden trough or clay vat for settling, stirring paddle, fine sieve (removes coarse sand and root), graded containers with labels. Calibration source: grading rests on **settling time**, not on judging fineness by eye.
 3. **Sequence and control points**: soak the raw clay → stir to slurry → sieve out the coarse → settle and draw off in stages: what drops in **30 s to 2 min** is coarse sand (discard or keep as temper), what takes **hours** is the clay fraction (this is the potting body) → settle each fraction → pour off clear water → dry in shade to the plastic range (18–28% water) → wedge. Control point: **take only the middle fraction** — the top is too fine and shrinks hard, the bottom is too coarse to throw a coil.
@@ -84,8 +83,7 @@ Misjudgment compensation: for each batch, first roll a coil and weigh it, air-dr
 
 **Wedging and aging**: spiral knead-press 10–15 min until the cross-section shows no air pores and no dry or wet lumps; when conditions allow, seal in damp cloth and age 3–7 days, then knead once more — **aging must not replace wedging for expelling air**.
 
-[Card 11-02 The Three Coil Tests and Standard Water Bands] (eight fields)
-
+[Card 11-02 The Three Coil Tests and Standard Water Bands] (eight fields · source tier E)
 1. **Input materials**: wedged clay (levigated body plus temper, with temper tried at 0/10/20/30% steps); water. Every change of pit or body means retesting — the previous pit's band does not carry over.
 2. **Tools required**: flat glass or stone slab (for rolling coils), scored rule, balance (optional, for the shrinkage test). Calibration source: all three tests are hand actions, so **each criterion is written as a measurable form** (length, bend diameter, crack count).
 3. **Sequence and control points**: (1) **lick test** — touch the tip of the tongue, spit out and rinse at once — judges sand and salt; (2) **coil test** — roll a 6 mm coil to 15–20 cm without breaking; roll a 3 mm coil and bend it into a ring without breaking for high plasticity; (3) **shrinkage test** — a 4 cm ball dried in shade for 24 h, then check for cracks. Control points: **the lick test is spit, never swallow**; **the shrinkage test needs the full 24 h** (reading early confuses "not yet dry" with "will not crack").
@@ -162,8 +160,7 @@ A three-tier route; each tier fixes a specific defect of the tier before it:
 
 **Preheating and moisture purge**: the night before loading, ring the dry ware around a fire one arm's length out and bake it overnight — the ware enters the kiln warm, and the first ramp stage can proceed unhurried.
 
-[Card 11-01 Firing Curve and Stoking Rhythm] (eight fields)
-
+[Card 11-01 Firing Curve and Stoking Rhythm] (eight fields · source tier E)
 1. **Input materials**: dry ware (pre-warmed and dried overnight — ringed around a fire at arm's length so it enters the kiln warm); graded fuel (grass-dung, soft wood, hard wood, charcoal); record sheet.
 2. **Tools required**: water clock (Chapter 3, as the beat timer), firing hook, peep hole. Calibration source: **the metronome is smoke color, not mood** — read the smoke once per beat, and let it decide whether fuel goes on.
 3. **Sequence and control points (five temperature stages, checked one by one)**:
@@ -200,8 +197,7 @@ A three-tier route; each tier fixes a specific defect of the tier before it:
 | Cracks neat as a knife cut | Dunting (fast cooling / rushed quartz zone) | Cool slowly; check crack depth before refiring |
 | Black heart, black core (black cross-section) | Poor exhaust; organic matter smoldering | Improve the flue; extend the oxidation stage |
 
-[Card 11-05 The Three-Part Sintering Check] (eight fields)
-
+[Card 11-05 The Three-Part Sintering Check] (eight fields · source tier E)
 1. **Input materials**: ware from the opened kiln; test pieces from the same firing (left by the 6.7 sample regime); water for the absorption test.
 2. **Tools required**: balance (Chapter 3, for dry and saturated weights), water basin, small hammer, magnifier or a plain look at the fracture. Calibration source: absorption is the only figure you can calculate; ring and fracture are supporting evidence — all three must be read together.
 3. **Sequence and control points**: (1) **absorption** — weigh dry, saturate, weigh again, compute percent; (2) **ring** — a clear, long note is mature, a dull thud is underfired; (3) **fracture** — fine and dense, no laminations, no black core. Control point: all three must be read on the same piece from the same firing — **never compare this kiln's ring against that kiln's absorption**.
@@ -285,8 +281,7 @@ First applications: shaft-kiln fire-port brick and furnace-lining precast blocks
 
 ---
 
-[Card 11-04 Glaze Gradient Test Tiles] (eight fields)
-
+[Card 11-04 Glaze Gradient Test Tiles] (eight fields · source tier E)
 1. **Input materials**: wood ash (same family as the Chapter 8 lye ash), clay or a feldspar substitute, water; bisque-fired test tiles (unglazed, same body, same batch). **Unglazed pottery always absorbs water** — burnishing only reduces it; glaze is not decoration, it is pore sealing.
 2. **Tools required**: mortar and sieve, balance or standard measure, numbered tiles, the firing kiln (11-01 curve). Calibration source: ratios by one consistent volume or weight; melting judged from the tile, not from the temperature.
 3. **Sequence and control points**: mix ash and clay in gradients (**1:1, 1:2, 1:3** to start) → thin to a slurry → coat tiles to the same thickness → fire together → read the melt. Control points: **one gradient must fire in one kiln at the same position** (a position difference of a few degrees makes the comparison worthless); coating thickness must be uniform.
@@ -320,8 +315,7 @@ Section 11.6 gave only one floor rule, "ware spacing ≥2 finger-widths"; to pus
 
 **Kiln-layout diagram archiving system**: every kiln requires two simple drawings into the kiln-run file — one top view and one cross-section, marked with: each piece's number and vessel form, layer count and layer separators, the routing of the main fire channel and branch paths, and the measured minimum loading gaps. After opening the kiln, recheck the layout diagram against defect positions: center underfiring and dunting at fire-port positions can all be traced to causes on the diagram. A layout that achieves ≥70% yield in two consecutive kilns is transcribed as the "standard kiln-loading diagram" and archived; thereafter, load each kiln from that master with minor adjustments (empirical value, must be field-calibrated).
 
-[Card 11-06 Kiln Loading Layout] (eight fields)
-
+[Card 11-06 Kiln Loading Layout] (eight fields · source tier E)
 1. **Input materials**: dry ware (pre-warmed and dried); wads and a dusting of sand (to prevent sticking); graded fuel. **Loading decides the yield** — the step from "it can be fired" to "a steady seventy percent or better" is mostly here.
 2. **Tools required**: scored rule for gaps, wads, sand bag. Calibration source: gaps measured in fingers and palms; the loading gap from a formula.
 3. **Sequence and control points (four-level flame path plus gap specification)**: (1) **main flue** — facing the fire mouth, **2 palms wide**, running straight to the kiln center, **no ware may occupy it**; (2) **branch flues** — radiating from the main flue to both sides and upward, **1 palm wide**; (3) **gaps** — ware to ware **≥2 fingers**, ware to wall **≥1 palm** (the wall face is the rising main flue; touching it blocks it), top zone **≥1 palm**; (4) **sand a layer on the wad contact face** (stops sticking; stuck ware tears the base off when the kiln is opened). Control points: the main flue and the wall gap — block either and the firing is lost.
@@ -347,8 +341,7 @@ The straight pipe of 11.8 solves only "straight"; kiln air ducts and water lines
 
 ◎ Slip-jointing hand feel — "slip full but not runny; on pressing, a single line of slip squeezes out": practice method: score and slip 10 practice joints on a scrap slab, cut the cross-sections open and look — voids = too little slip; running = slip too thin; within 10 joints find the "squeezes a line, does not run" feel. Misjudgment compensation: weigh after joining — a gain of 3%–6% over the dry joint (empirical value, must be field-calibrated) is the passing slip-quantity grade; above the upper limit, let it dry; below the lower limit, re-slip.
 
-[Card 11-07 Clay Pipe Tees and Bends] (eight fields)
-
+[Card 11-07 Clay Pipe Tees and Bends] (eight fields · source tier E)
 1. **Input materials**: straight-pipe body (11.8 process), coils or slabs, wet sand (for the curved core), a round wooden rod wound with straw rope (a withdrawable core), joining slip. Kiln flues and water lines must turn and branch; straight pipe cannot.
 2. **Tools required**: core former (rope-wound rod — the rope layer lets the core withdraw), scored rule, angle gauge (Chapter 3), test ball (for the bore check). Calibration source: the bore is proven with a **rolling ball**, not by eye.
 3. **Sequence and control points**:

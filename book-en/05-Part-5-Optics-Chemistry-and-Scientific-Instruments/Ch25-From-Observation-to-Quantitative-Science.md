@@ -65,8 +65,7 @@
 
 **Temperature reference standards**: two standard thermometers (cross-checked against the sub-standard; a transplant of the Chapter 3 three-rod method); seal one away as the reference; working instruments are rechecked against the reference at two points each quarter, with drift logged.
 
-[Card 25-01 Mandrel Tube Drawing] (eight fields)
-
+[Card 25-01 Mandrel Tube Drawing] (eight fields · source tier E)
 1. **Input materials**: glass rod/glass stock (vessel grade, Chapter 14); a fine iron wire mandrel (0.5–2 mm diameter, straightened after quenching, sanded smooth); dilute acid (to dissolve the core on Route A, Chapter 23); a short leather hose (held in the mouth when bending, Chapter 15).
 2. **Required tools**: lamp-flame station (blowpipe), quenching and straightening tools (Chapter 19), sanding abrasive, annealing ash pit (Chapter 14), a small cup for the water test, magnifier (Chapter 24), goggles.
 3. **Sequence and control points**: Route A: quench, straighten and sand the wire → dip into molten glass → draw out horizontally at uniform speed as a cored filament → anneal → soak in dilute acid to dissolve the iron core → rinse, and the tube is done (**bore = mandrel diameter**). Route B (no acid, emergency): bring two glass rods together and melt as one; when pulled into a "V" the root leaves a slit forming a tube — low yield, unstable bore, and **such tubes are fit for manometers only, never for thermometers**. Bending: attach the short leather hose to one end and hold it in the mouth; heat the tube over the lamp flame, rotating until soft; bend gently into a U or a right angle, **blowing lightly throughout to keep the bore open**. Control points: uniform drawing speed (it decides bore uniformity); even heating before bending.
@@ -76,8 +75,7 @@
 7. **Common failures and troubleshooting order**: ① bore collapsed or sealed → too little blowing or glass overheated; lower the flame and blow harder; ② bore alternately thick and thin → uneven drawing speed; practise a steady pull; ③ glass stuck to the core, acid will not dissolve it out → mandrel not sanded or acid too weak; resand and change the acid; ④ flattened bend → no continuous blowing during bending or uneven heating; ⑤ low yield (Route B) → an inherent defect of that route; switch to Route A, or use the tubes for manometers only.
 8. **L1 / L2 / L3 evidence**: L1 = one tube that passes the water test with its bore matching the mandrel; L2 = three consecutive drawing batches with same-class tubes boxed together and good-tube counts registered; L3 = a second person draws a same-class tube from this card alone with matching water and transmitted-light results, and stock is built for Chapter 26 condenser coils.
 
-[Card 25-02 Thermometer Two-Fixed-Point Calibration] (eight fields)
-
+[Card 25-02 Thermometer Two-Fixed-Point Calibration] (eight fields · source tier E)
 1. **Input materials**: a home-made alcohol thermometer (mandrel tube + reservoir bulb, dyed alcohol, flame-sealed, aged a week and screened); crushed ice and clean water (zero point); boiling water (upper fixed point); two standard thermometers (the reference pair, for cross-checking).
 2. **Required tools**: ice-water slush bucket (stirrable), heating vessel and boiling water, magnifier (Chapter 24), scribing tools and a graduated plate (Chapter 3 ruling + compass), record book.
 3. **Sequence and control points**: ① in the bucket, crushed ice and water coexist and are stirred; insert the thermometer until the bulb is fully submerged and read when the column holds steady for 10 swings (about half a minute) — **calibrate three times each with different water sources and different ice batches; the column positions must coincide**; ② upper fixed point: immerse the bulb in boiling water and read the same way; ③ graduate between the two lines by the diagonal-line equal-division method (take 100 parts on the main axis, bisect down to 25, then step one 5-part interval with the compass), each division 1 degree, the graduated plate scribed alongside the tube; ④ note the calibration site's altitude. Control point: three non-coinciding readings are **never force-averaged** — the fixed-point conditions are wrong; redo them.
@@ -109,8 +107,7 @@
 
 **Maintenance system**: wipe the knife edge and anvil faces with a dry soft cloth before each day's use; when not weighing, the beam must be lifted off (knife edge clear of the anvils); monthly mutual checks of weights, annual recheck against the reference chain; any weight that has been knocked about is withdrawn immediately and sent for inspection. Balance table: a stone-slab top, independent of the other workbenches, away from doorway drafts (echoes the 25.8 layout).
 
-[Card 25-03 Knife-Edge Balance Verification and Oscillation Reading] (eight fields)
-
+[Card 25-03 Knife-Edge Balance Verification and Oscillation Reading] (eight fields · source tier E)
 1. **Input materials**: hardwood or wrought-iron beam (one-cubit class); hardened steel knife edge (Chapter 19) and two ground-flat hardened steel anvils (Chapter 20 scraped surfaces); fine cords and two pans; a small weight set (cut from tin/copper sheet, binary balancing chain, Section 3.5).
 2. **Required tools**: upright column with a horizontal scale (diagonal-line equal divisions), centre-of-gravity nut (sensitivity adjustment), tweezers or tongs (weights handled only with them), dry soft cloth, stone-slab table (independent, away from doorway drafts), magnifier.
 3. **Sequence and control points**: set the knife edge into the beam's underside at dead centre (edge line perpendicular to the beam axis, ground straight) → seat it on the two anvils fixed to the column → hang the pans at both ends → **equal-arm verification: swapping the two pans' loads must still balance** (record the correction if not) → adjust the centre-of-gravity nut until, unloaded, the smallest weight (a half-lamina) deflects the pointer ≥2 divisions → weighing: object left, weights right, add from large to small, read three swings and take the midpoint → lift the beam off the anvils after use. Control points: never overload; weights only with tweezers.
@@ -181,8 +178,7 @@ Principle: apply a friction brake of known force to the rotating shaft; friction
 
 **Cautions**: the brake block heats up (all the friction power becomes heat) — limit test runs to the 1-minute order, and stop the moment the wood chars; measure idle loss once before and once after each dynamometry run; output = gross work − idle loss.
 
-[Card 25-04 Lift-Method Power Reference] (eight fields)
-
+[Card 25-04 Lift-Method Power Reference] (eight fields · source tier E)
 1. **Input materials**: a weight of known mass (standard weights, or a stone weighed on the balance and registered); fine cord; a fixed pulley (Chapter 21).
 2. **Required tools**: standard rod (to measure the lift height h), seconds-pendulum timer (25.3), balance (to weigh the load), stand and hook, clearing markers (no one stands below).
 3. **Sequence and control points**: weigh the load → reeve the cord over the fixed pulley → mark the start and end heights (h measured with the standard rod) → time the whole lift with the seconds pendulum → compute power = mass × height / time → repeat three or more times, report the median and the range. Control points: a uniform lift (an uneven pull makes the timing meaningless); one person judges both start and stop; **clear the area below** (falling weights).
@@ -192,8 +188,7 @@ Principle: apply a friction brake of known force to the rotating shaft; friction
 7. **Common failures and troubleshooting order**: ① large timing error (the most frequent, and the largest term in the error account) → lengthen the count to 100 half-swings and have one person judge both ends; ② three readings scattered → uneven lift or the cord jumping the groove; pull evenly and dress the cord; ③ result systematically high → pulley friction not deducted; correct by the difference between the straight-hung and through-pulley weighings; ④ load swinging into the frame → add a guide or shorten the cord and remeasure; ⑤ stand sinking → reinforce the base and re-mark the height.
 8. **L1 / L2 / L3 evidence**: L1 = one power measurement each for human and animal power, both with error annotations; L2 = three or more measurements on the same rig with a stable range, the power numbered and filed as the comparison reference; L3 = the power reference under sealed custody and periodically re-measured, with waterwheel/animal/human output all traced back to this method.
 
-[Card 25-05 Brake Dynamometry] (eight fields)
-
+[Card 25-05 Brake Dynamometry] (eight fields · source tier E)
 1. **Input materials**: wooden brake blocks (Chapter 7, replaceable consumables); brake rope (wear-resistant, wrapped once around the wheel); a belt pulley or a dedicated brake wheel; weights and a weight pan; the rotating shaft under test (waterwheel, animal wheel, etc.).
 2. **Required tools**: fixed pulley (to lead off the brake rope), rigid arm (alternative direct read), shaft-end lug and clicker (one tick per revolution), seconds-pendulum timer (25.3), balance (weights), water bucket and wet cloth (to cool the block).
 3. **Sequence and control points**: clamp the block on the rim, wrap the rope once → run the rope end over the fixed pulley to the weight pan and trim to equilibrium (pan weight = frictional tangential force) → the shaft lug trips the clicker once per revolution; count revolutions per 100 half-swings → compute output = 2π × speed (rev/s) × torque (torque = friction force × arm) → load in steps and record the "power–speed" curve. Control points: **limit runs to the 1-minute order**, stop the moment the wood chars; measure idle loss once before and once after, output = gross − idle loss.
@@ -242,8 +237,7 @@ The workshop floor does not need calculus; it needs **estimation** — before wo
 
 **Estimation's institutional position**: these four go in before the "parameter calibration" field of the process card — **estimate first to fix the plan, test to fix the parameters, and the ledger fixes the standard**. A project launched straight on feel, when it fails, cannot even be traced to which step went wrong (the arithmetic prerequisite to the Chapter 38 ledger).
 
-[Card 25-06 Engineering-Estimation Four-Piece Set] (eight fields)
-
+[Card 25-06 Engineering-Estimation Four-Piece Set] (eight fields · source tier E)
 1. **Input materials**: the basic data of the job to be estimated (planned batch and ratio, span and load, transmitted power and wheel radius, speed); current process parameters and past ledger entries (Chapter 38).
 2. **Required tools**: counting rods, abacus or paper and pen (Chapter 56 calculation tools), standard rod and gauges (for actual dimensions), balance (for material weights), the "parameter calibration" field of the process card (the estimate sheet is attached to it).
 3. **Sequence and control points**: ① proportion conversion — scale up by mass parts, then add the totals back to check against the planned batch; ② rough beam deflection — identify the load case first (simply supported uniform L⁴ / cantilever concentrated L³), then compare designs; ③ rough shaft torque — get the tangential force from P, r and speed and compare it with the rope/belt calibrated load (÷5 safety factor); ④ the three order-of-magnitude self-checks (units, magnitude, extreme degeneration). Control point: **estimate first to fix the plan, test to fix the parameters, and the ledger fixes the standard**; no start of work without a complete estimate sheet.
@@ -301,7 +295,7 @@ Turn number tables into charts. One correctly drawn chart beats three pages of n
 Charts without annotations are treated as scrap paper; a chart counts as archived only once pasted onto the corresponding page of the experiment record book and given its page number.
 
 **Self-made graph paper**: rule the grid on glossy paper with the standard rod and dividers, 10 small squares = 1 large square; make the master first, and once it passes verification, copy-print batches from it as stock; the master is numbered and archived; if it warps with damp, remake it.
-[Card 25-07  ] (eight fields)
+[Card 25-07  ] (eight fields · source tier E)
 1. **Input materials**: self-made graph paper (copy-printed from the master, grid lines crisp, no ink bleed); carbon ink (does not fade when damp); straightedge, dividers (Chapter 3);
 2. **Required tools**: standard rod (the length reference for gridding, verification see Chapter 3); magnifier (Chapter 24, for reading small squares);
 3. **Sequence and control points**: fix the two axes (independent variable horizontal) → write the three essentials (quantity—unit—division) → plot the points (measured points crossed, traces left) → draw the lines (polyline or smooth, chosen per the 25.10 rules) → add the four annotation lines at lower right; **control point: before drawing lines, self-check "points on the chart = rows in the data table" — one point missing is one omitted**;
@@ -370,8 +364,7 @@ A result's last digit is where the error lives; anything below the last digit is
 - Minimal rule: **"doing the easy ones first" is forbidden** — once drawn, the order may not be swapped; if a swap is truly necessary, state the reason in the record; if more than half a round's runs get swapped, that round is void and redrawn.
 - The lot tube is kept at the laboratory dry bench (25.8); the bamboo lots carry branded numbers; count the lots monthly; missing lots are remade and renumbered into the archive.
 
-[Card 25-08 2×2 Factorial Test] (eight fields)
-
+[Card 25-08 2×2 Factorial Test] (eight fields · source tier E)
 1. **Input materials**: the physical materials for two factors at two levels each (example: same-batch new charcoal and old charcoal, ample quantities of each; airflow realised as two damper settings); the same batch of raw material shared by all four runs (a batch difference is confounding, and that is the cardinal sin); comparison record paper and the experiment logbook.
 2. **Tools required**: the response instrument chosen to suit the response (thermometer / balance / measuring bucket — all this chapter's calibrated pieces with a valid release slip); seconds-pendulum timer (25.3); lot tube and branded bamboo lots (kept at the dry bench, 25.8); a four-cell table drawn up in advance, with only the response readings to be filled in.
 3. **Operating sequence and control points**: ① fix the two factors and two levels (level difference at the ±20% order of the current process) → ② **draw lots for the four runs' order and operators** (lots read "morning/afternoon, first run/fourth run, master/apprentice"; once drawn, no swapping) → ③ record every run in full by the five record elements (condition line with time band / operator / weather / batch number) → ④ fill the four-cell table → ⑤ compute the two main effects (right-column mean − left-column mean = effect of A; bottom-row mean − top-row mean = effect of B) and the interaction (A's two differences under high B and low B clearly unequal means an interaction) → ⑥ conclude with error annotations per 25.11. Control points: **the four runs share one raw-material batch and one apparatus state; the only permitted difference is the two factors inside the cells**; a round in which more than half the runs were swapped is void and must be redrawn.

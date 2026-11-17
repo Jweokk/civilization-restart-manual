@@ -77,8 +77,7 @@ The rainforest's abundance and scarcity are two sides of the same coin: abundant
 3. **Rattan — king of rope sources.** The backbone material for suspension bridges, lashing, and weaving (the rainforest enhancement of the Chapter 7 fiber library); freshly cut rattan enters the anti-mold process (Card 50-02) within 10 days of cutting, otherwise the strength ledger starts leaking from day one.
 4. **Ash alkali — potash is not sodium salt.** Leaching and evaporating slash-burn ash and charcoal-kiln ash yields potassium carbonate: soapmaking and glass fluxing (Chapter 14) can be fully self-sufficient — this is the rainforest's chemical advantage. But it **must not be eaten as salt** — it is bitter and purgative; the food-use boundary is in Section 50.5, written honestly.
 
-[Card 50-01 Rainforest Site Assessment] (eight fields)
-
+[Card 50-01 Rainforest Site Assessment] (eight fields · source tier E)
 1. **Input materials**: the land under assessment and its surroundings; existing population and tool inventory. Do this **before breaking ground** — the rainforest error is "we built it and then found it will not keep," and rework costs far more than one more survey.
 2. **Tools required**: record board, staff gauge or flood-mark reference (mud lines on trunks, color bands on banks), rainfall proxies (moss and lichen belts, elders' accounts). Calibration source: the dry season and the flood line are **measured or read from physical marks**, never estimated by feel.
 3. **Sequence and control points**: (1) grade all nine resources in 50.1 (water; wood and bamboo; plant fiber; ash potassium; dryness; refractory clay; open-pit ore; salt; stone) → (2) walk all seven failure lines in 50.3 looking for precursors (mold and fungus; damp insulation; metal corrosion; waterborne disease; flood and landslide; drying failure; borers) → (3) map each "abundant" and each "scarce" rating onto the failure line it feeds → (4) set countermeasures and pre-emptive works for the weak items. Control points: **both halves are mandatory** — resources alone miss the failures, failures alone miss the usable wealth.
@@ -135,8 +134,7 @@ Ordered by "fails first." Each line gives precursors (observable signals for the
 
 **The three anti-mold lines (general regulation for all rainforest storage)**: first line, drying (drying room/smoke house, with the same four dryness criteria as Chapter 10); second line, ventilation (elevated, off the wall, cross-flow vents); third line, agents (mugwort/camphor leaves/fumigation — empirical methods labeled honestly: no guarantee, multiple means combined, effect compared via registered mold-spot counts).
 
-[Card 50-02 Three-Stage Mold Control] (eight fields)
-
+[Card 50-02 Three-Stage Mold Control] (eight fields · source tier E)
 1. **Input materials**: leather, rope, paper, bamboo and timber (anything organic is on mold's menu); fuel for the drying house; smoking material; oil, wax, or clay jars with desiccant for sealing.
 2. **Tools required**: drying house (the first-batch facility per 50.2), smoke house (rotatable), sealed containers. Calibration source: dryness follows the Chapter 10 "four dryness checks" — do not invent local standards.
 3. **Sequence and control points (three stages, order not interchangeable)**: **dry** (into the drying house until all four Chapter 10 checks pass) → **smoke** (rotate through the smoke house **half a day at a time** — continuous smoking does not reach evenly) → **seal** (oil coat, wax coat, or clay jar with desiccant, chosen per item). Control point: **smoking an undried item is wasted smoke**; drop one of the three stages and mold simply arrives later.
@@ -146,8 +144,7 @@ Ordered by "fails first." Each line gives precursors (observable signals for the
 7. **Common failures and diagnosis order**: (1) white bloom on leather → drying incomplete, back to the drying house; (2) green patches on rope with falling strength → not smoked or smoked unevenly; (3) damp caking on the inside of grain sacks → sealed container leaking, switch to clay jar with desiccant; (4) paper edges curling → ambient humidity too high, check whether storage sits against wall or floor.
 8. **L1 / L2 / L3 evidence**: L1 = one batch through all three stages with records; L2 = three consecutive batches with mold rates tallyable and below untreated controls; L3 = a second person processes a batch from this card alone and passes the expiry-check regime.
 
-[Card 50-03 Damp-Weather Insulation Testing] (eight fields)
-
+[Card 50-03 Damp-Weather Insulation Testing] (eight fields · source tier E)
 1. **Input materials**: the circuit under test (Chapter 30–32 electrical lines); battery bank as test source; galvanometer. **This card measures line-to-earth leakage**, not continuity.
 2. **Tools required**: battery bank (series-connected to **≥3× the operating voltage**), galvanometer, dry cloth for terminals. Calibration source: the reference is the **fair-weather reading of the same circuit** — each line is compared against itself, with no absolute threshold.
 3. **Sequence and control points**: take a fair-weather baseline first → retest after rain and on the weekly routine → record and compare → cut power and investigate on exceedance. Control points: **a baseline must exist first** (a wet-day reading is meaningless without it); dry the terminals before measuring — a wet terminal reads nothing useful.
@@ -249,8 +246,7 @@ Control points shared by all three methods: pipe sections are always **cut acros
 
 **This subsection is Tier 1**: it only answers "how many rainy seasons can bamboo reinforcement survive inside rammed earth"; promotion conditions = observation-window data across two rainy seasons + the test-wall crack atlas; missing either, no promotion, and **pre-research conclusions must not be used directly on load-bearing walls**. Trial design: ram two test walls (each 2 m × 1 m × 400 mm thick), mixed per the local existing rammed-earth recipe; one wall plain-rammed, one with bamboo strips (20–30 mm wide, 5–8 mm thick, treated by the two borer-proofing methods before going into the wall) buried horizontally on a 300 × 300 mm grid. Crack observation window: one wedge-shaped slot pre-cut at the wall top; a 100 mm grid ruled on the wall face; photographed at each rainy season's end, with crack widths measured by feeler gauge and registered. Formalization criteria: annual crack-width increment <1 mm, and, after the second rainy season ends, a 200 mm square inspection window opened and the dug inspection showing the strips free of frass powder and free of softening — only when both conditions hold can "bamboo-reinforced rammed earth" move from the trial row to a formal row in the Section 50.5 matrix; if either fails, continue the trial one more year, or fall back to the thickened plain-rammed-earth scheme.
 
-[Card 50-04 Bamboo Pipe Joints] (eight fields)
-
+[Card 50-04 Bamboo Pipe Joints] (eight fields · source tier E)
 1. **Input materials**: bamboo pipe (**cut across a node** — the node is a natural reinforcement ring, cutting through it ruins one end), hardwood spigot stock, hemp tow, hot wax or resin, rattan or split-bamboo lashing. Internal diameter **≥25 mm** or water will not move.
 2. **Tools required**: splitting knife (Chapter 7 edge tool), awl, wooden mallet, tapered wooden plug (for flaring), wax-melting vessel. Calibration source: internal diameter measured with Chapter 3 rules; sealing judged by "water flows and does not seep," not by how much wax was smeared on.
 3. **Sequence and control points**: cut across the node → dress the end square and deburr → heat and coat the end and outer wall with wax or resin → wrap hemp tow (in the direction opposite to insertion) → drive in the hardwood spigot (taper fit) → lash with rattan. Control points: **cut position (must span a node)** and **the wax must be fully hot** — cool wax only coats the surface and lifts the moment it soaks.
@@ -310,8 +306,7 @@ The monthly ledger has four columns: raw sand mined and hauled, concentrate outp
 
 ---
 
-[Card 50-05 Alluvial-Tin Sluice] (eight fields)
-
+[Card 50-05 Alluvial-Tin Sluice] (eight fields · source tier E)
 1. **Input materials**: heavy-mineral raw sand from the stockpile (**pan test ≥5 grains per pan** or hauling is not worth it); diversion-channel water (dry-season minimum flow already calculated per Chapter 29). **The dry season stockpiles raw sand, not concentrate** — which is why the line has to serve two seasons.
 2. **Tools required**: sluice body (wood or bamboo, **3–4 m long**), felt or coarse cloth lining to trap cassiterite, pan for tailings checks. Calibration source: slope measured with the Chapter 3 level frame and rule; concentrate grade judged indirectly by re-panning tailings.
 3. **Sequence and control points**: set the sluice and its slope → lay the felt → run water to test flow → feed evenly → stop periodically to clean the felt and collect concentrate → pan-check tailings. Control points: **slope** (too steep and concentrate runs off, too flat and the feed will not move) and **even feeding** (batch dumping scours the felt bed).

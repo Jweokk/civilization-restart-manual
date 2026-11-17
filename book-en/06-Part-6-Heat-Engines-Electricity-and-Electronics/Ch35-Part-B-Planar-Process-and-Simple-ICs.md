@@ -96,7 +96,7 @@ Wafer cleaning → thermal oxidation (grow the masking oxide) → coat resist �
 **Two thickness measurement methods**:
 
 1. **Color-chart lookup** (retained from Section 35.6): the oxide's interference color steps with thickness (gray → blue → yellow-green → orange-red; each level corresponds to a step of a few hundred nanometers). Make the color chart yourself from **stepped samples**: within one furnace run pull small pieces in sequence at 15/30/45/60/90 min; labeled and arranged, they become that furnace's color chart — the chart belongs to the furnace, not to the book;
-2. **Weighing method** (balance sensitivity 0.1 mg): weight difference Δm before and after oxidation; thickness = Δm/(ρ·A), taking SiO₂ density as 2.2 g/cm³. Dimensional sanity check: a 30 mm wafer has area 7.1 cm²; a 0.5 μm oxide weighs 7.1 × 2.2 × 5 × 10⁻⁵ ≈ 0.78 mg — resolvable on the balance, corresponding to a thickness resolution of about 0.06 μm — **barely usable; guard against dust and moisture, and weigh quickly inside the balance case**; weighing three wafers together and averaging is steadier.
+2. **Weighing method** (balance sensitivity 0.1 mg): weight difference Δm before and after oxidation — **the gain is the mass of oxygen only**; the silicon comes from the wafer itself and never reaches the balance. Thickness = Δm/(1.17·A) (1.17 = oxygen's 0.533 mass fraction in SiO₂ times the 2.2 g/cm³ density; use Δm/(2.2·A) only when the oxide layer itself is weighed). Dimensional sanity check: a 30 mm wafer has area 7.1 cm²; a 0.5 μm oxide corresponds to a gain of 7.1 × 2.2 × 5 × 10⁻⁵ × 0.533 ≈ 0.42 mg — resolvable on the balance, giving a thickness resolution of about 0.12 μm — **barely usable; guard against dust and moisture, and weigh quickly inside the balance case**; weighing three wafers together and averaging is steadier.
 
 **Three functions of the oxide layer** (retained from Section 35.6): **diffusion masking** (dopant atoms cannot pass through intact oxide), **surface passivation** (protects the junction regions), **capacitor dielectric**. Insulation: between the two interconnect levels, separate by re-oxidation or a spin-coated organic insulating layer (a thin wax/resin layer; Chapter 8 materials).
 
@@ -121,8 +121,7 @@ Wafer cleaning → thermal oxidation (grow the masking oxide) → coat resist �
 
 **Development and hard bake**: soak-rinse in 30–40 °C water for 1–3 min; the criterion is **the unexposed region fully dissolved and the water running clear with no gelatin threads**; rinse in cold water, air-dry in the shade; hard bake at 80–100 °C for 15–30 min (empirical; must be calibrated: an under-baked film lets the etchant seep under edges, an over-baked film cracks — check by test-etching a witness wafer). Quick check for a good hard bake: a light fingernail scratch leaves no white mark (◎; compensation: one test-etched witness wafer per batch).
 
-[Card 35-02 Dichromate–Gelatin Photosensitive Resist: Preparation and Calibration] (eight fields)
-
+[Card 35-02 Dichromate–Gelatin Photosensitive Resist: Preparation and Calibration] (eight fields · source tier E)
 1. **Input materials**: 8 g gelatin, 1.5–2.5 g ammonium dichromate, 100 mL distilled water, filter cloth; several glass witness plates and Grade B silicon witness wafers. Defective materials forbidden: moldy-smelling gelatin, deliquesced ammonium dichromate.
 2. **Tools required**: water bath (±2 °C); thermometer (two-point checked); amber bottles; slow-rotation table or concentric-circle glass rod; carbon arc lamp; darkroom or red-light area; magnifier.
 3. **Operating sequence and control points**: ① cold-soak the gelatin in cold water 30 min; ② melt at 40–50 °C until fully dissolved, no residue; ③ **cool below 35 °C before adding the salt** (adding it early accelerates the dark reaction); ④ filter into the amber bottle; ⑤ at the start of the day first run the **unexposed control** and the **time-gradient calibration**; ⑥ coat 0.2–0.3 mL per wafer; ⑦ air-dry in the shade; ⑧ expose 1.5 × t_min; ⑨ develop in warm water until the water runs clear; ⑩ hard-bake 15–30 min.
@@ -158,8 +157,7 @@ The photomask is the mother of patterns. **The three drawing-side standards come
 
 **Alignment** (retained from Section 35.5): overlays of two or more masks align by **reference flat + mask alignment crosses** (Chapter 20 datum thinking); under the magnifier first rough-align (reference flat against the positioning strip), then fine-tune (crosses coincide); **overlay criterion: cross coincidence between the two masks ≤ half of the finest line width on the mask** (same as Section 42.7; no separate number) — millimeter-scale layouts matched to millimeter-scale precision; self-consistent.
 
-[Card 35-03 Masked Contact Exposure] (eight fields)
-
+[Card 35-03 Masked Contact Exposure] (eight fields · source tier E)
 1. **Input materials**: resist-coated, shade-dried wafers (wafer travel cards present); working mask (numbered, polarity checklist signed, test targets complete); verification wafer (a Grade B scrap wafer coated with the same resist batch).
 2. **Tools required**: exposure fixture (four-point symmetric screw pressure + compliant backing pad; trial-pressed once with a verification wafer before use); carbon arc lamp with condenser and light shroud; magnifier; soft brush and rubber blower; timer.
 3. **Operating sequence and control points**: ① same-day sensitivity calibration first (Card 35-02); ② blow the wafer free of dust; inspect visually, particle-free; ③ mask face down, aligned to the reference flat and the crosses; ④ **clamp symmetrically in stages to one-third backing compression**; ⑤ check the interface fringes under oblique light; no fringes, or visible relative shift, means release and re-clamp; ⑥ expose 1.5 × t_min (record lamp distance and clock time); ⑦ release and remove the wafer; never look at the arc with the bare eye (light shroud).
@@ -190,8 +188,7 @@ In Part B, etching has two objects, two chemistries, two physics: **etching sili
 
 **Universal etching discipline**: HF bath and alkali bath stored physically apart, dedicated labels, dedicated fixtures (cross-contamination scraps the whole bath); one fixture per wafer; timing starts at immersion; after etching, go straight into a large-volume rinse bath to quench the reaction.
 
-[Card 35-04 Wet Etching] (eight fields)
-
+[Card 35-04 Wet Etching] (eight fields · source tier E)
 1. **Input materials**: developed and hard-baked wafers (pattern complete and on file); BHF (1:3–1:7, freshly mixed or calibrated that day); 30–40% NaOH solution; stepped oxide samples; rinse bath (≥5 L distilled water).
 2. **Tools required**: constant-temperature water bath (±2 °C); thermometer (two-point checked); dedicated fixtures and timer; magnifier; balance; stopwatch.
 3. **Operating sequence and control points**: ① bath at temperature and stable for 10 min; ② **first etch a stepped sample to re-verify the day's rate**; ③ immerse the wafer and agitate in the fixed pattern (1–2 cycles/s); ④ **for BHF window opening, judge breakthrough by the beading water drop; after breakthrough continue for ≤0.3–0.5× the calibrated breakthrough time, then leave the bath**; ⑤ rinse immediately with a large flow to stop the reaction; ⑥ after rinsing, remove resist residue with a gentle brush; ⑦ inspect window edges and film edges under the microscope; ⑧ alkali silicon etch in the other bath under the same rules; verify pit depth by weighing.
@@ -231,8 +228,7 @@ In Part B, etching has two objects, two chemistries, two physics: **etching sili
 
 ◎ Thermocompression feel: as the tool tip presses down, you feel the wire "settle without slipping". Practice: press-weld 30 bonds on scrap wafers. Compensation for misjudgment: the pull test — after bonding hang a 50–100 g weight on the wire and pull; **the wire breaks while the joint holds = pass**; sample ≥3 bonds per batch.
 
-[Card 35-05 Metal Interconnect] (eight fields)
-
+[Card 35-05 Metal Interconnect] (eight fields · source tier E)
 1. **Input materials**: wafers with contact holes open; silver paste (formula on file; mixed the day it is used); 40–60 mesh silk screen on frame; fine gold/silver wire ≥0.1 mm; rosin, solder.
 2. **Tools required**: screen-printing station (blank print checked for uniformity before use); squeegee; firing furnace (peak control ±15 °C); heated bonding tool and weights; moving-coil meter; four-point-probe or two-probe line-measurement station.
 3. **Operating sequence and control points**: ① mix the silver paste same-day and print four test lines on a witness wafer; ② align the screen to the mask (reference flat + crosses); ③ print lines in one squeegee pass — **no touch-up pass**; ④ binder burnout 150–250 °C for 10–20 min; ⑤ firing peak 750–850 °C for 10–20 min; ⑥ measure test-line sheet resistance and file it; ⑦ knife-scrape adhesion spot check; ⑧ bond the lead wires; spot-check bonds with pull tests.
